@@ -1,0 +1,22 @@
+uuid: 2d27f453-466c-41a5-bd18-b1b2bedf5cc0
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - wikivisually_theme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: wikivisually_theme_messages
+theme: wikivisually_theme
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

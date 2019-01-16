@@ -1,0 +1,6 @@
+youtube_block:
+  css:
+    theme:
+      css/youtube_block.css: {}
+  js:
+    js/youtube_block.js: {}

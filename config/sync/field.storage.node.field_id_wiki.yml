@@ -1,0 +1,19 @@
+uuid: 24ed610f-6c37-4a33-82fa-04f865b964de
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_id_wiki
+field_name: field_id_wiki
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+schemas:
+  bootstrap: 8000
+  wikivisually_theme: 8000
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: 'public://default_images/favicon-0ff59ed665393cffab38911645efdd780ab2a4aa334dae886b7cdffd03c97c94.ico'
+  url: 'http://wikivisually.loc/themes/custom/wikivisually_theme/favicon.ico'
+  use_default: 0
+features:
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+  node_user_picture: 1
+logo:
+  path: 'public://default_images/favicon-0ff59ed665393cffab38911645efdd780ab2a4aa334dae886b7cdffd03c97c94.ico'
+  url: ''
+  use_default: 1
+table_responsive: '-1'
+table: ''

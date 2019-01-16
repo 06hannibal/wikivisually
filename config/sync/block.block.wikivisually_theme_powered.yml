@@ -1,0 +1,22 @@
+uuid: b9d3e009-1103-4e09-aa7f-77e2463d1f72
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - wikivisually_theme
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: wikivisually_theme_powered
+theme: wikivisually_theme
+region: wikivisually_top_title
+weight: -9
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

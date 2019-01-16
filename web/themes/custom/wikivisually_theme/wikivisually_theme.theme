@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+/**
+ * Implements hook_reprocess_views_view_fields() for HTML document templates.
+ */
+function wikivisually_theme_preprocess_views_view_fields(&$variables) {
+  $view = $variables['view'];
+  $id = $view->storage->id();
+//  kint($id);
+
+  if($id == "home_block" || $id == "featured_block" || $id == "featured_page") {
+    $title = $variables['row']->_entity->getTitle();
+    $variables['title'] = str_replace(' ', '_', $title);
+//
+  }
+}
+/**
+ * Implements hook_reprocess_views_view_fields() for HTML document templates.
+ */
+function wikivisually_theme_preprocess_block(&$variables) {
+  $block_id = $variables['elements']['#id'];
+  if($block_id == "views_block__featured_block_featured_block") {
+    $title_request = \Drupal::request()->getRequestUri();
+    $title_substr = substr($title_request, 10);
+    $variables['title_page'] = str_replace('_', ' ', $title_substr);
+  }
+}

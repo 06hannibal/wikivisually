@@ -1,0 +1,18 @@
+uuid: febf03e9-4147-4d5f-96bc-659e9ba5e539
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Featured articles'
+type: featured_articles
+description: 'new Content types ''featured articles'' for articles wiki'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

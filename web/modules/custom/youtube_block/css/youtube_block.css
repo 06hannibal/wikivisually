@@ -1,0 +1,16 @@
+#youtube-block img {
+    border: 1px solid #c3c3c3;
+    height: 160px;
+    padding: 0px;
+}
+#youtube-block li {
+    list-style-type: none;
+}
+#youtube-block .youtube-stat {
+    color: #50b432;
+}
+#youtube-block .right-stat {
+    position: relative;
+    left: 27%;
+    top: -100px;
+}

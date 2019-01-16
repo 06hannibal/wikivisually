@@ -1,0 +1,20 @@
+uuid: 543fdc44-212a-4d56-b79b-ed3231dfca0c
+langcode: en
+status: false
+dependencies:
+  theme:
+    - wikivisually_theme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: wikivisually_theme_page_title
+theme: wikivisually_theme
+region: wikivisually_top_title
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

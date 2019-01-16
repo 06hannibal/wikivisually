@@ -1,0 +1,22 @@
+uuid: 8ba2f844-548e-4c22-bbb8-67aa6088594d
+langcode: en
+status: true
+dependencies:
+  module:
+    - youtube_block
+  theme:
+    - bartik
+id: youtubechannelblock
+theme: bartik
+region: content
+weight: -9
+provider: null
+plugin: youtube_channel_block
+settings:
+  id: youtube_channel_block
+  label: 'Youtube Channel Block'
+  provider: youtube_block
+  label_display: visible
+  youtube_api_key: AIzaSyDKWrrQE3S5BYDkbTcQh3uVqTaCq6ZcRX8
+  youtube_id: PLXFqgSHv3_6j-sS48aBF6Z2NB6jV5K1wN
+visibility: {  }

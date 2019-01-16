@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function youtube_block_theme() {
+  return [
+    'youtube_block' => [
+      'variables' => [
+        'statistic' => NULL,
+      ],
+    ],
+  ];
+}

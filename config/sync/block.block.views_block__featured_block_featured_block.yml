@@ -1,0 +1,31 @@
+uuid: a071862f-3ef9-4e7f-9e22-45c0e2668387
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.featured_block
+  module:
+    - system
+    - views
+  theme:
+    - wikivisually_theme
+id: views_block__featured_block_featured_block
+theme: wikivisually_theme
+region: content
+weight: -9
+provider: null
+plugin: 'views_block:featured_block-featured_block'
+settings:
+  id: 'views_block:featured_block-featured_block'
+  label: featured_block
+  provider: views
+  label_display: visible
+  views_label: featured_block
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: "/featured/History_by_Country\r\n/featured/Movie_Stars\r\n/featured/Crown_Jewels\r\n/featured/Cities_in_Europe\r\n/featured/World_Currencies\r\n/featured/Rare_Coins\r\n/featured/Supercars\r\n/featured/Orders_and_Decorations\r\n/featured/Wars_and_Battles\r\n/featured/Kings_of_England\r\n/featured/Recovered_Treasures\r\n/featured/Most_Visited_Museums\r\n/featured/Kings_of_France\r\n/featured/Wonders_of_Nature\r\n/featured/Gemstones"
+    negate: false
+    context_mapping: {  }

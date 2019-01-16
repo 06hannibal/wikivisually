@@ -1,0 +1,31 @@
+uuid: 25fe72c6-9321-417a-a5ef-a264f0df907a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.top_lists
+  module:
+    - system
+    - views
+  theme:
+    - wikivisually_theme
+id: views_block__top_lists_top_lists
+theme: wikivisually_theme
+region: sidebar_top_list
+weight: -9
+provider: null
+plugin: 'views_block:top_lists-top_lists'
+settings:
+  id: 'views_block:top_lists-top_lists'
+  label: 'top lists'
+  provider: views
+  label_display: visible
+  views_label: 'top lists'
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/featured/Featured_Articles\r\n/featured/History_by_Country\r\n/featured/Movie_Stars\r\n/featured/Crown_Jewels\r\n/featured/Cities_in_Europe\r\n/featured/World_Currencies\r\n/featured/Rare_Coins\r\n/featured/Supercars\r\n/featured/Orders_and_Decorations\r\n/featured/Wars_and_Battles\r\n/featured/Kings_of_England\r\n/featured/Recovered_Treasures\r\n/featured/Most_Visited_Museums\r\n/featured/Kings_of_France\r\n/featured/Wonders_of_Nature\r\n/featured/Gemstones\r\n/home/people\r\n/home/places\r\n/home/history\r\n/home/art\r\n/home/science"
+    negate: false
+    context_mapping: {  }

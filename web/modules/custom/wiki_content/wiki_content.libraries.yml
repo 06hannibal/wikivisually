@@ -1,0 +1,6 @@
+wiki_content:
+  css:
+    theme:
+      css/wiki_content.css: {}
+  js:
+    js/wiki_content.js: {}

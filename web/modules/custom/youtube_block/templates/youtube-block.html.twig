@@ -1,0 +1,25 @@
+<div class="class-overflow">
+  <div id="youtube-block">
+    {% for value in statistic %}
+      <ul>
+        <li>
+          <div class="left-stat">
+            <a href="//youtu.be/{{value['youtube_id']}}" target="_blank">
+              <img src="{{ value['videos'] }}">
+            </a>
+          </div>
+          <div class="right-stat">
+            <div>{{ value['title'] }}</div>
+            <div class="youtube-stat">
+              {{ value['duration'] }}
+              {{ value['viewCount'] }}
+              {{ value['likeCount'] }}
+            </div>
+          </div>
+        </li>
+      </ul>
+    {% endfor %}
+  </div>
+</div>
+
+

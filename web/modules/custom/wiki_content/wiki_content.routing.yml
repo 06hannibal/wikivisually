@@ -1,0 +1,7 @@
+wiki_content.page:
+  path: '/wiki/{title}'
+  defaults:
+    _controller: '\Drupal\wiki_content\Controller\WikiController::Wiki'
+    _title_callback: '\Drupal\wiki_content\Controller\WikiController::WikiTitle'
+  requirements:
+    _access: 'TRUE'

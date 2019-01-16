@@ -1,0 +1,31 @@
+uuid: e0c54835-d5f2-4edf-ade0-b539a9b86099
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.home_block
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__home_block_block_1
+theme: bartik
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:home_block-block_1'
+settings:
+  id: 'views_block:home_block-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: "/featured/History_by_Country\r\n/featured/Movie_Stars\r\n/featured/Crown_Jewels\r\n/featured/Cities_in_Europe\r\n/featured/World_Currencies\r\n/featured/Rare_Coins\r\n/featured/Supercars\r\n/featured/Orders_and_Decorations\r\n/featured/Wars_and_Battles\r\n/featured/Kings_of_England\r\n/featured/Recovered_Treasures\r\n/featured/Most_Visited_Museums\r\n/featured/Kings_of_France\r\n/featured/Wonders_of_Nature\r\n/featured/Gemstones"
+    negate: true
+    context_mapping: {  }

@@ -1,0 +1,29 @@
+uuid: e2e713e9-05e3-4afe-8bd0-ab8632c5e96c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_category
+    - node.type.featured_articles
+    - taxonomy.vocabulary.header_links
+id: node.featured_articles.field_category
+field_name: field_category
+entity_type: node
+bundle: featured_articles
+label: category_header
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      header_links: header_links
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: header_links
+field_type: entity_reference

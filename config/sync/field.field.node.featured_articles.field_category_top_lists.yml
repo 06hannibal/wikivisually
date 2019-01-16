@@ -1,0 +1,29 @@
+uuid: f348d330-c67e-4dab-8216-3165b4fefced
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_category_top_lists
+    - node.type.featured_articles
+    - taxonomy.vocabulary.top_lists
+id: node.featured_articles.field_category_top_lists
+field_name: field_category_top_lists
+entity_type: node
+bundle: featured_articles
+label: category_top_lists
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      top_lists: top_lists
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

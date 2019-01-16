@@ -1,0 +1,31 @@
+uuid: 806a87e3-5e1d-4fc8-bceb-eae3519d8331
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.home_block
+  module:
+    - system
+    - views
+  theme:
+    - wikivisually_theme
+id: views_block__home_block_home_block
+theme: wikivisually_theme
+region: content
+weight: -8
+provider: null
+plugin: 'views_block:home_block-home_block'
+settings:
+  id: 'views_block:home_block-home_block'
+  label: 'FEATURED ARTICLES'
+  provider: views
+  label_display: visible
+  views_label: 'FEATURED ARTICLES'
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/home/people\r\n/home/places\r\n/home/history\r\n/home/art\r\n/home/science"
+    negate: false
+    context_mapping: {  }

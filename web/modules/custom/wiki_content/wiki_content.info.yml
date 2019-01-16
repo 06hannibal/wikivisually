@@ -1,0 +1,7 @@
+name: Wiki Article
+description: integration of wikipedia articles.
+package: Custom
+
+type: module
+# core: 8.x
+core: 8.x

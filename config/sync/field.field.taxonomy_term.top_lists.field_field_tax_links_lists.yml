@@ -1,0 +1,23 @@
+uuid: 3da2ed09-f86f-4e8e-ae78-478818a7f7db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_field_tax_links_lists
+    - taxonomy.vocabulary.top_lists
+  module:
+    - link
+id: taxonomy_term.top_lists.field_field_tax_links_lists
+field_name: field_field_tax_links_lists
+entity_type: taxonomy_term
+bundle: top_lists
+label: field_tax_links_lists
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

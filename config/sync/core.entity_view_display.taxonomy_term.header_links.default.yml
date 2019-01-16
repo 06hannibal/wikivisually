@@ -1,0 +1,32 @@
+uuid: 4ced9965-2379-4a42-9098-482cc9bd61c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.header_links.field_tax_img
+    - taxonomy.vocabulary.header_links
+  module:
+    - image
+    - text
+id: taxonomy_term.header_links.default
+targetEntityType: taxonomy_term
+bundle: header_links
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_tax_img:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

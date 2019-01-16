@@ -1,0 +1,46 @@
+uuid: d52ce595-1421-42b1-8b4c-9d4495e6d1ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.top_lists.field_field_tax_links_lists
+    - field.field.taxonomy_term.top_lists.field_tax_top_lists_img
+    - taxonomy.vocabulary.top_lists
+  module:
+    - image
+    - link
+    - text
+id: taxonomy_term.top_lists.default
+targetEntityType: taxonomy_term
+bundle: top_lists
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_field_tax_links_lists:
+    weight: 2
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_tax_top_lists_img:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

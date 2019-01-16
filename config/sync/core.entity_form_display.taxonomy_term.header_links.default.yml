@@ -1,0 +1,48 @@
+uuid: 0bf723f1-9659-4a4c-898d-460eb5910498
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.header_links.field_tax_img
+    - image.style.thumbnail
+    - taxonomy.vocabulary.header_links
+  module:
+    - image
+    - path
+    - text
+id: taxonomy_term.header_links.default
+targetEntityType: taxonomy_term
+bundle: header_links
+mode: default
+content:
+  description:
+    type: text_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_tax_img:
+    weight: 31
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  name:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

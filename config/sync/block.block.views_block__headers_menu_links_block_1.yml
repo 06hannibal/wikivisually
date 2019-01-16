@@ -1,0 +1,25 @@
+uuid: 344db594-1935-4087-b567-bfcef24576a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.headers_menu_links
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__headers_menu_links_block_1
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:headers_menu_links-block_1'
+settings:
+  id: 'views_block:headers_menu_links-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

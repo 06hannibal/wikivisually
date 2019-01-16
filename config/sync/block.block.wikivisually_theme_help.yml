@@ -1,0 +1,22 @@
+uuid: b3b2bd79-6aaf-47c1-84c7-46495d3a00fd
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - wikivisually_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: wikivisually_theme_help
+theme: wikivisually_theme
+region: wikivisually_top_title
+weight: -1
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

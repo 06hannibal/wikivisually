@@ -1,0 +1,7 @@
+name: 'Youtube Block'
+description: 'subscription to youtube block recommended.'
+package: Custom
+
+type: module
+# core: 8.x
+core: 8.x
