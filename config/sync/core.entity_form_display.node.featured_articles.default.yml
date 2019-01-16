@@ -6,13 +6,11 @@ dependencies:
     - field.field.node.featured_articles.body
     - field.field.node.featured_articles.field_category
     - field.field.node.featured_articles.field_category_top_lists
-    - field.field.node.featured_articles.field_id_wiki
     - field.field.node.featured_articles.field_wiki_img
     - image.style.thumbnail
     - node.type.featured_articles
   module:
     - image
-    - link
     - path
 id: node.featured_articles.default
 targetEntityType: node
@@ -36,14 +34,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
-    region: content
-  field_id_wiki:
-    weight: 8
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
-    type: link_default
     region: content
   field_wiki_img:
     weight: 7
