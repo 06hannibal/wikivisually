@@ -1,0 +1,4 @@
+wikivisually_home:
+  css:
+    theme:
+      css/wikivisually_home.css: {}

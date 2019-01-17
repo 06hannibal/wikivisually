@@ -46,6 +46,7 @@ module:
   user: 0
   views_ui: 0
   wiki_content: 0
+  wikivisually_home: 0
   youtube_block: 0
   menu_link_content: 1
   views: 10

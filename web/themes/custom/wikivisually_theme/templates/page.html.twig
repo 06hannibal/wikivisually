@@ -141,6 +141,7 @@
           page.sidebar_top_list and page.sidebar_picker is empty and page.sidebar_trending is empty ? 'col-sm-9',
           page.sidebar_trending and page.sidebar_top_list is empty and page.sidebar_picker is empty ? 'col-sm-9',
           page.sidebar_picker and page.sidebar_top_list is empty and page.sidebar_trending is empty ? 'col-sm-9',
+          page.page_wiki and page.sidebar_top_list is empty and page.sidebar_trending is empty and page.sidebar_picker is empty ? 'col-sm-6',
           page.sidebar_top_list is empty and page.sidebar_trending is empty and page.sidebar_picker is empty ? 'col-sm-12'
         ]
       %}
@@ -181,6 +182,15 @@
         {% block sidebar_picker %}
           <aside class="col-sm-3 picker">
             {{ page.sidebar_picker }}
+          </aside>
+        {% endblock %}
+      {% endif %}
+
+      {# Sidebar picker #}
+      {% if page.page_wiki %}
+        {% block page_wiki %}
+          <aside class="col-sm-6 page_wiki">
+            {{ page.page_wiki }}
           </aside>
         {% endblock %}
       {% endif %}

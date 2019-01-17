@@ -7,7 +7,12 @@ function youtube_block_theme() {
   return [
     'youtube_block' => [
       'variables' => [
-        'statistic' => NULL,
+        'youtube_informatin' => NULL,
+      ],
+    ],
+    'youtube_search' => [
+      'variables' => [
+        'youtube_search' => NULL,
       ],
     ],
   ];

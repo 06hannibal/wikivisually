@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - system
     - youtube_block
   theme:
     - wikivisually_theme
@@ -14,9 +15,14 @@ provider: null
 plugin: youtube_channel_block
 settings:
   id: youtube_channel_block
-  label: 'Youtube Channel Block'
+  label: 'TRENDING VIDEOS'
   provider: youtube_block
   label_display: visible
   youtube_api_key: AIzaSyDKWrrQE3S5BYDkbTcQh3uVqTaCq6ZcRX8
   youtube_id: PLXFqgSHv3_6j-sS48aBF6Z2NB6jV5K1wN
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/home/people\r\n/home/places\r\n/home/history\r\n/home/art\r\n/home/science"
+    negate: false
+    context_mapping: {  }

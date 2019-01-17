@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function wikivisually_home_theme() {
+  return [
+    'wikivisually_home' => [
+      'variables' => [
+        'title' => NULL,
+        'description' => NULL,
+      ],
+    ],
+  ];
+}

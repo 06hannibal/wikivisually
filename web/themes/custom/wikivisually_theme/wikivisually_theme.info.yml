@@ -17,6 +17,7 @@ regions:
   content: 'sidebar articles'
   sidebar_trending: 'sidebar_trending'
   sidebar_picker: 'sidebar_picker'
+  page_wiki: 'page_wiki'
 #  sidebar_first: 'Primary'
 #  sidebar_second: 'Secondary'
 #  footer: 'Footer'

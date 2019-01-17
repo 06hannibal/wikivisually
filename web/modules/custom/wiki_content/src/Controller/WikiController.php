@@ -35,7 +35,5 @@ class WikiController extends ControllerBase {
     $title = \Drupal::request()->attributes->get('title');
     $page_title = str_replace('_', ' ', $title);
     return $page_title;
-//    kint($title);
-//    kint($page_title);
   }
 }

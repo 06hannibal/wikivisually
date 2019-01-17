@@ -1,0 +1,27 @@
+uuid: a8f723ec-3d79-40e9-b8fb-8c30d5d37f88
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - youtube_block
+  theme:
+    - wikivisually_theme
+id: youtubesearchblock
+theme: wikivisually_theme
+region: page_wiki
+weight: -9
+provider: null
+plugin: youtube_search_block
+settings:
+  id: youtube_search_block
+  label: 'YouTube Videos'
+  provider: youtube_block
+  label_display: visible
+  youtube_api_key: AIzaSyDKWrrQE3S5BYDkbTcQh3uVqTaCq6ZcRX8
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/featured/Featured_Articles\r\n/featured/History_by_Country\r\n/featured/Movie_Stars\r\n/featured/Crown_Jewels\r\n/featured/Cities_in_Europe\r\n/featured/World_Currencies\r\n/featured/Rare_Coins\r\n/featured/Supercars\r\n/featured/Orders_and_Decorations\r\n/featured/Wars_and_Battles\r\n/featured/Kings_of_England\r\n/featured/Recovered_Treasures\r\n/featured/Most_Visited_Museums\r\n/featured/Kings_of_France\r\n/featured/Wonders_of_Nature\r\n/featured/Gemstones\r\n/home/people\r\n/home/places\r\n/home/history\r\n/home/art\r\n/home/science"
+    negate: true
+    context_mapping: {  }

@@ -1,0 +1,22 @@
+uuid: ce237e49-0f17-449f-bded-911c5cf02cdc
+langcode: en
+status: true
+dependencies:
+  module:
+    - wikivisually_home
+  theme:
+    - wikivisually_theme
+id: wikivisuallyhomeblock
+theme: wikivisually_theme
+region: wikivisually_top_title
+weight: -10
+provider: null
+plugin: wikivisually_home_block
+settings:
+  id: wikivisually_home_block
+  label: 'Wikivisually Home Block'
+  provider: wikivisually_home
+  label_display: '0'
+  title: WikiVisually
+  description: 'the entire wiki with video and photo galleries find something interesting to watch in seconds'
+visibility: {  }

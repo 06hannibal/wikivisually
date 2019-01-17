@@ -7,7 +7,7 @@ use Drupal\Core\Form\FormStateInterface;
 use Drupal\vendor\guzzlehttp\guzzle\src\Exception;
 
 /**
-* Defines a twitter block block type.
+* Defines a Youtube block block type.
  *
  * @Block(
  *   id = "youtube_channel_block",
@@ -73,13 +73,13 @@ class YoutubeChennelBlock extends BlockBase {
     // If you don't know the channel ID see below
     $channelId = $config['youtube_id'];
     $video_limit = 10;
-    //general information youtube
+    //playlist snippet information youtube
     $url = "{$baseUrl}playlistItems?part=snippet&playlistId={$channelId}&key={$apiKey}&maxResults={$video_limit}";
     $json = json_decode(file_get_contents($url), true);
 
-    foreach($json['items'] as $key => $value) {
+    foreach($json['items'] as $value) {
       $youtube_id = $value['snippet']['resourceId']['videoId'];
-      $videos = $value['snippet']['thumbnails']['high']['url'];
+      $videos_img = $value['snippet']['thumbnails']['high']['url'];
       //youtube video statistics
       $url_statistic = "{$baseUrl}videos?part=statistics&id={$youtube_id}&key={$apiKey}";
       $json_statistic = json_decode(file_get_contents($url_statistic), true);
@@ -115,32 +115,24 @@ class YoutubeChennelBlock extends BlockBase {
             $likeCount = round($english_format_number).'k';
           }
 
-          $statistic[] = [
+          $youtube_informatin[] = [
             'title' => $value['snippet']['title'],
             'viewCount' => $viewCount,
             'likeCount' => $likeCount,
-            'youtube_id' => $youtube_id,
-            'videos' => $videos,
+            'video_id' => $video_id,
+            'videos_img' => $videos_img,
             'duration' => $time_duration,
           ];
         }
-
       }
     }
     $build[] = [
       '#theme' => 'youtube_block',
-      '#statistic' => $statistic,
+      '#youtube_informatin' => $youtube_informatin,
     ];
 
     $build['#attached']['library'][] = 'youtube_block/youtube_block';
 
     return $build;
-  }
-
-  /**
-   * {@inheritdoc}
-   */
-  public function getCacheMaxAge() {
-    return 0;
   }
 }

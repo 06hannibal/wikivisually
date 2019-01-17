@@ -11,7 +11,7 @@ _core:
 id: wikivisually_theme_powered
 theme: wikivisually_theme
 region: wikivisually_top_title
-weight: -9
+weight: -8
 provider: null
 plugin: system_powered_by_block
 settings:
