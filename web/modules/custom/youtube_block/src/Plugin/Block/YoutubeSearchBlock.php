@@ -4,7 +4,6 @@ namespace Drupal\youtube_block\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\vendor\guzzlehttp\guzzle\src\Exception;
 
 /**
 * Defines a Youtube block block type.
@@ -134,5 +133,11 @@ class YoutubeSearchBlock extends BlockBase {
     $build['#attached']['library'][] = 'youtube_block/youtube_block';
 
     return $build;
+  }
+  /**
+   * {@inheritdoc}
+   */
+  public function getCacheMaxAge() {
+    return 0;
   }
 }

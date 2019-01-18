@@ -1,0 +1,20 @@
+uuid: 1b6ff5ef-a55a-44fc-b28a-6e825df6c969
+langcode: en
+status: true
+dependencies:
+  module:
+    - sharethis
+  theme:
+    - wikivisually_theme
+id: sharethis
+theme: wikivisually_theme
+region: header
+weight: -10
+provider: null
+plugin: sharethis_block
+settings:
+  id: sharethis_block
+  label: Sharethis
+  provider: sharethis
+  label_display: '0'
+visibility: {  }

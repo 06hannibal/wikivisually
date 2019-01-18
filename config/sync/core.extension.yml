@@ -29,6 +29,9 @@ module:
   kint: 0
   link: 0
   menu_ui: 0
+  metatag: 0
+  metatag_twitter_cards: 0
+  metatag_views: 0
   node: 0
   options: 0
   page_cache: 0
@@ -36,10 +39,12 @@ module:
   quickedit: 0
   rdf: 0
   search: 0
+  sharethis: 0
   shortcut: 0
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   tour: 0
   update: 0

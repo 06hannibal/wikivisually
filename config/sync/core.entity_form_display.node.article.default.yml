@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_afdf
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - image.style.thumbnail
@@ -12,6 +13,7 @@ dependencies:
   module:
     - comment
     - image
+    - metatag
     - path
     - text
 _core:
@@ -42,6 +44,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_afdf:
+    weight: 121
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
   field_image:
     type: image_image
     weight: 4

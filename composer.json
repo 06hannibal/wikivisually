@@ -26,6 +26,8 @@
         "drupal/ctools": "^3.0",
         "drupal/devel": "^1.2",
         "drupal/empty_page": "^2.0",
+        "drupal/metatag": "^1.7",
+        "drupal/sharethis": "^2.0",
         "drupal/token": "^1.5",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
@@ -79,6 +81,11 @@
             "initial": {
                 ".editorconfig": "../.editorconfig",
                 ".gitattributes": "../.gitattributes"
+            }
+        },
+        "patches": {
+            "drupal/sharethis": {
+                "fix module sharethis": "https://www.drupal.org/files/issues/Error-operator-not-supported-for-strings-2885710-12128018.patch"
             }
         }
     }

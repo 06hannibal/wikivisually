@@ -119,7 +119,7 @@ class YoutubeChennelBlock extends BlockBase {
             'title' => $value['snippet']['title'],
             'viewCount' => $viewCount,
             'likeCount' => $likeCount,
-            'video_id' => $video_id,
+            'youtube_id' => $youtube_id,
             'videos_img' => $videos_img,
             'duration' => $time_duration,
           ];
@@ -134,5 +134,11 @@ class YoutubeChennelBlock extends BlockBase {
     $build['#attached']['library'][] = 'youtube_block/youtube_block';
 
     return $build;
+  }
+  /**
+   * {@inheritdoc}
+   */
+  public function getCacheMaxAge() {
+    return 0;
   }
 }
