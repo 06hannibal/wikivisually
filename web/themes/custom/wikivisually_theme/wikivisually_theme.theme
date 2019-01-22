@@ -23,6 +23,7 @@ function wikivisually_theme_preprocess_views_view_fields(&$variables) {
  */
 function wikivisually_theme_preprocess_block(&$variables) {
   $block_id = $variables['elements']['#id'];
+
   if($block_id == "views_block__featured_block_featured_block") {
     $title_request = \Drupal::request()->getRequestUri();
     $title_substr = substr($title_request, 10);
@@ -35,26 +36,29 @@ function wikivisually_theme_preprocess_block(&$variables) {
 function wikivisually_theme_preprocess_html(&$variables) {
   $title = [
     '#tag' => 'meta',          // Set title for element
-    '#attributes' => [            // Set attributes for meta
+    '#attributes' => [
       'content' => 'WikiVisualy',
       'property' => 'og:title',
+      'xmlns:og' => 'http://opengraphprotocol.org/schema/',
     ],
   ];
   $description = [
-    '#tag' => 'meta',             // Set meta for element
-    '#attributes' => [            // Set attributes for meta
-      'content' => 'Sample Description asdfadfasdf',
+    '#tag' => 'meta',
+    '#attributes' => [
+      'content' => 'The entire wikipedia with video and photo galleries for each article. Find something interesting to watch in seconds.',
       'property' => 'og:description',
+      'xmlns:og' => 'http://opengraphprotocol.org/schema/',
     ],
   ];
-  $url = [
-    '#tag' => 'meta',             // Set meta for element
-    '#attributes' => [            // Set attributes for meta
-      'content' => 'http://wikivisually.loc/',
-      'property' => 'og:url',
+  $img = [
+    '#tag' => 'meta',
+    '#attributes' => [
+      'content' => 'https://wikivisually.com/assets/wikivisually_logo-a945da19932b4a38ecdc6ad6e6a1d6f78408233a0b3ccd3ffd0c6d95141e917a.jpg',
+      'property' => 'og:image',
+      'xmlns:og' => 'http://opengraphprotocol.org/schema/',
     ],
   ];
-  $variables['page']['#attached']['html_head'][] = [$title, 'og_title'];
-  $variables['page']['#attached']['html_head'][] = [$description, 'og_description'];
-  $variables['page']['#attached']['html_head'][] = [$url, 'og_url'];
+  $variables['#attached']['html_head'][] = [$title, 'og_title','xmlns_og'];
+  $variables['#attached']['html_head'][] = [$description, 'og_description','xmlns_og'];
+  $variables['#attached']['html_head'][] = [$img, 'og_image','xmlns_og'];
 }

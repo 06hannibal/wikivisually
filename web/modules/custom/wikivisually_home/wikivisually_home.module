@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Implements hook_theme().
  */
@@ -13,18 +12,4 @@ function wikivisually_home_theme() {
     ],
   ];
 }
-/**
- * Implements hook_page_attachments().
- */
-function wikivisually_home_page_attachments(array &$page) {
-  $description = [
-    '#type' => 'html_tag',
-    '#tag' => 'meta',
-    '#attributes' => [
-      'property' => 'og:description',
-      'content' => 'This is my website.',
-      'xmlns:og' => 'http://opengraphprotocol.org/schema/',
-    ],
-  ];
-  $page['#attached']['html_head'][] = [$description, 'og_description','xmlns_og'];
-}
+
