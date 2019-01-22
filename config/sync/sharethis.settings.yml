@@ -4,8 +4,8 @@ late_load: 0
 location: block
 node_types:
   article: article
-  page: page
   featured_articles: null
+  page: null
 option_extras:
   'Facebook Like:fblike': 'Facebook Like:fblike'
   'Google Plus One:plusone': '0'
@@ -15,7 +15,7 @@ option_shorten: 0
 service_option: '''Twitter:twitter'''
 twitter_handle: ''
 twitter_recommends: ''
-twitter_suffix: ''
+twitter_suffix: 'The entire wikipedia with video and photo galleries. Find something interesting to watch in seconds:'
 webform_options: ''
 weight: 10
 widget_option: st_multi
@@ -31,14 +31,14 @@ sharethisnodes:
     teaser: '0'
     token: '0'
   page:
-    full: full
+    full: '0'
     rss: '0'
     search_index: '0'
     search_result: '0'
     teaser: '0'
     token: '0'
   featured_articles:
-    full: full
+    full: '0'
     rss: '0'
     search_index: '0'
     search_result: '0'

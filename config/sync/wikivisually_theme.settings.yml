@@ -4,7 +4,7 @@ schemas:
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: 'public://default_images/favicon-0ff59ed665393cffab38911645efdd780ab2a4aa334dae886b7cdffd03c97c94.ico'
-  url: 'http://wikivisually.loc/themes/custom/wikivisually_theme/favicon.ico'
+  url: 'http://wikivisually.loc/sites/default/files/default_images/favicon-0ff59ed665393cffab38911645efdd780ab2a4aa334dae886b7cdffd03c97c94.ico'
   use_default: 0
 features:
   comment_user_picture: 1
@@ -17,3 +17,13 @@ logo:
   use_default: 1
 table_responsive: '-1'
 table: ''
+region_wells:
+  wikivisually_top_title: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  sidebar_top_list: ''
+  content: ''
+  sidebar_trending: ''
+  sidebar_picker: ''
+  page_wiki: ''
