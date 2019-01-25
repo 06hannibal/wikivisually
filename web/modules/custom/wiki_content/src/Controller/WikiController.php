@@ -17,7 +17,6 @@ class WikiController extends ControllerBase {
     $wiki_url = "https://en.wikipedia.org/w/api.php?format=json&action=parse&page={$title}";
     $wiki_json = json_decode(file_get_contents($wiki_url), true);
     $wiki_content = $wiki_json['parse']['text']['*'];
-
     $build[] = [
       '#theme' => 'wiki_content',
       '#article' => $wiki_content,

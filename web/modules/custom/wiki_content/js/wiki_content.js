@@ -2,23 +2,30 @@
  * @file
  * Embed YouTube videos on Click.
  */
-// (function ($) {
-//     function youtubechannel_setvideo(href) {
-//         youtubeid = href.replace("#","");
-//         jQuery('#youtubechannel-frame').attr('src','http://www.youtube.com/embed/' + youtubeid);
-//         console.log(youtubeid);
-//     }
-//
-//
-//     Drupal.behaviors.youtube_channel = {
-//         attach: function (context, settings) {
-//             if (jQuery('#youtubechannel-list a:first').length) {
-//                 youtubechannel_setvideo(jQuery('#youtubechannel-list a:first').attr('href'));
-//                 jQuery('#youtubechannel-list a').click(function(e) {
-//                     youtubechannel_setvideo(jQuery(this).attr('href'));
-//                     return false;
-//                 });
-//             }
-//         }
-//     }
-// }(jQuery));
+(function($, Drupal) {
+    Drupal.behaviors.wiki_content = {
+        attach:function() {
+            $(function () {
+                $("div.mw-parser-output a").once().hover(function(){
+                    wiki_link = $(this);
+                    url_title_wiki = wiki_link.attr('href');
+                    title_wiki = url_title_wiki.substr(6);
+                        $(this).append( $("<div class='popap-wiki'>"+
+                            jQuery.ajax({
+                        url: "https://en.wikipedia.org/w/api.php?format=json&action=parse&page="+ title_wiki,
+                        dataType: "jsonp",
+                        success: function (rows) {
+                            page_wiki = rows;
+                            Object.keys(page_wiki).forEach(function (key){
+                                $('div.popap-wiki').append(page_wiki[key].text['*']);
+                            });
+                        }
+                    })+"</div>"));
+                },function() {
+                    $(this).find("div.popap-wiki").remove();
+                })
+            });
+        }
+    }
+}(jQuery, Drupal));
+

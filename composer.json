@@ -85,6 +85,10 @@
         "patches": {
             "drupal/sharethis": {
                 "fix module sharethis": "https://www.drupal.org/files/issues/Error-operator-not-supported-for-strings-2885710-12128018.patch"
+            },
+            "drupal/beautytips": {
+                "2961201-5.patch": "https://www.drupal.org/files/issues/2018-04-16/2961201-5.patch",
+                "call_to_undefined_function_variable_get-3009416-6.patch": "https://www.drupal.org/files/issues/2018-11-17/call_to_undefined_function_variable_get-3009416-6.patch"
             }
         }
     }

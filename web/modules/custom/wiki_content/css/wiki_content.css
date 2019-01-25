@@ -1310,3 +1310,15 @@ th .sortkey {
 span.mw-editsection {
     display: none;
 }
+/*div.popap-wiki {*/
+    /*display: none;*/
+/*}*/
+div.popap-wiki {
+    display: block;
+    overflow: auto;
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    background: #fff;
+    z-index: 2;
+}
