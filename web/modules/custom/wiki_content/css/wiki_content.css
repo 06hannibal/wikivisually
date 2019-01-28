@@ -1321,4 +1321,5 @@ div.popap-wiki {
     position: absolute;
     background: #fff;
     z-index: 2;
+    border: 4px double black;
 }
