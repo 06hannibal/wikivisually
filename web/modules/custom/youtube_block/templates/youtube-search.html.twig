@@ -3,19 +3,17 @@
     {% for value in youtube_search %}
       <ul>
         <li>
-          <div class="left-stat">
-            <a href="//youtu.be/{{value['youtube_id']}}" target="_blank">
+          <span class="left-stat">
+            <a href="//youtu.be/{{value['video_id']}}" target="_blank">
               <img src="{{ value['videos_img'] }}">
             </a>
-          </div>
-          <div class="right-stat">
-            <div>{{ value['title'] }}</div>
-            <div class="youtube-stat">
-              {{ value['duration'] }}
-              {{ value['viewCount'] }}
-              {{ value['likeCount'] }}
-            </div>
-          </div>
+          </span>
+          <span>{{ value['title'] }}</span>
+          <span class="youtube-stat">
+            {{ value['duration'] }}
+            {{ value['viewCount'] }}
+            {{ value['likeCount'] }}
+          </span>
         </li>
       </ul>
     {% endfor %}

@@ -1323,3 +1323,6 @@ div.popap-wiki {
     z-index: 2;
     border: 4px double black;
 }
+.related_research_topics {
+    text-align: center;
+}

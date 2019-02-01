@@ -1,0 +1,20 @@
+uuid: 2e3cabdf-bc1c-4d04-9876-ff693bfda57b
+langcode: en
+status: true
+dependencies:
+  module:
+    - wiki_block
+  theme:
+    - wikivisually_theme
+id: wikichannelblock
+theme: wikivisually_theme
+region: page_wiki
+weight: 0
+provider: null
+plugin: wiki_block_block
+settings:
+  id: wiki_block_block
+  label: 'Wiki Channel Block'
+  provider: wiki_block
+  label_display: '0'
+visibility: {  }

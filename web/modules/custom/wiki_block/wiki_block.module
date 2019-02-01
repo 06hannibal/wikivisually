@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function wiki_block_theme() {
+  return [
+    'wiki_block' => [
+      'variables' => [
+        'wiki_information' => NULL,
+      ],
+    ],
+  ];
+}

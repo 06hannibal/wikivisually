@@ -8,6 +8,7 @@ function wiki_content_theme() {
     'wiki_content' => [
       'variables' => [
         'article' => NULL,
+        'related_topic' => NULL,
       ],
     ],
   ];

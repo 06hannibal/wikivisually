@@ -1,0 +1,7 @@
+name: Wiki Block images
+description: integration of wikipedia articles block images.
+package: Custom
+
+type: module
+# core: 8.x
+core: 8.x

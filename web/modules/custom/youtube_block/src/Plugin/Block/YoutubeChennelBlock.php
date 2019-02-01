@@ -4,7 +4,6 @@ namespace Drupal\youtube_block\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\vendor\guzzlehttp\guzzle\src\Exception;
 
 /**
 * Defines a Youtube block block type.
