@@ -52,18 +52,18 @@ class WikiChennelBlock extends BlockBase {
                     if (!is_null($image['title'])) {
                       $str_replace_img = str_replace(' ', '_', $image['title']);
                       //output image link
-                      $url_info_image = "{$url_wiki}query&titles={$str_replace_img}&prop=imageinfo&iiprop=url&format=json";
+                      $url_info_image = "{$url_wiki}query&titles={$str_replace_img}&prop=imageinfo&iiprop=url&format=json&iiurlwidth=200";
                       $title_article_wiki = str_replace('_', ' ', $title_article);
                       $json_image_article = json_decode(file_get_contents($url_info_image), true);
 
                       foreach ($json_image_article['query']['pages']['-1']['imageinfo'] as $url_img) {
-                        $img_explode_start = explode('/', $url_img['url'], 8);
+                        $img_explode_start = explode('/', $url_img['thumburl'], 8);
                         $img_explode_finish = explode('.', $img_explode_start[7]);
                         $title_img_str_replace = str_replace('_', ' ', $img_explode_finish[0]);
                         $title_img = str_replace('%', '', $title_img_str_replace);
                         $wiki_information[$title_article_wiki][] = [
                           'url_title' => $str_replace_title,
-                          'img' => $url_img['url'],
+                          'img' => $url_img['thumburl'],
                           'title_img' => $title_img,
                           "description" => $description_title,
                         ];

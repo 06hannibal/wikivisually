@@ -3,11 +3,12 @@
     {% for value in youtube_search %}
       <ul>
         <li>
+
           <span class="left-stat">
-            <a href="//youtu.be/{{value['video_id']}}" target="_blank">
               <img src="{{ value['videos_img'] }}">
-            </a>
           </span>
+            <a class="youtubesearch-close">X</a>
+            <iframe class="youtubesearch-frame" title="Youtube Video Player" src="" frameborder="0" allowfullscreen></iframe>
           <span>{{ value['title'] }}</span>
           <span class="youtube-stat">
             {{ value['duration'] }}

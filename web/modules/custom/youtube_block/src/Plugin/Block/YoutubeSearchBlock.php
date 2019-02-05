@@ -74,6 +74,9 @@ class YoutubeSearchBlock extends BlockBase {
       $video_id = $value['id']['videoId'];
       $url_snippet = "{$baseUrl}videos?part=snippet&id={$video_id}&key={$apiKey}";
       $json_snippet = json_decode(file_get_contents($url_snippet), true);
+//      kint($video_id);
+//      kint($json_snippet);
+//      die();
       //youtube video statistics
       $url_statistic = "{$baseUrl}videos?part=statistics&id={$video_id}&key={$apiKey}";
       $json_statistic = json_decode(file_get_contents($url_statistic), true);

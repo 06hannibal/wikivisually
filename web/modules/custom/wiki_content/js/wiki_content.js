@@ -17,7 +17,7 @@
                             success: function (rows) {
                                 page_wiki = rows;
                                 $(page_wiki).each(function() {
-                                    $('div.popap-wiki').append(page_wiki.parse.text['*']);
+                                    $('div.popap-wiki').append().html(page_wiki.parse.text['*']);
                                 });
                             }
                         })+"</div>"));
