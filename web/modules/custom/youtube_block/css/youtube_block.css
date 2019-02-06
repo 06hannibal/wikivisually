@@ -28,7 +28,12 @@
     z-index: 1;
     position: absolute;
     left: 80%;
-    bottom: 116%;
+    bottom: 110%;
+    color: #f4dbdb;
+    font-size: 220%;
+}
+#youtube-block a.youtubesearch-close {
+    text-decoration: none;
 }
 @media only screen and (max-width: 1366px) {
     .youtubesearch-frame {
@@ -46,7 +51,10 @@
         position: absolute;
         left: 80%;
         bottom: 113%;
-        text-decoration: none;
         color: #f4dbdb;
+        font-size: 170%;
+    }
+    #youtube-block a.youtubesearch-close {
+        text-decoration: none;
     }
 }

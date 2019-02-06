@@ -1326,3 +1326,21 @@ div.popap-wiki {
 .related_research_topics {
     text-align: center;
 }
+.text-scrollable div.thumbinner {
+    border: 1px solid #ccc;
+    padding: 3px;
+    background-color: #f9f9f9;
+    font-size: 94%;
+    text-align: center;
+    overflow: hidden;
+}
+.text-scrollable div.tright {
+    margin: 0.5em 0 1.3em 1.4em;
+}
+.text-scrollable div.tright, .text-scrollable div.floatright, .text-scrollable table.floatright {
+    clear: right;
+    float: right;
+}
+div.mw-parser-output a.image:hover div.popap-wiki, div.mw-parser-output sup.reference:hover div.popap-wiki, div.mw-parser-output div.toc:hover div.popap-wiki, div.mw-parser-output div.toc:hover div.popap-wiki {
+    display: none;
+}
