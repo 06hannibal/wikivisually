@@ -1344,3 +1344,56 @@ div.popap-wiki {
 div.mw-parser-output a.image:hover div.popap-wiki, div.mw-parser-output sup.reference:hover div.popap-wiki, div.mw-parser-output div.toc:hover div.popap-wiki, div.mw-parser-output div.toc:hover div.popap-wiki {
     display: none;
 }
+.wiki-img-frame {
+    display: none;
+    position: absolute;
+    width: 600px;
+    right: -70%;
+    height: 3%;
+    z-index: 2;
+    border: 22px solid #dbc4c4;
+}
+.class_link {
+    position: fixed;
+    left: 89%;
+    bottom: 76%;
+    color: rgb(201, 26, 26);
+    font-size: 170%;
+    text-decoration: none;
+}
+.class_all {
+    position: fixed;
+    left: 87.2%;
+    bottom: 65%;
+    color: rgb(201, 26, 26);
+    font-size: 170%;
+    transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    text-decoration: none;
+}
+@media only screen and (max-width: 1366px) {
+    .class_link {
+        position: fixed;
+        left: 88.5%;
+        bottom: 74%;
+        color: rgb(201, 26, 26);
+        font-size: 170%;
+        text-decoration: none;
+    }
+    .class_all {
+        position: fixed;
+        left: 86%;
+        bottom: 55%;
+        color: rgb(201, 26, 26);
+        font-size: 170%;
+        transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        text-decoration: none;
+    }
+}
