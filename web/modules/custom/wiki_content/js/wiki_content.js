@@ -4,7 +4,7 @@
  */
 (function($, Drupal) {
     var count = 1;
-    function wikicontent_setimg(src) {
+    function wikicontent_popap(src) {
         z_index = ++count;
         string = src.split("/");
     if (string[4] == "en" && string[5] == "thumb") {
@@ -20,9 +20,8 @@
     $('.'+title).css({
         "position": "fixed",
         "width": "30%",
-        "height": "auto",
         "right": "10%",
-        "top": "20%",
+        "top": "15%",
         "z-index": z_index,
         "border": "2em solid rgb(52, 46, 56)",
         "background": "#fff"
@@ -55,7 +54,7 @@
     Drupal.behaviors.wiki_content = {
         attach:function() {
             $(function () {
-                $("div.mw-parser-output a").once().hover(function(){wikicontent_setimg(jQuery(this).attr('src'));
+                $("div.mw-parser-output a").once().hover(function(){
                     wiki_link = $( this );
                     url_title_wiki = wiki_link.attr('href');
                     title_wiki = url_title_wiki.substr(6);
@@ -76,7 +75,9 @@
 
                 $("a.image img").once().click(function(e){
                     $('div.left-img img.img_close').remove();
+                    $('div.left-img a.img_close').remove();
                     $('div.right-img img.img_close').remove();
+                    $('div.right-img a.img_close').remove();
                     string = $( this ).attr('src').split("/");
                     e.preventDefault();
                     if (string[5] == "thumb") {
@@ -89,10 +90,10 @@
                         img_link = $( this );
                         title = img_link.attr('src').split("/")[7].split(".")[0].split("%")[0];
                     }
-                    $( this ).parent().append( $("<img class='img_close "+title+"' alt='Wiki Img Frame' src=''>"));
+                    $( this ).parent().append( $("<img class='img_close class_popap "+title+"' alt='Wiki Img Frame' src=''>"));
                     $( this ).parent().append( $("<a class='img_close class_link link"+title+"' onclick='return false'>X</a>"));
                     $( this ).parent().append( $("<a class='img_close class_all all"+title+"' onclick='return false'>close all</a>"));
-                    wikicontent_setimg(jQuery(this).attr('src'));
+                    wikicontent_popap(jQuery(this).attr('src'));
                     return false;
                 });
             });

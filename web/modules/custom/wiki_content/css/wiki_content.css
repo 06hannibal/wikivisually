@@ -1353,10 +1353,13 @@ div.mw-parser-output a.image:hover div.popap-wiki, div.mw-parser-output sup.refe
     z-index: 2;
     border: 22px solid #dbc4c4;
 }
+.class_popap {
+    max-height: 650px;
+}
 .class_link {
     position: fixed;
     left: 89%;
-    bottom: 76%;
+    bottom: 82%;
     color: rgb(201, 26, 26);
     font-size: 170%;
     text-decoration: none;
@@ -1364,7 +1367,7 @@ div.mw-parser-output a.image:hover div.popap-wiki, div.mw-parser-output sup.refe
 .class_all {
     position: fixed;
     left: 87.2%;
-    bottom: 65%;
+    bottom: 71%;
     color: rgb(201, 26, 26);
     font-size: 170%;
     transform: rotate(90deg);
@@ -1375,10 +1378,13 @@ div.mw-parser-output a.image:hover div.popap-wiki, div.mw-parser-output sup.refe
     text-decoration: none;
 }
 @media only screen and (max-width: 1366px) {
+    .class_popap {
+        max-height: 500px;
+    }
     .class_link {
         position: fixed;
         left: 88.5%;
-        bottom: 74%;
+        bottom: 80%;
         color: rgb(201, 26, 26);
         font-size: 170%;
         text-decoration: none;
@@ -1386,7 +1392,7 @@ div.mw-parser-output a.image:hover div.popap-wiki, div.mw-parser-output sup.refe
     .class_all {
         position: fixed;
         left: 86%;
-        bottom: 55%;
+        bottom: 65%;
         color: rgb(201, 26, 26);
         font-size: 170%;
         transform: rotate(90deg);
