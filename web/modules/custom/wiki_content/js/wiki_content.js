@@ -75,6 +75,7 @@
                 });
 
                 $("a.image img").once().click(function(e){
+                    $('img.img_close').remove();
                     string = $( this ).attr('src').split("/");
                     e.preventDefault();
                     if (string[5] == "thumb") {
