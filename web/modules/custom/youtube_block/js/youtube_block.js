@@ -12,7 +12,7 @@
   Drupal.behaviors.youtube_block = {
         attach:function() {
             $(function () {
-                $("span.left-stat img").once().click(function(){
+                $("div.left-stat img").once().click(function(){
                     $(this).parent().next().next().toggle();
                     $(this).parent().next().toggle();
                     youtubesearch_setvideo(jQuery(this).attr('src'));

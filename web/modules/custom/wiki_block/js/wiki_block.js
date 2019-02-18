@@ -75,6 +75,24 @@
                     wikiblock_popap(jQuery(this).attr('src'));
                     return false;
                 });
+                $("div.wiki_img_block a.title-wiki-block-popap").once().hover(function(){
+                    wiki_link = $( this );
+                    url_title_wiki = wiki_link.attr('href');
+                    title_wiki = url_title_wiki.substr(6);
+                    jQuery.ajax({
+                        url: "https://en.wikipedia.org/w/api.php?format=json&action=parse&page="+ title_wiki,
+                        dataType: "jsonp",
+                        success: function (rows) {
+                            page_wiki = rows;
+                            $(page_wiki).each(function() {
+                                $('div.popap-wiki').append().html(page_wiki.parse.text['*']);
+                            });
+                        }
+                    });
+                    $( this ).append( $("<div class='popap-wiki'></div>"));
+                },function() {
+                    $( this ).find("div.popap-wiki").remove();
+                });
             });
 
         }

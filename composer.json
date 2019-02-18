@@ -29,6 +29,7 @@
         "drupal/sharethis": "^2.0",
         "drupal/token": "^1.5",
         "drush/drush": "^9.0.0",
+        "stil/curl-easy": "^1.2",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"

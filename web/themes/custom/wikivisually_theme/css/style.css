@@ -1,3 +1,11 @@
 .title_articles {
     display: none;
 }
+div.row {
+    max-width: 1915px;
+}
+@media only screen and (max-width: 1366px) {
+    div.row {
+        max-width: 1366px;
+    }
+}

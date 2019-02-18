@@ -79,13 +79,39 @@ class YoutubeChennelBlock extends BlockBase {
     foreach($json['items'] as $value) {
       $youtube_id = $value['snippet']['resourceId']['videoId'];
       $videos_img = $value['snippet']['thumbnails']['high']['url'];
-      //youtube video statistics
-      $url_statistic = "{$baseUrl}videos?part=statistics&id={$youtube_id}&key={$apiKey}";
-      $json_statistic = json_decode(file_get_contents($url_statistic), true);
-      //time video youtube
-      $url_duration = "{$baseUrl}videos?id={$youtube_id}&part=contentDetails&key={$apiKey}";
-      $json_duration = json_decode(file_get_contents($url_duration), true);
 
+      $mh = curl_multi_init();
+      $chs = [];
+      $chs['ID0001'] = curl_init("{$baseUrl}videos?part=statistics&id={$youtube_id}&key={$apiKey}");
+      $chs['ID0002'] = curl_init("{$baseUrl}videos?id={$youtube_id}&part=contentDetails&key={$apiKey}");
+      foreach ($chs as $ch) {
+        curl_setopt_array($ch, [
+          CURLOPT_RETURNTRANSFER => true,  // Return requested content as string
+          CURLOPT_HEADER => false,         // Don't save returned headers to result
+          CURLOPT_CONNECTTIMEOUT => 5,    // Max seconds wait for connect
+          CURLOPT_TIMEOUT => 10,           // Max seconds on all of request
+          CURLOPT_USERAGENT => 'Robot YetAnotherRobo 1.0',
+        ]);
+        curl_multi_add_handle($mh, $ch);
+      }
+      $running = null;
+      do {
+        curl_multi_exec($mh, $running);
+      } while ($running);
+      // Close the handles
+      foreach ($chs as $ch) {
+        curl_multi_remove_handle($mh, $ch);
+      }
+      curl_multi_close($mh);
+      $responses = [];
+      foreach ($chs as $id => $ch) {
+        $responses[$id] = curl_multi_getcontent($ch);
+        curl_close($ch);
+      }
+      //youtube video statistics
+      $json_statistic = json_decode($responses['ID0001'], true);
+      //time video youtube
+      $json_duration = json_decode($responses['ID0002'], true);
       foreach ($json_duration['items'] as $value_duration){
         $video_time = $value_duration['contentDetails']['duration'];
         $time = substr($video_time, 2);
