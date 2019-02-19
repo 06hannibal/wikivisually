@@ -51,7 +51,7 @@
         $('.img_close').remove();
     });
     }
-    Drupal.content.wiki_content = {
+    Drupal.behaviors.wiki_content = {
         attach:function() {
             $(function () {
                 $("div.mw-parser-output a").once().hover(function(){
