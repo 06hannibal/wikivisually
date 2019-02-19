@@ -4,3 +4,9 @@ wiki_content:
       css/wiki_content.css: {}
   js:
     js/wiki_content.js: {}
+  dependencies:
+    - wikivisually_theme/theme
+    - core/drupal.ajax
+    - core/drupal.progress
+    - core/jquery.once
+    - core/jquery

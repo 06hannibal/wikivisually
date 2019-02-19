@@ -1,21 +1,21 @@
-<div class="class-overflow">
-  <div id="youtube-block">
-    {% for value in youtube_search %}
-      <ul>
-        <li>
-          <div class="left-stat">
-              <img src="{{ value['videos_img'] }}">
-          </div>
-          <a class="youtubesearch-close">X</a>
-          <iframe class="youtubesearch-frame" title="Youtube Video Player" src="" frameborder="0" allowfullscreen></iframe>
-          <div class="title">{{ value['title'] }}</div>
-          <div class="youtube-stat">
-            {{ value['duration'] }}
-            {{ value['viewCount'] }}
-            {{ value['likeCount'] }}
-          </div>
-        </li>
-      </ul>
-    {% endfor %}
-  </div>
-</div>
+{#<div class="class-overflow">#}
+  {#<div id="youtube-block">#}
+    {#{% for value in youtube_search %}#}
+      {#<ul>#}
+        {#<li>#}
+          {#<div class="left-stat">#}
+              {#<img src="{{ value['videos_img'] }}">#}
+          {#</div>#}
+          {#<a class="youtubesearch-close">X</a>#}
+          {#<iframe class="youtubesearch-frame" title="Youtube Video Player" src="" frameborder="0" allowfullscreen></iframe>#}
+          {#<div class="title">{{ value['title'] }}</div>#}
+          {#<div class="youtube-stat">#}
+            {#{{ value['duration'] }}#}
+            {#{{ value['viewCount'] }}#}
+            {#{{ value['likeCount'] }}#}
+          {#</div>#}
+        {#</li>#}
+      {#</ul>#}
+    {#{% endfor %}#}
+  {#</div>#}
+{#</div>#}

@@ -53,6 +53,25 @@
     }
     Drupal.behaviors.wiki_block = {
         attach:function() {
+            url_wiki = "https://en.wikipedia.org/w/api.php?action=";
+            console.log(url_wiki);
+            title_page_wiki = window.location.href.split("/")[4];
+            console.log(title_page_wiki);
+            jQuery.ajax({
+                url: url_wiki+"query&list=search&srsearch="+title_page_wiki+"&format=json&srprop=pageid&srqiprofile=wsum_inclinks_pv",
+                async: false,
+                dataType: "jsonp",
+                data: {name: name},
+                success: function (data) {
+                    rows = data.query.search;
+                    $(rows).each(function(index, value) {
+                        title_article = value.title.replace(/ /g,"_");
+                        if(title_article != title_page_wiki) {
+                            console.log(title_article);
+                        }
+                    });
+                }
+            });
             $(function () {
                 $(".wiki_img_block img").once().click(function(e){
                     $('a.image img.img_close').remove();
@@ -94,7 +113,6 @@
                     $( this ).find("div.popap-wiki").remove();
                 });
             });
-
         }
     }
 }(jQuery, Drupal));

@@ -4,9 +4,3 @@ global-styling:
       css/style.css: {}
   js:
     js/style.js: {}
-  dependencies:
-    - wikivisually_theme/theme
-    - core/drupal.ajax
-    - core/drupal.progress
-    - core/jquery.once
-    - core/jquery
