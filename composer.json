@@ -26,6 +26,7 @@
         "drupal/ctools": "^3.0",
         "drupal/devel": "^1.2",
         "drupal/empty_page": "^2.0",
+        "drupal/search_api": "^1.11",
         "drupal/sharethis": "^2.0",
         "drupal/token": "^1.5",
         "drush/drush": "^9.0.0",

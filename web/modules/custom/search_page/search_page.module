@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function search_page_theme() {
+  return [
+    'search_page' => [
+        'variables' => [
+            'search_page' => NULL,
+            'not_found' => NULL,
+        ],
+    ],
+    'search_block' => [
+      'variables' => NULL
+    ],
+  ];
+}

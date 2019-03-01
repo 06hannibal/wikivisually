@@ -1,0 +1,20 @@
+uuid: 546e9a9a-69d9-4914-9eb8-ae22085263bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_page
+  theme:
+    - wikivisually_theme
+id: wikisearchblock
+theme: wikivisually_theme
+region: header
+weight: -8
+provider: null
+plugin: wiki_search_block
+settings:
+  id: wiki_search_block
+  label: 'Wiki Search Block'
+  provider: search_page
+  label_display: '0'
+visibility: {  }

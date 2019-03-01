@@ -1,0 +1,7 @@
+<img class='not_found' src="{{ search_page }}">
+{% for row in search_page %}
+    <h2><a href="/wiki/{{ row['url_title'] }}" class='title-search'>{{ row['title'] }}</a></h2>
+    <img class='img-search' src="{{ row['thumbnail'] }}">
+    <p class='text-search'>{{ row['description'] }}</p>
+    <hr/>
+{% endfor %}

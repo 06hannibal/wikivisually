@@ -10,7 +10,7 @@ dependencies:
 id: youtubesearchblock
 theme: wikivisually_theme
 region: page_wiki
-weight: -9
+weight: -10
 provider: null
 plugin: youtube_search_block
 settings:

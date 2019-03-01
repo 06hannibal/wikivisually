@@ -1,9 +1,7 @@
-{#{{ article |raw }}#}
-{#<div class="related_research_topics">RELATED RESEARCH TOPICS</div>#}
-{#{% for row in related_topic %}#}
-  {#<p class="related-research-topics">#}
-    {#{{ row['n'] }} <a href="/wiki/{{ row['url_related_topic'] }}">{{ row['headline_related_topic'] }}</a> – {{ row['description_related_topic'] }}#}
-  {#</p>#}
-{#{% endfor %}#}
-
-
+{{ article |raw }}
+<div class="related_research_topics">RELATED RESEARCH TOPICS</div>
+{% for row in related_topic %}
+  <p class="related-research-topics">
+    {{ row['n'] }} <a href="/wiki/{{ row['url_related_topic'] }}">{{ row['headline_related_topic'] }}</a> – {{ row['description_related_topic'] }}
+  </p>
+{% endfor %}

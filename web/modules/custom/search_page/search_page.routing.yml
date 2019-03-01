@@ -1,0 +1,7 @@
+search_page.page:
+  path: '/search/{title}'
+  defaults:
+    _controller: '\Drupal\search_page\Controller\SearchController::Search'
+    _title: 'search'
+  requirements:
+    _access: 'TRUE'

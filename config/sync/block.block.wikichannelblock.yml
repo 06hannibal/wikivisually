@@ -3,18 +3,24 @@ langcode: en
 status: true
 dependencies:
   module:
+    - system
     - wiki_block
   theme:
     - wikivisually_theme
 id: wikichannelblock
 theme: wikivisually_theme
 region: page_wiki
-weight: 0
+weight: -9
 provider: null
 plugin: wiki_block_block
 settings:
   id: wiki_block_block
-  label: 'Wiki Channel Block'
+  label: IMAGES
   provider: wiki_block
-  label_display: '0'
-visibility: {  }
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/featured/Featured_Articles\r\n/featured/History_by_Country\r\n/featured/Movie_Stars\r\n/featured/Crown_Jewels\r\n/featured/Cities_in_Europe\r\n/featured/World_Currencies\r\n/featured/Rare_Coins\r\n/featured/Supercars\r\n/featured/Orders_and_Decorations\r\n/featured/Wars_and_Battles\r\n/featured/Kings_of_England\r\n/featured/Recovered_Treasures\r\n/featured/Most_Visited_Museums\r\n/featured/Kings_of_France\r\n/featured/Wonders_of_Nature\r\n/featured/Gemstones\r\n/home/people\r\n/home/places\r\n/home/history\r\n/home/art\r\n/home/science\r\n/search"
+    negate: true
+    context_mapping: {  }

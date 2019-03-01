@@ -1,0 +1,6 @@
+search_page:
+  css:
+    theme:
+      css/search_page.css: {}
+  js:
+    js/search_page.js: {}

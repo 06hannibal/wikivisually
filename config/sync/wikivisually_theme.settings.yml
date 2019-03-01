@@ -4,7 +4,7 @@ schemas:
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: 'public://2019-01/favicon-0ff59ed665393cffab38911645efdd780ab2a4aa334dae886b7cdffd03c97c94.ico'
-  url: 'http://wikivisually.loc/sites/default/files/default_images/favicon-0ff59ed665393cffab38911645efdd780ab2a4aa334dae886b7cdffd03c97c94.ico'
+  url: 'http://wikivisually.loc/sites/default/files/2019-01/favicon-0ff59ed665393cffab38911645efdd780ab2a4aa334dae886b7cdffd03c97c94.ico'
   use_default: 0
 features:
   comment_user_picture: 1

@@ -60,9 +60,7 @@ div.title-wiki-block hr {
 .title-wiki-block a.title-wiki-block-popap {
     margin-left: 10px;
 }
-div.description-wiki-block {
-    margin-top: -20px;
-}
+
 @media only screen and (max-width: 1366px) {
     .class_popap {
         max-height: 500px;
