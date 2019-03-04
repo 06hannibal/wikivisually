@@ -9,7 +9,7 @@ dependencies:
 id: sharethis
 theme: wikivisually_theme
 region: header
-weight: -10
+weight: -9
 provider: null
 plugin: sharethis_block
 settings:

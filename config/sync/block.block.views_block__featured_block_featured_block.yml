@@ -12,7 +12,7 @@ dependencies:
 id: views_block__featured_block_featured_block
 theme: wikivisually_theme
 region: content
-weight: -9
+weight: -11
 provider: null
 plugin: 'views_block:featured_block-featured_block'
 settings:

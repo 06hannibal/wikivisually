@@ -11,7 +11,7 @@ dependencies:
 id: wikivisually_theme_views_block__headers_menu_links_block_1
 theme: wikivisually_theme
 region: wikivisually_top_title
-weight: -9
+weight: -11
 provider: null
 plugin: 'views_block:headers_menu_links-block_1'
 settings:

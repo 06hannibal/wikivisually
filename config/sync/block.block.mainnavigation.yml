@@ -1,0 +1,24 @@
+uuid: 99501d93-5887-4f51-87a1-f15a54952448
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - wikivisually_theme
+id: mainnavigation
+theme: wikivisually_theme
+region: header
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

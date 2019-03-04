@@ -1,0 +1,52 @@
+div {
+  &.page_search_wiki {
+    a.title-search {
+      color: #9ea03d;
+      text-decoration: none;
+      &:hover {
+        color: #a0564e;
+        text-decoration: none;
+      }
+    }
+    hr {
+      &.one_percent, &.two_percent {
+        margin-top: 5%;
+        height: 2px;
+        color: #9ea03d;
+        background-color: #9ea03d;
+      }
+    }
+  }
+  &.one_block_search_inf {
+    display: flex;
+    align-items: center;
+  }
+  &.two_block_search_inf {
+    display: flex;
+    align-items: center;
+    p.text-search {
+      display: inline-block;
+    }
+  }
+}
+
+img {
+  &.not_found {
+    position: absolute;
+    z-index: 999;
+    left: 35%;
+  }
+  &.img-search {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  img.not_found {
+    position: absolute;
+    z-index: 999;
+    left: 30%;
+  }
+}

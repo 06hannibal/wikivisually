@@ -1,7 +1,19 @@
-<img class='not_found' src="{{ search_page }}">
-{% for row in search_page %}
-    <h2><a href="/wiki/{{ row['url_title'] }}" class='title-search'>{{ row['title'] }}</a></h2>
-    <img class='img-search' src="{{ row['thumbnail'] }}">
-    <p class='text-search'>{{ row['description'] }}</p>
-    <hr/>
-{% endfor %}
+<div class="page_search_wiki">
+  <img class='not_found' src="{{ search_page }}">
+  {% for row in search_page %}
+    {% if row['thumbnail'] is not empty %}
+      <h2><a href="/wiki/{{ row['url_title'] }}" class='title-search'>{{ row['title'] }}</a></h2>
+      <div class="one_block_search_inf">
+        <img class='img-search' src="{{ row['thumbnail'] }}">
+        <p class='text-search'>{{ row['description'] }}</p>
+      </div>
+      <hr class="one_percent">
+    {% else %}
+      <h2><a href="/wiki/{{ row['url_title'] }}" class='title-search'>{{ row['title'] }}</a></h2>
+      <div class="two_block_search_inf">
+        <p class='text-search'>{{ row['description'] }}</p>
+      </div>
+      <hr class="two_percent">
+    {% endif %}
+  {% endfor %}
+</div>

@@ -92,10 +92,8 @@
                 });
 
                 $("a.image img").once().click(function(e){
-                    $('div.left-img img.img_close').remove();
-                    $('div.left-img a.img_close').remove();
-                    $('div.right-img img.img_close').remove();
-                    $('div.right-img a.img_close').remove();
+                    $('div.url_img_wiki img.img_close').remove();
+                    $('div.url_img_wiki a.img_close').remove();
                     string = $( this ).attr('src').split("/");
                     e.preventDefault();
                     if (string[5] == "thumb") {

@@ -9,7 +9,7 @@ _core:
 id: wikivisually_theme_page_title
 theme: wikivisually_theme
 region: wikivisually_top_title
-weight: -3
+weight: -6
 provider: null
 plugin: page_title_block
 settings:

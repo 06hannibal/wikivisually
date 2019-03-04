@@ -1,0 +1,53 @@
+div {
+  &.row {
+    max-width: 1826px;
+  }
+  &.region {
+    &.region-header {
+      background: #1565c0;
+      height: 50px;
+      width: 1905px;
+    }
+    &.region-content {
+      padding-left: 30px;
+    }
+  }
+  &.page_search_wiki h2, &.region.region-content div.page_search_wiki h2 {
+    color: #9ea03d;
+  }
+}
+
+#block-sharethis {
+  float: left;
+}
+
+#block-wikisearchblock {
+  float: right;
+}
+
+#block-sharethis, #block-wikisearchblock {
+  display: inline-block;
+  margin-top: 7px;
+}
+
+#block-mainnavigation-2 .nav > li > a:hover {
+  background-color: #eeeeee00;
+}
+
+@media only screen and (max-width: 1366px) {
+  div {
+    &.row {
+      max-width: 1307px;
+    }
+    &.region.region-header {
+      background: #1565c0;
+      height: 50px;
+      width: 1350px;
+    }
+  }
+}
+
+
+
+
+

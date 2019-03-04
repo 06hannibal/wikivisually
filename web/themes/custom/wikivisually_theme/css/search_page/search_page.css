@@ -1,0 +1,53 @@
+/* line 3, ../../sass/search_page/search_page.scss */
+div.page_search_wiki a.title-search {
+  color: #9ea03d;
+  text-decoration: none;
+}
+/* line 6, ../../sass/search_page/search_page.scss */
+div.page_search_wiki a.title-search:hover {
+  color: #a0564e;
+  text-decoration: none;
+}
+/* line 12, ../../sass/search_page/search_page.scss */
+div.page_search_wiki hr.one_percent, div.page_search_wiki hr.two_percent {
+  margin-top: 5%;
+  height: 2px;
+  color: #9ea03d;
+  background-color: #9ea03d;
+}
+/* line 20, ../../sass/search_page/search_page.scss */
+div.one_block_search_inf {
+  display: flex;
+  align-items: center;
+}
+/* line 24, ../../sass/search_page/search_page.scss */
+div.two_block_search_inf {
+  display: flex;
+  align-items: center;
+}
+/* line 27, ../../sass/search_page/search_page.scss */
+div.two_block_search_inf p.text-search {
+  display: inline-block;
+}
+
+/* line 34, ../../sass/search_page/search_page.scss */
+img.not_found {
+  position: absolute;
+  z-index: 999;
+  left: 35%;
+}
+/* line 39, ../../sass/search_page/search_page.scss */
+img.img-search {
+  border: solid white 8px;
+  border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+  border-image-repeat: round;
+}
+
+@media only screen and (max-width: 1366px) {
+  /* line 47, ../../sass/search_page/search_page.scss */
+  img.not_found {
+    position: absolute;
+    z-index: 999;
+    left: 30%;
+  }
+}

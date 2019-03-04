@@ -1,0 +1,119 @@
+div#youtube-block {
+  min-width: 105%; }
+
+#youtube-block img {
+  border: 1px solid #c3c3c3;
+  height: 160px;
+  padding: 0px; }
+#youtube-block li {
+  list-style-type: none; }
+#youtube-block .youtube-stat {
+  color: #50b432; }
+#youtube-block .right-stat {
+  position: relative;
+  left: 27%;
+  top: -100px; }
+
+.youtubesearch-frame {
+  display: none;
+  position: absolute;
+  width: 90%;
+  right: 60%;
+  height: 135%;
+  top: -9%;
+  box-shadow: 0px 60px 1340px 540px #c91a1a;
+  z-index: 5; }
+
+.youtubesearch-close {
+  display: none;
+  z-index: 9999;
+  position: absolute;
+  left: 80%;
+  bottom: 110%;
+  color: #f4dbdb;
+  font-size: 220%; }
+
+#youtube-block a.youtubesearch-close {
+  text-decoration: none; }
+
+aside.page_wiki {
+  padding: 0px;
+  left: 5%; }
+
+#block-youtubesearchblock div.class-overflow {
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto; }
+#block-youtubesearchblock div ul {
+  padding: 0px; }
+#block-youtubesearchblock div.left-stat img {
+  width: 155px;
+  height: 89px; }
+#block-youtubesearchblock ul li div.title {
+  position: relative;
+  top: -80px;
+  left: 32%;
+  width: 260px; }
+#block-youtubesearchblock ul li div.youtube-stat {
+  position: relative;
+  top: -80px;
+  left: 160px;
+  width: 200px; }
+#block-youtubesearchblock div#youtube-block ul li {
+  width: 500px;
+  height: 100px; }
+#block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
+  float: right; }
+
+@media only screen and (max-width: 1366px) {
+  aside.page_wiki {
+    padding: 0px;
+    left: 4%; }
+
+  #block-youtubesearchblock div.class-overflow {
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto; }
+
+  .youtubesearch-frame {
+    display: none;
+    position: absolute;
+    width: 90%;
+    right: 60%;
+    height: 135%;
+    top: -11%;
+    box-shadow: 0px 60px 1340px 540px #c91a1a;
+    z-index: 5; }
+
+  .youtubesearch-close {
+    display: none;
+    z-index: 9999;
+    position: absolute;
+    left: 80%;
+    bottom: 113%;
+    color: #f4dbdb;
+    font-size: 170%; }
+
+  #youtube-block a.youtubesearch-close {
+    text-decoration: none; }
+
+  #block-youtubesearchblock div.left-stat img {
+    width: 155px;
+    height: 89px; }
+  #block-youtubesearchblock ul li div.title {
+    position: relative;
+    top: -80px;
+    left: 45%;
+    width: 160px; }
+  #block-youtubesearchblock ul li div.youtube-stat {
+    position: relative;
+    top: -80px;
+    left: 160px;
+    width: 200px; }
+  #block-youtubesearchblock div#youtube-block ul li {
+    width: 350px;
+    height: 110px; }
+  #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
+    float: right; } }
+
+/*# sourceMappingURL=youtube_search.css.map */

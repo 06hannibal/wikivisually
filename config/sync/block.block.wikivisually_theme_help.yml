@@ -11,7 +11,7 @@ _core:
 id: wikivisually_theme_help
 theme: wikivisually_theme
 region: wikivisually_top_title
-weight: -1
+weight: -4
 provider: null
 plugin: help_block
 settings:

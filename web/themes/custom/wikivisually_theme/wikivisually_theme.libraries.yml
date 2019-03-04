@@ -2,6 +2,9 @@ global-styling:
   css:
     theme:
       css/style.css: {}
+      css/search_page/search_page.css: {}
+      css/wiki_block/wiki_block.css: {}
+      css/youtube_search/youtube_search.css: {}
   js:
     js/style.js: {}
   dependencies:

@@ -1,34 +1,52 @@
-.title_articles {
-    display: none;
-}
+/* line 2, ../sass/style.scss */
 div.row {
-    max-width: 1826px;
+  max-width: 1826px;
 }
+/* line 6, ../sass/style.scss */
 div.region.region-header {
-    background: #1565c0;
-    height: 40px;
-    width: 1905px;
+  background: #1565c0;
+  height: 50px;
+  width: 1905px;
 }
-nav ul.menu--account {
-    display: none;
+/* line 11, ../sass/style.scss */
+div.region.region-content {
+  padding-left: 30px;
 }
+/* line 15, ../sass/style.scss */
+div.page_search_wiki h2, div.region.region-content div.page_search_wiki h2 {
+  color: #9ea03d;
+}
+
+/* line 20, ../sass/style.scss */
 #block-sharethis {
-    float: left;
+  float: left;
 }
+
+/* line 24, ../sass/style.scss */
 #block-wikisearchblock {
-    float: right;
+  float: right;
 }
+
+/* line 28, ../sass/style.scss */
 #block-sharethis, #block-wikisearchblock {
-    display: inline-block;
-    margin-top: 7px;
+  display: inline-block;
+  margin-top: 7px;
 }
+
+/* line 33, ../sass/style.scss */
+#block-mainnavigation-2 .nav > li > a:hover {
+  background-color: #eeeeee00;
+}
+
 @media only screen and (max-width: 1366px) {
-    div.row {
-        max-width: 1307px;
-    }
-    div.region.region-header {
-        background: #1565c0;
-        height: 40px;
-        width: 1350px;
-    }
+  /* line 39, ../sass/style.scss */
+  div.row {
+    max-width: 1307px;
+  }
+  /* line 42, ../sass/style.scss */
+  div.region.region-header {
+    background: #1565c0;
+    height: 50px;
+    width: 1350px;
+  }
 }

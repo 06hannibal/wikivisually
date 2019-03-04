@@ -9,7 +9,7 @@ dependencies:
 id: wikivisuallyhomeblock
 theme: wikivisually_theme
 region: wikivisually_top_title
-weight: -10
+weight: -12
 provider: null
 plugin: wikivisually_home_block
 settings:
