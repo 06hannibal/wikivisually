@@ -1,0 +1,23 @@
+/* line 1, ../../sass/featured_articles/featured_articles.scss */
+a.view-home-page-fetured {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 5px;
+  text-decoration: none;
+}
+/* line 3, ../../sass/featured_articles/featured_articles.scss */
+a.view-home-page-fetured div.title_wiki {
+  color: black;
+  font-weight: bold;
+}
+/* line 7, ../../sass/featured_articles/featured_articles.scss */
+a.view-home-page-fetured div.img_wiki {
+  padding-right: 20px;
+}
+/* line 9, ../../sass/featured_articles/featured_articles.scss */
+a.view-home-page-fetured div.img_wiki img {
+  border: solid white 8px;
+  border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+  border-image-repeat: round;
+}

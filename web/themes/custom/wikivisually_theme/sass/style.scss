@@ -1,12 +1,14 @@
+/* line 2, ../sass/style.scss */
+
 div {
   &.row {
-    max-width: 1826px;
+    max-width: 92%;
   }
   &.region {
     &.region-header {
       background: #1565c0;
       height: 50px;
-      width: 1905px;
+      width: 110.6%;
     }
     &.region-content {
       padding-left: 30px;
@@ -17,37 +19,205 @@ div {
   }
 }
 
-#block-sharethis {
-  float: left;
+/* line 6, ../sass/style.scss */
+
+/* line 11, ../sass/style.scss */
+
+/* line 15, ../sass/style.scss */
+
+/* line 20, ../sass/style.scss */
+
+#block-wikivisuallyhomeblock-2 {
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 0.8vw;
+  color: #F90;
 }
 
+/* line 28, ../sass/style.scss */
+
+li {
+  &.first a, &.last a {
+    font-size: 0.8vw;
+    color: white;
+  }
+  &.first a:hover, &.last a:hover {
+    color: #F90;
+  }
+}
+
+/* line 34, ../sass/style.scss */
+
+#block-sharethis {
+  display: inline-block;
+  margin-right: 10%;
+}
+
+/* line 39, ../sass/style.scss */
+
 #block-wikisearchblock {
+  display: inline-block;
+  margin-right: 10%;
   float: right;
 }
 
-#block-sharethis, #block-wikisearchblock {
-  display: inline-block;
-  margin-top: 7px;
-}
+/* line 45, ../sass/style.scss */
 
 #block-mainnavigation-2 .nav > li > a:hover {
   background-color: #eeeeee00;
 }
 
-@media only screen and (max-width: 1366px) {
+/* line 49, ../sass/style.scss */
+
+#wiki-search-article {
+  margin-top: -9px;
+  input {
+    width: 200%;
+    background: #fff;
+  }
+}
+
+/* line 51, ../sass/style.scss */
+
+/* line 57, ../sass/style.scss */
+
+div.form-wiki-search svg {
+  position: relative;
+  left: 188%;
+  top: 13px;
+}
+
+#block-wikivisuallyhomeblock {
+  margin-bottom: 10px;
+}
+
+div.view-display-id-block_1 {
+  margin-bottom: 10px;
   div {
-    &.row {
-      max-width: 1307px;
+    &.col-2 img.img-responsive {
+      margin-left: 2px;
     }
-    &.region.region-header {
-      background: #1565c0;
-      height: 50px;
-      width: 1350px;
+    &.col-3 img.img-responsive {
+      margin-left: 4px;
+    }
+    &.col-4 img.img-responsive {
+      margin-left: 6px;
+    }
+    &.col-5 img.img-responsive {
+      margin-left: 8px;
     }
   }
 }
 
+#block-wikivisuallyhomeblock-2 {
+  margin-left: 5%;
+}
 
+#block-sharethis {
+  margin-left: 12%;
+}
 
+#block-wikivisuallyhomeblock div {
+  &.wikivisually_home {
+    width: 120%;
+  }
+  &.title_wikivisually_home {
+    display: inline-block;
+    float: left;
+    margin: 4px 13px 8px 5px;
+    font-size: 21px;
+    a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+  &.wikivisually_home div.description_wikivisually_home {
+    display: inline-block;
+    width: 290px;
+  }
+}
 
+#block-views-block-top-lists-top-lists {
+  box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2);
+  padding-left: 20px;
+  width: 70%;
+  h2.block-title {
+    border-bottom: 1px solid #aaaaa9;
+    padding-bottom: 20px;
+    margin-left: -20px;
+    padding-left: 20px;
+  }
+  div.views-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
+    &:hover {
+      background: #d9d9d9;
+    }
+  }
+  h3.field-content a {
+    font-size: 70%;
+    color: black;
+    text-decoration: none;
+  }
+}
 
+#block-views-block-home-block-home-block div.views-row a.view-home-block {
+  font-size: 70%;
+  color: black;
+  text-decoration: none;
+  div.title_wiki {
+    font-size: 200%;
+  }
+}
+
+#block-views-block-top-lists-top-lists img.img-responsive {
+  padding-right: 20px;
+}
+
+#block-views-block-home-block-home-block {
+  h2.block-title a {
+    color: black;
+    font-weight: bold;
+  }
+  div.views-row a.view-home-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
+    div.img_wiki {
+      padding-right: 20px;
+      img {
+        border: solid white 8px;
+        border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+        border-image-repeat: round;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  #block-views-block-top-lists-top-lists {
+    width: 100%;
+  }
+  /* line 64, ../sass/style.scss */
+  #block-wikisearchblock {
+    margin-right: 14%;
+  }
+  /* line 67, ../sass/style.scss */
+  div.row {
+    max-width: 93%;
+  }
+  /* line 70, ../sass/style.scss */
+  #block-wikivisuallyhomeblock-2 {
+    margin-top: 18px;
+  }
+  /* line 73, ../sass/style.scss */
+  div.region.region-header {
+    background: #1565c0;
+    height: 50px;
+    width: 110%;
+  }
+}

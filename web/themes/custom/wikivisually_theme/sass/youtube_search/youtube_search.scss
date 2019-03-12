@@ -1,7 +1,6 @@
 div#youtube-block {
-  min-width: 105%;
+  min-width: 108%;
 }
-
 #youtube-block {
   img {
     border: 1px solid #c3c3c3;
@@ -14,24 +13,22 @@ div#youtube-block {
   .youtube-stat {
     color: #50b432;
   }
-  .right-stat {
-    position: relative;
-    left: 27%;
-    top: -100px;
-  }
 }
-
+#block-youtubesearchblock #youtube-block .right-stat {
+  position: relative;
+  left: 27%;
+  top: -100px;
+}
 .youtubesearch-frame {
   display: none;
   position: absolute;
-  width: 90%;
-  right: 60%;
-  height: 135%;
-  top: -9%;
+  width: 130%;
+  right: 40%;
+  height: 225%;
+  top: -20%;
   box-shadow: 0px 60px 1340px 540px #c91a1a;
   z-index: 5;
 }
-
 .youtubesearch-close {
   display: none;
   z-index: 9999;
@@ -41,16 +38,13 @@ div#youtube-block {
   color: #f4dbdb;
   font-size: 220%;
 }
-
 #youtube-block a.youtubesearch-close {
   text-decoration: none;
 }
-
 aside.page_wiki {
   padding: 0px;
   left: 5%;
 }
-
 #block-youtubesearchblock {
   div {
     &.class-overflow {
@@ -90,7 +84,6 @@ aside.page_wiki {
     }
   }
 }
-
 @media only screen and (max-width: 1366px) {
   aside.page_wiki {
     padding: 0px;
@@ -104,10 +97,10 @@ aside.page_wiki {
   .youtubesearch-frame {
     display: none;
     position: absolute;
-    width: 90%;
-    right: 60%;
-    height: 135%;
-    top: -11%;
+    width: 98%;
+    right: 50%;
+    height: 10%;
+    top: -3%;
     box-shadow: 0px 60px 1340px 540px #c91a1a;
     z-index: 5;
   }
@@ -116,7 +109,7 @@ aside.page_wiki {
     z-index: 9999;
     position: absolute;
     left: 80%;
-    bottom: 113%;
+    bottom: 102%;
     color: #f4dbdb;
     font-size: 170%;
   }
@@ -124,6 +117,8 @@ aside.page_wiki {
     text-decoration: none;
   }
   #block-youtubesearchblock {
+    position: unset;
+    width: 109%;
     div.left-stat img {
       width: 155px;
       height: 89px;

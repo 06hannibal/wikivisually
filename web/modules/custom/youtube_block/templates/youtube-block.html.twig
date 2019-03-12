@@ -3,8 +3,8 @@
     {% for value in youtube_informatin %}
       <ul>
         <li>
-          <div class="left-stat">
-            <a href="//youtu.be/{{value['youtube_id']}}" target="_blank">
+          <div class="left-stat-chennel">
+            <a href="https://youtu.be/{{value['youtube_id']}}" target="_blank">
               <img src="{{ value['videos_img'] }}">
             </a>
           </div>
@@ -12,8 +12,8 @@
             <div>{{ value['title'] }}</div>
             <div class="youtube-stat">
               {{ value['duration'] }}
-              {{ value['viewCount'] }}
-              {{ value['likeCount'] }}
+              <i class="fa fa-eye"></i>{{ value['viewCount'] }}
+              <i class="fa fa-thumbs-o-up"></i>{{ value['likeCount'] }}
             </div>
           </div>
         </li>

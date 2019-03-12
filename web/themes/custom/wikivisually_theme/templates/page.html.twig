@@ -67,7 +67,7 @@
       {# Header #}
       {% if page.header %}
         {% block header %}
-          <div class="col-sm-12" role="heading">
+          <div class="col-sm-12 height-row" role="heading">
             {{ page.header }}
           </div>
         {% endblock %}
@@ -86,12 +86,12 @@
       {%
         set content_classes = [
           page.sidebar_top_list and page.sidebar_picker and page.sidebar_trending ? 'col-sm-3',
-          page.sidebar_top_list and page.sidebar_trending and page.sidebar_picker is empty ? 'col-sm-6',
+          page.sidebar_top_list and page.sidebar_trending and page.sidebar_picker is empty ? 'col-sm-5 row-controller-mobile',
           page.sidebar_top_list and page.sidebar_picker and page.sidebar_trending is empty ? 'col-sm-6',
           page.sidebar_picker and page.sidebar_trending and page.sidebar_top_list is empty ? 'col-sm-6',
-          page.sidebar_top_list and page.sidebar_picker is empty and page.sidebar_trending is empty ? 'col-sm-9',
-          page.sidebar_trending and page.sidebar_top_list is empty and page.sidebar_picker is empty ? 'col-sm-9',
-          page.sidebar_picker and page.sidebar_top_list is empty and page.sidebar_trending is empty ? 'col-sm-9',
+          page.sidebar_top_list and page.sidebar_picker is empty and page.sidebar_trending is empty ? 'col-sm-9 row-controller',
+          page.sidebar_trending and page.sidebar_top_list is empty and page.sidebar_picker is empty ? 'col-sm-9 row-controller',
+          page.sidebar_picker and page.sidebar_top_list is empty and page.sidebar_trending is empty ? 'col-sm-9 row-controller',
           page.page_wiki and page.sidebar_top_list is empty and page.sidebar_trending is empty and page.sidebar_picker is empty ? 'col-sm-6',
           page.sidebar_top_list is empty and page.sidebar_trending is empty and page.sidebar_picker is empty ? 'col-sm-12'
         ]
@@ -122,7 +122,7 @@
       {# Sidebar trending #}
       {% if page.sidebar_trending %}
         {% block sidebar_trending %}
-          <aside class="col-sm-3 trending">
+          <aside class="col-sm-4 trending">
             {{ page.sidebar_trending }}
           </aside>
         {% endblock %}

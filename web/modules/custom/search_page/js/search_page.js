@@ -6,7 +6,7 @@
   Drupal.behaviors.search_page = {
     attach: function attach(context) {
       if (context === document){
-          $('#wiki-search-article button').click(function (e) {
+          $('#wiki-search-article').submit(function (e) {
             e.preventDefault();
             var title_replace = $('input').val();
             var title_article = title_replace.replace(/ /g,"_");

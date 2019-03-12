@@ -33,7 +33,6 @@ class WikivisuallyHomeBlock extends BlockBase {
       '#title' => t('header link to the home page'),
       '#size' => 40,
       '#default_value' => $config['title'],
-      '#required' => TRUE,
     ];
 
     $form['wikivisually']['description'] = [

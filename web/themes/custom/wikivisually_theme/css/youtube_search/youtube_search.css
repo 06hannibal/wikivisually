@@ -1,42 +1,43 @@
 /* line 1, ../../sass/youtube_search/youtube_search.scss */
 div#youtube-block {
-  min-width: 105%;
+  min-width: 108%;
 }
 
-/* line 6, ../../sass/youtube_search/youtube_search.scss */
+/* line 5, ../../sass/youtube_search/youtube_search.scss */
 #youtube-block img {
   border: 1px solid #c3c3c3;
   height: 160px;
   padding: 0px;
 }
-/* line 11, ../../sass/youtube_search/youtube_search.scss */
+/* line 10, ../../sass/youtube_search/youtube_search.scss */
 #youtube-block li {
   list-style-type: none;
 }
-/* line 14, ../../sass/youtube_search/youtube_search.scss */
+/* line 13, ../../sass/youtube_search/youtube_search.scss */
 #youtube-block .youtube-stat {
   color: #50b432;
 }
+
 /* line 17, ../../sass/youtube_search/youtube_search.scss */
-#youtube-block .right-stat {
+#block-youtubesearchblock #youtube-block .right-stat {
   position: relative;
   left: 27%;
   top: -100px;
 }
 
-/* line 24, ../../sass/youtube_search/youtube_search.scss */
+/* line 22, ../../sass/youtube_search/youtube_search.scss */
 .youtubesearch-frame {
   display: none;
   position: absolute;
-  width: 90%;
-  right: 60%;
-  height: 135%;
-  top: -9%;
+  width: 130%;
+  right: 40%;
+  height: 225%;
+  top: -20%;
   box-shadow: 0px 60px 1340px 540px #c91a1a;
   z-index: 5;
 }
 
-/* line 35, ../../sass/youtube_search/youtube_search.scss */
+/* line 32, ../../sass/youtube_search/youtube_search.scss */
 .youtubesearch-close {
   display: none;
   z-index: 9999;
@@ -47,123 +48,128 @@ div#youtube-block {
   font-size: 220%;
 }
 
-/* line 45, ../../sass/youtube_search/youtube_search.scss */
+/* line 41, ../../sass/youtube_search/youtube_search.scss */
 #youtube-block a.youtubesearch-close {
   text-decoration: none;
 }
 
-/* line 49, ../../sass/youtube_search/youtube_search.scss */
+/* line 44, ../../sass/youtube_search/youtube_search.scss */
 aside.page_wiki {
   padding: 0px;
   left: 5%;
 }
 
-/* line 56, ../../sass/youtube_search/youtube_search.scss */
+/* line 50, ../../sass/youtube_search/youtube_search.scss */
 #block-youtubesearchblock div.class-overflow {
   height: 200px;
   overflow-x: hidden;
   overflow-y: auto;
 }
-/* line 61, ../../sass/youtube_search/youtube_search.scss */
+/* line 55, ../../sass/youtube_search/youtube_search.scss */
 #block-youtubesearchblock div ul {
   padding: 0px;
 }
-/* line 64, ../../sass/youtube_search/youtube_search.scss */
+/* line 58, ../../sass/youtube_search/youtube_search.scss */
 #block-youtubesearchblock div.left-stat img {
   width: 155px;
   height: 89px;
 }
-/* line 70, ../../sass/youtube_search/youtube_search.scss */
+/* line 64, ../../sass/youtube_search/youtube_search.scss */
 #block-youtubesearchblock ul li div.title {
   position: relative;
   top: -80px;
   left: 32%;
   width: 260px;
 }
-/* line 76, ../../sass/youtube_search/youtube_search.scss */
+/* line 70, ../../sass/youtube_search/youtube_search.scss */
 #block-youtubesearchblock ul li div.youtube-stat {
   position: relative;
   top: -80px;
   left: 160px;
   width: 200px;
 }
-/* line 84, ../../sass/youtube_search/youtube_search.scss */
+/* line 78, ../../sass/youtube_search/youtube_search.scss */
 #block-youtubesearchblock div#youtube-block ul li {
   width: 500px;
   height: 100px;
 }
-/* line 88, ../../sass/youtube_search/youtube_search.scss */
+/* line 82, ../../sass/youtube_search/youtube_search.scss */
 #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
   float: right;
 }
 
 @media only screen and (max-width: 1366px) {
-  /* line 95, ../../sass/youtube_search/youtube_search.scss */
+  /* line 88, ../../sass/youtube_search/youtube_search.scss */
   aside.page_wiki {
     padding: 0px;
     left: 4%;
   }
 
-  /* line 99, ../../sass/youtube_search/youtube_search.scss */
+  /* line 92, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock div.class-overflow {
     height: 200px;
     overflow-x: hidden;
     overflow-y: auto;
   }
 
-  /* line 104, ../../sass/youtube_search/youtube_search.scss */
+  /* line 97, ../../sass/youtube_search/youtube_search.scss */
   .youtubesearch-frame {
     display: none;
     position: absolute;
-    width: 90%;
-    right: 60%;
-    height: 135%;
-    top: -11%;
+    width: 98%;
+    right: 50%;
+    height: 10%;
+    top: -3%;
     box-shadow: 0px 60px 1340px 540px #c91a1a;
     z-index: 5;
   }
 
-  /* line 114, ../../sass/youtube_search/youtube_search.scss */
+  /* line 107, ../../sass/youtube_search/youtube_search.scss */
   .youtubesearch-close {
     display: none;
     z-index: 9999;
     position: absolute;
     left: 80%;
-    bottom: 113%;
+    bottom: 102%;
     color: #f4dbdb;
     font-size: 170%;
   }
 
-  /* line 123, ../../sass/youtube_search/youtube_search.scss */
+  /* line 116, ../../sass/youtube_search/youtube_search.scss */
   #youtube-block a.youtubesearch-close {
     text-decoration: none;
   }
 
-  /* line 127, ../../sass/youtube_search/youtube_search.scss */
+  /* line 119, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock {
+    position: unset;
+    width: 109%;
+  }
+  /* line 122, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock div.left-stat img {
     width: 155px;
     height: 89px;
   }
-  /* line 132, ../../sass/youtube_search/youtube_search.scss */
+  /* line 127, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock ul li div.title {
     position: relative;
     top: -80px;
     left: 45%;
     width: 160px;
   }
-  /* line 138, ../../sass/youtube_search/youtube_search.scss */
+  /* line 133, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock ul li div.youtube-stat {
     position: relative;
     top: -80px;
     left: 160px;
     width: 200px;
   }
-  /* line 146, ../../sass/youtube_search/youtube_search.scss */
+  /* line 141, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock div#youtube-block ul li {
     width: 350px;
     height: 110px;
   }
-  /* line 150, ../../sass/youtube_search/youtube_search.scss */
+  /* line 145, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
     float: right;
   }

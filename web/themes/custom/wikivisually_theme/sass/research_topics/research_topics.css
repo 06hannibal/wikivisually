@@ -1,0 +1,17 @@
+div.research-topics-title-and-text {
+  border-color: #DCDCDC !important;
+  border: 1px solid;
+  margin-top: 12px; }
+div.art-rel-list {
+  font-size: 14px;
+  padding: 0 50px 15px 50px; }
+div.taxonomy-block-none {
+  display: none; }
+div.region-content h2.block-title {
+  text-align: center; }
+
+@media only screen and (max-width: 1366px) {
+  div.art-rel-list {
+    padding: 0 25px 15px 25px; } }
+
+/*# sourceMappingURL=research_topics.css.map */

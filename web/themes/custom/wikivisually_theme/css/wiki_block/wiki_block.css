@@ -1,14 +1,17 @@
 /* line 1, ../../sass/wiki_block/wiki_block.scss */
+/* line 3, ../../sass/wiki_block/wiki_block.scss */
 div.wiki_img_block {
   background: #fff;
 }
 
 /* line 5, ../../sass/wiki_block/wiki_block.scss */
+/* line 9, ../../sass/wiki_block/wiki_block.scss */
 #block-wikichannelblock h2.block-title {
   text-align: center;
 }
 
 /* line 9, ../../sass/wiki_block/wiki_block.scss */
+/* line 15, ../../sass/wiki_block/wiki_block.scss */
 div.url_img_wiki {
   width: 50%;
   display: inline-block;
@@ -17,19 +20,21 @@ div.url_img_wiki {
 }
 
 /* line 16, ../../sass/wiki_block/wiki_block.scss */
+/* line 24, ../../sass/wiki_block/wiki_block.scss */
 p.text_title_wiki {
   text-align: center;
   width: 85%;
 }
 
 /* line 22, ../../sass/wiki_block/wiki_block.scss */
+/* line 32, ../../sass/wiki_block/wiki_block.scss */
 div.url_img_wiki img {
   width: 90%;
   border: solid white 8px;
   border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
   border-image-repeat: round;
 }
-/* line 28, ../../sass/wiki_block/wiki_block.scss */
+/* line 38, ../../sass/wiki_block/wiki_block.scss */
 div.title-wiki-block a {
   color: #9ea03d;
   text-decoration: none;
@@ -37,12 +42,15 @@ div.title-wiki-block a {
   background: #fff;
   margin-left: -4px;
 }
-/* line 34, ../../sass/wiki_block/wiki_block.scss */
+/* line 44, ../../sass/wiki_block/wiki_block.scss */
 div.title-wiki-block a.title-wiki-block-popap {
   margin-left: 10px;
 }
 
+/* line 28, ../../sass/wiki_block/wiki_block.scss */
+/* line 34, ../../sass/wiki_block/wiki_block.scss */
 /* line 40, ../../sass/wiki_block/wiki_block.scss */
+/* line 56, ../../sass/wiki_block/wiki_block.scss */
 hr.wiki_img_hr {
   margin-top: -1.8%;
   height: 2px;
@@ -50,21 +58,15 @@ hr.wiki_img_hr {
   background-color: #9ea03d;
 }
 
-/* line 47, ../../sass/wiki_block/wiki_block.scss */
-a.title-wiki-block-popap div.popap-wiki {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
-}
-/* line 52, ../../sass/wiki_block/wiki_block.scss */
+/* line 48, ../../sass/wiki_block/wiki_block.scss */
+/* line 65, ../../sass/wiki_block/wiki_block.scss */
 a.title-wiki-block-popap div.popap-wiki a {
   color: #337ab7;
   text-decoration: none;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
-/* line 57, ../../sass/wiki_block/wiki_block.scss */
+/* line 70, ../../sass/wiki_block/wiki_block.scss */
 a.title-wiki-block-popap div.popap-wiki a:hover {
   color: #23527c;
   text-decoration: underline;
@@ -72,8 +74,108 @@ a.title-wiki-block-popap div.popap-wiki a:hover {
   font-size: 14px;
 }
 
+/* line 53, ../../sass/wiki_block/wiki_block.scss */
+/* line 60, ../../sass/wiki_block/wiki_block.scss */
+/* line 82, ../../sass/wiki_block/wiki_block.scss */
+div.thumbinner a.class_link {
+  left: 74.4%;
+}
+
+/* line 87, ../../sass/wiki_block/wiki_block.scss */
+a.class_link {
+  font-size: 190%;
+  position: fixed;
+  width: 30%;
+  left: 74.5%;
+  top: 16%;
+  color: red;
+}
+/* line 95, ../../sass/wiki_block/wiki_block.scss */
+a.class_all {
+  font-size: 190%;
+  position: fixed;
+  width: 120px;
+  left: 85.7%;
+  top: 34%;
+  color: red;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+/* line 68, ../../sass/wiki_block/wiki_block.scss */
+/* line 112, ../../sass/wiki_block/wiki_block.scss */
+div.thumbinner a.class_all {
+  left: 85.3%;
+}
+
+/* line 84, ../../sass/wiki_block/wiki_block.scss */
+/* line 119, ../../sass/wiki_block/wiki_block.scss */
+.url_img_wiki a.class_link {
+  width: 16%;
+  left: 88.9%;
+  top: 15%;
+}
+/* line 124, ../../sass/wiki_block/wiki_block.scss */
+.url_img_wiki a.class_all {
+  width: 120px;
+  left: 85.2%;
+  top: 30%;
+}
+
+/* line 89, ../../sass/wiki_block/wiki_block.scss */
+/* line 96, ../../sass/wiki_block/wiki_block.scss */
+/* line 135, ../../sass/wiki_block/wiki_block.scss */
+div.style-popap-wiki {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
 @media only screen and (max-width: 1366px) {
-  /* line 67, ../../sass/wiki_block/wiki_block.scss */
+  /* line 106, ../../sass/wiki_block/wiki_block.scss */
+  /* line 146, ../../sass/wiki_block/wiki_block.scss */
+  a.class_link {
+    left: 74.2%;
+  }
+  /* line 149, ../../sass/wiki_block/wiki_block.scss */
+  a.class_all {
+    left: 86%;
+    top: 25%;
+  }
+
+  /* line 109, ../../sass/wiki_block/wiki_block.scss */
+  /* line 156, ../../sass/wiki_block/wiki_block.scss */
+  div.thumbinner a.class_link {
+    left: 74%;
+  }
+  /* line 159, ../../sass/wiki_block/wiki_block.scss */
+  div.thumbinner a.class_all {
+    left: 85%;
+    top: 27%;
+  }
+
+  /* line 115, ../../sass/wiki_block/wiki_block.scss */
+  /* line 166, ../../sass/wiki_block/wiki_block.scss */
+  .url_img_wiki a.class_link {
+    width: 16%;
+    left: 88.3%;
+    top: 15%;
+  }
+  /* line 171, ../../sass/wiki_block/wiki_block.scss */
+  .url_img_wiki a.class_all {
+    width: 120px;
+    left: 83.7%;
+    top: 32%;
+  }
+
+  /* line 120, ../../sass/wiki_block/wiki_block.scss */
+  /* line 126, ../../sass/wiki_block/wiki_block.scss */
+  /* line 179, ../../sass/wiki_block/wiki_block.scss */
   hr.wiki_img_hr {
     margin-top: -2.5%;
   }

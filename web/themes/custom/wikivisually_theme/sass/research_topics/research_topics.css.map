@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,kCAAiC;EAC/B,YAAY,EAAE,kBAAkB;EAChC,MAAM,EAAE,SAAS;EACjB,UAAU,EAAE,IAAI;AAElB,gBAAe;EACb,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,gBAAgB;AAE3B,uBAAsB;EACpB,OAAO,EAAE,IAAI;AAEf,iCAAgC;EAC9B,UAAU,EAAE,MAAM;;AAItB,0CAA2C;EACzC,gBAAiB;IACf,OAAO,EAAE,gBAAgB",
+"sources": ["research_topics.scss"],
+"names": [],
+"file": "research_topics.css"
+}

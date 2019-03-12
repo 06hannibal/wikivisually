@@ -12,7 +12,7 @@ dependencies:
 id: views_block__top_lists_top_lists
 theme: wikivisually_theme
 region: sidebar_top_list
-weight: -11
+weight: -10
 provider: null
 plugin: 'views_block:top_lists-top_lists'
 settings:

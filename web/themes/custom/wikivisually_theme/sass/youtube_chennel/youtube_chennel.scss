@@ -1,0 +1,21 @@
+#block-wikivisually-theme-youtubechannelblock {
+  h2.block-title {
+    color: black;
+    font-weight: bold;
+  }
+  div#youtube-block {
+    ul li {
+      display: flex;
+      align-items: center;
+    }
+    div {
+      &.youtube-stat {
+        font-size: 11px;
+        color: #767675;
+      }
+      &.right-stat {
+        margin-left: 15px;
+      }
+    }
+  }
+}

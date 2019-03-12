@@ -1,0 +1,22 @@
+uuid: ad3209d3-c63d-4270-842d-149464f406a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - wikivisually_home
+  theme:
+    - wikivisually_theme
+id: wikivisuallyhomeblock_3
+theme: wikivisually_theme
+region: header
+weight: -9
+provider: null
+plugin: wikivisually_home_block
+settings:
+  id: wikivisually_home_block
+  label: 'Wikivisually Home Block'
+  provider: wikivisually_home
+  label_display: '0'
+  title: ''
+  description: 'click links in text for more info'
+visibility: {  }

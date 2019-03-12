@@ -1,5 +1,5 @@
 div#youtube-block {
-  min-width: 105%; }
+  min-width: 108%; }
 
 #youtube-block img {
   border: 1px solid #c3c3c3;
@@ -9,7 +9,8 @@ div#youtube-block {
   list-style-type: none; }
 #youtube-block .youtube-stat {
   color: #50b432; }
-#youtube-block .right-stat {
+
+#block-youtubesearchblock #youtube-block .right-stat {
   position: relative;
   left: 27%;
   top: -100px; }
@@ -17,10 +18,10 @@ div#youtube-block {
 .youtubesearch-frame {
   display: none;
   position: absolute;
-  width: 90%;
-  right: 60%;
-  height: 135%;
-  top: -9%;
+  width: 130%;
+  right: 40%;
+  height: 225%;
+  top: -20%;
   box-shadow: 0px 60px 1340px 540px #c91a1a;
   z-index: 5; }
 
@@ -78,10 +79,10 @@ aside.page_wiki {
   .youtubesearch-frame {
     display: none;
     position: absolute;
-    width: 90%;
-    right: 60%;
-    height: 135%;
-    top: -11%;
+    width: 98%;
+    right: 50%;
+    height: 10%;
+    top: -3%;
     box-shadow: 0px 60px 1340px 540px #c91a1a;
     z-index: 5; }
 
@@ -90,30 +91,33 @@ aside.page_wiki {
     z-index: 9999;
     position: absolute;
     left: 80%;
-    bottom: 113%;
+    bottom: 102%;
     color: #f4dbdb;
     font-size: 170%; }
 
   #youtube-block a.youtubesearch-close {
     text-decoration: none; }
 
-  #block-youtubesearchblock div.left-stat img {
-    width: 155px;
-    height: 89px; }
-  #block-youtubesearchblock ul li div.title {
-    position: relative;
-    top: -80px;
-    left: 45%;
-    width: 160px; }
-  #block-youtubesearchblock ul li div.youtube-stat {
-    position: relative;
-    top: -80px;
-    left: 160px;
-    width: 200px; }
-  #block-youtubesearchblock div#youtube-block ul li {
-    width: 350px;
-    height: 110px; }
-  #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
-    float: right; } }
+  #block-youtubesearchblock {
+    position: unset;
+    width: 109%; }
+    #block-youtubesearchblock div.left-stat img {
+      width: 155px;
+      height: 89px; }
+    #block-youtubesearchblock ul li div.title {
+      position: relative;
+      top: -80px;
+      left: 45%;
+      width: 160px; }
+    #block-youtubesearchblock ul li div.youtube-stat {
+      position: relative;
+      top: -80px;
+      left: 160px;
+      width: 200px; }
+    #block-youtubesearchblock div#youtube-block ul li {
+      width: 350px;
+      height: 110px; }
+    #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
+      float: right; } }
 
 /*# sourceMappingURL=youtube_search.css.map */

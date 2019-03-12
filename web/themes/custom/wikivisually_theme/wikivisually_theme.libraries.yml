@@ -5,6 +5,10 @@ global-styling:
       css/search_page/search_page.css: {}
       css/wiki_block/wiki_block.css: {}
       css/youtube_search/youtube_search.css: {}
+      css/wiki_content/wiki_content.css: {}
+      css/youtube_chennel/youtube_chennel.css: {}
+      css/featured_articles/featured_articles.css: {}
+      css/research_topics/research_topics.css: {}
   js:
     js/style.js: {}
   dependencies:

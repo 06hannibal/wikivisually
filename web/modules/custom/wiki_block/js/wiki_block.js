@@ -116,7 +116,6 @@
           }
           $(function () {
             $(".url_img_wiki img").once().click(function(e){
-              console.log(this);
               $('a.image img.img_close').remove();
               $('a.image a.img_close').remove();
               string = $( this ).attr('src').split("/");
@@ -141,6 +140,7 @@
               wiki_link = $( this );
               url_title_wiki = wiki_link.attr('href');
               title_wiki = url_title_wiki.substr(6);
+              $( this ).append( $("<div class='popap-wiki style-popap-wiki'></div>"));
               jQuery.ajax({
                 url: "https://en.wikipedia.org/w/api.php?format=json&action=parse&page="+ title_wiki,
                 dataType: "jsonp",
@@ -151,7 +151,6 @@
                   });
                 }
               });
-              $( this ).append( $("<div class='popap-wiki'></div>"));
             },function() {
               $( this ).find("div.popap-wiki").remove();
             });

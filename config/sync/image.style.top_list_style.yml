@@ -1,0 +1,14 @@
+uuid: d4f2e2a6-9e6e-4552-922b-39c57b13afda
+langcode: en
+status: true
+dependencies: {  }
+name: top_list_style
+label: 'top_list_style (65×65)'
+effects:
+  54bf0627-5571-47cc-b3e1-c876b6bd40c4:
+    uuid: 54bf0627-5571-47cc-b3e1-c876b6bd40c4
+    id: image_resize
+    weight: 1
+    data:
+      width: 65
+      height: 65
