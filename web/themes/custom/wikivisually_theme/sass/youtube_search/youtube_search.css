@@ -20,8 +20,8 @@ div#youtube-block {
   position: absolute;
   width: 130%;
   right: 40%;
-  height: 225%;
-  top: -20%;
+  height: 25%;
+  top: -3%;
   box-shadow: 0px 60px 1340px 540px #c91a1a;
   z-index: 5; }
 
@@ -30,7 +30,7 @@ div#youtube-block {
   z-index: 9999;
   position: absolute;
   left: 80%;
-  bottom: 110%;
+  bottom: 103%;
   color: #f4dbdb;
   font-size: 220%; }
 
@@ -66,7 +66,16 @@ aside.page_wiki {
 #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
   float: right; }
 
+@media only screen and (max-width: 1440px) {
+  div#youtube-block {
+    min-width: 125%; }
+
+  #block-youtubesearchblock ul li div.title {
+    width: 140px; } }
 @media only screen and (max-width: 1366px) {
+  div#youtube-block {
+    min-width: 108%; }
+
   aside.page_wiki {
     padding: 0px;
     left: 4%; }
@@ -79,9 +88,9 @@ aside.page_wiki {
   .youtubesearch-frame {
     display: none;
     position: absolute;
-    width: 98%;
-    right: 50%;
-    height: 10%;
+    width: 112%;
+    right: 46%;
+    height: 18%;
     top: -3%;
     box-shadow: 0px 60px 1340px 540px #c91a1a;
     z-index: 5; }
@@ -119,5 +128,191 @@ aside.page_wiki {
       height: 110px; }
     #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
       float: right; } }
+@media only screen and (max-width: 1199px) {
+  aside.page_wiki {
+    left: 37%; }
+
+  #block-youtubesearchblock div.class-overflow {
+    width: 110%; }
+
+  div#youtube-block {
+    min-width: 100%; }
+
+  #block-youtubesearchblock div.class-overflow {
+    width: 150%; }
+
+  #youtube-block {
+    width: 100%; }
+
+  #block-wikichannelblock {
+    width: 163%; } }
+@media only screen and (max-width: 1024px) {
+  section.wiki-controller {
+    width: 90%;
+    position: unset;
+    margin-top: 0%; }
+
+  aside.page_wiki {
+    left: 6%;
+    width: 80%; }
+
+  #block-youtubesearchblock div.class-overflow {
+    width: 140%; }
+  #block-youtubesearchblock div ul {
+    padding: 20px; }
+  #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
+    position: relative;
+    right: 25%; }
+
+  #block-wikichannelblock h2.block-title {
+    text-align: center;
+    width: 90%;
+    font-size: 270%; }
+
+  #block-youtubesearchblock h2.block-title {
+    width: 135%;
+    text-align: center;
+    font-size: 240%; }
+
+  div.region-page-wiki {
+    width: 120%; }
+  div#youtube-block div.left-stat img {
+    width: 250px;
+    height: 150px; }
+  div.wiki_img_block {
+    width: 90%;
+    font-size: 140%; }
+
+  #block-youtubesearchblock ul li div.title {
+    top: -150px;
+    left: 75%;
+    font-size: 140%;
+    width: 60%; }
+  #block-youtubesearchblock ul li div.youtube-stat {
+    top: -150px;
+    left: 75%;
+    font-size: 110%; } }
+@media only screen and (max-width: 991px) {
+  section.wiki-controller {
+    margin-top: 30%; }
+
+  div#youtube-block div.left-stat img {
+    width: 70%;
+    height: 150px; }
+
+  #block-youtubesearchblock ul li div.title {
+    font-size: 110%;
+    width: 40%; }
+  #block-youtubesearchblock ul li div.youtube-stat {
+    font-size: 90%; } }
+@media only screen and (max-width: 926px) {
+  section.wiki-controller {
+    margin-top: 31%; }
+
+  div#youtube-block {
+    min-width: 115%; } }
+@media only screen and (max-width: 883px) {
+  section.wiki-controller {
+    margin-top: 33%; } }
+@media only screen and (max-width: 807px) {
+  section.wiki-controller {
+    margin-top: 35%; }
+
+  div#youtube-block div.left-stat img {
+    width: 60%;
+    height: 130px; }
+
+  #block-youtubesearchblock ul li div.title {
+    top: -120px;
+    left: 65%;
+    font-size: 100%;
+    width: 40%; }
+  #block-youtubesearchblock ul li div.youtube-stat {
+    top: -120px;
+    left: 65%; } }
+@media only screen and (max-width: 768px) {
+  section.wiki-controller {
+    width: 200%;
+    margin-top: 86%;
+    font-size: 220%; }
+
+  div.region-page-wiki {
+    width: 270%; }
+
+  #block-youtubesearchblock {
+    position: unset;
+    width: 129%; }
+    #block-youtubesearchblock div.class-overflow {
+      height: 280px; }
+    #block-youtubesearchblock h2.block-title {
+      width: 115%; }
+    #block-youtubesearchblock div.class-overflow {
+      width: 110%; }
+    #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
+      position: relative;
+      right: 35%; }
+    #block-youtubesearchblock div ul {
+      padding: 50px; }
+
+  div#youtube-block div.left-stat img {
+    width: 120%;
+    height: 180px; }
+
+  #block-youtubesearchblock ul li div.title {
+    top: -180px;
+    left: 125%;
+    font-size: 210%;
+    width: 80%; }
+  #block-youtubesearchblock ul li div.youtube-stat {
+    top: -160px;
+    left: 125%;
+    font-size: 220%;
+    width: 80%; }
+
+  div.height-row {
+    width: 116%; }
+  div.art-rel-list {
+    font-size: 130%; }
+
+  .related_research_topics {
+    text-align: center;
+    font-size: 130%; }
+
+  div.art-rel-list {
+    font-size: 90%; }
+  div.wiki_img_block {
+    font-size: 260%; } }
+@media only screen and (max-width: 767px) {
+  section.wiki-controller {
+    margin-top: 0%; }
+
+  div.art-rel-list {
+    font-size: 90%; } }
+@media only screen and (max-width: 654px) {
+  div#youtube-block div.left-stat img {
+    width: 100%;
+    height: 170px; }
+
+  #block-youtubesearchblock ul li div.title, #block-youtubesearchblock ul li div.youtube-stat {
+    left: 105%; }
+  #block-youtubesearchblock div.class-overflow {
+    width: 120%; }
+
+  div.art-rel-list {
+    font-size: 30px; } }
+@media only screen and (max-width: 574px) {
+  #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
+    float: none;
+    position: relative;
+    right: 0%; } }
+@media only screen and (max-width: 425px) {
+  div.height-row {
+    width: 140%; }
+
+  section.wiki-controller {
+    width: 230%; }
+
+  div.art-rel-list {
+    font-size: 100%; } }
 
 /*# sourceMappingURL=youtube_search.css.map */

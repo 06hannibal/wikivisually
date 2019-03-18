@@ -1,4 +1,9 @@
 a.view-home-page-fetured {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 5px;
+  text-decoration: none;
   div {
     &.title_wiki {
       color: black;
@@ -13,9 +18,28 @@ a.view-home-page-fetured {
       }
     }
   }
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  padding: 5px;
-  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  section.row-controller {
+    width: 200%;
+  }
+  div.view-featured-page div.view-header h2 {
+    font-size: 60px;
+  }
+  #block-views-block-featured-block-featured-block {
+    width: 180%;
+    h2.block-title {
+      font-size: 400%;
+    }
+    img {
+      width: 100%;
+    }
+    div.title_wiki {
+      font-size: 220%;
+    }
+  }
+  a.view-home-page-fetured div.img_wiki img {
+    width: 600px;
+  }
 }

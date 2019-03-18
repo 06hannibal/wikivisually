@@ -66,4 +66,10 @@ class SearchController extends ControllerBase {
     return $build;
 
   }
+    /**
+     * {@inheritdoc}
+     */
+    public function getCacheMaxAge() {
+        return 0;
+    }
 }

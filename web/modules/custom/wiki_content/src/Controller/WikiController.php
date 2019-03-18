@@ -92,4 +92,10 @@ class WikiController extends ControllerBase {
     $page_title = str_replace('_', ' ', $title);
     return $page_title;
   }
+    /**
+     * {@inheritdoc}
+     */
+    public function getCacheMaxAge() {
+        return 0;
+    }
 }

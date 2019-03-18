@@ -51,3 +51,19 @@ img.img-search {
     left: 30%;
   }
 }
+@media only screen and (max-width: 1024px) {
+  /* line 55, ../../sass/search_page/search_page.scss */
+  div#youtube-block div.left-stat img {
+    width: 200px;
+    height: 120px;
+  }
+
+  /* line 60, ../../sass/search_page/search_page.scss */
+  #block-youtubesearchblock ul li div.title {
+    left: 60%;
+  }
+  /* line 63, ../../sass/search_page/search_page.scss */
+  #block-youtubesearchblock ul li div.youtube-stat {
+    left: 210px;
+  }
+}

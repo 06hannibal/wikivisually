@@ -32,5 +32,14 @@ img.img-search {
     position: absolute;
     z-index: 999;
     left: 30%; } }
+@media only screen and (max-width: 1024px) {
+  div#youtube-block div.left-stat img {
+    width: 200px;
+    height: 120px; }
+
+  #block-youtubesearchblock ul li div.title {
+    left: 60%; }
+  #block-youtubesearchblock ul li div.youtube-stat {
+    left: 210px; } }
 
 /*# sourceMappingURL=search_page.css.map */

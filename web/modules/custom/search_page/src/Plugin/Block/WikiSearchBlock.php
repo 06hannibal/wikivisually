@@ -26,4 +26,10 @@ class WikiSearchBlock extends BlockBase {
 
     return $build;
   }
+    /**
+     * {@inheritdoc}
+     */
+    public function getCacheMaxAge() {
+        return 0;
+    }
 }

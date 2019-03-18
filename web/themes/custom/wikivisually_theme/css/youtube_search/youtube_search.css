@@ -3,128 +3,144 @@ div#youtube-block {
   min-width: 108%;
 }
 
-/* line 5, ../../sass/youtube_search/youtube_search.scss */
+/* line 6, ../../sass/youtube_search/youtube_search.scss */
 #youtube-block img {
   border: 1px solid #c3c3c3;
   height: 160px;
   padding: 0px;
 }
-/* line 10, ../../sass/youtube_search/youtube_search.scss */
+/* line 11, ../../sass/youtube_search/youtube_search.scss */
 #youtube-block li {
   list-style-type: none;
 }
-/* line 13, ../../sass/youtube_search/youtube_search.scss */
+/* line 14, ../../sass/youtube_search/youtube_search.scss */
 #youtube-block .youtube-stat {
   color: #50b432;
 }
 
-/* line 17, ../../sass/youtube_search/youtube_search.scss */
+/* line 19, ../../sass/youtube_search/youtube_search.scss */
 #block-youtubesearchblock #youtube-block .right-stat {
   position: relative;
   left: 27%;
   top: -100px;
 }
 
-/* line 22, ../../sass/youtube_search/youtube_search.scss */
+/* line 25, ../../sass/youtube_search/youtube_search.scss */
 .youtubesearch-frame {
   display: none;
   position: absolute;
   width: 130%;
   right: 40%;
-  height: 225%;
-  top: -20%;
+  height: 25%;
+  top: -3%;
   box-shadow: 0px 60px 1340px 540px #c91a1a;
   z-index: 5;
 }
 
-/* line 32, ../../sass/youtube_search/youtube_search.scss */
+/* line 36, ../../sass/youtube_search/youtube_search.scss */
 .youtubesearch-close {
   display: none;
   z-index: 9999;
   position: absolute;
   left: 80%;
-  bottom: 110%;
+  bottom: 103%;
   color: #f4dbdb;
   font-size: 220%;
 }
 
-/* line 41, ../../sass/youtube_search/youtube_search.scss */
+/* line 46, ../../sass/youtube_search/youtube_search.scss */
 #youtube-block a.youtubesearch-close {
   text-decoration: none;
 }
 
-/* line 44, ../../sass/youtube_search/youtube_search.scss */
+/* line 50, ../../sass/youtube_search/youtube_search.scss */
 aside.page_wiki {
   padding: 0px;
   left: 5%;
 }
 
-/* line 50, ../../sass/youtube_search/youtube_search.scss */
+/* line 57, ../../sass/youtube_search/youtube_search.scss */
 #block-youtubesearchblock div.class-overflow {
   height: 200px;
   overflow-x: hidden;
   overflow-y: auto;
 }
-/* line 55, ../../sass/youtube_search/youtube_search.scss */
+/* line 62, ../../sass/youtube_search/youtube_search.scss */
 #block-youtubesearchblock div ul {
   padding: 0px;
 }
-/* line 58, ../../sass/youtube_search/youtube_search.scss */
+/* line 65, ../../sass/youtube_search/youtube_search.scss */
 #block-youtubesearchblock div.left-stat img {
   width: 155px;
   height: 89px;
 }
-/* line 64, ../../sass/youtube_search/youtube_search.scss */
+/* line 71, ../../sass/youtube_search/youtube_search.scss */
 #block-youtubesearchblock ul li div.title {
   position: relative;
   top: -80px;
   left: 32%;
   width: 260px;
 }
-/* line 70, ../../sass/youtube_search/youtube_search.scss */
+/* line 77, ../../sass/youtube_search/youtube_search.scss */
 #block-youtubesearchblock ul li div.youtube-stat {
   position: relative;
   top: -80px;
   left: 160px;
   width: 200px;
 }
-/* line 78, ../../sass/youtube_search/youtube_search.scss */
+/* line 85, ../../sass/youtube_search/youtube_search.scss */
 #block-youtubesearchblock div#youtube-block ul li {
   width: 500px;
   height: 100px;
 }
-/* line 82, ../../sass/youtube_search/youtube_search.scss */
+/* line 89, ../../sass/youtube_search/youtube_search.scss */
 #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
   float: right;
 }
 
+@media only screen and (max-width: 1440px) {
+  /* line 96, ../../sass/youtube_search/youtube_search.scss */
+  div#youtube-block {
+    min-width: 125%;
+  }
+
+  /* line 99, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock ul li div.title {
+    width: 140px;
+  }
+}
 @media only screen and (max-width: 1366px) {
-  /* line 88, ../../sass/youtube_search/youtube_search.scss */
+  /* line 105, ../../sass/youtube_search/youtube_search.scss */
+  div#youtube-block {
+    min-width: 108%;
+  }
+
+  /* line 108, ../../sass/youtube_search/youtube_search.scss */
   aside.page_wiki {
     padding: 0px;
     left: 4%;
   }
 
-  /* line 92, ../../sass/youtube_search/youtube_search.scss */
+  /* line 112, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock div.class-overflow {
     height: 200px;
     overflow-x: hidden;
     overflow-y: auto;
   }
 
-  /* line 97, ../../sass/youtube_search/youtube_search.scss */
+  /* line 117, ../../sass/youtube_search/youtube_search.scss */
   .youtubesearch-frame {
     display: none;
     position: absolute;
-    width: 98%;
-    right: 50%;
-    height: 10%;
+    width: 112%;
+    right: 46%;
+    height: 18%;
     top: -3%;
     box-shadow: 0px 60px 1340px 540px #c91a1a;
     z-index: 5;
   }
 
-  /* line 107, ../../sass/youtube_search/youtube_search.scss */
+  /* line 127, ../../sass/youtube_search/youtube_search.scss */
   .youtubesearch-close {
     display: none;
     z-index: 9999;
@@ -135,42 +151,349 @@ aside.page_wiki {
     font-size: 170%;
   }
 
-  /* line 116, ../../sass/youtube_search/youtube_search.scss */
+  /* line 136, ../../sass/youtube_search/youtube_search.scss */
   #youtube-block a.youtubesearch-close {
     text-decoration: none;
   }
 
-  /* line 119, ../../sass/youtube_search/youtube_search.scss */
+  /* line 139, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock {
     position: unset;
     width: 109%;
   }
-  /* line 122, ../../sass/youtube_search/youtube_search.scss */
+  /* line 142, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock div.left-stat img {
     width: 155px;
     height: 89px;
   }
-  /* line 127, ../../sass/youtube_search/youtube_search.scss */
+  /* line 147, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock ul li div.title {
     position: relative;
     top: -80px;
     left: 45%;
     width: 160px;
   }
-  /* line 133, ../../sass/youtube_search/youtube_search.scss */
+  /* line 153, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock ul li div.youtube-stat {
     position: relative;
     top: -80px;
     left: 160px;
     width: 200px;
   }
-  /* line 141, ../../sass/youtube_search/youtube_search.scss */
+  /* line 161, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock div#youtube-block ul li {
     width: 350px;
     height: 110px;
   }
-  /* line 145, ../../sass/youtube_search/youtube_search.scss */
+  /* line 165, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
     float: right;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  /* line 173, ../../sass/youtube_search/youtube_search.scss */
+  aside.page_wiki {
+    left: 37%;
+  }
+
+  /* line 176, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock div.class-overflow {
+    width: 110%;
+  }
+
+  /* line 179, ../../sass/youtube_search/youtube_search.scss */
+  div#youtube-block {
+    min-width: 100%;
+  }
+
+  /* line 182, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock div.class-overflow {
+    width: 150%;
+  }
+
+  /* line 185, ../../sass/youtube_search/youtube_search.scss */
+  #youtube-block {
+    width: 100%;
+  }
+
+  /* line 188, ../../sass/youtube_search/youtube_search.scss */
+  #block-wikichannelblock {
+    width: 163%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  /* line 194, ../../sass/youtube_search/youtube_search.scss */
+  section.wiki-controller {
+    width: 90%;
+    position: unset;
+    margin-top: 0%;
+  }
+
+  /* line 199, ../../sass/youtube_search/youtube_search.scss */
+  aside.page_wiki {
+    left: 6%;
+    width: 80%;
+  }
+
+  /* line 204, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock div.class-overflow {
+    width: 140%;
+  }
+  /* line 207, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock div ul {
+    padding: 20px;
+  }
+  /* line 210, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
+    position: relative;
+    right: 25%;
+  }
+
+  /* line 215, ../../sass/youtube_search/youtube_search.scss */
+  #block-wikichannelblock h2.block-title {
+    text-align: center;
+    width: 90%;
+    font-size: 270%;
+  }
+
+  /* line 220, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock h2.block-title {
+    width: 135%;
+    text-align: center;
+    font-size: 240%;
+  }
+
+  /* line 226, ../../sass/youtube_search/youtube_search.scss */
+  div.region-page-wiki {
+    width: 120%;
+  }
+  /* line 229, ../../sass/youtube_search/youtube_search.scss */
+  div#youtube-block div.left-stat img {
+    width: 250px;
+    height: 150px;
+  }
+  /* line 233, ../../sass/youtube_search/youtube_search.scss */
+  div.wiki_img_block {
+    width: 90%;
+    font-size: 140%;
+  }
+
+  /* line 239, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock ul li div.title {
+    top: -150px;
+    left: 75%;
+    font-size: 140%;
+    width: 60%;
+  }
+  /* line 245, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock ul li div.youtube-stat {
+    top: -150px;
+    left: 75%;
+    font-size: 110%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  /* line 254, ../../sass/youtube_search/youtube_search.scss */
+  section.wiki-controller {
+    margin-top: 30%;
+  }
+
+  /* line 257, ../../sass/youtube_search/youtube_search.scss */
+  div#youtube-block div.left-stat img {
+    width: 70%;
+    height: 150px;
+  }
+
+  /* line 262, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock ul li div.title {
+    font-size: 110%;
+    width: 40%;
+  }
+  /* line 266, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock ul li div.youtube-stat {
+    font-size: 90%;
+  }
+}
+@media only screen and (max-width: 926px) {
+  /* line 273, ../../sass/youtube_search/youtube_search.scss */
+  section.wiki-controller {
+    margin-top: 31%;
+  }
+
+  /* line 276, ../../sass/youtube_search/youtube_search.scss */
+  div#youtube-block {
+    min-width: 115%;
+  }
+}
+@media only screen and (max-width: 883px) {
+  /* line 282, ../../sass/youtube_search/youtube_search.scss */
+  section.wiki-controller {
+    margin-top: 33%;
+  }
+}
+@media only screen and (max-width: 807px) {
+  /* line 288, ../../sass/youtube_search/youtube_search.scss */
+  section.wiki-controller {
+    margin-top: 35%;
+  }
+
+  /* line 291, ../../sass/youtube_search/youtube_search.scss */
+  div#youtube-block div.left-stat img {
+    width: 60%;
+    height: 130px;
+  }
+
+  /* line 296, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock ul li div.title {
+    top: -120px;
+    left: 65%;
+    font-size: 100%;
+    width: 40%;
+  }
+  /* line 302, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock ul li div.youtube-stat {
+    top: -120px;
+    left: 65%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 310, ../../sass/youtube_search/youtube_search.scss */
+  section.wiki-controller {
+    width: 200%;
+    margin-top: 86%;
+    font-size: 220%;
+  }
+
+  /* line 315, ../../sass/youtube_search/youtube_search.scss */
+  div.region-page-wiki {
+    width: 270%;
+  }
+
+  /* line 318, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock {
+    position: unset;
+    width: 129%;
+  }
+  /* line 321, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock div.class-overflow {
+    height: 280px;
+  }
+  /* line 324, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock h2.block-title {
+    width: 115%;
+  }
+  /* line 328, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock div.class-overflow {
+    width: 110%;
+  }
+  /* line 331, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
+    position: relative;
+    right: 35%;
+  }
+  /* line 335, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock div ul {
+    padding: 50px;
+  }
+
+  /* line 340, ../../sass/youtube_search/youtube_search.scss */
+  div#youtube-block div.left-stat img {
+    width: 120%;
+    height: 180px;
+  }
+
+  /* line 345, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock ul li div.title {
+    top: -180px;
+    left: 125%;
+    font-size: 210%;
+    width: 80%;
+  }
+  /* line 351, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock ul li div.youtube-stat {
+    top: -160px;
+    left: 125%;
+    font-size: 220%;
+    width: 80%;
+  }
+
+  /* line 359, ../../sass/youtube_search/youtube_search.scss */
+  div.height-row {
+    width: 116%;
+  }
+  /* line 362, ../../sass/youtube_search/youtube_search.scss */
+  div.art-rel-list {
+    font-size: 130%;
+  }
+
+  /* line 366, ../../sass/youtube_search/youtube_search.scss */
+  .related_research_topics {
+    text-align: center;
+    font-size: 130%;
+  }
+
+  /* line 371, ../../sass/youtube_search/youtube_search.scss */
+  div.art-rel-list {
+    font-size: 90%;
+  }
+  /* line 374, ../../sass/youtube_search/youtube_search.scss */
+  div.wiki_img_block {
+    font-size: 260%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 381, ../../sass/youtube_search/youtube_search.scss */
+  section.wiki-controller {
+    margin-top: 0%;
+  }
+
+  /* line 384, ../../sass/youtube_search/youtube_search.scss */
+  div.art-rel-list {
+    font-size: 90%;
+  }
+}
+@media only screen and (max-width: 654px) {
+  /* line 390, ../../sass/youtube_search/youtube_search.scss */
+  div#youtube-block div.left-stat img {
+    width: 100%;
+    height: 170px;
+  }
+
+  /* line 396, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock ul li div.title, #block-youtubesearchblock ul li div.youtube-stat {
+    left: 105%;
+  }
+  /* line 400, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock div.class-overflow {
+    width: 120%;
+  }
+
+  /* line 404, ../../sass/youtube_search/youtube_search.scss */
+  div.art-rel-list {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 574px) {
+  /* line 410, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
+    float: none;
+    position: relative;
+    right: 0%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /* line 418, ../../sass/youtube_search/youtube_search.scss */
+  div.height-row {
+    width: 140%;
+  }
+
+  /* line 421, ../../sass/youtube_search/youtube_search.scss */
+  section.wiki-controller {
+    width: 230%;
+  }
+
+  /* line 424, ../../sass/youtube_search/youtube_search.scss */
+  div.art-rel-list {
+    font-size: 100%;
   }
 }
