@@ -1,27 +1,12 @@
 @charset "UTF-8";
 
-/* Reset italic styling set by user agent */
-/* line 3, ../../sass/wiki_content/wiki_content.scss */
-/* line 6, ../../sass/wiki_content/wiki_content.scss */
-/* line 7, ../../sass/wiki_content/wiki_content.scss */
-
 cite, dfn {
   font-style: inherit;
 }
 
-/* Straight quote marks for <q> */
-/* line 9, ../../sass/wiki_content/wiki_content.scss */
-/* line 13, ../../sass/wiki_content/wiki_content.scss */
-/* line 15, ../../sass/wiki_content/wiki_content.scss */
-
 q {
   quotes: '"' '"' "'" "'";
 }
-
-/* Avoid collision of blockquote with floating elements by swapping margin and padding */
-/* line 15, ../../sass/wiki_content/wiki_content.scss */
-/* line 20, ../../sass/wiki_content/wiki_content.scss */
-/* line 23, ../../sass/wiki_content/wiki_content.scss */
 
 blockquote {
   overflow: hidden;
@@ -29,28 +14,13 @@ blockquote {
   padding: 0 40px;
 }
 
-/* Prevent the 'double bold' bug in Firefox when using DirectWrite */
-/* https://bugzilla.mozilla.org/show_bug.cgi?id=550128 */
-/* line 24, ../../sass/wiki_content/wiki_content.scss */
-/* line 30, ../../sass/wiki_content/wiki_content.scss */
-/* line 34, ../../sass/wiki_content/wiki_content.scss */
-
 strong.selflink {
   font-weight: 700;
 }
 
-/* Consistent size for <small>, <sub> and <sup> */
-/* line 30, ../../sass/wiki_content/wiki_content.scss */
-/* line 37, ../../sass/wiki_content/wiki_content.scss */
-/* line 42, ../../sass/wiki_content/wiki_content.scss */
-
 small {
   font-size: 85%;
 }
-
-/* line 35, ../../sass/wiki_content/wiki_content.scss */
-/* line 44, ../../sass/wiki_content/wiki_content.scss */
-/* line 50, ../../sass/wiki_content/wiki_content.scss */
 
 .mw-body-content {
   sub, sup {
@@ -58,37 +28,18 @@ small {
   }
 }
 
-/* line 40, ../../sass/wiki_content/wiki_content.scss */
-/* line 51, ../../sass/wiki_content/wiki_content.scss */
-/* line 58, ../../sass/wiki_content/wiki_content.scss */
-
 span.reference {
   font-size: 80%;
 }
-
-/* Same spacing for indented and unindented paragraphs on talk pages */
-/* line 46, ../../sass/wiki_content/wiki_content.scss */
-/* line 58, ../../sass/wiki_content/wiki_content.scss */
-/* line 66, ../../sass/wiki_content/wiki_content.scss */
 
 .ns-talk .mw-body-content dd {
   margin-top: 0.4em;
   margin-bottom: 0.4em;
 }
 
-/* Main page fixes */
-/* line 53, ../../sass/wiki_content/wiki_content.scss */
-/* line 66, ../../sass/wiki_content/wiki_content.scss */
-/* line 75, ../../sass/wiki_content/wiki_content.scss */
-
 #interwiki-completelist {
   font-weight: bold;
 }
-
-/* Reduce page jumps by hiding collapsed/dismissed content */
-/* line 60, ../../sass/wiki_content/wiki_content.scss */
-/* line 74, ../../sass/wiki_content/wiki_content.scss */
-/* line 84, ../../sass/wiki_content/wiki_content.scss */
 
 .client-js {
   .mw-special-Watchlist #watchlist-message, .NavFrame.collapsed .NavContent, .collapsible:not(.mw-made-collapsible).collapsed > tbody > tr:not(:first-child) {
@@ -96,112 +47,51 @@ span.reference {
   }
 }
 
-/* Adds padding above Watchlist announcements where new recentchanges/watchlist filters are enabled */
-/* line 67, ../../sass/wiki_content/wiki_content.scss */
-/* line 82, ../../sass/wiki_content/wiki_content.scss */
-/* line 93, ../../sass/wiki_content/wiki_content.scss */
-
 .mw-rcfilters-enabled .mw-specialpage-summary {
   margin-top: 1em;
 }
-
-/* Hide charinsert base for those not using the gadget */
-/* line 73, ../../sass/wiki_content/wiki_content.scss */
-/* line 89, ../../sass/wiki_content/wiki_content.scss */
-/* line 101, ../../sass/wiki_content/wiki_content.scss */
 
 #editpage-specialchars {
   display: none;
 }
 
-/* Highlight linked elements (such as clicked references) in blue */
-/* line 79, ../../sass/wiki_content/wiki_content.scss */
-/* line 96, ../../sass/wiki_content/wiki_content.scss */
-/* line 109, ../../sass/wiki_content/wiki_content.scss */
-
 body.action-info .mw-body-content :target {
   background-color: #def;
-  /* Fallback */
   background-color: rgba(0, 127, 255, 0.133);
 }
-
-/* line 85, ../../sass/wiki_content/wiki_content.scss */
-/* line 104, ../../sass/wiki_content/wiki_content.scss */
-/* line 118, ../../sass/wiki_content/wiki_content.scss */
 
 .citation {
   word-wrap: break-word;
   &:target {
     background-color: #def;
-    /* Fallback */
     background-color: rgba(0, 127, 255, 0.133);
   }
 }
 
-/* line 120, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 106, ../../sass/wiki_content/wiki_content.scss */
-/* line 86, ../../sass/wiki_content/wiki_content.scss */
-/* Styling for citations. Breaks long urls, etc., rather than overflowing box */
-/* For linked citation numbers and document IDs, where the number need not be shown
-   on a screen or a handheld, but should be included in the printed version */
 @media screen, handheld {
-  /* line 99, ../../sass/wiki_content/wiki_content.scss */
-  /* line 120, ../../sass/wiki_content/wiki_content.scss */
-  /* line 136, ../../sass/wiki_content/wiki_content.scss */
   .citation .printonly {
     display: none;
   }
 }
 
-/* Make the list of references smaller */
-/* Keep in sync with Template:Refbegin/styles.css */
-/* line 107, ../../sass/wiki_content/wiki_content.scss */
-/* line 129, ../../sass/wiki_content/wiki_content.scss */
-/* line 146, ../../sass/wiki_content/wiki_content.scss */
-
 ol.references {
   font-size: 90%;
-  /* Default font-size */
   margin-bottom: 0.5em;
 }
-
-/* line 113, ../../sass/wiki_content/wiki_content.scss */
-/* line 137, ../../sass/wiki_content/wiki_content.scss */
-/* line 155, ../../sass/wiki_content/wiki_content.scss */
 
 div.reflist {
   font-size: 90%;
-  /* Default font-size */
   margin-bottom: 0.5em;
   ol.references {
     font-size: 100%;
-    /* Reset font-size when nested in div.reflist */
     margin-bottom: 0;
-    /* Avoid double margin when nested in div.reflist */
     list-style-type: inherit;
-    /* Enable custom list style types */
   }
 }
-
-/* line 159, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 141, ../../sass/wiki_content/wiki_content.scss */
-/* line 117, ../../sass/wiki_content/wiki_content.scss */
-/* Allow hidden ref errors to be shown by user CSS */
-/* TemplateStyles */
-/* line 130, ../../sass/wiki_content/wiki_content.scss */
-/* line 157, ../../sass/wiki_content/wiki_content.scss */
-/* line 177, ../../sass/wiki_content/wiki_content.scss */
 
 span.brokenref {
   display: none;
 }
-
-/* Reset top margin for lists embedded in columns */
-/* line 136, ../../sass/wiki_content/wiki_content.scss */
-/* line 164, ../../sass/wiki_content/wiki_content.scss */
-/* line 185, ../../sass/wiki_content/wiki_content.scss */
 
 div.columns {
   margin-top: 0.3em;
@@ -210,24 +100,11 @@ div.columns {
   }
 }
 
-/* line 187, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 166, ../../sass/wiki_content/wiki_content.scss */
-/* line 138, ../../sass/wiki_content/wiki_content.scss */
-/* Avoid elements breaking between columns */
-/* line 145, ../../sass/wiki_content/wiki_content.scss */
-/* line 176, ../../sass/wiki_content/wiki_content.scss */
-/* line 199, ../../sass/wiki_content/wiki_content.scss */
-
 .nocolbreak {
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid-column;
 }
-
-/* line 152, ../../sass/wiki_content/wiki_content.scss */
-/* line 185, ../../sass/wiki_content/wiki_content.scss */
-/* line 209, ../../sass/wiki_content/wiki_content.scss */
 
 div.columns {
   li, dd dd {
@@ -236,15 +113,6 @@ div.columns {
     break-inside: avoid-column;
   }
 }
-
-/* Style for horizontal lists (separator following item).
-   @source mediawiki.org/wiki/Snippets/Horizontal_lists
-   @revision 8 (2016-05-21)
-   @author [[User:Edokter]]
- */
-/* line 166, ../../sass/wiki_content/wiki_content.scss */
-/* line 200, ../../sass/wiki_content/wiki_content.scss */
-/* line 225, ../../sass/wiki_content/wiki_content.scss */
 
 .hlist {
   dl, ol, ul {
@@ -339,97 +207,6 @@ div.columns {
   }
 }
 
-/* line 229, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 233, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 235, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 240, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 245, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 250, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 254, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 257, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 260, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 264, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 268, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 274, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 280, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 286, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 292, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 298, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 303, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 305, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 307, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 312, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 204, ../../sass/wiki_content/wiki_content.scss */
-/* line 208, ../../sass/wiki_content/wiki_content.scss */
-/* line 210, ../../sass/wiki_content/wiki_content.scss */
-/* line 215, ../../sass/wiki_content/wiki_content.scss */
-/* line 220, ../../sass/wiki_content/wiki_content.scss */
-/* line 225, ../../sass/wiki_content/wiki_content.scss */
-/* line 229, ../../sass/wiki_content/wiki_content.scss */
-/* line 232, ../../sass/wiki_content/wiki_content.scss */
-/* line 235, ../../sass/wiki_content/wiki_content.scss */
-/* line 239, ../../sass/wiki_content/wiki_content.scss */
-/* line 243, ../../sass/wiki_content/wiki_content.scss */
-/* line 249, ../../sass/wiki_content/wiki_content.scss */
-/* line 255, ../../sass/wiki_content/wiki_content.scss */
-/* line 261, ../../sass/wiki_content/wiki_content.scss */
-/* line 267, ../../sass/wiki_content/wiki_content.scss */
-/* line 273, ../../sass/wiki_content/wiki_content.scss */
-/* line 278, ../../sass/wiki_content/wiki_content.scss */
-/* line 280, ../../sass/wiki_content/wiki_content.scss */
-/* line 282, ../../sass/wiki_content/wiki_content.scss */
-/* line 287, ../../sass/wiki_content/wiki_content.scss */
-/* line 170, ../../sass/wiki_content/wiki_content.scss */
-/* line 174, ../../sass/wiki_content/wiki_content.scss */
-/* line 176, ../../sass/wiki_content/wiki_content.scss */
-/* line 181, ../../sass/wiki_content/wiki_content.scss */
-/* line 186, ../../sass/wiki_content/wiki_content.scss */
-/* line 191, ../../sass/wiki_content/wiki_content.scss */
-/* line 195, ../../sass/wiki_content/wiki_content.scss */
-/* line 198, ../../sass/wiki_content/wiki_content.scss */
-/* line 201, ../../sass/wiki_content/wiki_content.scss */
-/* line 205, ../../sass/wiki_content/wiki_content.scss */
-/* line 209, ../../sass/wiki_content/wiki_content.scss */
-/* line 215, ../../sass/wiki_content/wiki_content.scss */
-/* line 221, ../../sass/wiki_content/wiki_content.scss */
-/* line 227, ../../sass/wiki_content/wiki_content.scss */
-/* line 233, ../../sass/wiki_content/wiki_content.scss */
-/* line 239, ../../sass/wiki_content/wiki_content.scss */
-/* line 244, ../../sass/wiki_content/wiki_content.scss */
-/* line 246, ../../sass/wiki_content/wiki_content.scss */
-/* line 248, ../../sass/wiki_content/wiki_content.scss */
-/* line 253, ../../sass/wiki_content/wiki_content.scss */
-/* Display list items inline */
-/* Display nested lists inline */
-/* Hide empty list items */
-/* Generate interpuncts */
-/* Add parentheses around nested lists */
-/* Put ordinals in front of ordered list items */
-/* Unbulleted lists */
-/* line 273, ../../sass/wiki_content/wiki_content.scss */
-/* line 342, ../../sass/wiki_content/wiki_content.scss */
-/* line 388, ../../sass/wiki_content/wiki_content.scss */
-
 .plainlist {
   ol, ul {
     line-height: inherit;
@@ -441,17 +218,7 @@ div.columns {
   }
 }
 
-/* line 393, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 347, ../../sass/wiki_content/wiki_content.scss */
-/* line 278, ../../sass/wiki_content/wiki_content.scss */
-/* Default style for navigation boxes */
-/* line 285, ../../sass/wiki_content/wiki_content.scss */
-/* line 357, ../../sass/wiki_content/wiki_content.scss */
-/* line 405, ../../sass/wiki_content/wiki_content.scss */
-
 .navbox {
-  /* Navbox container style */
   box-sizing: border-box;
   border: 1px solid #a2a9b1;
   width: 100%;
@@ -460,169 +227,81 @@ div.columns {
   text-align: center;
   padding: 1px;
   margin: 1em auto 0;
-  /* Prevent preceding content from clinging to navboxes */
   .navbox {
     margin-top: 0;
-    /* No top margin for nested navboxes */
   }
   + .navbox {
     margin-top: -1px;
-    /* Single pixel border between adjacent navboxes */
   }
 }
-
-/* line 416, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 420, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 368, ../../sass/wiki_content/wiki_content.scss */
-/* line 372, ../../sass/wiki_content/wiki_content.scss */
-/* line 296, ../../sass/wiki_content/wiki_content.scss */
-/* line 300, ../../sass/wiki_content/wiki_content.scss */
-/* line 306, ../../sass/wiki_content/wiki_content.scss */
-/* line 384, ../../sass/wiki_content/wiki_content.scss */
-/* line 435, ../../sass/wiki_content/wiki_content.scss */
 
 .navbox-inner, .navbox-subgroup {
   width: 100%;
 }
 
-/* line 310, ../../sass/wiki_content/wiki_content.scss */
-/* line 390, ../../sass/wiki_content/wiki_content.scss */
-/* line 442, ../../sass/wiki_content/wiki_content.scss */
-
 .navbox-group, .navbox-title, .navbox-abovebelow {
   padding: 0.25em 1em;
-  /* Title, group and above/below styles */
   line-height: 1.5em;
   text-align: center;
 }
 
-/* line 317, ../../sass/wiki_content/wiki_content.scss */
-/* line 399, ../../sass/wiki_content/wiki_content.scss */
-/* line 452, ../../sass/wiki_content/wiki_content.scss */
-
 th.navbox-group {
-  /* Group style */
   white-space: nowrap;
-  /* @noflip */
   text-align: right;
 }
 
-/* line 324, ../../sass/wiki_content/wiki_content.scss */
-/* line 408, ../../sass/wiki_content/wiki_content.scss */
-/* line 462, ../../sass/wiki_content/wiki_content.scss */
-
 .navbox, .navbox-subgroup {
   background-color: #fdfdfd;
-  /* Background color */
 }
-
-/* line 329, ../../sass/wiki_content/wiki_content.scss */
-/* line 415, ../../sass/wiki_content/wiki_content.scss */
-/* line 470, ../../sass/wiki_content/wiki_content.scss */
 
 .navbox-list {
   line-height: 1.5em;
   border-color: #fdfdfd;
-  /* Must match background color */
 }
-
-/* cell spacing for navbox cells */
-/* line 338, ../../sass/wiki_content/wiki_content.scss */
-/* line 425, ../../sass/wiki_content/wiki_content.scss */
-/* line 481, ../../sass/wiki_content/wiki_content.scss */
 
 tr + tr > {
   .navbox-abovebelow, .navbox-group, .navbox-image, .navbox-list {
-    /* Borders above 2nd, 3rd, etc. rows */
     border-top: 2px solid #fdfdfd;
-    /* Must match background color */
   }
 }
 
-/* line 345, ../../sass/wiki_content/wiki_content.scss */
-/* line 434, ../../sass/wiki_content/wiki_content.scss */
-/* line 491, ../../sass/wiki_content/wiki_content.scss */
-
 .navbox th, .navbox-title {
   background-color: #ccccff;
-  /* Level 1 color */
 }
 
-/* line 350, ../../sass/wiki_content/wiki_content.scss */
-/* line 441, ../../sass/wiki_content/wiki_content.scss */
-/* line 499, ../../sass/wiki_content/wiki_content.scss */
-
-.navbox-abovebelow, th.navbox-group {
+box-abovebelow, th.navbox-group {
   background-color: #ddddff;
-  /* Level 2 color */
 }
-
-/* line 356, ../../sass/wiki_content/wiki_content.scss */
-/* line 449, ../../sass/wiki_content/wiki_content.scss */
-/* line 508, ../../sass/wiki_content/wiki_content.scss */
 
 .navbox-subgroup {
   .navbox-title {
     background-color: #ddddff;
-    /* Level 2 color */
   }
   .navbox-group, .navbox-abovebelow {
     background-color: #e6e6ff;
-    /* Level 3 color */
   }
 }
 
-/* line 512, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 453, ../../sass/wiki_content/wiki_content.scss */
-/* line 360, ../../sass/wiki_content/wiki_content.scss */
-/* line 366, ../../sass/wiki_content/wiki_content.scss */
-/* line 463, ../../sass/wiki_content/wiki_content.scss */
-/* line 524, ../../sass/wiki_content/wiki_content.scss */
-
 .navbox-even {
   background-color: #f7f7f7;
-  /* Even row striping */
 }
-
-/* line 371, ../../sass/wiki_content/wiki_content.scss */
-/* line 470, ../../sass/wiki_content/wiki_content.scss */
-/* line 532, ../../sass/wiki_content/wiki_content.scss */
 
 .navbox-odd {
   background-color: transparent;
-  /* Odd row striping */
 }
-
-/* line 378, ../../sass/wiki_content/wiki_content.scss */
-/* line 479, ../../sass/wiki_content/wiki_content.scss */
-/* line 542, ../../sass/wiki_content/wiki_content.scss */
 
 .navbox {
   .hlist td {
     dl, ol, ul {
       padding: 0.125em 0;
-      /* Adjust hlist padding in navboxes */
     }
   }
   td.hlist {
     dl, ol, ul {
       padding: 0.125em 0;
-      /* Adjust hlist padding in navboxes */
     }
   }
 }
-
-/* line 548, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 485, ../../sass/wiki_content/wiki_content.scss */
-/* line 384, ../../sass/wiki_content/wiki_content.scss */
-/* Default styling for Navbar template */
-/* line 393, ../../sass/wiki_content/wiki_content.scss */
-/* line 497, ../../sass/wiki_content/wiki_content.scss */
-/* line 562, ../../sass/wiki_content/wiki_content.scss */
 
 .navbar {
   display: inline;
@@ -634,21 +313,9 @@ tr + tr > {
   }
 }
 
-/* line 566, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 501, ../../sass/wiki_content/wiki_content.scss */
-/* line 397, ../../sass/wiki_content/wiki_content.scss */
-/* line 403, ../../sass/wiki_content/wiki_content.scss */
-/* line 511, ../../sass/wiki_content/wiki_content.scss */
-/* line 578, ../../sass/wiki_content/wiki_content.scss */
-
 .mw-body-content .navbar ul {
   line-height: inherit;
 }
-
-/* line 408, ../../sass/wiki_content/wiki_content.scss */
-/* line 518, ../../sass/wiki_content/wiki_content.scss */
-/* line 586, ../../sass/wiki_content/wiki_content.scss */
 
 .navbar {
   li {
@@ -662,98 +329,49 @@ tr + tr > {
   }
 }
 
-/* line 589, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 521, ../../sass/wiki_content/wiki_content.scss */
-/* line 411, ../../sass/wiki_content/wiki_content.scss */
-/* Navbar styling when nested in infobox and navbox */
-/* line 421, ../../sass/wiki_content/wiki_content.scss */
-/* line 534, ../../sass/wiki_content/wiki_content.scss */
-/* line 604, ../../sass/wiki_content/wiki_content.scss */
-
 .infobox .navbar {
   font-size: 100%;
 }
-
-/* line 425, ../../sass/wiki_content/wiki_content.scss */
-/* line 540, ../../sass/wiki_content/wiki_content.scss */
-/* line 611, ../../sass/wiki_content/wiki_content.scss */
 
 .navbox .navbar {
   display: block;
   font-size: 100%;
 }
 
-/* line 430, ../../sass/wiki_content/wiki_content.scss */
-/* line 547, ../../sass/wiki_content/wiki_content.scss */
-/* line 619, ../../sass/wiki_content/wiki_content.scss */
-
 .navbox-title .navbar {
-  /* @noflip */
   float: left;
-  /* @noflip */
   text-align: left;
-  /* @noflip */
   margin-right: 0.5em;
 }
 
-/* 'show'/'hide' buttons created dynamically by the CollapsibleTables javascript
-   in [[MediaWiki:Common.js]] are styled here so they can be customised. */
-/* line 442, ../../sass/wiki_content/wiki_content.scss */
-/* line 560, ../../sass/wiki_content/wiki_content.scss */
-/* line 633, ../../sass/wiki_content/wiki_content.scss */
-
 .collapseButton {
-  /* @noflip */
   float: right;
   font-weight: normal;
-  /* @noflip */
   margin-left: 0.5em;
-  /* @noflip */
   text-align: right;
   width: auto;
 }
 
-/* Styling for JQuery makeCollapsible, matching that of collapseButton */
-/* line 455, ../../sass/wiki_content/wiki_content.scss */
-/* line 574, ../../sass/wiki_content/wiki_content.scss */
-/* line 648, ../../sass/wiki_content/wiki_content.scss */
-
 .mw-parser-output .mw-collapsible-toggle {
   font-weight: normal;
-  /* @noflip */
   text-align: right;
   padding-right: 0.2em;
   padding-left: 0.2em;
 }
 
-/* line 463, ../../sass/wiki_content/wiki_content.scss */
-/* line 584, ../../sass/wiki_content/wiki_content.scss */
-/* line 659, ../../sass/wiki_content/wiki_content.scss */
-
 .mw-collapsible-leftside-toggle .mw-collapsible-toggle {
-  /* @noflip */
   float: left;
-  /* @noflip */
   text-align: left;
 }
-
-/* Infobox template style */
-/* line 472, ../../sass/wiki_content/wiki_content.scss */
-/* line 594, ../../sass/wiki_content/wiki_content.scss */
-/* line 670, ../../sass/wiki_content/wiki_content.scss */
 
 .infobox {
   border: 1px solid #a2a9b1;
   border-spacing: 3px;
   background-color: #f8f9fa;
   color: black;
-  /* @noflip */
   margin: 0.5em 0 0.5em 1em;
   padding: 0.2em;
-  /* @noflip */
   float: right;
-  /* @noflip */
   clear: right;
   font-size: 88%;
   line-height: 1.5em;
@@ -765,7 +383,6 @@ tr + tr > {
   }
   td, th {
     vertical-align: top;
-    /* @noflip */
     text-align: left;
   }
   &.bordered {
@@ -797,14 +414,12 @@ tr + tr > {
       td, th {
         border: 0;
         border-top: 1px solid #a2a9b1;
-        /* @noflip */
         border-right: 1px solid #a2a9b1;
       }
     }
     .mergedrow {
       td, th {
         border: 0;
-        /* @noflip */
         border-right: 1px solid #a2a9b1;
       }
     }
@@ -845,109 +460,21 @@ tr + tr > {
   }
 }
 
-/* line 684, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 690, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 695, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 697, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 701, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 706, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 710, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 714, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 721, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 729, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 736, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 740, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 745, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 751, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 757, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 764, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 608, ../../sass/wiki_content/wiki_content.scss */
-/* line 614, ../../sass/wiki_content/wiki_content.scss */
-/* line 619, ../../sass/wiki_content/wiki_content.scss */
-/* line 621, ../../sass/wiki_content/wiki_content.scss */
-/* line 625, ../../sass/wiki_content/wiki_content.scss */
-/* line 630, ../../sass/wiki_content/wiki_content.scss */
-/* line 634, ../../sass/wiki_content/wiki_content.scss */
-/* line 638, ../../sass/wiki_content/wiki_content.scss */
-/* line 645, ../../sass/wiki_content/wiki_content.scss */
-/* line 653, ../../sass/wiki_content/wiki_content.scss */
-/* line 660, ../../sass/wiki_content/wiki_content.scss */
-/* line 664, ../../sass/wiki_content/wiki_content.scss */
-/* line 669, ../../sass/wiki_content/wiki_content.scss */
-/* line 675, ../../sass/wiki_content/wiki_content.scss */
-/* line 681, ../../sass/wiki_content/wiki_content.scss */
-/* line 688, ../../sass/wiki_content/wiki_content.scss */
-/* line 486, ../../sass/wiki_content/wiki_content.scss */
-/* line 492, ../../sass/wiki_content/wiki_content.scss */
-/* line 497, ../../sass/wiki_content/wiki_content.scss */
-/* line 499, ../../sass/wiki_content/wiki_content.scss */
-/* line 503, ../../sass/wiki_content/wiki_content.scss */
-/* line 508, ../../sass/wiki_content/wiki_content.scss */
-/* line 512, ../../sass/wiki_content/wiki_content.scss */
-/* line 516, ../../sass/wiki_content/wiki_content.scss */
-/* line 523, ../../sass/wiki_content/wiki_content.scss */
-/* line 531, ../../sass/wiki_content/wiki_content.scss */
-/* line 538, ../../sass/wiki_content/wiki_content.scss */
-/* line 542, ../../sass/wiki_content/wiki_content.scss */
-/* line 547, ../../sass/wiki_content/wiki_content.scss */
-/* line 553, ../../sass/wiki_content/wiki_content.scss */
-/* line 559, ../../sass/wiki_content/wiki_content.scss */
-/* line 566, ../../sass/wiki_content/wiki_content.scss */
-/* styles for bordered infobox with merged rows */
-/* Styles for geography infoboxes, eg countries,
-   country subdivisions, cities, etc.            */
-/* Normal font styling for wikitable row headers with scope="row" tag */
-/* line 582, ../../sass/wiki_content/wiki_content.scss */
-/* line 735, ../../sass/wiki_content/wiki_content.scss */
-/* line 828, ../../sass/wiki_content/wiki_content.scss */
-
 .wikitable {
   &.plainrowheaders th[scope=row] {
     font-weight: normal;
-    /* @noflip */
     text-align: left;
   }
   td {
     ul, ol, dl {
-      /* @noflip */
       text-align: left;
     }
   }
 }
 
-/* line 834, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 741, ../../sass/wiki_content/wiki_content.scss */
-/* line 588, ../../sass/wiki_content/wiki_content.scss */
-/* Lists in wikitable data cells are always left-aligned */
-/* ...unless they also use the hlist class */
-/* line 599, ../../sass/wiki_content/wiki_content.scss */
-/* line 754, ../../sass/wiki_content/wiki_content.scss */
-/* line 849, ../../sass/wiki_content/wiki_content.scss */
-
 .toc.hlist ul, #toc.hlist ul {
   text-align: inherit;
 }
-
-/* line 604, ../../sass/wiki_content/wiki_content.scss */
-/* line 761, ../../sass/wiki_content/wiki_content.scss */
-/* line 857, ../../sass/wiki_content/wiki_content.scss */
 
 .wikitable.hlist td {
   ul, ol, dl {
@@ -955,39 +482,19 @@ tr + tr > {
   }
 }
 
-/* Icons for medialist templates [[Template:Listen]],
-   [[Template:Multi-listen_start]], [[Template:Video]],
-   [[Template:Multi-video_start]] */
-/* TemplateStyles */
-/* line 614, ../../sass/wiki_content/wiki_content.scss */
-/* line 772, ../../sass/wiki_content/wiki_content.scss */
-/* line 869, ../../sass/wiki_content/wiki_content.scss */
-
 div.listenlist {
   background: url("//upload.wikimedia.org/wikipedia/commons/4/47/Sound-icon.svg") no-repeat scroll 0 0 transparent;
   background-size: 30px;
   padding-left: 40px;
 }
 
-/* Fix for hieroglyphs specificity issue in infoboxes ([[phab:T43869]]) */
-/* line 622, ../../sass/wiki_content/wiki_content.scss */
-/* line 781, ../../sass/wiki_content/wiki_content.scss */
-/* line 879, ../../sass/wiki_content/wiki_content.scss */
-
 table.mw-hiero-table td {
   vertical-align: middle;
 }
 
-/* Style rules for media list templates */
-/* TemplateStyles */
-/* line 629, ../../sass/wiki_content/wiki_content.scss */
-/* line 789, ../../sass/wiki_content/wiki_content.scss */
-/* line 888, ../../sass/wiki_content/wiki_content.scss */
-
 div.medialist {
   min-height: 50px;
   margin: 1em;
-  /* @noflip */
   background-position: top left;
   background-repeat: no-repeat;
   ul {
@@ -1004,35 +511,12 @@ div.medialist {
   }
 }
 
-/* line 894, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 898, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 900, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 795, ../../sass/wiki_content/wiki_content.scss */
-/* line 799, ../../sass/wiki_content/wiki_content.scss */
-/* line 801, ../../sass/wiki_content/wiki_content.scss */
-/* line 635, ../../sass/wiki_content/wiki_content.scss */
-/* line 639, ../../sass/wiki_content/wiki_content.scss */
-/* line 641, ../../sass/wiki_content/wiki_content.scss */
-/* Change the external link icon to an Adobe icon for all PDF files */
-/* line 652, ../../sass/wiki_content/wiki_content.scss */
-/* line 819, ../../sass/wiki_content/wiki_content.scss */
-/* line 922, ../../sass/wiki_content/wiki_content.scss */
-
 .mw-parser-output a {
   &[href$=".pdf"].external, &[href*=".pdf?"].external, &[href*=".pdf#"].external, &[href$=".PDF"].external, &[href*=".PDF?"].external, &[href*=".PDF#"].external {
     background: url("//upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif") no-repeat right;
-    /* @noflip */
     padding-right: 18px;
   }
 }
-
-/* Messagebox templates */
-/* line 661, ../../sass/wiki_content/wiki_content.scss */
-/* line 829, ../../sass/wiki_content/wiki_content.scss */
-/* line 933, ../../sass/wiki_content/wiki_content.scss */
 
 .messagebox {
   border: 1px solid #a2a9b1;
@@ -1057,23 +541,6 @@ div.medialist {
   }
 }
 
-/* line 939, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 944, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 949, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 835, ../../sass/wiki_content/wiki_content.scss */
-/* line 840, ../../sass/wiki_content/wiki_content.scss */
-/* line 845, ../../sass/wiki_content/wiki_content.scss */
-/* line 667, ../../sass/wiki_content/wiki_content.scss */
-/* line 672, ../../sass/wiki_content/wiki_content.scss */
-/* line 677, ../../sass/wiki_content/wiki_content.scss */
-/* For old WikiProject banners inside banner shells. */
-/* line 686, ../../sass/wiki_content/wiki_content.scss */
-/* line 861, ../../sass/wiki_content/wiki_content.scss */
-/* line 969, ../../sass/wiki_content/wiki_content.scss */
-
 .mbox-inside .standard-talk {
   border: 1px solid #c0c090;
   background-color: #f8eaba;
@@ -1081,10 +548,6 @@ div.medialist {
   margin: 2px 0;
   padding: 2px;
 }
-
-/* line 695, ../../sass/wiki_content/wiki_content.scss */
-/* line 872, ../../sass/wiki_content/wiki_content.scss */
-/* line 981, ../../sass/wiki_content/wiki_content.scss */
 
 .messagebox {
   &.nested-talk {
@@ -1097,568 +560,253 @@ div.medialist {
   &.small {
     width: 238px;
     font-size: 85%;
-    /* @noflip */
     float: right;
     clear: both;
-    /* @noflip */
     margin: 0 0 1em 1em;
     line-height: 1.25em;
   }
   &.small-talk {
     width: 238px;
     font-size: 85%;
-    /* @noflip */
     float: right;
     clear: both;
-    /* @noflip */
     margin: 0 0 1em 1em;
     line-height: 1.25em;
     background-color: #f8eaba;
   }
 }
 
-/* line 988, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 998, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 879, ../../sass/wiki_content/wiki_content.scss */
-/* line 889, ../../sass/wiki_content/wiki_content.scss */
-/* line 702, ../../sass/wiki_content/wiki_content.scss */
-/* line 712, ../../sass/wiki_content/wiki_content.scss */
-/* Cell sizes for ambox/tmbox/imbox/cmbox/ombox/fmbox/dmbox message boxes */
-/* line 727, ../../sass/wiki_content/wiki_content.scss */
-/* line 909, ../../sass/wiki_content/wiki_content.scss */
-/* line 1021, ../../sass/wiki_content/wiki_content.scss */
-
 th.mbox-text {
-  /* The message body cell(s) */
   border: none;
-  /* @noflip */
   padding: 0.25em 0.9em;
-  /* 0.9em left/right */
   width: 100%;
-  /* Make all mboxes the same width regardless of text length */
 }
-
-/* line 738, ../../sass/wiki_content/wiki_content.scss */
-/* line 922, ../../sass/wiki_content/wiki_content.scss */
-/* line 1035, ../../sass/wiki_content/wiki_content.scss */
 
 td {
   &.mbox-text {
-    /* The message body cell(s) */
     border: none;
-    /* @noflip */
     padding: 0.25em 0.9em;
-    /* 0.9em left/right */
     width: 100%;
-    /* Make all mboxes the same width regardless of text length */
   }
   &.mbox-image {
-    /* The left image cell */
     border: none;
-    /* @noflip */
     padding: 2px 0 2px 0.9em;
-    /* 0.9em left, 0px right */
     text-align: center;
   }
   &.mbox-imageright {
-    /* The right image cell */
     border: none;
-    /* @noflip */
     padding: 2px 0.9em 2px 0;
-    /* 0px left, 0.9em right */
     text-align: center;
   }
   &.mbox-empty-cell {
-    /* An empty narrow cell */
     border: none;
     padding: 0;
     width: 1px;
   }
 }
 
-/* line 1044, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1052, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1060, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 931, ../../sass/wiki_content/wiki_content.scss */
-/* line 939, ../../sass/wiki_content/wiki_content.scss */
-/* line 947, ../../sass/wiki_content/wiki_content.scss */
-/* line 747, ../../sass/wiki_content/wiki_content.scss */
-/* line 755, ../../sass/wiki_content/wiki_content.scss */
-/* line 763, ../../sass/wiki_content/wiki_content.scss */
-/* Article message box styles */
-/* line 773, ../../sass/wiki_content/wiki_content.scss */
-/* line 964, ../../sass/wiki_content/wiki_content.scss */
-/* line 1081, ../../sass/wiki_content/wiki_content.scss */
-
 table.ambox {
   margin: 0 10%;
-  /* 10% = Will not overlap with other elements */
   border: 1px solid #a2a9b1;
-  /* @noflip */
   border-left: 10px solid #36c;
-  /* Default "notice" blue */
   background-color: #fbfbfb;
   box-sizing: border-box;
   + table.ambox {
-    /* Single border between stacked boxes. */
     margin-top: -1px;
   }
 }
 
-/* line 1090, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 973, ../../sass/wiki_content/wiki_content.scss */
-/* line 782, ../../sass/wiki_content/wiki_content.scss */
-/* line 789, ../../sass/wiki_content/wiki_content.scss */
-/* line 984, ../../sass/wiki_content/wiki_content.scss */
-/* line 1103, ../../sass/wiki_content/wiki_content.scss */
-
 .ambox {
   th.mbox-text {
-    /* The message body cell(s) */
     padding: 0.25em 0.5em;
-    /* 0.5em left/right */
   }
   td {
     &.mbox-text {
-      /* The message body cell(s) */
       padding: 0.25em 0.5em;
-      /* 0.5em left/right */
     }
     &.mbox-image {
-      /* The left image cell */
-      /* @noflip */
       padding: 2px 0 2px 0.5em;
-      /* 0.5em left, 0px right */
     }
     &.mbox-imageright {
-      /* The right image cell */
-      /* @noflip */
       padding: 2px 0.5em 2px 0;
-      /* 0px left, 0.5em right */
     }
   }
 }
 
-/* line 1109, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1114, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1120, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 990, ../../sass/wiki_content/wiki_content.scss */
-/* line 995, ../../sass/wiki_content/wiki_content.scss */
-/* line 1001, ../../sass/wiki_content/wiki_content.scss */
-/* line 795, ../../sass/wiki_content/wiki_content.scss */
-/* line 800, ../../sass/wiki_content/wiki_content.scss */
-/* line 806, ../../sass/wiki_content/wiki_content.scss */
-/* line 816, ../../sass/wiki_content/wiki_content.scss */
-/* line 1019, ../../sass/wiki_content/wiki_content.scss */
-/* line 1142, ../../sass/wiki_content/wiki_content.scss */
-
 table {
   &.ambox-notice {
-    /* @noflip */
     border-left: 10px solid #36c;
-    /* Blue */
   }
   &.ambox-speedy {
-    /* @noflip */
     border-left: 10px solid #b32424;
-    /* Red */
     background-color: #fee7e6;
-    /* Pink */
   }
   &.ambox-delete {
-    /* @noflip */
     border-left: 10px solid #b32424;
-    /* Red */
   }
   &.ambox-content {
-    /* @noflip */
     border-left: 10px solid #f28500;
-    /* Orange */
   }
   &.ambox-style {
-    /* @noflip */
     border-left: 10px solid #fc3;
-    /* Yellow */
   }
   &.ambox-move {
-    /* @noflip */
     border-left: 10px solid #9932cc;
-    /* Purple */
   }
   &.ambox-protection {
-    /* @noflip */
     border-left: 10px solid #a2a9b1;
-    /* Gray-gold */
   }
   &.imbox {
     margin: 4px 10%;
     border-collapse: collapse;
     border: 3px solid #36c;
-    /* Default "notice" blue */
     background-color: #fbfbfb;
     box-sizing: border-box;
   }
 }
 
-/* line 1147, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1154, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1159, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1164, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1169, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1174, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1179, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1024, ../../sass/wiki_content/wiki_content.scss */
-/* line 1031, ../../sass/wiki_content/wiki_content.scss */
-/* line 1036, ../../sass/wiki_content/wiki_content.scss */
-/* line 1041, ../../sass/wiki_content/wiki_content.scss */
-/* line 1046, ../../sass/wiki_content/wiki_content.scss */
-/* line 1051, ../../sass/wiki_content/wiki_content.scss */
-/* line 1056, ../../sass/wiki_content/wiki_content.scss */
-/* line 821, ../../sass/wiki_content/wiki_content.scss */
-/* line 828, ../../sass/wiki_content/wiki_content.scss */
-/* line 833, ../../sass/wiki_content/wiki_content.scss */
-/* line 838, ../../sass/wiki_content/wiki_content.scss */
-/* line 843, ../../sass/wiki_content/wiki_content.scss */
-/* line 848, ../../sass/wiki_content/wiki_content.scss */
-/* line 853, ../../sass/wiki_content/wiki_content.scss */
-/* Image message box styles */
-/* line 865, ../../sass/wiki_content/wiki_content.scss */
-/* line 1083, ../../sass/wiki_content/wiki_content.scss */
-/* line 1214, ../../sass/wiki_content/wiki_content.scss */
-
 .imbox .mbox-text .imbox {
-  /* For imboxes inside imbox-text cells. */
   margin: 0 -0.5em;
-  /* 0.9 - 0.5 = 0.4em left/right.        */
   display: block;
-  /* Fix for webkit to force 100% width.  */
 }
-
-/* line 873, ../../sass/wiki_content/wiki_content.scss */
-/* line 1093, ../../sass/wiki_content/wiki_content.scss */
-/* line 1225, ../../sass/wiki_content/wiki_content.scss */
 
 .mbox-inside .imbox {
-  /* For imboxes inside other templates.  */
   margin: 4px;
 }
-
-/* line 879, ../../sass/wiki_content/wiki_content.scss */
-/* line 1101, ../../sass/wiki_content/wiki_content.scss */
-/* line 1234, ../../sass/wiki_content/wiki_content.scss */
 
 table {
   &.imbox-notice {
     border: 3px solid #36c;
-    /* Blue */
   }
   &.imbox-speedy {
     border: 3px solid #b32424;
-    /* Red */
     background-color: #fee7e6;
-    /* Pink */
   }
   &.imbox-delete {
     border: 3px solid #b32424;
-    /* Red */
   }
   &.imbox-content {
     border: 3px solid #f28500;
-    /* Orange */
   }
   &.imbox-style {
     border: 3px solid #fc3;
-    /* Yellow */
   }
   &.imbox-move {
     border: 3px solid #9932cc;
-    /* Purple */
   }
   &.imbox-protection {
     border: 3px solid #a2a9b1;
-    /* Gray-gold */
   }
   &.imbox-license {
     border: 3px solid #88a;
-    /* Dark gray */
     background-color: #f7f8ff;
-    /* Light gray */
   }
   &.imbox-featured {
     border: 3px solid #cba135;
-    /* Brown-gold */
   }
   &.cmbox {
     margin: 3px 10%;
     border-collapse: collapse;
     border: 1px solid #a2a9b1;
     background-color: #dfe8ff;
-    /* Default "notice" blue */
     box-sizing: border-box;
   }
   &.cmbox-notice {
     background-color: #d8e8ff;
-    /* Blue */
   }
   &.cmbox-speedy {
     margin-top: 4px;
     margin-bottom: 4px;
     border: 4px solid #b32424;
-    /* Red */
     background-color: #ffdbdb;
-    /* Pink */
   }
   &.cmbox-delete {
     background-color: #ffdbdb;
-    /* Pink */
   }
   &.cmbox-content {
     background-color: #ffe7ce;
-    /* Orange */
   }
   &.cmbox-style {
     background-color: #fff9db;
-    /* Yellow */
   }
   &.cmbox-move {
     background-color: #e4d8ff;
-    /* Purple */
   }
   &.cmbox-protection {
     background-color: #efefe1;
-    /* Gray-gold */
   }
   &.ombox {
     margin: 4px 10%;
     border-collapse: collapse;
     border: 1px solid #a2a9b1;
-    /* Default "notice" gray */
     background-color: #f8f9fa;
     box-sizing: border-box;
   }
   &.ombox-notice {
     border: 1px solid #a2a9b1;
-    /* Gray */
   }
   &.ombox-speedy {
     border: 2px solid #b32424;
-    /* Red */
     background-color: #fee7e6;
-    /* Pink */
   }
   &.ombox-delete {
     border: 2px solid #b32424;
-    /* Red */
   }
   &.ombox-content {
     border: 1px solid #f28500;
-    /* Orange */
   }
   &.ombox-style {
     border: 1px solid #fc3;
-    /* Yellow */
   }
   &.ombox-move {
     border: 1px solid #9932cc;
-    /* Purple */
   }
   &.ombox-protection {
     border: 2px solid #a2a9b1;
-    /* Gray-gold */
   }
   &.tmbox {
     margin: 4px 10%;
     border-collapse: collapse;
     border: 1px solid #c0c090;
-    /* Default "notice" gray-brown */
     background-color: #f8eaba;
     min-width: 80%;
     box-sizing: border-box;
   }
 }
 
-/* line 1238, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1244, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1248, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1252, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1256, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1260, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1264, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1270, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1274, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1282, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1286, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1294, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1298, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1302, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1306, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1310, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1314, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1322, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1326, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1332, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1336, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1340, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1344, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1348, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1352, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1105, ../../sass/wiki_content/wiki_content.scss */
-/* line 1111, ../../sass/wiki_content/wiki_content.scss */
-/* line 1115, ../../sass/wiki_content/wiki_content.scss */
-/* line 1119, ../../sass/wiki_content/wiki_content.scss */
-/* line 1123, ../../sass/wiki_content/wiki_content.scss */
-/* line 1127, ../../sass/wiki_content/wiki_content.scss */
-/* line 1131, ../../sass/wiki_content/wiki_content.scss */
-/* line 1137, ../../sass/wiki_content/wiki_content.scss */
-/* line 1141, ../../sass/wiki_content/wiki_content.scss */
-/* line 1149, ../../sass/wiki_content/wiki_content.scss */
-/* line 1153, ../../sass/wiki_content/wiki_content.scss */
-/* line 1161, ../../sass/wiki_content/wiki_content.scss */
-/* line 1165, ../../sass/wiki_content/wiki_content.scss */
-/* line 1169, ../../sass/wiki_content/wiki_content.scss */
-/* line 1173, ../../sass/wiki_content/wiki_content.scss */
-/* line 1177, ../../sass/wiki_content/wiki_content.scss */
-/* line 1181, ../../sass/wiki_content/wiki_content.scss */
-/* line 1189, ../../sass/wiki_content/wiki_content.scss */
-/* line 1193, ../../sass/wiki_content/wiki_content.scss */
-/* line 1199, ../../sass/wiki_content/wiki_content.scss */
-/* line 1203, ../../sass/wiki_content/wiki_content.scss */
-/* line 1207, ../../sass/wiki_content/wiki_content.scss */
-/* line 1211, ../../sass/wiki_content/wiki_content.scss */
-/* line 1215, ../../sass/wiki_content/wiki_content.scss */
-/* line 1219, ../../sass/wiki_content/wiki_content.scss */
-/* line 883, ../../sass/wiki_content/wiki_content.scss */
-/* line 889, ../../sass/wiki_content/wiki_content.scss */
-/* line 893, ../../sass/wiki_content/wiki_content.scss */
-/* line 897, ../../sass/wiki_content/wiki_content.scss */
-/* line 901, ../../sass/wiki_content/wiki_content.scss */
-/* line 905, ../../sass/wiki_content/wiki_content.scss */
-/* line 909, ../../sass/wiki_content/wiki_content.scss */
-/* line 915, ../../sass/wiki_content/wiki_content.scss */
-/* line 919, ../../sass/wiki_content/wiki_content.scss */
-/* line 927, ../../sass/wiki_content/wiki_content.scss */
-/* line 931, ../../sass/wiki_content/wiki_content.scss */
-/* line 939, ../../sass/wiki_content/wiki_content.scss */
-/* line 943, ../../sass/wiki_content/wiki_content.scss */
-/* line 947, ../../sass/wiki_content/wiki_content.scss */
-/* line 951, ../../sass/wiki_content/wiki_content.scss */
-/* line 955, ../../sass/wiki_content/wiki_content.scss */
-/* line 959, ../../sass/wiki_content/wiki_content.scss */
-/* line 967, ../../sass/wiki_content/wiki_content.scss */
-/* line 971, ../../sass/wiki_content/wiki_content.scss */
-/* line 977, ../../sass/wiki_content/wiki_content.scss */
-/* line 981, ../../sass/wiki_content/wiki_content.scss */
-/* line 985, ../../sass/wiki_content/wiki_content.scss */
-/* line 989, ../../sass/wiki_content/wiki_content.scss */
-/* line 993, ../../sass/wiki_content/wiki_content.scss */
-/* line 997, ../../sass/wiki_content/wiki_content.scss */
-/* Category message box styles */
-/* Other pages message box styles */
-/* Talk page message box styles */
-/* line 1014, ../../sass/wiki_content/wiki_content.scss */
-/* line 1285, ../../sass/wiki_content/wiki_content.scss */
-/* line 1444, ../../sass/wiki_content/wiki_content.scss */
-
 .tmbox.mbox-small {
   min-width: 0;
-  /* reset the min-width of tmbox above        */
 }
-
-/* line 1019, ../../sass/wiki_content/wiki_content.scss */
-/* line 1292, ../../sass/wiki_content/wiki_content.scss */
-/* line 1452, ../../sass/wiki_content/wiki_content.scss */
 
 .mediawiki .mbox-inside .tmbox {
-  /* For tmboxes inside other templates. The "mediawiki" class ensures that */
   margin: 2px 0;
-  /* this declaration overrides other styles (including mbox-small above)   */
   width: 100%;
-  /* For Safari and Opera */
 }
-
-/* line 1027, ../../sass/wiki_content/wiki_content.scss */
-/* line 1302, ../../sass/wiki_content/wiki_content.scss */
-/* line 1463, ../../sass/wiki_content/wiki_content.scss */
 
 .mbox-inside .tmbox.mbox-small {
-  /* "small" tmboxes should not be small when  */
   line-height: 1.5em;
-  /* also "nested", so reset styles that are   */
   font-size: 100%;
-  /* set in "mbox-small" above.                */
 }
-
-/* line 1036, ../../sass/wiki_content/wiki_content.scss */
-/* line 1313, ../../sass/wiki_content/wiki_content.scss */
-/* line 1475, ../../sass/wiki_content/wiki_content.scss */
 
 table {
   &.tmbox-speedy {
     border: 2px solid #b32424;
-    /* Red */
     background-color: #fee7e6;
-    /* Pink */
   }
   &.tmbox-delete {
     border: 2px solid #b32424;
-    /* Red */
   }
   &.tmbox-content {
     border: 2px solid #f28500;
-    /* Orange */
   }
   &.tmbox-style {
     border: 2px solid #fc3;
-    /* Yellow */
   }
   &.tmbox-move {
     border: 2px solid #9932cc;
-    /* Purple */
   }
   &.tmbox-protection, &.tmbox-notice {
     border: 1px solid #c0c090;
-    /* Gray-brown */
   }
   &.dmbox {
     clear: both;
@@ -1673,7 +821,6 @@ table {
     width: 100%;
     border: 1px solid #a2a9b1;
     background-color: #f8f9fa;
-    /* Default "system" gray */
     box-sizing: border-box;
   }
   &.fmbox-system {
@@ -1681,61 +828,12 @@ table {
   }
   &.fmbox-warning {
     border: 1px solid #bb7070;
-    /* Dark pink */
     background-color: #ffdbdb;
-    /* Pink */
   }
   &.fmbox-editnotice {
     background-color: transparent;
   }
 }
-
-/* line 1481, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1485, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1489, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1493, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1497, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1501, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1508, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1517, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1520, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1526, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1319, ../../sass/wiki_content/wiki_content.scss */
-/* line 1323, ../../sass/wiki_content/wiki_content.scss */
-/* line 1327, ../../sass/wiki_content/wiki_content.scss */
-/* line 1331, ../../sass/wiki_content/wiki_content.scss */
-/* line 1335, ../../sass/wiki_content/wiki_content.scss */
-/* line 1339, ../../sass/wiki_content/wiki_content.scss */
-/* line 1346, ../../sass/wiki_content/wiki_content.scss */
-/* line 1355, ../../sass/wiki_content/wiki_content.scss */
-/* line 1358, ../../sass/wiki_content/wiki_content.scss */
-/* line 1364, ../../sass/wiki_content/wiki_content.scss */
-/* line 1042, ../../sass/wiki_content/wiki_content.scss */
-/* line 1046, ../../sass/wiki_content/wiki_content.scss */
-/* line 1050, ../../sass/wiki_content/wiki_content.scss */
-/* line 1054, ../../sass/wiki_content/wiki_content.scss */
-/* line 1058, ../../sass/wiki_content/wiki_content.scss */
-/* line 1062, ../../sass/wiki_content/wiki_content.scss */
-/* line 1069, ../../sass/wiki_content/wiki_content.scss */
-/* line 1078, ../../sass/wiki_content/wiki_content.scss */
-/* line 1081, ../../sass/wiki_content/wiki_content.scss */
-/* line 1087, ../../sass/wiki_content/wiki_content.scss */
-/* Disambig and set index box styles */
-/* Footer and header message box styles */
-/* Div based "warning" style fmbox messages. */
-/* line 1099, ../../sass/wiki_content/wiki_content.scss */
-/* line 1395, ../../sass/wiki_content/wiki_content.scss */
-/* line 1568, ../../sass/wiki_content/wiki_content.scss */
 
 div {
   &.mw-warning-with-logexcerpt, &.mw-lag-warn-high, &.mw-cascadeprotectedwarning, &#mw-protect-cascadeon, &.titleblacklist-warning, &.locked-warning {
@@ -1748,21 +846,10 @@ div {
   }
 }
 
-/* These mbox-small classes must be placed after all other
-   ambox/tmbox/ombox etc classes. "html body.mediawiki" is so
-   they override "table.ambox + table.ambox" above. */
-/* line 1114, ../../sass/wiki_content/wiki_content.scss */
-/* line 1411, ../../sass/wiki_content/wiki_content.scss */
-/* line 1585, ../../sass/wiki_content/wiki_content.scss */
-
 html body.mediawiki {
   .mbox-small {
-    /* For the "small=yes" option. */
-    /* @noflip */
     clear: right;
-    /* @noflip */
     float: right;
-    /* @noflip */
     margin: 4px 0 4px 1em;
     box-sizing: border-box;
     width: 238px;
@@ -1770,8 +857,6 @@ html body.mediawiki {
     line-height: 1.25em;
   }
   .mbox-small-left {
-    /* For the "small=left" option. */
-    /* @noflip */
     margin: 4px 1em 4px 0;
     box-sizing: border-box;
     overflow: hidden;
@@ -1781,16 +866,6 @@ html body.mediawiki {
     line-height: 1.25em;
   }
 }
-
-/* line 1598, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1424, ../../sass/wiki_content/wiki_content.scss */
-/* line 1127, ../../sass/wiki_content/wiki_content.scss */
-/* Style for compact ambox */
-/* Hide the images */
-/* line 1144, ../../sass/wiki_content/wiki_content.scss */
-/* line 1444, ../../sass/wiki_content/wiki_content.scss */
-/* line 1620, ../../sass/wiki_content/wiki_content.scss */
 
 .compact-ambox table {
   .mbox-image, .mbox-imageright, .mbox-empty-cell {
@@ -1807,25 +882,11 @@ html body.mediawiki {
   }
 }
 
-/* line 1623, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1447, ../../sass/wiki_content/wiki_content.scss */
-/* line 1147, ../../sass/wiki_content/wiki_content.scss */
-/* Remove borders, backgrounds, padding, etc. */
-/* line 1160, ../../sass/wiki_content/wiki_content.scss */
-/* line 1463, ../../sass/wiki_content/wiki_content.scss */
-/* line 1641, ../../sass/wiki_content/wiki_content.scss */
-
 body.mediawiki .compact-ambox table.mbox-small-left {
   font-size: 100%;
   width: auto;
   margin: 0;
 }
-
-/* Style the text cell as a list item and remove its padding */
-/* line 1169, ../../sass/wiki_content/wiki_content.scss */
-/* line 1473, ../../sass/wiki_content/wiki_content.scss */
-/* line 1652, ../../sass/wiki_content/wiki_content.scss */
 
 .compact-ambox table {
   .mbox-text {
@@ -1840,33 +901,15 @@ body.mediawiki .compact-ambox table.mbox-small-left {
   }
 }
 
-/* line 1656, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1477, ../../sass/wiki_content/wiki_content.scss */
-/* line 1173, ../../sass/wiki_content/wiki_content.scss */
-/* line 1181, ../../sass/wiki_content/wiki_content.scss */
-/* line 1489, ../../sass/wiki_content/wiki_content.scss */
-/* line 1670, ../../sass/wiki_content/wiki_content.scss */
-
 .skin-vector .compact-ambox table .mbox-text-span {
   list-style-type: disc;
   list-style-image: url(/w/skins/Vector/images/bullet-icon.svg);
   list-style-image: url(/w/skins/Vector/images/bullet-icon.png) \9;
 }
 
-/* Allow for hiding text in compact form */
-/* line 1189, ../../sass/wiki_content/wiki_content.scss */
-/* line 1498, ../../sass/wiki_content/wiki_content.scss */
-/* line 1680, ../../sass/wiki_content/wiki_content.scss */
-
 .compact-ambox .hide-when-compact {
   display: none;
 }
-
-/* Hide (formatting) elements from screen, but not from screenreaders */
-/* line 1195, ../../sass/wiki_content/wiki_content.scss */
-/* line 1505, ../../sass/wiki_content/wiki_content.scss */
-/* line 1688, ../../sass/wiki_content/wiki_content.scss */
 
 .visualhide {
   position: absolute;
@@ -1877,42 +920,20 @@ body.mediawiki .compact-ambox table.mbox-small-left {
   overflow: hidden;
 }
 
-/* Suppress missing interwiki image links where #ifexist cannot
-   be used due to high number of requests. See .hidden-redlink on
-   [[m:MediaWiki:Common.css]] */
-/* line 1208, ../../sass/wiki_content/wiki_content.scss */
-/* line 1519, ../../sass/wiki_content/wiki_content.scss */
-/* line 1703, ../../sass/wiki_content/wiki_content.scss */
-
 .check-icon a.new {
   display: none;
   speak: none;
 }
 
-/* Remove underlines from certain links */
-/* line 1215, ../../sass/wiki_content/wiki_content.scss */
-/* line 1527, ../../sass/wiki_content/wiki_content.scss */
-/* line 1712, ../../sass/wiki_content/wiki_content.scss */
-
 .nounderlines a {
   text-decoration: none !important;
 }
-
-/* line 1220, ../../sass/wiki_content/wiki_content.scss */
-/* line 1534, ../../sass/wiki_content/wiki_content.scss */
-/* line 1720, ../../sass/wiki_content/wiki_content.scss */
 
 .IPA a {
   &:link, &:visited {
     text-decoration: none !important;
   }
 }
-
-/* Standard Navigationsleisten, aka box hiding thingy
-   from .de.  Documentation at [[Wikipedia:NavFrame]]. */
-/* line 1229, ../../sass/wiki_content/wiki_content.scss */
-/* line 1544, ../../sass/wiki_content/wiki_content.scss */
-/* line 1731, ../../sass/wiki_content/wiki_content.scss */
 
 div {
   &.NavFrame {
@@ -1931,7 +952,6 @@ div {
     background-color: #fff;
     margin: 0;
     padding: 2px;
-    /* @noflip */
     float: left;
   }
   &.NavFrame {
@@ -1959,51 +979,13 @@ div {
   }
 }
 
-/* line 1738, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1743, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1751, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1757, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1760, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1762, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1767, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1551, ../../sass/wiki_content/wiki_content.scss */
-/* line 1556, ../../sass/wiki_content/wiki_content.scss */
-/* line 1564, ../../sass/wiki_content/wiki_content.scss */
-/* line 1570, ../../sass/wiki_content/wiki_content.scss */
-/* line 1573, ../../sass/wiki_content/wiki_content.scss */
-/* line 1575, ../../sass/wiki_content/wiki_content.scss */
-/* line 1580, ../../sass/wiki_content/wiki_content.scss */
-/* line 1236, ../../sass/wiki_content/wiki_content.scss */
-/* line 1241, ../../sass/wiki_content/wiki_content.scss */
-/* line 1249, ../../sass/wiki_content/wiki_content.scss */
-/* line 1255, ../../sass/wiki_content/wiki_content.scss */
-/* line 1258, ../../sass/wiki_content/wiki_content.scss */
-/* line 1260, ../../sass/wiki_content/wiki_content.scss */
-/* line 1265, ../../sass/wiki_content/wiki_content.scss */
-/* line 1273, ../../sass/wiki_content/wiki_content.scss */
-/* line 1604, ../../sass/wiki_content/wiki_content.scss */
-/* line 1799, ../../sass/wiki_content/wiki_content.scss */
-
 a.NavToggle {
   position: absolute;
   top: 0;
-  /* @noflip */
   right: 3px;
   font-weight: normal;
   font-size: 90%;
 }
-
-/* Hatnotes and disambiguation notices */
-/* line 1284, ../../sass/wiki_content/wiki_content.scss */
-/* line 1616, ../../sass/wiki_content/wiki_content.scss */
-/* line 1812, ../../sass/wiki_content/wiki_content.scss */
 
 .hatnote {
   font-style: italic;
@@ -2012,17 +994,8 @@ a.NavToggle {
   }
 }
 
-/* line 1814, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1618, ../../sass/wiki_content/wiki_content.scss */
-/* line 1286, ../../sass/wiki_content/wiki_content.scss */
-/* line 1291, ../../sass/wiki_content/wiki_content.scss */
-/* line 1627, ../../sass/wiki_content/wiki_content.scss */
-/* line 1825, ../../sass/wiki_content/wiki_content.scss */
-
 div {
   &.hatnote {
-    /* @noflip */
     padding-left: 1.6em;
     margin-bottom: 0.5em;
     + div.hatnote {
@@ -2044,15 +1017,6 @@ div {
   }
 }
 
-/* line 1829, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1631, ../../sass/wiki_content/wiki_content.scss */
-/* line 1295, ../../sass/wiki_content/wiki_content.scss */
-/* Allow transcluded pages to display in lists rather than a table. */
-/* line 1303, ../../sass/wiki_content/wiki_content.scss */
-/* line 1642, ../../sass/wiki_content/wiki_content.scss */
-/* line 1842, ../../sass/wiki_content/wiki_content.scss */
-
 .listify {
   td {
     display: list-item;
@@ -2062,42 +1026,17 @@ div {
   }
 }
 
-/* line 1845, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1645, ../../sass/wiki_content/wiki_content.scss */
-/* line 1306, ../../sass/wiki_content/wiki_content.scss */
-/* Geographical coordinates defaults. See [[Template:Coord/link]]
-   for how these are used. The classes "geo", "longitude", and
-   "latitude" are used by the [[Geo microformat]]. */
-/* TemplateStyles */
-/* line 1316, ../../sass/wiki_content/wiki_content.scss */
-/* line 1658, ../../sass/wiki_content/wiki_content.scss */
-/* line 1860, ../../sass/wiki_content/wiki_content.scss */
-
 .geo-default, .geo-dms, .geo-dec {
   display: inline;
 }
-
-/* line 1320, ../../sass/wiki_content/wiki_content.scss */
-/* line 1664, ../../sass/wiki_content/wiki_content.scss */
-/* line 1867, ../../sass/wiki_content/wiki_content.scss */
 
 .geo-nondefault, .geo-multi-punct {
   display: none;
 }
 
-/* line 1324, ../../sass/wiki_content/wiki_content.scss */
-/* line 1670, ../../sass/wiki_content/wiki_content.scss */
-/* line 1874, ../../sass/wiki_content/wiki_content.scss */
-
 .longitude, .latitude {
   white-space: nowrap;
 }
-
-/* User block messages */
-/* line 1330, ../../sass/wiki_content/wiki_content.scss */
-/* line 1677, ../../sass/wiki_content/wiki_content.scss */
-/* line 1882, ../../sass/wiki_content/wiki_content.scss */
 
 div.user-block {
   padding: 5px;
@@ -2106,21 +1045,9 @@ div.user-block {
   background-color: #ffefd5;
 }
 
-/* Prevent line breaks in silly places:
-   1) Where desired
-   2) Links when we don't want them to
-   3) Bold "links" to the page itself */
-/* line 1342, ../../sass/wiki_content/wiki_content.scss */
-/* line 1690, ../../sass/wiki_content/wiki_content.scss */
-/* line 1896, ../../sass/wiki_content/wiki_content.scss */
-
 .nowrap {
   white-space: nowrap;
 }
-
-/* line 1347, ../../sass/wiki_content/wiki_content.scss */
-/* line 1697, ../../sass/wiki_content/wiki_content.scss */
-/* line 1904, ../../sass/wiki_content/wiki_content.scss */
 
 .nowraplinks {
   a, .selflink {
@@ -2128,28 +1055,13 @@ div.user-block {
   }
 }
 
-/* line 1352, ../../sass/wiki_content/wiki_content.scss */
-/* line 1704, ../../sass/wiki_content/wiki_content.scss */
-/* line 1912, ../../sass/wiki_content/wiki_content.scss */
-
 .nowrap pre {
   white-space: pre;
 }
 
-/* But allow wrapping where desired: */
-/* line 1358, ../../sass/wiki_content/wiki_content.scss */
-/* line 1711, ../../sass/wiki_content/wiki_content.scss */
-/* line 1920, ../../sass/wiki_content/wiki_content.scss */
-
 .wrap, .wraplinks a {
   white-space: normal;
 }
-
-/* For template documentation */
-/* TemplateStyles */
-/* line 1365, ../../sass/wiki_content/wiki_content.scss */
-/* line 1719, ../../sass/wiki_content/wiki_content.scss */
-/* line 1929, ../../sass/wiki_content/wiki_content.scss */
 
 .template-documentation {
   clear: both;
@@ -2159,106 +1071,46 @@ div.user-block {
   padding: 1em;
 }
 
-/* Increase the height of the image upload box */
-/* line 1375, ../../sass/wiki_content/wiki_content.scss */
-/* line 1730, ../../sass/wiki_content/wiki_content.scss */
-/* line 1941, ../../sass/wiki_content/wiki_content.scss */
-
 #wpUploadDescription {
   height: 13em;
 }
-
-/* Minimum thumb width */
-/* line 1381, ../../sass/wiki_content/wiki_content.scss */
-/* line 1737, ../../sass/wiki_content/wiki_content.scss */
-/* line 1949, ../../sass/wiki_content/wiki_content.scss */
 
 .thumbinner {
   min-width: 100px;
 }
 
-/* Prevent floating boxes from overlapping any category listings,
-   file histories, edit previews, and edit [Show changes] views. */
-/* line 1388, ../../sass/wiki_content/wiki_content.scss */
-/* line 1745, ../../sass/wiki_content/wiki_content.scss */
-/* line 1958, ../../sass/wiki_content/wiki_content.scss */
-
 #mw-subcategories, #mw-pages, #mw-category-media, #filehistory, #wikiPreview, #wikiDiff {
   clear: both;
 }
-
-/* Selectively hide headers in WikiProject banners */
-/* TemplateStyles */
-/* line 1395, ../../sass/wiki_content/wiki_content.scss */
-/* line 1753, ../../sass/wiki_content/wiki_content.scss */
-/* line 1967, ../../sass/wiki_content/wiki_content.scss */
 
 .wpb .wpb-header {
   display: none;
 }
 
-/* line 1400, ../../sass/wiki_content/wiki_content.scss */
-/* line 1760, ../../sass/wiki_content/wiki_content.scss */
-/* line 1975, ../../sass/wiki_content/wiki_content.scss */
-
 .wpbs-inner {
   .wpb .wpb-header {
     display: block;
-    /* for IE */
     display: table-row;
-    /* for real browsers */
   }
   .wpb-outside {
     display: none;
-    /* hide things that should only display outside shells */
   }
 }
-
-/* line 1981, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1766, ../../sass/wiki_content/wiki_content.scss */
-/* line 1406, ../../sass/wiki_content/wiki_content.scss */
-/* Styling for Abuse Filter tags */
-/* line 1414, ../../sass/wiki_content/wiki_content.scss */
-/* line 1777, ../../sass/wiki_content/wiki_content.scss */
-/* line 1994, ../../sass/wiki_content/wiki_content.scss */
 
 .mw-tag-markers {
   font-style: italic;
   font-size: 90%;
 }
 
-/* Hide stuff meant for accounts with special permissions. Made visible again in
-   [[MediaWiki:Group-sysop.css]], [[MediaWiki:Group-patroller.css]],
-   [[MediaWiki:Group-templateeditor.css]], [[MediaWiki:Group-extendedmover.css]],
-   [[MediaWiki:Group-extendedconfirmed.css]], and [[Mediawiki:Group-autoconfirmed.css]]. */
-/* line 1424, ../../sass/wiki_content/wiki_content.scss */
-/* line 1788, ../../sass/wiki_content/wiki_content.scss */
-/* line 2006, ../../sass/wiki_content/wiki_content.scss */
-
 .sysop-show, .templateeditor-show, .extendedmover-show, .patroller-show, .extendedconfirmed-show, .autoconfirmed-show, .user-show {
   display: none;
 }
-
-/* Hide the redlink generated by {{Editnotice}},
-   this overrides the ".sysop-show { display: none; }" above that applies
-   to the same link as well. See [[phab:T45013]]
-   Hide the images in editnotices to keep them readable in VE view.
-   Long term, editnotices should become a core feature so that they can be designed responsive. */
-/* line 1435, ../../sass/wiki_content/wiki_content.scss */
-/* line 1800, ../../sass/wiki_content/wiki_content.scss */
-/* line 2019, ../../sass/wiki_content/wiki_content.scss */
 
 .ve-ui-mwNoticesPopupTool-item {
   .editnotice-redlink, .mbox-image, .mbox-imageright {
     display: none !important;
   }
 }
-
-/* Remove bullets when there are multiple edit page warnings */
-/* line 1442, ../../sass/wiki_content/wiki_content.scss */
-/* line 1808, ../../sass/wiki_content/wiki_content.scss */
-/* line 2028, ../../sass/wiki_content/wiki_content.scss */
 
 ul.permissions-errors {
   margin: 0;
@@ -2267,24 +1119,11 @@ ul.permissions-errors {
   }
 }
 
-/* line 2030, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1810, ../../sass/wiki_content/wiki_content.scss */
-/* line 1443, ../../sass/wiki_content/wiki_content.scss */
-/* Generic class for Times-based serif, texhtml class for inline math */
-/* line 1451, ../../sass/wiki_content/wiki_content.scss */
-/* line 1820, ../../sass/wiki_content/wiki_content.scss */
-/* line 2042, ../../sass/wiki_content/wiki_content.scss */
-
 .times-serif {
   font-family: "Nimbus Roman No9 L", "Times New Roman", Times, serif;
   font-size: 118%;
   line-height: 1;
 }
-
-/* line 1458, ../../sass/wiki_content/wiki_content.scss */
-/* line 1829, ../../sass/wiki_content/wiki_content.scss */
-/* line 2052, ../../sass/wiki_content/wiki_content.scss */
 
 span {
   &.texhtml {
@@ -2301,14 +1140,6 @@ span {
   }
 }
 
-/* line 2057, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 2061, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1834, ../../sass/wiki_content/wiki_content.scss */
-/* line 1838, ../../sass/wiki_content/wiki_content.scss */
-/* line 2070, ../../sass/wiki_content/wiki_content.scss */
-
 .text-scrollable div.thumbinner {
   width: 222px;
   border: 1px solid #ccc;
@@ -2319,13 +1150,6 @@ span {
   overflow: hidden;
 }
 
-/* line 1463, ../../sass/wiki_content/wiki_content.scss */
-/* line 1467, ../../sass/wiki_content/wiki_content.scss */
-/* Force tabular and lining display for digits and texhtml */
-/* line 1474, ../../sass/wiki_content/wiki_content.scss */
-/* line 1850, ../../sass/wiki_content/wiki_content.scss */
-/* line 2086, ../../sass/wiki_content/wiki_content.scss */
-
 .digits, .texhtml {
   -moz-font-feature-settings: "lnum", "tnum", "kern" 0;
   -webkit-font-feature-settings: "lnum", "tnum", "kern" 0;
@@ -2334,20 +1158,11 @@ span {
   font-kerning: none;
 }
 
-/* Make <math display="block"> be left aligned with one space indent for compatibility with style conventions */
-/* line 1484, ../../sass/wiki_content/wiki_content.scss */
-/* line 1861, ../../sass/wiki_content/wiki_content.scss */
-/* line 2098, ../../sass/wiki_content/wiki_content.scss */
-
 .mwe-math-fallback-image-display {
   margin-left: 1.6em !important;
   margin-top: 0.6em;
   margin-bottom: 0.6em;
 }
-
-/* line 1490, ../../sass/wiki_content/wiki_content.scss */
-/* line 1869, ../../sass/wiki_content/wiki_content.scss */
-/* line 2107, ../../sass/wiki_content/wiki_content.scss */
 
 .mwe-math-mathml-display {
   margin-left: 1.6em !important;
@@ -2358,72 +1173,36 @@ span {
   }
 }
 
-/* line 2111, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 1873, ../../sass/wiki_content/wiki_content.scss */
-/* line 1494, ../../sass/wiki_content/wiki_content.scss */
-/* Fix styling of transcluded prefindex tables */
-/* line 1502, ../../sass/wiki_content/wiki_content.scss */
-/* line 1884, ../../sass/wiki_content/wiki_content.scss */
-/* line 2124, ../../sass/wiki_content/wiki_content.scss */
-
 table {
   &#mw-prefixindex-list-table, &#mw-prefixindex-nav-table {
     width: 98%;
   }
 }
 
-/* For portals, added 2011-12-07 -bv
-   On wide screens, show these as two columns
-   On narrow and mobile screens, let them collapse into a single column */
-/* line 1511, ../../sass/wiki_content/wiki_content.scss */
-/* line 1894, ../../sass/wiki_content/wiki_content.scss */
-/* line 2135, ../../sass/wiki_content/wiki_content.scss */
-
 .portal-column-left {
   float: left;
   width: 50%;
 }
-
-/* line 1516, ../../sass/wiki_content/wiki_content.scss */
-/* line 1901, ../../sass/wiki_content/wiki_content.scss */
-/* line 2143, ../../sass/wiki_content/wiki_content.scss */
 
 .portal-column-right {
   float: right;
   width: 49%;
 }
 
-/* line 1521, ../../sass/wiki_content/wiki_content.scss */
-/* line 1908, ../../sass/wiki_content/wiki_content.scss */
-/* line 2151, ../../sass/wiki_content/wiki_content.scss */
-
 .portal-column-left-wide {
   float: left;
   width: 60%;
 }
-
-/* line 1526, ../../sass/wiki_content/wiki_content.scss */
-/* line 1915, ../../sass/wiki_content/wiki_content.scss */
-/* line 2159, ../../sass/wiki_content/wiki_content.scss */
 
 .portal-column-right-narrow {
   float: right;
   width: 39%;
 }
 
-/* line 1531, ../../sass/wiki_content/wiki_content.scss */
-/* line 1922, ../../sass/wiki_content/wiki_content.scss */
-/* line 2167, ../../sass/wiki_content/wiki_content.scss */
-
 .portal-column-left-extra-wide {
   float: left;
   width: 70%;
 }
-
-/* line 1536, ../../sass/wiki_content/wiki_content.scss */
-/* line 1929, ../../sass/wiki_content/wiki_content.scss */
-/* line 2175, ../../sass/wiki_content/wiki_content.scss */
 
 .portal-column-right-extra-narrow {
   float: right;
@@ -2431,20 +1210,11 @@ table {
 }
 
 @media only screen and (max-width: 800px) {
-  /* Decouple the columns on narrow screens */
-  /* line 1543, ../../sass/wiki_content/wiki_content.scss */
-  /* line 1937, ../../sass/wiki_content/wiki_content.scss */
-  /* line 2184, ../../sass/wiki_content/wiki_content.scss */
   .portal-column-left, .portal-column-right, .portal-column-left-wide, .portal-column-right-narrow, .portal-column-left-extra-wide, .portal-column-right-extra-narrow {
     float: inherit;
     width: inherit;
   }
 }
-
-/* Formerly for announcements, now used intermittently */
-/* line 1551, ../../sass/wiki_content/wiki_content.scss */
-/* line 1946, ../../sass/wiki_content/wiki_content.scss */
-/* line 2194, ../../sass/wiki_content/wiki_content.scss */
 
 #bodyContent .letterhead {
   background-image: url("//upload.wikimedia.org/wikipedia/commons/e/e0/Tan-page-corner.png");
@@ -2453,21 +1223,10 @@ table {
   background-color: #faf9f2;
 }
 
-/* hidden sortkey for tablesorter */
-/* deprecated, in process of being replaced with data-sort-value */
-/* line 1561, ../../sass/wiki_content/wiki_content.scss */
-/* line 1957, ../../sass/wiki_content/wiki_content.scss */
-/* line 2206, ../../sass/wiki_content/wiki_content.scss */
-
 td .sortkey, th .sortkey {
   display: none;
   speak: none;
 }
-
-/* Make it possible to hide checkboxes in <inputbox> */
-/* line 1569, ../../sass/wiki_content/wiki_content.scss */
-/* line 1966, ../../sass/wiki_content/wiki_content.scss */
-/* line 2216, ../../sass/wiki_content/wiki_content.scss */
 
 .inputbox-hidecheckboxes {
   form .inputbox-element, .mw-ui-checkbox {
@@ -2475,19 +1234,9 @@ td .sortkey, th .sortkey {
   }
 }
 
-/* Work-around for [[phab:T25965]] (Kaltura advertisement) */
-/* line 1576, ../../sass/wiki_content/wiki_content.scss */
-/* line 1974, ../../sass/wiki_content/wiki_content.scss */
-/* line 2225, ../../sass/wiki_content/wiki_content.scss */
-
 .k-player .k-attribution {
   visibility: hidden;
 }
-
-/* Move 'play' button of video player to bottom left corner */
-/* line 1582, ../../sass/wiki_content/wiki_content.scss */
-/* line 1981, ../../sass/wiki_content/wiki_content.scss */
-/* line 2233, ../../sass/wiki_content/wiki_content.scss */
 
 .PopUpMediaTransform a .play-btn-large {
   margin: 0;
@@ -2497,87 +1246,44 @@ td .sortkey, th .sortkey {
   left: 0;
 }
 
-/* Hide FlaggedRevs notice UI when there are no pending changes */
-/* line 1592, ../../sass/wiki_content/wiki_content.scss */
-/* line 1992, ../../sass/wiki_content/wiki_content.scss */
-/* line 2245, ../../sass/wiki_content/wiki_content.scss */
-
 .flaggedrevs_draft_synced, .flaggedrevs_stable_synced {
   display: none;
 }
-
-/* Force imgs in galleries to have borders by wrapping them in class=bordered-images */
-/* line 1598, ../../sass/wiki_content/wiki_content.scss */
-/* line 1999, ../../sass/wiki_content/wiki_content.scss */
-/* line 2253, ../../sass/wiki_content/wiki_content.scss */
 
 .bordered-images img {
   border: solid #ddd 1px;
 }
 
-/* Gallery styles background changes are restricted to screen view. In printing we should avoid applying backgrounds. */
 @media screen {
-  /* The backgrounds for galleries. */
-  /* line 1605, ../../sass/wiki_content/wiki_content.scss */
-  /* line 2007, ../../sass/wiki_content/wiki_content.scss */
-  /* line 2262, ../../sass/wiki_content/wiki_content.scss */
   #content .gallerybox div.thumb {
-    /* Light gray padding */
     background-color: #f8f9fa;
   }
-  /* Put a chequered background behind images, only visible if they have transparency.
-  '.filehistory a img' and '#file img:hover' are handled by MediaWiki core (as of 1.19) */
-  /* line 1611, ../../sass/wiki_content/wiki_content.scss */
-  /* line 2014, ../../sass/wiki_content/wiki_content.scss */
-  /* line 2270, ../../sass/wiki_content/wiki_content.scss */
   .gallerybox .thumb img {
     background: #fff url(//upload.wikimedia.org/wikipedia/commons/5/5d/Checker-16x16.png) repeat;
   }
-  /* But not on articles, user pages, portals or with opt-out. */
-  /* line 1615, ../../sass/wiki_content/wiki_content.scss */
-  /* line 2019, ../../sass/wiki_content/wiki_content.scss */
-  /* line 2276, ../../sass/wiki_content/wiki_content.scss */
   .ns-0 .gallerybox .thumb img, .ns-2 .gallerybox .thumb img, .ns-100 .gallerybox .thumb img, .nochecker .gallerybox .thumb img {
     background-image: none;
   }
 }
-
-/* line 2024, ../../sass/wiki_content/wiki_content.scss */
-/* line 2283, ../../sass/wiki_content/wiki_content.scss */
 
 div.thumb.tright {
   clear: right;
   float: right;
 }
 
-/* Display "From Wikipedia, the free encyclopedia" in skins that support it, do not apply to print mode */
 @media screen {
-  /* line 1622, ../../sass/wiki_content/wiki_content.scss */
-  /* line 2032, ../../sass/wiki_content/wiki_content.scss */
-  /* line 2292, ../../sass/wiki_content/wiki_content.scss */
   #siteSub {
     display: block;
   }
 }
 
-/* line 1627, ../../sass/wiki_content/wiki_content.scss */
-/* line 2039, ../../sass/wiki_content/wiki_content.scss */
-/* line 2300, ../../sass/wiki_content/wiki_content.scss */
-
 span.mw-editsection {
   display: none;
 }
-
-/*div.popap-wiki {*/
-/*display: none;*/
-/*}*/
-/* line 1635, ../../sass/wiki_content/wiki_content.scss */
-/* line 2048, ../../sass/wiki_content/wiki_content.scss */
-/* line 2310, ../../sass/wiki_content/wiki_content.scss */
-
 div.popap-wiki {
   display: block;
   overflow: auto;
+  color: black;
   width: 800px;
   height: 400px;
   position: absolute;
@@ -2586,17 +1292,9 @@ div.popap-wiki {
   border: 4px double black;
 }
 
-/* line 1646, ../../sass/wiki_content/wiki_content.scss */
-/* line 2061, ../../sass/wiki_content/wiki_content.scss */
-/* line 2324, ../../sass/wiki_content/wiki_content.scss */
-
 .related_research_topics {
   text-align: center;
 }
-
-/* line 1652, ../../sass/wiki_content/wiki_content.scss */
-/* line 2069, ../../sass/wiki_content/wiki_content.scss */
-/* line 2333, ../../sass/wiki_content/wiki_content.scss */
 
 .text-scrollable {
   div {
@@ -2624,31 +1322,11 @@ div.popap-wiki {
   }
 }
 
-/* line 2341, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 2346, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 2351, ../../sass/wiki_content/wiki_content.scss */
-
-/* line 2077, ../../sass/wiki_content/wiki_content.scss */
-/* line 2082, ../../sass/wiki_content/wiki_content.scss */
-/* line 2087, ../../sass/wiki_content/wiki_content.scss */
-/* line 1660, ../../sass/wiki_content/wiki_content.scss */
-/* line 1665, ../../sass/wiki_content/wiki_content.scss */
-/* line 1670, ../../sass/wiki_content/wiki_content.scss */
-/* line 1677, ../../sass/wiki_content/wiki_content.scss */
-/* line 2102, ../../sass/wiki_content/wiki_content.scss */
-/* line 2370, ../../sass/wiki_content/wiki_content.scss */
-
 div.mw-parser-output {
   a.image:hover div.popap-wiki, sup.reference:hover div.popap-wiki, div.toc:hover div.popap-wiki {
     display: none;
   }
 }
-
-/* line 1682, ../../sass/wiki_content/wiki_content.scss */
-/* line 2109, ../../sass/wiki_content/wiki_content.scss */
-/* line 2378, ../../sass/wiki_content/wiki_content.scss */
 
 .wiki-img-frame {
   display: none;
@@ -2660,55 +1338,14 @@ div.mw-parser-output {
   border: 22px solid #dbc4c4;
 }
 
-/* line 1692, ../../sass/wiki_content/wiki_content.scss */
-/* line 2121, ../../sass/wiki_content/wiki_content.scss */
-/* line 2391, ../../sass/wiki_content/wiki_content.scss */
-
 .class_popap {
   max-height: 650px;
 }
 
-/* line 1696, ../../sass/wiki_content/wiki_content.scss */
-/* line 2127, ../../sass/wiki_content/wiki_content.scss */
-/* line 2398, ../../sass/wiki_content/wiki_content.scss */
-
-.class_link {
-  position: fixed;
-  left: 89%;
-  bottom: 82%;
-  color: #c91a1a;
-  font-size: 170%;
-  text-decoration: none;
-}
-
-/* line 1705, ../../sass/wiki_content/wiki_content.scss */
-/* line 2138, ../../sass/wiki_content/wiki_content.scss */
-/* line 2410, ../../sass/wiki_content/wiki_content.scss */
-
-.class_all {
-  position: fixed;
-  left: 87.2%;
-  bottom: 71%;
-  color: #c91a1a;
-  font-size: 170%;
-  transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  text-decoration: none;
-}
-
 @media only screen and (max-width: 1366px) {
-  /* line 1720, ../../sass/wiki_content/wiki_content.scss */
-  /* line 2154, ../../sass/wiki_content/wiki_content.scss */
-  /* line 2427, ../../sass/wiki_content/wiki_content.scss */
   .class_popap {
     max-height: 500px;
   }
-  /* line 1723, ../../sass/wiki_content/wiki_content.scss */
-  /* line 2158, ../../sass/wiki_content/wiki_content.scss */
-  /* line 2432, ../../sass/wiki_content/wiki_content.scss */
   .class_link {
     position: fixed;
     left: 88.5%;
@@ -2717,20 +1354,12 @@ div.mw-parser-output {
     font-size: 170%;
     text-decoration: none;
   }
-  /* line 1731, ../../sass/wiki_content/wiki_content.scss */
-  /* line 2167, ../../sass/wiki_content/wiki_content.scss */
-  /* line 2442, ../../sass/wiki_content/wiki_content.scss */
   .class_all {
     position: fixed;
     left: 86%;
     bottom: 65%;
     color: #c91a1a;
     font-size: 170%;
-    transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
     text-decoration: none;
   }
 }

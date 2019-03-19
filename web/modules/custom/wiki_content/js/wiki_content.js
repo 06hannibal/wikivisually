@@ -43,12 +43,10 @@
         return false;
     });
     $('.link'+title).once().click(function() {
-        $(this).prev().remove();
-        $(this).next().remove();
-        $(this).remove();
+        $(this).parent().remove();
     });
     $('.all'+title).once().click(function() {
-        $('.img_close').remove();
+        $('div.wiki_class_popap').remove();
     });
     }
     Drupal.behaviors.wiki_content = {
@@ -106,9 +104,7 @@
                         img_link = $( this );
                         title = img_link.attr('src').split("/")[7].split(".")[0].split("%")[0];
                     }
-                    $( this ).parent().append( $("<img class='img_close class_popap "+title+"' alt='Wiki Img Frame' src=''>"));
-                    $( this ).parent().append( $("<a class='img_close class_link link"+title+"' onclick='return false'>X</a>"));
-                    $( this ).parent().append( $("<a class='img_close class_all all"+title+"' onclick='return false'>close all</a>"));
+                    $( this ).parent().append( $("<div class='wiki_class_popap'><img class='img_close class_popap "+title+"' alt='Wiki Img Frame' src=''><a class='img_close class_link link"+title+"' onclick='return false'>X</a><a class='img_close class_all all"+title+"' onclick='return false'>close all</a></div>"));
                     wikicontent_popap(jQuery(this).attr('src'));
                     return false;
                 });

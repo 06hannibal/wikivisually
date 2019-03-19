@@ -1,16 +1,10 @@
-/* line 1, ../../sass/wiki_block/wiki_block.scss */
-
 div.wiki_img_block {
   background: #fff;
 }
 
-/* line 5, ../../sass/wiki_block/wiki_block.scss */
-
 #block-wikichannelblock h2.block-title {
   text-align: center;
 }
-
-/* line 9, ../../sass/wiki_block/wiki_block.scss */
 
 div.url_img_wiki {
   width: 50%;
@@ -19,14 +13,10 @@ div.url_img_wiki {
   vertical-align: middle;
 }
 
-/* line 16, ../../sass/wiki_block/wiki_block.scss */
-
 p.text_title_wiki {
   text-align: center;
   width: 85%;
 }
-
-/* line 22, ../../sass/wiki_block/wiki_block.scss */
 
 div {
   &.url_img_wiki img {
@@ -47,12 +37,6 @@ div {
   }
 }
 
-/* line 28, ../../sass/wiki_block/wiki_block.scss */
-
-/* line 34, ../../sass/wiki_block/wiki_block.scss */
-
-/* line 40, ../../sass/wiki_block/wiki_block.scss */
-
 hr.wiki_img_hr {
   margin-top: -1.8%;
   height: 2px;
@@ -60,77 +44,49 @@ hr.wiki_img_hr {
   background-color: #9ea03d;
 }
 
-/* line 48, ../../sass/wiki_block/wiki_block.scss */
-
-a.title-wiki-block-popap div.popap-wiki a {
-  color: #337ab7;
-  text-decoration: none;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  &:hover {
-    color: #23527c;
-    text-decoration: underline;
+a {
+  &.title-wiki-block-popap div.popap-wiki a {
+    color: #337ab7;
+    text-decoration: none;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
+    &:hover {
+      color: #23527c;
+      text-decoration: underline;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+    }
   }
-}
-
-/* line 53, ../../sass/wiki_block/wiki_block.scss */
-
-/* line 60, ../../sass/wiki_block/wiki_block.scss */
-
-div.thumbinner a.class_link {
-  left: 74.4%;
-}
-
-a {
   &.class_link {
     font-size: 190%;
     position: fixed;
-    width: 30%;
-    left: 74.5%;
-    top: 16%;
+    width: 3%;
+    left: 87.6%;
+    top: 15%;
     color: red;
   }
   &.class_all {
     font-size: 190%;
     position: fixed;
-    width: 120px;
-    left: 85.7%;
-    top: 34%;
+    width: 6%;
+    left: 81.8%;
+    top: 15%;
     color: red;
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    transform: rotate(-90deg);
   }
 }
 
-/* line 68, ../../sass/wiki_block/wiki_block.scss */
-
-div.thumbinner a.class_all {
-  left: 85.3%;
-}
-
-/* line 84, ../../sass/wiki_block/wiki_block.scss */
-
 .url_img_wiki a {
   &.class_link {
-    width: 16%;
+    width: 3%;
     left: 88.9%;
     top: 15%;
   }
   &.class_all {
-    width: 120px;
-    left: 85.2%;
-    top: 30%;
+    width: 6%;
+    left: 82.2%;
+    top: 15%;
   }
 }
-
-/* line 89, ../../sass/wiki_block/wiki_block.scss */
-
-/* line 96, ../../sass/wiki_block/wiki_block.scss */
 
 div.style-popap-wiki {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -140,43 +96,125 @@ div.style-popap-wiki {
   background-color: #fff;
 }
 
+@media only screen and (max-width: 1440px) {
+  a.class_all {
+    font-size: 190%;
+    position: fixed;
+    width: 8%;
+    left: 79.8%;
+    top: 15%;
+    color: red;
+  }
+  .url_img_wiki a.class_all {
+    width: 13%;
+    left: 80.2%;
+    top: 15%;
+  }
+}
+
 @media only screen and (max-width: 1366px) {
-  /* line 106, ../../sass/wiki_block/wiki_block.scss */
   a {
     &.class_link {
-      left: 74.2%;
+      left: 87.5%;
     }
     &.class_all {
-      left: 86%;
-      top: 25%;
+      width: 7%;
+      left: 79%;
+      top: 15%;
     }
   }
-  /* line 109, ../../sass/wiki_block/wiki_block.scss */
-  div.thumbinner a {
-    &.class_link {
-      left: 74%;
-    }
-    &.class_all {
-      left: 85%;
-      top: 27%;
-    }
-  }
-  /* line 115, ../../sass/wiki_block/wiki_block.scss */
   .url_img_wiki a {
     &.class_link {
-      width: 16%;
+      width: 4%;
       left: 88.3%;
       top: 15%;
     }
     &.class_all {
-      width: 120px;
-      left: 83.7%;
-      top: 32%;
+      width: 9%;
+      left: 79.2%;
+      top: 15%;
     }
   }
-  /* line 120, ../../sass/wiki_block/wiki_block.scss */
-  /* line 126, ../../sass/wiki_block/wiki_block.scss */
   hr.wiki_img_hr {
     margin-top: -2.5%;
+  }
+  .class_popap {
+    max-height: 400px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .url_img_wiki a.class_all {
+    width: 11%;
+    left: 76.2%;
+    top: 15%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  a.class_all {
+    width: 10%;
+    left: 76%;
+  }
+  .url_img_wiki a.class_all {
+    width: 13%;
+    left: 74.2%;
+    top: 15%;
+  }
+  .class_popap {
+    max-height: 800px !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  a.class_all {
+    width: 14%;
+    left: 71%;
+    font-size: 170%;
+  }
+  .url_img_wiki a {
+    &.class_link {
+      width: 4%;
+      left: 86.3%;
+      top: 15%;
+    }
+    &.class_all {
+      width: 19%;
+      left: 65.2%;
+      top: 15%;
+    }
+  }
+  div.wiki_class_popap img {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .url_img_wiki a {
+    &.class_all {
+      width: 19%;
+      left: 66.2%;
+      top: 15%;
+    }
+    &.class_link {
+      width: 4%;
+      left: 86.3%;
+      top: 15%;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .url_img_wiki a {
+    &.class_all {
+      width: 19%;
+      left: 67.2%;
+      top: 15%;
+    }
+    &.class_link {
+      width: 4%;
+      left: 86.3%;
+      top: 15%;
+    }
   }
 }
