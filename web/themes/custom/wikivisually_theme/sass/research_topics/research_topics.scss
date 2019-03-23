@@ -21,3 +21,8 @@ div {
     padding: 0 25px 15px 25px;
   }
 }
+@media only screen and (max-width: 320px) {
+  div.art-rel-list {
+    font-size: 24px;
+  }
+}

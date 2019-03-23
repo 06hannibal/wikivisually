@@ -271,7 +271,7 @@ div.view-display-id-block_1 {
   }
   aside.top_list {
     width: 50%;
-    margin-bottom: 200%;
+    margin-bottom: 300%;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -295,8 +295,13 @@ div.view-display-id-block_1 {
       margin-left: 0%;
     }
   }
-  section.row-controller {
-    width: 110%;
+  section {
+    &.row-controller {
+      width: 110%;
+    }
+    &.row-controller-mobile {
+      margin-right: 17%;
+    }
   }
   a.view-home-page-fetured div.title_wiki {
     font-size: 250%;
@@ -311,6 +316,9 @@ div.view-display-id-block_1 {
     &.height-row {
       width: 166%;
       height: 100px;
+    }
+    &.art-rel-list {
+      font-size: 35px;
     }
   }
   aside.top_list {
@@ -408,5 +416,10 @@ div.view-display-id-block_1 {
     img.img-responsive {
       width: 300px;
     }
+  }
+}
+@media only screen and (max-width: 425px) {
+  div.art-rel-list {
+    font-size: 45px;
   }
 }

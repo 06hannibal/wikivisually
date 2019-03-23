@@ -13,5 +13,8 @@ div.region-content h2.block-title {
 @media only screen and (max-width: 1366px) {
   div.art-rel-list {
     padding: 0 25px 15px 25px; } }
+@media only screen and (max-width: 320px) {
+  div.art-rel-list {
+    font-size: 24px; } }
 
 /*# sourceMappingURL=research_topics.css.map */

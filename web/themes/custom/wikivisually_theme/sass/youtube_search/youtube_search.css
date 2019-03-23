@@ -232,9 +232,12 @@ aside.page_wiki {
     left: 65%; } }
 @media only screen and (max-width: 768px) {
   section.wiki-controller {
-    width: 200%;
+    width: 280%;
     margin-top: 86%;
-    font-size: 220%; }
+    font-size: 40px; }
+
+  aside.page_wiki {
+    width: 110%; }
 
   div.region-page-wiki {
     width: 270%; }
@@ -246,13 +249,6 @@ aside.page_wiki {
       height: 280px; }
     #block-youtubesearchblock h2.block-title {
       width: 115%; }
-    #block-youtubesearchblock div.class-overflow {
-      width: 110%; }
-    #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
-      position: relative;
-      right: 35%; }
-    #block-youtubesearchblock div ul {
-      padding: 50px; }
 
   div#youtube-block div.left-stat img {
     width: 120%;
@@ -270,9 +266,9 @@ aside.page_wiki {
     width: 80%; }
 
   div.height-row {
-    width: 116%; }
+    width: 164%; }
   div.art-rel-list {
-    font-size: 130%; }
+    font-size: 30px; }
 
   .related_research_topics {
     text-align: center;
@@ -281,7 +277,8 @@ aside.page_wiki {
   div.art-rel-list {
     font-size: 90%; }
   div.wiki_img_block {
-    font-size: 260%; } }
+    font-size: 260%;
+    line-height: 3em; } }
 @media only screen and (max-width: 767px) {
   section.wiki-controller {
     margin-top: 0%; }
@@ -307,12 +304,32 @@ aside.page_wiki {
     right: 0%; } }
 @media only screen and (max-width: 425px) {
   div.height-row {
-    width: 140%; }
+    width: 156%; }
+  div.art-rel-list {
+    font-size: 24px !important; }
 
   section.wiki-controller {
-    width: 230%; }
+    width: 260%; }
 
+  aside.page_wiki {
+    left: 6%;
+    width: 100%; } }
+@media only screen and (max-width: 375px) {
+  div.height-row {
+    width: 156%; }
   div.art-rel-list {
-    font-size: 100%; } }
+    font-size: 24px !important; }
+
+  section.wiki-controller {
+    width: 260%; }
+
+  aside.page_wiki {
+    width: 100%; } }
+@media only screen and (max-width: 320px) {
+  section.wiki-controller {
+    width: 290%; }
+
+  aside.page_wiki {
+    width: 120%; } }
 
 /*# sourceMappingURL=youtube_search.css.map */

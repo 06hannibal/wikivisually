@@ -17,13 +17,16 @@ div.taxonomy-block-none {
 div.region-content h2.block-title {
   text-align: center;
 }
-div.views-row.clearfix {
-  display: flex;
-  align-items: center;
-}
+
 @media only screen and (max-width: 1366px) {
   /* line 20, ../../sass/research_topics/research_topics.scss */
   div.art-rel-list {
     padding: 0 25px 15px 25px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* line 25, ../../sass/research_topics/research_topics.scss */
+  div.art-rel-list {
+    font-size: 24px;
   }
 }

@@ -308,9 +308,12 @@ aside.page_wiki {
 
 @media only screen and (max-width: 768px) {
   section.wiki-controller {
-    width: 200%;
+    width: 280%;
     margin-top: 86%;
-    font-size: 220%;
+    font-size: 40px;
+  }
+  aside.page_wiki {
+    width: 110%;
   }
   div.region-page-wiki {
     width: 270%;
@@ -325,16 +328,7 @@ aside.page_wiki {
       width: 115%;
     }
     div {
-      &.class-overflow {
-        width: 110%;
-      }
-      &#youtube-block ul:nth-child(2n+1) {
-        position: relative;
-        right: 35%;
-      }
-      ul {
-        padding: 50px;
-      }
+
     }
   }
   div#youtube-block div.left-stat img {
@@ -357,10 +351,10 @@ aside.page_wiki {
   }
   div {
     &.height-row {
-      width: 116%;
+      width: 164%;
     }
     &.art-rel-list {
-      font-size: 130%;
+      font-size: 30px;
     }
   }
   .related_research_topics {
@@ -373,6 +367,7 @@ aside.page_wiki {
     }
     &.wiki_img_block {
       font-size: 260%;
+      line-height: 3em;
     }
   }
 }
@@ -413,15 +408,45 @@ aside.page_wiki {
     right: 0%;
   }
 }
-
 @media only screen and (max-width: 425px) {
-  div.height-row {
-    width: 140%;
+  div {
+    &.height-row {
+      width: 156%;
+    }
+    &.art-rel-list {
+      font-size: 24px !important;
+    }
   }
   section.wiki-controller {
-    width: 230%;
+    width: 260%;
   }
-  div.art-rel-list {
-    font-size: 100%;
+  aside.page_wiki {
+    left: 6%;
+    width: 100%;
   }
 }
+@media only screen and (max-width: 375px) {
+  div {
+    &.height-row {
+      width: 156%;
+    }
+    &.art-rel-list {
+      font-size: 24px !important;
+    }
+  }
+  section.wiki-controller {
+    width: 260%;
+  }
+  aside.page_wiki {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  section.wiki-controller {
+    width: 290%;
+  }
+  aside.page_wiki {
+    width: 120%;
+  }
+}
+
