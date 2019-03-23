@@ -35,7 +35,7 @@ li.first a:hover, li.last a:hover {
 h2.views-block-how-more {
   text-align: center; }
 
-#block-mainnavigation-2 .nav > li > a:hover {
+#block-mainnavigation-2 .nav > li > a:hover, #block-wikivisually-theme-main-menu .nav > li > a:hover {
   background-color: #eeeeee00; }
 
 #wiki-search-article {
@@ -175,7 +175,7 @@ div.view-display-id-block_1 {
   #block-views-block-top-lists-top-lists h3.field-content a {
     font-size: 70%; }
 
-  #block-mainnavigation-2 {
+  #block-mainnavigation-2, #block-wikivisually-theme-main-menu {
     display: grid; }
 
   #block-wikisearchblock {
@@ -277,7 +277,7 @@ div.view-display-id-block_1 {
     #block-wikivisually-theme-views-block-headers-menu-links-block-1 img.img-responsive {
       width: 100%; }
 
-  #block-mainnavigation-2 {
+  #block-mainnavigation-2, #block-wikivisually-theme-main-menu {
     height: 50px; }
 
   #block-wikivisuallyhomeblock-3 {
