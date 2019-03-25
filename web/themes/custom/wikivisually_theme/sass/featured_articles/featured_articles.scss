@@ -20,6 +20,11 @@ a.view-home-page-fetured {
   }
 }
 
+div.views-row {
+  display: flex;
+  align-items: center;
+}
+
 @media only screen and (max-width: 768px) {
   section.row-controller {
     width: 200%;

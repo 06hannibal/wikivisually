@@ -14,6 +14,10 @@ a.view-home-page-fetured {
       border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
       border-image-repeat: round; }
 
+div.views-row {
+  display: flex;
+  align-items: center; }
+
 @media only screen and (max-width: 768px) {
   section.row-controller {
     width: 200%; }

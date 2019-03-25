@@ -22,35 +22,41 @@ a.view-home-page-fetured div.img_wiki img {
   border-image-repeat: round;
 }
 
+/* line 23, ../../sass/featured_articles/featured_articles.scss */
+div.views-row {
+  display: flex;
+  align-items: center;
+}
+
 @media only screen and (max-width: 768px) {
-  /* line 24, ../../sass/featured_articles/featured_articles.scss */
+  /* line 29, ../../sass/featured_articles/featured_articles.scss */
   section.row-controller {
     width: 200%;
   }
 
-  /* line 27, ../../sass/featured_articles/featured_articles.scss */
+  /* line 32, ../../sass/featured_articles/featured_articles.scss */
   div.view-featured-page div.view-header h2 {
     font-size: 60px;
   }
 
-  /* line 30, ../../sass/featured_articles/featured_articles.scss */
+  /* line 35, ../../sass/featured_articles/featured_articles.scss */
   #block-views-block-featured-block-featured-block {
     width: 180%;
   }
-  /* line 32, ../../sass/featured_articles/featured_articles.scss */
+  /* line 37, ../../sass/featured_articles/featured_articles.scss */
   #block-views-block-featured-block-featured-block h2.block-title {
     font-size: 400%;
   }
-  /* line 35, ../../sass/featured_articles/featured_articles.scss */
+  /* line 40, ../../sass/featured_articles/featured_articles.scss */
   #block-views-block-featured-block-featured-block img {
     width: 100%;
   }
-  /* line 38, ../../sass/featured_articles/featured_articles.scss */
+  /* line 43, ../../sass/featured_articles/featured_articles.scss */
   #block-views-block-featured-block-featured-block div.title_wiki {
     font-size: 220%;
   }
 
-  /* line 42, ../../sass/featured_articles/featured_articles.scss */
+  /* line 47, ../../sass/featured_articles/featured_articles.scss */
   a.view-home-page-fetured div.img_wiki img {
     width: 600px;
   }
