@@ -331,6 +331,23 @@ div.view-display-id-block_1 {
       font-size: 150%; }
     #block-views-block-top-lists-top-lists img.img-responsive {
       width: 250px; } }
+@media only screen and (max-width: 667px) {
+  #block-wikivisuallyhomeblock-3 {
+    font-size: 32px; } }
+@media only screen and (max-width: 640px) {
+  #block-wikivisuallyhomeblock-3 {
+    font-size: 30px; }
+
+  #block-wikisearchblock {
+    top: -90px; }
+
+  #block-wikivisuallyhomeblock div.wikivisually_home div.description_wikivisually_home {
+    width: 400px; }
+  #block-wikivisuallyhomeblock div.description_wikivisually_home {
+    font-size: 19px; } }
+@media only screen and (max-width: 568px) {
+  #block-wikivisuallyhomeblock-3 {
+    font-size: 25px; } }
 @media only screen and (max-width: 425px) {
   div.art-rel-list {
     font-size: 45px; } }
