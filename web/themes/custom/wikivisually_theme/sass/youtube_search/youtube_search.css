@@ -234,9 +234,9 @@ aside.page_wiki {
     left: 65%; } }
 @media only screen and (max-width: 768px) {
   section.wiki-controller {
-    width: 280%;
-    margin-top: 86%;
-    font-size: 40px; }
+    width: 80%;
+    margin-top: 46%;
+    font-size: 100%; }
 
   aside.page_wiki {
     width: 110%; }
@@ -246,26 +246,26 @@ aside.page_wiki {
 
   #block-youtubesearchblock {
     position: unset;
-    width: 129%; }
+    width: 36%; }
     #block-youtubesearchblock div.class-overflow {
       height: 280px; }
     #block-youtubesearchblock h2.block-title {
       width: 115%; }
 
   div#youtube-block div.left-stat img {
-    width: 120%;
-    height: 180px; }
+    width: 50%;
+    height: 120px; }
 
   #block-youtubesearchblock ul li div.title {
-    top: -180px;
-    left: 125%;
-    font-size: 210%;
-    width: 80%; }
+    top: -120px;
+    left: 55%;
+    font-size: 100%;
+    width: 50%; }
   #block-youtubesearchblock ul li div.youtube-stat {
-    top: -160px;
-    left: 125%;
-    font-size: 220%;
-    width: 80%; }
+    top: -120px;
+    left: 55%;
+    font-size: 90%;
+    width: 60%; }
 
   div.height-row {
     width: 49%; }

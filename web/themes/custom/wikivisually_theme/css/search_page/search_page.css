@@ -113,6 +113,16 @@ img.img-search {
   div.wiki_img_block {
     font-size: 80% !important;
     line-height: 2em !important;
-    width: 29% !important;
+    width: 80% !important;
+  }
+
+  /* line 112, ../../sass/search_page/search_page.scss */
+  #block-wikichannelblock h2.block-title {
+    width: 90%;
+  }
+
+  /* line 115, ../../sass/search_page/search_page.scss */
+  #block-wikichannelblock {
+    width: 60% !important;
   }
 }
