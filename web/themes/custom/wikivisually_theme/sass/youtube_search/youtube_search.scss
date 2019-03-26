@@ -192,24 +192,27 @@ aside.page_wiki {
 
 @media only screen and (max-width: 1024px) {
   section.wiki-controller {
-    width: 90%;
+    width: 75%;
     position: unset;
     margin-top: 0%;
   }
   aside.page_wiki {
     left: 6%;
-    width: 80%;
+    width: 65%;
   }
-  #block-youtubesearchblock div {
-    &.class-overflow {
-      width: 140%;
-    }
-    ul {
-      padding: 20px;
-    }
-    &#youtube-block ul:nth-child(2n+1) {
-      position: relative;
-      right: 25%;
+  #block-youtubesearchblock {
+    width: 129%;
+    div {
+      &.class-overflow {
+        width: 140%;
+      }
+      ul {
+        padding: 20px;
+      }
+      &#youtube-block ul:nth-child(2n+1) {
+        position: relative;
+        right: 25%;
+      }
     }
   }
   #block-wikichannelblock h2.block-title {
@@ -218,9 +221,9 @@ aside.page_wiki {
     font-size: 270%;
   }
   #block-youtubesearchblock h2.block-title {
-    width: 135%;
+    width: 105%;
     text-align: center;
-    font-size: 240%;
+    font-size: 200%;
   }
   div {
     &.region-page-wiki {
@@ -312,12 +315,15 @@ aside.page_wiki {
     margin-top: 86%;
     font-size: 40px;
   }
+
   aside.page_wiki {
     width: 110%;
   }
+
   div.region-page-wiki {
     width: 270%;
   }
+
   #block-youtubesearchblock {
     position: unset;
     width: 129%;
@@ -327,14 +333,13 @@ aside.page_wiki {
     h2.block-title {
       width: 115%;
     }
-    div {
-
-    }
   }
+
   div#youtube-block div.left-stat img {
     width: 120%;
     height: 180px;
   }
+
   #block-youtubesearchblock ul li div {
     &.title {
       top: -180px;
@@ -349,18 +354,21 @@ aside.page_wiki {
       width: 80%;
     }
   }
+
   div {
     &.height-row {
-      width: 164%;
+      width: 49%;
     }
     &.art-rel-list {
       font-size: 30px;
     }
   }
+
   .related_research_topics {
     text-align: center;
     font-size: 130%;
   }
+
   div {
     &.art-rel-list {
       font-size: 90%;
@@ -417,12 +425,8 @@ aside.page_wiki {
       font-size: 24px !important;
     }
   }
-  section.wiki-controller {
-    width: 260%;
-  }
   aside.page_wiki {
     left: 6%;
-    width: 100%;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -434,17 +438,11 @@ aside.page_wiki {
       font-size: 24px !important;
     }
   }
-  section.wiki-controller {
-    width: 260%;
-  }
   aside.page_wiki {
     width: 100%;
   }
 }
 @media only screen and (max-width: 320px) {
-  section.wiki-controller {
-    width: 290%;
-  }
   aside.page_wiki {
     width: 120%;
   }

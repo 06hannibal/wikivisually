@@ -41,5 +41,37 @@ img.img-search {
     left: 60%; }
   #block-youtubesearchblock ul li div.youtube-stat {
     left: 210px; } }
+@media only screen and (max-width: 414px) {
+  section.wiki-controller {
+    width: 80% !important;
+    font-size: 80% !important; }
+
+  img.img-search {
+    width: 50% !important; }
+
+  div.page_search_wiki a.title-search {
+    font-size: 40% !important; }
+  div#youtube-block div.left-stat img {
+    width: 50% !important;
+    height: 130px !important; }
+
+  #block-youtubesearchblock {
+    position: unset;
+    width: 43% !important; }
+    #block-youtubesearchblock ul li div.title {
+      top: -120px !important;
+      left: 55% !important;
+      font-size: 90% !important;
+      width: 30% !important; }
+    #block-youtubesearchblock ul li div.youtube-stat {
+      top: -120px !important;
+      left: 55% !important;
+      font-size: 100% !important;
+      width: 80% !important; }
+
+  div.wiki_img_block {
+    font-size: 80% !important;
+    line-height: 2em !important;
+    width: 29% !important; } }
 
 /*# sourceMappingURL=search_page.css.map */

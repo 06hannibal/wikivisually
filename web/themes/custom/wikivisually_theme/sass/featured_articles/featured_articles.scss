@@ -33,7 +33,7 @@ div.views-row {
     font-size: 60px;
   }
   #block-views-block-featured-block-featured-block {
-    width: 180%;
+    width: 40%;
     h2.block-title {
       font-size: 400%;
     }
@@ -46,5 +46,20 @@ div.views-row {
   }
   a.view-home-page-fetured div.img_wiki img {
     width: 600px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  #block-views-block-featured-block-featured-block {
+    width: 100%;
+    h2.block-title {
+      font-size: 200%;
+    }
+    img {
+      width: 260%;
+    }
+    width: 50%;
+    div.title_wiki {
+      font-size: 100%;
+    }
   }
 }

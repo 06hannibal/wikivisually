@@ -221,7 +221,7 @@ div.view-display-id-block_1 {
   div {
     &.height-row {
       height: 90px;
-      width: 133%;
+      width: 100%;
     }
     &.region-content {
       width: 170%;
@@ -295,14 +295,15 @@ div.view-display-id-block_1 {
     margin-bottom: 300%;
   }
 }
-
 @media only screen and (max-width: 768px) {
   #block-wikisearchblock {
     margin-right: 26%;
   }
+
   #block-wikivisually-theme-youtubechannelblock {
     width: 160%;
   }
+
   div.view-display-id-block_1 div {
     &.col-2 img.img-responsive {
       margin-left: -3%;
@@ -317,6 +318,7 @@ div.view-display-id-block_1 {
       margin-left: 0%;
     }
   }
+
   section {
     &.row-controller {
       width: 110%;
@@ -325,9 +327,11 @@ div.view-display-id-block_1 {
       margin-right: 17%;
     }
   }
+
   a.view-home-page-fetured div.title_wiki {
     font-size: 250%;
   }
+
   div {
     &.row {
       max-width: 90%;
@@ -343,59 +347,68 @@ div.view-display-id-block_1 {
       font-size: 35px;
     }
   }
+
   aside.top_list {
     width: 60%;
     margin-bottom: 0px;
   }
+
   #block-wikivisuallyhomeblock {
     width: 150%;
     div {
       &.title_wikivisually_home {
-        font-size: 70px;
+        font-size: 250%;
       }
       &.description_wikivisually_home {
-        font-size: 40px;
+        font-size: 20px;
       }
       &.wikivisually_home div.description_wikivisually_home {
-        width: 850px;
+        width: 500px;
       }
     }
   }
+
   #block-wikivisually-theme-views-block-headers-menu-links-block-1 {
-    width: 260%;
+    width: 100%;
     img.img-responsive {
       width: 100%;
     }
   }
+
   #block-mainnavigation-2, #block-wikivisually-theme-main-menu {
     height: 50px;
   }
+
   #block-wikivisuallyhomeblock-3 {
     font-size: 35px;
   }
+
   #block-wikisearchblock {
     left: 21%;
     margin-right: 39%;
     width: 15%;
     top: -100px;
   }
+
   #block-sharethis {
-    bottom: 27px;
+    bottom: 35px;
   }
+
   #block-views-block-home-block-home-block {
     width: 180%;
     h2.block-title a {
-      font-size: 40px;
+      font-size: 30px;
     }
     div {
       &.img_wiki img {
-        width: 400px;
+        width: 300px;
       }
       &.views-row a.view-home-block div.title_wiki {
-        font-size: 450%;
+        font-size: 350%;
       }
     }
   }
+
   #block-wikivisually-theme-youtubechannelblock {
     width: 300%;
     h2.block-title {
@@ -403,18 +416,20 @@ div.view-display-id-block_1 {
       font-size: 40px;
     }
     img {
-      width: 400px;
-      height: 250px !important;
+      width: 300px;
+      height: 200px !important;
     }
     div {
       &.right-stat, &#youtube-block div.youtube-stat {
-        font-size: 30px !important;
+        font-size: 20px !important;
       }
     }
   }
+
   h2.views-block-how-more a {
-    font-size: 160%;
+    font-size: 100%;
   }
+
   li {
     &.first {
       margin-left: 1%;
@@ -424,25 +439,146 @@ div.view-display-id-block_1 {
       display: inline-block;
     }
     &.first a, &.last a {
-      font-size: 6vw;
+      font-size: 2vw;
     }
   }
+
   #block-views-block-top-lists-top-lists {
-    width: 880%;
+    width: 230%;
     h2.block-title {
-      font-size: 60px;
+      font-size: 300%;
     }
     h3.field-content a {
-      font-size: 200%;
+      font-size: 150%;
     }
     img.img-responsive {
-      width: 300px;
+      width: 250px;
     }
   }
 }
-
 @media only screen and (max-width: 425px) {
   div.art-rel-list {
     font-size: 45px;
   }
 }
+@media only screen and (max-width: 414px) {
+  #block-wikivisuallyhomeblock div {
+    &.title_wikivisually_home {
+      font-size: 17px;
+    }
+    &.wikivisually_home div.description_wikivisually_home {
+      font-size: 8px;
+      margin-top: 11px;
+      width: 170px;
+    }
+  }
+  li {
+    &.first a, &.last a {
+      font-size: 8px;
+    }
+  }
+  .navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 0px;
+  }
+  #block-wikivisually-theme-views-block-headers-menu-links-block-1 {
+    width: 120%;
+  }
+  li {
+    &.first {
+      left: -5px;
+    }
+    &.last {
+      left: -30px;
+    }
+  }
+  #block-mainnavigation-2, #block-wikivisually-theme-main-menu {
+    height: 30px;
+  }
+  #block-wikisearchblock {
+    left: 10%;
+    margin-right: 39%;
+    width: 19%;
+    top: -60px;
+  }
+  div {
+    &.form-wiki-search svg {
+      position: relative;
+      left: 174%;
+      top: 13px;
+    }
+    &.region.region-header {
+      width: 100%;
+    }
+  }
+  .navbar-nav {
+    margin: 0.5px -10px;
+  }
+  #block-wikivisuallyhomeblock-3 {
+    font-size: 15px;
+  }
+  #block-sharethis {
+    left: 50%;
+    bottom: 23px;
+  }
+  #block-views-block-top-lists-top-lists {
+    h2.block-title {
+      font-size: 200%;
+    }
+    width: 270%;
+  }
+  div.height-row {
+    width: 166%;
+    height: 50px;
+  }
+  #block-views-block-top-lists-top-lists {
+    img.img-responsive {
+      width: 140px;
+    }
+    h3.field-content a {
+      font-size: 100%;
+    }
+  }
+  #block-views-block-home-block-home-block {
+    width: 100%;
+    div.views-row a.view-home-block div.title_wiki {
+      font-size: 250%;
+    }
+  }
+  h2.views-block-how-more a {
+    font-size: 100%;
+  }
+  #block-wikivisually-theme-youtubechannelblock {
+    width: 100%;
+    h2.block-title {
+      font-size: 150%;
+    }
+    img {
+      width: 100px;
+      height: 110px !important;
+    }
+    div {
+      &.right-stat {
+        font-size: 70%;
+      }
+      &#youtube-block div.youtube-stat {
+        font-size: 70%;
+        font-size: 65%;
+      }
+    }
+  }
+  aside.trending {
+    padding-left: 30px;
+    padding-right: 0px;
+  }
+  #block-wikivisually-theme-youtubechannelblock div {
+    &.right-stat, &#youtube-block div.youtube-stat {
+      font-size: 80% !important;
+    }
+  }
+  #block-views-block-home-block-home-block h2.block-title a {
+    font-size: 70%;
+  }
+}
+

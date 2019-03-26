@@ -26,7 +26,7 @@ div.views-row {
     font-size: 60px; }
 
   #block-views-block-featured-block-featured-block {
-    width: 180%; }
+    width: 40%; }
     #block-views-block-featured-block-featured-block h2.block-title {
       font-size: 400%; }
     #block-views-block-featured-block-featured-block img {
@@ -36,5 +36,15 @@ div.views-row {
 
   a.view-home-page-fetured div.img_wiki img {
     width: 600px; } }
+@media only screen and (max-width: 414px) {
+  #block-views-block-featured-block-featured-block {
+    width: 100%;
+    width: 50%; }
+    #block-views-block-featured-block-featured-block h2.block-title {
+      font-size: 200%; }
+    #block-views-block-featured-block-featured-block img {
+      width: 260%; }
+    #block-views-block-featured-block-featured-block div.title_wiki {
+      font-size: 100%; } }
 
 /*# sourceMappingURL=featured_articles.css.map */

@@ -148,21 +148,23 @@ aside.page_wiki {
     width: 163%; } }
 @media only screen and (max-width: 1024px) {
   section.wiki-controller {
-    width: 90%;
+    width: 75%;
     position: unset;
     margin-top: 0%; }
 
   aside.page_wiki {
     left: 6%;
-    width: 80%; }
+    width: 65%; }
 
-  #block-youtubesearchblock div.class-overflow {
-    width: 140%; }
-  #block-youtubesearchblock div ul {
-    padding: 20px; }
-  #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
-    position: relative;
-    right: 25%; }
+  #block-youtubesearchblock {
+    width: 129%; }
+    #block-youtubesearchblock div.class-overflow {
+      width: 140%; }
+    #block-youtubesearchblock div ul {
+      padding: 20px; }
+    #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
+      position: relative;
+      right: 25%; }
 
   #block-wikichannelblock h2.block-title {
     text-align: center;
@@ -170,9 +172,9 @@ aside.page_wiki {
     font-size: 270%; }
 
   #block-youtubesearchblock h2.block-title {
-    width: 135%;
+    width: 105%;
     text-align: center;
-    font-size: 240%; }
+    font-size: 200%; }
 
   div.region-page-wiki {
     width: 120%; }
@@ -266,7 +268,7 @@ aside.page_wiki {
     width: 80%; }
 
   div.height-row {
-    width: 164%; }
+    width: 49%; }
   div.art-rel-list {
     font-size: 30px; }
 
@@ -308,27 +310,17 @@ aside.page_wiki {
   div.art-rel-list {
     font-size: 24px !important; }
 
-  section.wiki-controller {
-    width: 260%; }
-
   aside.page_wiki {
-    left: 6%;
-    width: 100%; } }
+    left: 6%; } }
 @media only screen and (max-width: 375px) {
   div.height-row {
     width: 156%; }
   div.art-rel-list {
     font-size: 24px !important; }
 
-  section.wiki-controller {
-    width: 260%; }
-
   aside.page_wiki {
     width: 100%; } }
 @media only screen and (max-width: 320px) {
-  section.wiki-controller {
-    width: 290%; }
-
   aside.page_wiki {
     width: 120%; } }
 
