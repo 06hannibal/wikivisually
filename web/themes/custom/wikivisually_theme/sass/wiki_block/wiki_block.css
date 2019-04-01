@@ -74,7 +74,24 @@
 
   div.wiki_class_popap img {
     right: 10%;
-    top: 15%; } }
+    top: 15%; }
+
+  a.title-wiki-block-popap div.popap-wiki {
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px; }
+    a.title-wiki-block-popap div.popap-wiki a {
+      color: #337ab7;
+      text-decoration: none;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px; }
+      a.title-wiki-block-popap div.popap-wiki a:hover {
+        color: #23527c;
+        text-decoration: underline;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px; }
+
+  /* line 53, ../../sass/wiki_block/wiki_block.scss */ }
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
   div.title-wiki-block a {
@@ -134,7 +151,24 @@
 
   div.wiki_class_popap img {
     right: 70%;
-    top: 45%; } }
+    top: 45%; }
+
+  a.title-wiki-block-popap div.popap-wiki {
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px; }
+    a.title-wiki-block-popap div.popap-wiki a {
+      color: #337ab7;
+      text-decoration: none;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px; }
+      a.title-wiki-block-popap div.popap-wiki a:hover {
+        color: #23527c;
+        text-decoration: underline;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px; }
+
+  /* line 53, ../../sass/wiki_block/wiki_block.scss */ }
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
   div.title-wiki-block a {
@@ -194,7 +228,24 @@
 
   div.wiki_class_popap img {
     right: 70%;
-    top: 45%; } }
+    top: 45%; }
+
+  a.title-wiki-block-popap div.popap-wiki {
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px; }
+    a.title-wiki-block-popap div.popap-wiki a {
+      color: #337ab7;
+      text-decoration: none;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px; }
+      a.title-wiki-block-popap div.popap-wiki a:hover {
+        color: #23527c;
+        text-decoration: underline;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px; }
+
+  /* line 53, ../../sass/wiki_block/wiki_block.scss */ }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
   div.title-wiki-block a {
@@ -254,7 +305,24 @@
 
   div.wiki_class_popap img {
     right: 70%;
-    top: 45%; } }
+    top: 45%; }
+
+  a.title-wiki-block-popap div.popap-wiki {
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px; }
+    a.title-wiki-block-popap div.popap-wiki a {
+      color: #337ab7;
+      text-decoration: none;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px; }
+      a.title-wiki-block-popap div.popap-wiki a:hover {
+        color: #23527c;
+        text-decoration: underline;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px; }
+
+  /* line 53, ../../sass/wiki_block/wiki_block.scss */ }
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
   div.title-wiki-block a {
@@ -314,6 +382,23 @@
 
   div.wiki_class_popap img {
     right: 70%;
-    top: 45%; } }
+    top: 45%; }
+
+  a.title-wiki-block-popap div.popap-wiki {
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px; }
+    a.title-wiki-block-popap div.popap-wiki a {
+      color: #337ab7;
+      text-decoration: none;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px; }
+      a.title-wiki-block-popap div.popap-wiki a:hover {
+        color: #23527c;
+        text-decoration: underline;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px; }
+
+  /* line 53, ../../sass/wiki_block/wiki_block.scss */ }
 
 /*# sourceMappingURL=wiki_block.css.map */
