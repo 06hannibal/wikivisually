@@ -121,7 +121,8 @@ html, body {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    padding: 5px; }
+    padding: 5px;
+    text-decoration: none; }
 
   #block-views-block-top-lists-top-lists h3.field-content a, a.view-home-page-fetured div.title_wiki {
     color: black;
@@ -254,7 +255,8 @@ html, body {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    padding: 5px; }
+    padding: 5px;
+    text-decoration: none; }
 
   #block-views-block-top-lists-top-lists h3.field-content a, a.view-home-page-fetured div.title_wiki {
     color: black;
@@ -385,7 +387,8 @@ html, body {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    padding: 5px; }
+    padding: 5px;
+    text-decoration: none; }
 
   #block-views-block-top-lists-top-lists div.form-group, #block-views-block-top-lists-top-lists div.views-field.views-field-name {
     padding-left: 2%; }
@@ -524,7 +527,8 @@ html, body {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    padding: 5px; }
+    padding: 5px;
+    text-decoration: none; }
 
   #block-views-block-home-block-home-block div.title_wiki {
     margin-left: 10px; }
@@ -688,7 +692,8 @@ html, body {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    padding: 5px; }
+    padding: 5px;
+    text-decoration: none; }
 
   #block-views-block-home-block-home-block div.title_wiki {
     margin-left: 10px; }
