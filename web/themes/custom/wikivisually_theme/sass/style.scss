@@ -1,6 +1,9 @@
-html,body {
+/* line 1, ../sass/style.scss */
+
+html, body {
   overflow-x: hidden;
 }
+
 /* Large desktops */
 @media (min-width: 1400px) {
   #block-wikisearchblock {
@@ -69,12 +72,12 @@ html,body {
     margin-bottom: 5px;
   }
   #block-views-block-top-lists-top-lists {
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2);
     h2.block-title {
       border-bottom: 1px solid #aaaaa9;
       padding-bottom: 20px;
       padding-left: 20px;
     }
-    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2);
   }
   div.taxonomy-block-none {
     display: none;
@@ -190,6 +193,12 @@ html,body {
     width: 40%;
     font-size: small;
   }
+  div.views-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
 }
 
 /* Landscape tablets and medium desktops */
@@ -223,25 +232,25 @@ html,body {
     margin-bottom: 5px;
   }
   #block-views-block-top-lists-top-lists {
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2);
     h2.block-title {
       border-bottom: 1px solid #aaaaa9;
       padding-bottom: 20px;
       padding-left: 20px;
     }
-    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2);
   }
   div.taxonomy-block-none {
     display: none;
   }
   #block-wikivisuallyhomeblock div {
     &.wikivisually_home {
+      width: 130%;
       a {
         font-size: 25px;
         color: black;
         text-decoration: none;
         font-weight: bold;
       }
-      width: 130%;
     }
     &.title_wikivisually_home {
       display: inline-block;
@@ -342,6 +351,12 @@ html,body {
     width: 40%;
     font-size: x-large;
   }
+  div.views-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
 }
 
 /* Portrait tablets and small desktops */
@@ -390,12 +405,12 @@ html,body {
     margin-bottom: 5px;
   }
   #block-views-block-top-lists-top-lists {
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2);
     h2.block-title {
       border-bottom: 1px solid #aaaaa9;
       padding-bottom: 20px;
       padding-left: 20px;
     }
-    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2);
   }
   div {
     &.taxonomy-block-none {
@@ -502,6 +517,12 @@ html,body {
       height: 290px;
     }
   }
+  div.views-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
 }
 
 /* Landscape phones and portrait tablets */
@@ -571,12 +592,12 @@ html,body {
     margin-bottom: 5px;
   }
   #block-views-block-top-lists-top-lists {
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2);
     h2.block-title {
       border-bottom: 1px solid #aaaaa9;
       padding-bottom: 20px;
       padding-left: 20px;
     }
-    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2);
     div.views-row {
       display: flex;
       align-items: center;
@@ -672,6 +693,12 @@ html,body {
   div.taxonomy-block-none {
     display: none;
   }
+  div.views-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
 }
 
 /* Portrait phones and smaller */
@@ -743,12 +770,12 @@ html,body {
     margin-bottom: 5px;
   }
   #block-views-block-top-lists-top-lists {
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2);
     h2.block-title {
       border-bottom: 1px solid #aaaaa9;
       padding-bottom: 20px;
       padding-left: 20px;
     }
-    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2);
     div.views-row {
       display: flex;
       align-items: center;
@@ -813,6 +840,12 @@ html,body {
   }
   div.taxonomy-block-none {
     display: none;
+  }
+  div.views-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
   }
 }
 

@@ -1,3 +1,4 @@
+/* line 1, ../sass/style.scss */
 html, body {
   overflow-x: hidden; }
 
@@ -163,7 +164,13 @@ html, body {
     left: 35%;
     top: -90px;
     width: 40%;
-    font-size: small; } }
+    font-size: small; }
+
+  div.views-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px; } }
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
   div.region.region-header {
@@ -296,7 +303,13 @@ html, body {
     left: 35%;
     top: -190px;
     width: 40%;
-    font-size: x-large; } }
+    font-size: x-large; }
+
+  div.views-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px; } }
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
   div.region.region-header {
@@ -426,7 +439,13 @@ html, body {
     width: 40%;
     font-size: x-large; }
   #block-wikivisually-theme-youtubechannelblock #youtube-block li {
-    height: 290px; } }
+    height: 290px; }
+
+  div.views-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px; } }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
   div.region.region-header {
@@ -579,7 +598,13 @@ html, body {
     font-size: small; }
 
   div.taxonomy-block-none {
-    display: none; } }
+    display: none; }
+
+  div.views-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px; } }
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
   div.region.region-header {
@@ -710,7 +735,13 @@ html, body {
     font-size: small; }
 
   div.taxonomy-block-none {
-    display: none; } }
+    display: none; }
+
+  div.views-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px; } }
 @media (max-width: 320px) {
   #block-mainnavigation-2 li.first a, #block-wikivisually-theme-main-menu li.first a {
     margin-left: 0px; }
