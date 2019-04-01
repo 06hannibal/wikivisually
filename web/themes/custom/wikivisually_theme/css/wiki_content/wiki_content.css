@@ -1340,12 +1340,13 @@ table#mw-prefixindex-list-table, table#mw-prefixindex-nav-table {
 
 @media only screen and (max-width: 800px) {
   /* line 1213, ../../sass/wiki_content/wiki_content.scss */
+  /* line 1214, ../../sass/wiki_content/wiki_content.scss */
   .portal-column-left, .portal-column-right, .portal-column-left-wide, .portal-column-right-narrow, .portal-column-left-extra-wide, .portal-column-right-extra-narrow {
     float: inherit;
     width: inherit;
   }
 }
-/* line 1219, ../../sass/wiki_content/wiki_content.scss */
+/* line 1220, ../../sass/wiki_content/wiki_content.scss */
 #bodyContent .letterhead {
   background-image: url("//upload.wikimedia.org/wikipedia/commons/e/e0/Tan-page-corner.png");
   background-repeat: no-repeat;
@@ -1353,23 +1354,23 @@ table#mw-prefixindex-list-table, table#mw-prefixindex-nav-table {
   background-color: #faf9f2;
 }
 
-/* line 1226, ../../sass/wiki_content/wiki_content.scss */
+/* line 1227, ../../sass/wiki_content/wiki_content.scss */
 td .sortkey, th .sortkey {
   display: none;
   speak: none;
 }
 
-/* line 1232, ../../sass/wiki_content/wiki_content.scss */
+/* line 1233, ../../sass/wiki_content/wiki_content.scss */
 .inputbox-hidecheckboxes form .inputbox-element, .inputbox-hidecheckboxes .mw-ui-checkbox {
   display: none !important;
 }
 
-/* line 1237, ../../sass/wiki_content/wiki_content.scss */
+/* line 1238, ../../sass/wiki_content/wiki_content.scss */
 .k-player .k-attribution {
   visibility: hidden;
 }
 
-/* line 1241, ../../sass/wiki_content/wiki_content.scss */
+/* line 1242, ../../sass/wiki_content/wiki_content.scss */
 .PopUpMediaTransform a .play-btn-large {
   margin: 0;
   top: auto;
@@ -1378,33 +1379,36 @@ td .sortkey, th .sortkey {
   left: 0;
 }
 
-/* line 1249, ../../sass/wiki_content/wiki_content.scss */
+/* line 1250, ../../sass/wiki_content/wiki_content.scss */
 .flaggedrevs_draft_synced, .flaggedrevs_stable_synced {
   display: none;
 }
 
-/* line 1253, ../../sass/wiki_content/wiki_content.scss */
+/* line 1254, ../../sass/wiki_content/wiki_content.scss */
 .bordered-images img {
   border: solid #ddd 1px;
 }
 
 @media screen {
   /* line 1258, ../../sass/wiki_content/wiki_content.scss */
+  /* line 1260, ../../sass/wiki_content/wiki_content.scss */
   #content .gallerybox div.thumb {
     background-color: #f8f9fa;
   }
 
   /* line 1261, ../../sass/wiki_content/wiki_content.scss */
+  /* line 1264, ../../sass/wiki_content/wiki_content.scss */
   .gallerybox .thumb img {
     background: #fff url(//upload.wikimedia.org/wikipedia/commons/5/5d/Checker-16x16.png) repeat;
   }
 
   /* line 1264, ../../sass/wiki_content/wiki_content.scss */
+  /* line 1268, ../../sass/wiki_content/wiki_content.scss */
   .ns-0 .gallerybox .thumb img, .ns-2 .gallerybox .thumb img, .ns-100 .gallerybox .thumb img, .nochecker .gallerybox .thumb img {
     background-image: none;
   }
 }
-/* line 1269, ../../sass/wiki_content/wiki_content.scss */
+/* line 1273, ../../sass/wiki_content/wiki_content.scss */
 div.thumb.tright {
   clear: right;
   float: right;
@@ -1412,16 +1416,17 @@ div.thumb.tright {
 
 @media screen {
   /* line 1275, ../../sass/wiki_content/wiki_content.scss */
+  /* line 1280, ../../sass/wiki_content/wiki_content.scss */
   #siteSub {
     display: block;
   }
 }
-/* line 1280, ../../sass/wiki_content/wiki_content.scss */
+/* line 1285, ../../sass/wiki_content/wiki_content.scss */
 span.mw-editsection {
   display: none;
 }
 
-/* line 1283, ../../sass/wiki_content/wiki_content.scss */
+/* line 1289, ../../sass/wiki_content/wiki_content.scss */
 div.popap-wiki {
   display: block;
   overflow: auto;
@@ -1434,12 +1439,12 @@ div.popap-wiki {
   border: 4px double black;
 }
 
-/* line 1295, ../../sass/wiki_content/wiki_content.scss */
+/* line 1301, ../../sass/wiki_content/wiki_content.scss */
 .related_research_topics {
   text-align: center;
 }
 
-/* line 1301, ../../sass/wiki_content/wiki_content.scss */
+/* line 1307, ../../sass/wiki_content/wiki_content.scss */
 .text-scrollable div.thumbinner {
   border: 1px solid #ccc;
   padding: 3px;
@@ -1448,29 +1453,29 @@ div.popap-wiki {
   text-align: center;
   overflow: hidden;
 }
-/* line 1309, ../../sass/wiki_content/wiki_content.scss */
+/* line 1315, ../../sass/wiki_content/wiki_content.scss */
 .text-scrollable div.tright {
   margin: 0.5em 0 1.3em 1.4em;
   clear: right;
   float: right;
 }
-/* line 1314, ../../sass/wiki_content/wiki_content.scss */
+/* line 1320, ../../sass/wiki_content/wiki_content.scss */
 .text-scrollable div.floatright {
   clear: right;
   float: right;
 }
-/* line 1319, ../../sass/wiki_content/wiki_content.scss */
+/* line 1325, ../../sass/wiki_content/wiki_content.scss */
 .text-scrollable table.floatright {
   clear: right;
   float: right;
 }
 
-/* line 1326, ../../sass/wiki_content/wiki_content.scss */
+/* line 1332, ../../sass/wiki_content/wiki_content.scss */
 div.mw-parser-output a.image:hover div.popap-wiki, div.mw-parser-output sup.reference:hover div.popap-wiki, div.mw-parser-output div.toc:hover div.popap-wiki {
   display: none;
 }
 
-/* line 1331, ../../sass/wiki_content/wiki_content.scss */
+/* line 1337, ../../sass/wiki_content/wiki_content.scss */
 .wiki-img-frame {
   display: none;
   position: absolute;
@@ -1481,34 +1486,7 @@ div.mw-parser-output a.image:hover div.popap-wiki, div.mw-parser-output sup.refe
   border: 22px solid #dbc4c4;
 }
 
-/* line 1341, ../../sass/wiki_content/wiki_content.scss */
+/* line 1347, ../../sass/wiki_content/wiki_content.scss */
 .class_popap {
   max-height: 650px;
-}
-
-@media only screen and (max-width: 1366px) {
-  /* line 1346, ../../sass/wiki_content/wiki_content.scss */
-  .class_popap {
-    max-height: 500px;
-  }
-
-  /* line 1349, ../../sass/wiki_content/wiki_content.scss */
-  .class_link {
-    position: fixed;
-    left: 88.5%;
-    bottom: 80%;
-    color: #c91a1a;
-    font-size: 170%;
-    text-decoration: none;
-  }
-
-  /* line 1357, ../../sass/wiki_content/wiki_content.scss */
-  .class_all {
-    position: fixed;
-    left: 86%;
-    bottom: 65%;
-    color: #c91a1a;
-    font-size: 170%;
-    text-decoration: none;
-  }
 }

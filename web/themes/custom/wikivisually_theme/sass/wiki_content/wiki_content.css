@@ -860,6 +860,7 @@ table#mw-prefixindex-list-table, table#mw-prefixindex-nav-table {
   width: 29%; }
 
 @media only screen and (max-width: 800px) {
+  /* line 1213, ../../sass/wiki_content/wiki_content.scss */
   .portal-column-left, .portal-column-right, .portal-column-left-wide, .portal-column-right-narrow, .portal-column-left-extra-wide, .portal-column-right-extra-narrow {
     float: inherit;
     width: inherit; } }
@@ -893,12 +894,15 @@ td .sortkey, th .sortkey {
   border: solid #ddd 1px; }
 
 @media screen {
+  /* line 1258, ../../sass/wiki_content/wiki_content.scss */
   #content .gallerybox div.thumb {
     background-color: #f8f9fa; }
 
+  /* line 1261, ../../sass/wiki_content/wiki_content.scss */
   .gallerybox .thumb img {
     background: #fff url(//upload.wikimedia.org/wikipedia/commons/5/5d/Checker-16x16.png) repeat; }
 
+  /* line 1264, ../../sass/wiki_content/wiki_content.scss */
   .ns-0 .gallerybox .thumb img, .ns-2 .gallerybox .thumb img, .ns-100 .gallerybox .thumb img, .nochecker .gallerybox .thumb img {
     background-image: none; } }
 div.thumb.tright {
@@ -906,6 +910,7 @@ div.thumb.tright {
   float: right; }
 
 @media screen {
+  /* line 1275, ../../sass/wiki_content/wiki_content.scss */
   #siteSub {
     display: block; } }
 span.mw-editsection {
@@ -957,25 +962,5 @@ div.mw-parser-output a.image:hover div.popap-wiki, div.mw-parser-output sup.refe
 
 .class_popap {
   max-height: 650px; }
-
-@media only screen and (max-width: 1366px) {
-  .class_popap {
-    max-height: 500px; }
-
-  .class_link {
-    position: fixed;
-    left: 88.5%;
-    bottom: 80%;
-    color: #c91a1a;
-    font-size: 170%;
-    text-decoration: none; }
-
-  .class_all {
-    position: fixed;
-    left: 86%;
-    bottom: 65%;
-    color: #c91a1a;
-    font-size: 170%;
-    text-decoration: none; } }
 
 /*# sourceMappingURL=wiki_content.css.map */

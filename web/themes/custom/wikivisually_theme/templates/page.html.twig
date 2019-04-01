@@ -53,7 +53,7 @@
 #}
 <header>
     {% block wikivisually_top_title %}
-      <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wikivisually_top_title">
+      <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-4 wikivisually_top_title">
         {{ page.wikivisually_top_title }}
       </div>
     {% endblock %}
@@ -76,7 +76,7 @@
       {# Sidebar trending top list #}
       {% if page.sidebar_top_list %}
         {% block sidebar_top_list %}
-          <aside class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 top_list">
+          <aside class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 top_list">
             {{ page.sidebar_top_list }}
           </aside>
         {% endblock %}
@@ -86,13 +86,13 @@
       {%
         set content_classes = [
           page.sidebar_top_list and page.sidebar_picker and page.sidebar_trending ? 'col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3',
-          page.sidebar_top_list and page.sidebar_trending and page.sidebar_picker is empty ? 'col-12 col-sm-6 col-md-5 col-lg-5 col-xl-5 row-controller-mobile',
+          page.sidebar_top_list and page.sidebar_trending and page.sidebar_picker is empty ? 'col-12 col-sm-12 col-md-7 col-lg-5 col-xl-5 row-controller-mobile',
           page.sidebar_top_list and page.sidebar_picker and page.sidebar_trending is empty ? 'col-12 col-sm-6 col-md-5 col-lg-5 col-xl-5',
           page.sidebar_picker and page.sidebar_trending and page.sidebar_top_list is empty ? 'col-12 col-sm-6 col-md-5 col-lg-5 col-xl-5',
-          page.sidebar_top_list and page.sidebar_picker is empty and page.sidebar_trending is empty ? 'col-12 col-sm-12 col-md-6 col-sm-9 col-xl-9 row-controller',
-          page.sidebar_trending and page.sidebar_top_list is empty and page.sidebar_picker is empty ? 'col-12 col-sm-12 col-md-6 col-sm-9 col-xl-9 row-controller',
-          page.sidebar_picker and page.sidebar_top_list is empty and page.sidebar_trending is empty ? 'col-12 col-sm-12 col-md-6 col-sm-9 col-xl-9 row-controller',
-          page.page_wiki and page.sidebar_top_list is empty and page.sidebar_trending is empty and page.sidebar_picker is empty ? 'col-md-6 wiki-controller',
+          page.sidebar_top_list and page.sidebar_picker is empty and page.sidebar_trending is empty ? 'col-12 col-sm-12 col-md-7 col-sm-9 col-xl-9 row-controller',
+          page.sidebar_trending and page.sidebar_top_list is empty and page.sidebar_picker is empty ? 'col-12 col-sm-12 col-md-7 col-sm-9 col-xl-9 row-controller',
+          page.sidebar_picker and page.sidebar_top_list is empty and page.sidebar_trending is empty ? 'col-12 col-sm-12 col-md-7 col-sm-9 col-xl-9 row-controller',
+          page.page_wiki and page.sidebar_top_list is empty and page.sidebar_trending is empty and page.sidebar_picker is empty ? 'col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 wiki-controller',
         ]
       %}
       <section{{ content_attributes.addClass(content_classes) }}>
@@ -121,7 +121,7 @@
       {# Sidebar trending #}
       {% if page.sidebar_trending %}
         {% block sidebar_trending %}
-          <aside class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 trending">
+          <aside class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 trending">
             {{ page.sidebar_trending }}
           </aside>
         {% endblock %}
@@ -139,7 +139,7 @@
       {# Sidebar picker #}
       {% if page.page_wiki %}
         {% block page_wiki %}
-          <aside class="col-md-6 page_wiki">
+          <aside class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 page_wiki">
             {{ page.page_wiki }}
           </aside>
         {% endblock %}

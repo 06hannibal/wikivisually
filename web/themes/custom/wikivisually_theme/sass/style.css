@@ -1,449 +1,720 @@
-section.row-controller {
-  width: 75%; }
+/* Large desktops */
+@media (min-width: 1400px) {
+  #block-wikisearchblock {
+    position: relative !important;
+    bottom: 10px !important;
+    left: 10% !important; }
 
-div.row {
-  max-width: 92%; }
-div.region.region-header {
-  background: #1565c0;
-  height: 50px;
-  width: 110.6%; }
-div.region.region-content {
-  padding-left: 30px; }
-div.page_search_wiki h2, div.region.region-content div.page_search_wiki h2 {
-  color: #9ea03d; }
+  div.form-wiki-search svg {
+    position: relative !important;
+    left: 237% !important;
+    top: 23px !important; }
 
-#block-wikivisuallyhomeblock-2 {
-  display: inline-block;
-  margin-top: 14px;
-  font-size: 0.8vw;
-  color: #F90; }
-
-li.first a, li.last a {
-  font-size: 0.8vw;
-  color: white; }
-li.first a:hover, li.last a:hover {
-  color: #F90; }
-
-#block-sharethis {
-  display: inline-block; }
-
-#block-wikisearchblock {
-  display: inline-block;
-  margin-right: 15%;
-  float: right; }
-
-h2.views-block-how-more {
-  text-align: center; }
-
-#block-mainnavigation-2 .nav > li > a:hover, #block-wikivisually-theme-main-menu .nav > li > a:hover {
-  background-color: #eeeeee00; }
-
-#wiki-search-article {
-  margin-top: -9px; }
   #wiki-search-article input {
-    width: 200%;
-    background: #fff; }
+    width: 250% !important; }
 
-div.form-wiki-search svg {
-  position: relative;
-  left: 188%;
-  top: 13px; }
+  #block-views-block-top-lists-top-lists div.form-group, #block-views-block-top-lists-top-lists div.views-field.views-field-name {
+    padding-left: 5% !important; }
 
-#block-wikivisuallyhomeblock {
-  margin-bottom: 10px; }
+  #block-wikivisuallyhomeblock-2, #block-sharethis {
+    margin-top: 0.6% !important; }
 
-div.view-display-id-block_1 {
-  margin-bottom: 10px; }
-  div.view-display-id-block_1 div.col-2 img.img-responsive {
-    margin-left: 2px; }
-  div.view-display-id-block_1 div.col-3 img.img-responsive {
-    margin-left: 4px; }
-  div.view-display-id-block_1 div.col-4 img.img-responsive {
-    margin-left: 6px; }
-  div.view-display-id-block_1 div.col-5 img.img-responsive {
-    margin-left: 8px; }
+  #block-views-block-top-lists-top-lists h3.field-content a, a.view-home-page-fetured div.title_wiki {
+    margin-left: 10px !important; }
 
-#block-wikivisuallyhomeblock-2 {
-  margin-left: 5%; }
+  #block-wikivisually-theme-youtubechannelblock #youtube-block li {
+    height: 140px !important; }
+  #block-wikivisually-theme-youtubechannelblock #youtube-block div.right-stat {
+    top: -130px !important;
+    font-size: large !important; } }
+/* Large laptops */
+@media (min-width: 1200px) {
+  div.region.region-header {
+    background: #1565c0; }
 
-#block-sharethis {
-  margin-left: 12%; }
+  #block-wikivisuallyhomeblock-3 {
+    display: none; }
 
-#block-wikivisuallyhomeblock div.wikivisually_home {
-  width: 120%; }
-#block-wikivisuallyhomeblock div.title_wikivisually_home {
-  display: inline-block;
-  float: left;
-  margin: 4px 13px 8px 5px;
-  font-size: 21px; }
-  #block-wikivisuallyhomeblock div.title_wikivisually_home a {
+  #block-mainnavigation-2, #block-wikivisually-theme-main-menu, #block-wikivisuallyhomeblock-2, #block-sharethis, #block-wikisearchblock {
+    display: inline-block; }
+
+  #block-mainnavigation-2 ul, #block-wikivisually-theme-main-menu ul {
+    width: auto; }
+
+  #block-mainnavigation-2 li, #block-wikivisually-theme-main-menu li {
+    display: inline-block; }
+
+  #block-mainnavigation-2 a:hover, #block-wikivisually-theme-main-menu a:hover {
+    text-decoration: none;
+    background-color: #00000000;
+    color: #F90; }
+
+  #block-mainnavigation-2 a, #block-wikivisually-theme-main-menu a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white; }
+
+  #block-wikivisually-theme-views-block-headers-menu-links-block-1 {
+    margin-bottom: 5px; }
+
+  #block-views-block-top-lists-top-lists {
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2); }
+    #block-views-block-top-lists-top-lists h2.block-title {
+      border-bottom: 1px solid #aaaaa9;
+      padding-bottom: 20px;
+      padding-left: 20px; }
+
+  div.taxonomy-block-none {
+    display: none; }
+
+  #block-wikivisuallyhomeblock div.wikivisually_home {
+    width: 130%; }
+  #block-wikivisuallyhomeblock div.title_wikivisually_home {
+    display: inline-block;
+    margin-right: 1%; }
+  #block-wikivisuallyhomeblock div.wikivisually_home a {
+    font-size: 25px;
     color: black;
     text-decoration: none;
     font-weight: bold; }
-#block-wikivisuallyhomeblock div.wikivisually_home div.description_wikivisually_home {
-  display: inline-block;
-  width: 290px; }
+  #block-wikivisuallyhomeblock div.description_wikivisually_home {
+    display: inline-block;
+    width: 70%; }
 
-#block-views-block-top-lists-top-lists {
-  box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2);
-  padding-left: 20px;
-  width: 70%; }
-  #block-views-block-top-lists-top-lists h2.block-title {
-    border-bottom: 1px solid #aaaaa9;
-    padding-bottom: 20px;
-    margin-left: -20px;
-    padding-left: 20px; }
+  #block-wikivisuallyhomeblock-2 {
+    color: #F90;
+    vertical-align: top;
+    margin-left: 5%;
+    margin-top: 0.9%; }
+
+  #block-sharethis {
+    vertical-align: top;
+    margin-left: 15%;
+    margin-top: 0.9%; }
+
+  #block-wikisearchblock {
+    position: relative;
+    bottom: 10px;
+    left: 5%; }
+
+  div.form-wiki-search svg {
+    position: relative;
+    left: 117%;
+    top: 23px; }
+
+  #wiki-search-article input {
+    width: 130%; }
+
+  #block-views-block-top-lists-top-lists div.form-group, #block-views-block-top-lists-top-lists div.views-field.views-field-name {
+    padding-left: 1%; }
   #block-views-block-top-lists-top-lists div.views-row {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     padding: 5px; }
-    #block-views-block-top-lists-top-lists div.views-row:hover {
-      background: #d9d9d9; }
-  #block-views-block-top-lists-top-lists h3.field-content a {
-    font-size: 70%;
+
+  #block-views-block-home-block-home-block div.views-row a.view-home-block, a.view-home-page-fetured {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px; }
+
+  #block-views-block-top-lists-top-lists h3.field-content a, a.view-home-page-fetured div.title_wiki {
     color: black;
     text-decoration: none; }
 
-#block-views-block-home-block-home-block div.views-row a.view-home-block {
-  font-size: 70%;
-  color: black;
-  text-decoration: none; }
-  #block-views-block-home-block-home-block div.views-row a.view-home-block div.title_wiki {
-    font-size: 200%; }
+  #block-views-block-home-block-home-block div.views-row a.view-home-block div.img_wiki img, a.view-home-page-fetured div.img_wiki img, img.img-search, div.url_img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round; }
 
-#block-views-block-top-lists-top-lists img.img-responsive {
-  padding-right: 20px; }
+  #block-views-block-home-block-home-block h2.block-title, #block-views-block-home-block-home-block h2.views-block-how-more {
+    text-align: center;
+    font-weight: bold; }
 
-#block-views-block-home-block-home-block h2.block-title a {
-  color: black;
-  font-weight: bold; }
-#block-views-block-home-block-home-block div.views-row a.view-home-block {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  padding: 5px; }
-  #block-views-block-home-block-home-block div.views-row a.view-home-block div.img_wiki {
-    padding-right: 20px; }
-    #block-views-block-home-block-home-block div.views-row a.view-home-block div.img_wiki img {
-      border: solid white 8px;
-      border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
-      border-image-repeat: round; }
+  #block-wikivisually-theme-youtubechannelblock h2.block-title, #block-views-block-featured-block-featured-block h2.block-title, #block-youtubesearchblock h2.block-title, #block-wikichannelblock h2.block-title {
+    text-align: center;
+    font-weight: bold; }
 
-#block-wikivisuallyhomeblock-3 {
-  display: none; }
+  #block-views-block-home-block-home-block h2.block-title a {
+    color: black; }
+  #block-views-block-home-block-home-block div.views-row a.view-home-block {
+    color: black;
+    text-decoration: none;
+    font-size: x-large; }
+  #block-views-block-home-block-home-block div.title_wiki {
+    margin-left: 10px; }
 
-@media only screen and (max-width: 1366px) {
-  section.row-controller {
-    width: 70%; }
+  #youtube-block ul {
+    list-style-type: none; }
 
-  #block-views-block-top-lists-top-lists {
-    width: 100%; }
+  #block-wikivisually-theme-youtubechannelblock #youtube-block li {
+    height: 90px; }
 
-  #block-wikisearchblock {
-    margin-right: 17%; }
+  #youtube-block img {
+    width: 30%;
+    margin-left: 2%; }
 
-  div.row {
-    max-width: 93%; }
-
-  #block-wikivisuallyhomeblock-2 {
-    margin-top: 18px; }
-
+  #block-wikivisually-theme-youtubechannelblock #youtube-block div.right-stat {
+    position: relative;
+    left: 35%;
+    top: -90px;
+    width: 40%;
+    font-size: small; } }
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
   div.region.region-header {
-    background: #1565c0;
-    height: 50px;
-    width: 110%; }
+    background: #1565c0; }
 
   #block-wikivisuallyhomeblock-3 {
-    display: none; } }
-@media only screen and (max-width: 1199px) {
-  html {
-    width: 85%; }
+    display: none; }
 
-  section.row-controller {
-    width: 50%; }
+  #block-mainnavigation-2, #block-wikivisually-theme-main-menu, #block-wikivisuallyhomeblock-2, #block-sharethis, #block-wikisearchblock {
+    display: inline-block; }
 
-  div.height-row {
-    height: 90px;
-    width: 100%; }
-  div.region-content {
-    width: 170%; }
+  #block-mainnavigation-2 ul, #block-wikivisually-theme-main-menu ul {
+    width: auto; }
 
-  aside.trending {
-    margin-left: 15px; }
+  #block-mainnavigation-2 li, #block-wikivisually-theme-main-menu li {
+    display: inline-block; }
 
-  #block-views-block-top-lists-top-lists h3.field-content a {
-    font-size: 70%; }
+  #block-mainnavigation-2 a:hover, #block-wikivisually-theme-main-menu a:hover {
+    text-decoration: none;
+    background-color: #00000000;
+    color: #F90; }
 
-  #block-mainnavigation-2, #block-wikivisually-theme-main-menu {
-    display: grid; }
+  #block-mainnavigation-2 a, #block-wikivisually-theme-main-menu a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white; }
 
-  #block-wikisearchblock {
-    margin-right: 25%;
+  #block-wikivisually-theme-views-block-headers-menu-links-block-1 {
+    margin-bottom: 5px; }
+
+  #block-views-block-top-lists-top-lists {
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2); }
+    #block-views-block-top-lists-top-lists h2.block-title {
+      border-bottom: 1px solid #aaaaa9;
+      padding-bottom: 20px;
+      padding-left: 20px; }
+
+  div.taxonomy-block-none {
+    display: none; }
+
+  #block-wikivisuallyhomeblock div.wikivisually_home {
+    width: 130%; }
+    #block-wikivisuallyhomeblock div.wikivisually_home a {
+      font-size: 25px;
+      color: black;
+      text-decoration: none;
+      font-weight: bold; }
+  #block-wikivisuallyhomeblock div.title_wikivisually_home {
+    display: inline-block;
+    margin-right: 1%; }
+  #block-wikivisuallyhomeblock div.description_wikivisually_home {
+    display: inline-block;
+    width: 70%; }
+
+  #block-wikivisuallyhomeblock-2 {
+    color: #F90;
+    vertical-align: top;
+    margin-top: 1.3%; }
+
+  #block-sharethis {
+    vertical-align: top;
+    margin-top: 1%; }
+
+  div.form-wiki-search svg {
     position: relative;
-    bottom: 90px; }
+    left: 117%;
+    top: 23px; }
 
-  #block-wikivisually-theme-youtubechannelblock {
-    width: 160%; }
-
-  div.row {
-    max-width: 94%; }
-  div.region.region-header {
-    background: #1565c0;
-    height: 50px;
+  #wiki-search-article input {
     width: 130%; }
 
-  li.first a, li.last a {
-    font-size: 2vw;
-    color: white; }
+  #block-views-block-top-lists-top-lists div.form-group, #block-views-block-top-lists-top-lists div.views-field.views-field-name {
+    padding-left: 1%; }
+
+  #block-wikisearchblock {
+    position: relative;
+    bottom: 10px;
+    left: 2%; }
+
+  #block-views-block-top-lists-top-lists div.views-row, #block-views-block-home-block-home-block div.views-row a.view-home-block, a.view-home-page-fetured {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px; }
+
+  #block-views-block-top-lists-top-lists h3.field-content a, a.view-home-page-fetured div.title_wiki {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px; }
+
+  #block-views-block-home-block-home-block h2.block-title, #block-views-block-home-block-home-block h2.views-block-how-more {
+    text-align: center;
+    font-weight: bold; }
+
+  #block-wikivisually-theme-youtubechannelblock h2.block-title, #block-views-block-featured-block-featured-block h2.block-title, #block-youtubesearchblock h2.block-title, #block-wikichannelblock h2.block-title {
+    text-align: center;
+    font-weight: bold; }
+
+  #block-views-block-home-block-home-block h2.block-title a {
+    color: black; }
+  #block-views-block-home-block-home-block div.views-row a.view-home-block div.img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round; }
+
+  a.view-home-page-fetured div.img_wiki img, img.img-search, div.url_img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round; }
+
+  #block-views-block-home-block-home-block div.title_wiki {
+    margin-left: 10px; }
+  #block-views-block-home-block-home-block div.views-row a.view-home-block {
+    color: black;
+    text-decoration: none;
+    font-size: x-large; }
+
+  #youtube-block ul {
+    list-style-type: none; }
+
+  #block-wikivisually-theme-youtubechannelblock #youtube-block li {
+    height: 290px; }
+
+  #youtube-block img {
+    width: 30%;
+    margin-left: 2%; }
+
+  #block-wikivisually-theme-youtubechannelblock #youtube-block div.right-stat {
+    position: relative;
+    left: 35%;
+    top: -190px;
+    width: 40%;
+    font-size: x-large; } }
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  div.region.region-header {
+    background: #1565c0; }
 
   #block-wikivisuallyhomeblock-2 {
     display: none; }
 
+  #block-mainnavigation-2, #block-wikivisually-theme-main-menu, #block-wikivisuallyhomeblock-3, #block-sharethis #block-mainnavigation-2 ul, #block-wikivisually-theme-main-menu ul {
+    width: auto; }
+
+  #block-mainnavigation-2 li, #block-wikivisually-theme-main-menu li, #block-wikisearchblock, #block-sharethis {
+    display: inline-block; }
+
+  #block-wikisearchblock {
+    margin-left: 5%; }
+
+  #block-sharethis {
+    margin-left: 15%;
+    margin-right: 15%; }
+
+  #block-mainnavigation-2 a:hover, #block-wikivisually-theme-main-menu a:hover {
+    text-decoration: none;
+    background-color: #00000000;
+    color: #F90; }
+
+  #block-mainnavigation-2 a, #block-wikivisually-theme-main-menu a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white; }
+
   #block-wikivisuallyhomeblock-3 {
-    padding-left: 1.5%;
-    display: grid;
-    background: #f3801b;
+    color: #F90;
+    margin-left: 50%; }
+
+  #wiki-search-article input {
+    width: 200%; }
+
+  #block-wikivisuallyhomeblock-3 div.description_wikivisually_home {
+    font-size: 150%;
+    margin-left: 10px; }
+
+  #block-wikivisually-theme-views-block-headers-menu-links-block-1 {
+    margin-bottom: 5px; }
+
+  #block-views-block-top-lists-top-lists {
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2); }
+    #block-views-block-top-lists-top-lists h2.block-title {
+      border-bottom: 1px solid #aaaaa9;
+      padding-bottom: 20px;
+      padding-left: 20px; }
+
+  div.taxonomy-block-none {
+    display: none; }
+  div.form-wiki-search svg {
+    position: relative;
+    left: 186%;
+    top: 23px; }
+
+  #block-wikivisuallyhomeblock div.title_wikivisually_home {
+    display: inline-block;
+    margin-right: 1%; }
+  #block-wikivisuallyhomeblock div.wikivisually_home a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold; }
+  #block-wikivisuallyhomeblock div.description_wikivisually_home {
+    display: inline-block;
+    width: 70%; }
+
+  #block-views-block-top-lists-top-lists div.views-row, #block-views-block-home-block-home-block div.views-row a.view-home-block, a.view-home-page-fetured {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px; }
+
+  #block-views-block-top-lists-top-lists div.form-group, #block-views-block-top-lists-top-lists div.views-field.views-field-name {
+    padding-left: 2%; }
+  #block-views-block-top-lists-top-lists h3.field-content a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px; }
+
+  a.view-home-page-fetured div.title_wiki {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px; }
+
+  #block-views-block-home-block-home-block h2.block-title, #block-views-block-home-block-home-block h2.views-block-how-more {
+    text-align: center;
+    font-weight: bold; }
+
+  #block-wikivisually-theme-youtubechannelblock h2.block-title, #block-views-block-featured-block-featured-block h2.block-title, #block-youtubesearchblock h2.block-title, #block-wikichannelblock h2.block-title {
+    text-align: center;
+    font-weight: bold; }
+
+  #block-views-block-home-block-home-block h2.block-title a {
+    color: black; }
+  #block-views-block-home-block-home-block div.views-row a.view-home-block div.img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round; }
+
+  a.view-home-page-fetured div.img_wiki img, img.img-search, div.url_img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round; }
+
+  #block-views-block-home-block-home-block div.views-row a.view-home-block {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large; }
+  #block-views-block-home-block-home-block div.title_wiki {
+    margin-left: 10px; }
+
+  #youtube-block img {
+    width: 40%; }
+  #youtube-block ul {
+    list-style-type: none; }
+
+  #block-wikivisually-theme-youtubechannelblock #youtube-block div.right-stat {
+    position: relative;
+    left: 45%;
+    top: -190px;
+    width: 40%;
+    font-size: x-large; }
+  #block-wikivisually-theme-youtubechannelblock #youtube-block li {
+    height: 290px; } }
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  div.region.region-header {
+    background: #1565c0; }
+
+  #block-wikivisuallyhomeblock-2 {
+    display: none; }
+
+  #block-mainnavigation-2, #block-wikivisually-theme-main-menu, #block-wikivisuallyhomeblock-3, #block-sharethis {
+    display: inline-block; }
+
+  #block-mainnavigation-2 ul, #block-wikivisually-theme-main-menu ul {
+    width: auto; }
+
+  #block-mainnavigation-2 li, #block-wikivisually-theme-main-menu li {
+    display: inline-block; }
+
+  #block-mainnavigation-2 a:hover, #block-wikivisually-theme-main-menu a:hover {
+    text-decoration: none;
+    background-color: #00000000;
+    color: #F90; }
+
+  #block-mainnavigation-2 a, #block-wikivisually-theme-main-menu a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white; }
+
+  #block-mainnavigation-2 li.first a, #block-wikivisually-theme-main-menu li.first a {
+    margin-left: 40px; }
+
+  #block-wikivisuallyhomeblock-3 {
+    background: #F90;
     color: white;
-    font-size: 30px; }
+    display: -webkit-box;
+    height: 30px; }
+
+  #wiki-search-article input {
+    width: 100%; }
+
+  #block-wikivisuallyhomeblock-3 div.description_wikivisually_home {
+    font-size: 150%;
+    margin-left: 40px; }
+
+  #block-wikivisuallyhomeblock div.title_wikivisually_home {
+    display: inline-block; }
+  #block-wikivisuallyhomeblock div.description_wikivisually_home {
+    display: inline-block;
+    width: 70%; }
+  #block-wikivisuallyhomeblock div.wikivisually_home a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold; }
+
+  #block-views-block-home-block-home-block div.views-row a.view-home-block {
+    color: black;
+    text-decoration: none;
+    font-weight: bold; }
+
+  #block-wikivisually-theme-views-block-headers-menu-links-block-1 {
+    margin-bottom: 5px; }
+
+  #block-views-block-top-lists-top-lists {
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2); }
+    #block-views-block-top-lists-top-lists h2.block-title {
+      border-bottom: 1px solid #aaaaa9;
+      padding-bottom: 20px;
+      padding-left: 20px; }
+    #block-views-block-top-lists-top-lists div.views-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      padding: 5px; }
+
+  #block-views-block-home-block-home-block div.views-row a.view-home-block, a.view-home-page-fetured {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px; }
+
+  #block-views-block-home-block-home-block div.title_wiki {
+    margin-left: 10px; }
+
+  #block-views-block-top-lists-top-lists h3.field-content a, a.view-home-page-fetured div.title_wiki {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px; }
+
+  #block-views-block-home-block-home-block div.views-row a.view-home-block div.img_wiki img, a.view-home-page-fetured div.img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round; }
+
+  div.url_img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round; }
+  div.taxonomy-block-none {
+    display: none; }
 
   #block-sharethis {
     position: relative;
-    display: inline-block;
-    left: 55%;
-    bottom: 33px; }
-
-  div.view-display-id-block_1 div.col-2 img.img-responsive {
-    margin-left: -7%; }
-  div.view-display-id-block_1 div.col-3 img.img-responsive {
-    margin-left: -14%; }
-  div.view-display-id-block_1 div.col-4 img.img-responsive {
-    margin-left: -21%; }
-  div.view-display-id-block_1 div.col-5 img.img-responsive {
-    margin-left: -28%; }
-
-  aside.top_list {
-    width: 50%;
-    margin-bottom: 300%; } }
-@media only screen and (max-width: 768px) {
-  #block-wikisearchblock {
-    margin-right: 26%; }
-
-  #block-wikivisually-theme-youtubechannelblock {
-    width: 160%; }
-
-  div.view-display-id-block_1 div.col-2 img.img-responsive {
-    margin-left: -3%; }
-  div.view-display-id-block_1 div.col-3 img.img-responsive {
-    margin-left: -2%; }
-  div.view-display-id-block_1 div.col-4 img.img-responsive {
-    margin-left: -1%; }
-  div.view-display-id-block_1 div.col-5 img.img-responsive {
-    margin-left: 0%; }
-
-  section.row-controller {
-    width: 110%; }
-  section.row-controller-mobile {
-    margin-right: 17%; }
-
-  a.view-home-page-fetured div.title_wiki {
-    font-size: 250%; }
-
-  div.row {
-    max-width: 90%; }
-  div.region.region-header {
-    width: 300%; }
-  div.height-row {
-    width: 166%;
-    height: 100px; }
-  div.art-rel-list {
-    font-size: 35px; }
-
-  aside.top_list {
-    width: 60%;
-    margin-bottom: 0px; }
-
-  #block-wikivisuallyhomeblock {
-    width: 150%; }
-    #block-wikivisuallyhomeblock div.title_wikivisually_home {
-      font-size: 250%; }
-    #block-wikivisuallyhomeblock div.description_wikivisually_home {
-      font-size: 20px; }
-    #block-wikivisuallyhomeblock div.wikivisually_home div.description_wikivisually_home {
-      width: 500px; }
-
-  #block-wikivisually-theme-views-block-headers-menu-links-block-1 {
-    width: 100%; }
-    #block-wikivisually-theme-views-block-headers-menu-links-block-1 img.img-responsive {
-      width: 100%; }
-
-  #block-mainnavigation-2, #block-wikivisually-theme-main-menu {
-    height: 50px; }
-
-  #block-wikivisuallyhomeblock-3 {
-    font-size: 35px; }
+    left: 65%;
+    top: -28px; }
 
   #block-wikisearchblock {
-    left: 21%;
-    margin-right: 39%;
-    width: 15%;
-    top: -100px; }
-
-  #block-sharethis {
-    bottom: 35px; }
-
-  #block-views-block-home-block-home-block {
-    width: 180%; }
-    #block-views-block-home-block-home-block h2.block-title a {
-      font-size: 30px; }
-    #block-views-block-home-block-home-block div.img_wiki img {
-      width: 300px; }
-    #block-views-block-home-block-home-block div.views-row a.view-home-block div.title_wiki {
-      font-size: 350%; }
-
-  #block-wikivisually-theme-youtubechannelblock {
-    width: 300%; }
-    #block-wikivisually-theme-youtubechannelblock h2.block-title {
-      text-align: center;
-      font-size: 40px; }
-    #block-wikivisually-theme-youtubechannelblock img {
-      width: 300px;
-      height: 200px !important; }
-    #block-wikivisually-theme-youtubechannelblock div.right-stat, #block-wikivisually-theme-youtubechannelblock div#youtube-block div.youtube-stat {
-      font-size: 20px !important; }
-
-  h2.views-block-how-more a {
-    font-size: 100%; }
-
-  li.first {
-    margin-left: 1%;
-    display: inline-block; }
-  li.last {
-    display: inline-block; }
-  li.first a, li.last a {
-    font-size: 2vw; }
-
-  #block-views-block-top-lists-top-lists {
-    width: 230%; }
-    #block-views-block-top-lists-top-lists h2.block-title {
-      font-size: 300%; }
-    #block-views-block-top-lists-top-lists h3.field-content a {
-      font-size: 150%; }
-    #block-views-block-top-lists-top-lists img.img-responsive {
-      width: 250px; } }
-@media only screen and (max-width: 667px) {
-  #block-wikivisuallyhomeblock-3 {
-    font-size: 32px; } }
-@media only screen and (max-width: 640px) {
-  #block-wikivisuallyhomeblock-3 {
-    font-size: 30px; }
-
-  #block-wikisearchblock {
-    top: -90px; }
-
-  #block-wikivisuallyhomeblock div.wikivisually_home div.description_wikivisually_home {
-    width: 400px; }
-  #block-wikivisuallyhomeblock div.description_wikivisually_home {
-    font-size: 19px; } }
-@media only screen and (max-width: 568px) {
-  #block-wikivisuallyhomeblock-3 {
-    font-size: 25px; } }
-@media only screen and (max-width: 425px) {
-  div.art-rel-list {
-    font-size: 45px; } }
-@media only screen and (max-width: 414px) {
-  #block-wikivisuallyhomeblock div.title_wikivisually_home {
-    font-size: 17px; }
-  #block-wikivisuallyhomeblock div.wikivisually_home div.description_wikivisually_home {
-    font-size: 8px;
-    margin-top: 11px;
-    width: 170px; }
-
-  li.first a, li.last a {
-    font-size: 8px; }
-
-  .navbar-nav > li > a {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    line-height: 0px; }
-
-  #block-wikivisually-theme-views-block-headers-menu-links-block-1 {
-    width: 120%; }
-
-  li.first {
-    left: -5px; }
-  li.last {
-    left: -30px; }
-
-  #block-mainnavigation-2, #block-wikivisually-theme-main-menu {
-    height: 30px; }
-
-  #block-wikisearchblock {
-    left: 10%;
-    margin-right: 39%;
-    width: 19%;
-    top: -60px; }
+    display: block;
+    position: relative;
+    top: -20px; }
 
   div.form-wiki-search svg {
     position: relative;
-    left: 174%;
-    top: 13px; }
-  div.region.region-header {
-    width: 100%; }
+    left: 96%;
+    top: 25px; }
 
-  .navbar-nav {
-    margin: 0.5px -10px; }
+  #block-views-block-home-block-home-block h2.block-title, #block-views-block-home-block-home-block h2.views-block-how-more {
+    text-align: center;
+    font-weight: bold; }
 
-  #block-wikivisuallyhomeblock-3 {
-    font-size: 15px; }
-
-  #block-sharethis {
-    left: 50%;
-    bottom: 23px; }
-
-  #block-views-block-top-lists-top-lists {
-    width: 270%; }
-    #block-views-block-top-lists-top-lists h2.block-title {
-      font-size: 200%; }
-
-  div.height-row {
-    width: 166%;
-    height: 50px; }
-
-  #block-views-block-top-lists-top-lists img.img-responsive {
-    width: 140px; }
-  #block-views-block-top-lists-top-lists h3.field-content a {
-    font-size: 100%; }
-
-  #block-views-block-home-block-home-block {
-    width: 100%; }
-    #block-views-block-home-block-home-block div.views-row a.view-home-block div.title_wiki {
-      font-size: 250%; }
-
-  h2.views-block-how-more a {
-    font-size: 100%; }
-
-  #block-wikivisually-theme-youtubechannelblock {
-    width: 100%; }
-    #block-wikivisually-theme-youtubechannelblock h2.block-title {
-      font-size: 150%; }
-    #block-wikivisually-theme-youtubechannelblock img {
-      width: 100px;
-      height: 110px !important; }
-    #block-wikivisually-theme-youtubechannelblock div.right-stat {
-      font-size: 70%; }
-    #block-wikivisually-theme-youtubechannelblock div#youtube-block div.youtube-stat {
-      font-size: 70%;
-      font-size: 65%; }
-
-  aside.trending {
-    padding-left: 30px;
-    padding-right: 0px; }
-
-  #block-wikivisually-theme-youtubechannelblock div.right-stat, #block-wikivisually-theme-youtubechannelblock div#youtube-block div.youtube-stat {
-    font-size: 80% !important; }
+  #block-wikivisually-theme-youtubechannelblock h2.block-title, #block-views-block-featured-block-featured-block h2.block-title, #block-youtubesearchblock h2.block-title, #block-wikichannelblock h2.block-title {
+    text-align: center;
+    font-weight: bold; }
 
   #block-views-block-home-block-home-block h2.block-title a {
-    font-size: 70%; } }
+    color: black; }
+  #block-views-block-home-block-home-block div.views-row a.view-home-block div.img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round; }
+
+  a.view-home-page-fetured div.img_wiki img, img.img-search {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round; }
+
+  #youtube-block ul {
+    list-style-type: none; }
+
+  #block-wikivisually-theme-youtubechannelblock #youtube-block li {
+    height: 270px; }
+
+  #youtube-block img {
+    width: 50%; }
+
+  #block-wikivisually-theme-youtubechannelblock #youtube-block div.right-stat {
+    position: relative;
+    left: 55%;
+    top: -130px;
+    width: 40%;
+    font-size: small; }
+
+  div.taxonomy-block-none {
+    display: none; } }
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  div.region.region-header {
+    background: #1565c0; }
+
+  #block-wikivisuallyhomeblock-2 {
+    display: none; }
+
+  #block-mainnavigation-2, #block-wikivisually-theme-main-menu, #block-wikivisuallyhomeblock-3 {
+    display: inline-block; }
+
+  #block-sharethis {
+    display: inline-block;
+    position: relative;
+    left: 65%;
+    top: -28px; }
+
+  #block-wikisearchblock {
+    display: block;
+    position: relative;
+    top: -20px; }
+
+  #block-mainnavigation-2 ul, #block-wikivisually-theme-main-menu ul {
+    width: auto; }
+
+  #block-mainnavigation-2 li, #block-wikivisually-theme-main-menu li {
+    display: inline-block; }
+
+  #block-mainnavigation-2 a:hover, #block-wikivisually-theme-main-menu a:hover {
+    text-decoration: none;
+    background-color: #00000000;
+    color: #F90; }
+
+  #block-mainnavigation-2 a, #block-wikivisually-theme-main-menu a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white; }
+
+  #block-mainnavigation-2 li.first a, #block-wikivisually-theme-main-menu li.first a {
+    margin-left: 20px; }
+
+  #block-wikivisuallyhomeblock-3 {
+    background: #F90;
+    color: white;
+    display: -webkit-box;
+    height: 30px; }
+    #block-wikivisuallyhomeblock-3 div.description_wikivisually_home {
+      font-size: 100%;
+      margin-left: 10px;
+      margin-top: 3%; }
+
+  #wiki-search-article input {
+    width: 100%; }
+
+  #block-wikivisuallyhomeblock div.title_wikivisually_home a, #block-views-block-home-block-home-block div.views-row a.view-home-block {
+    color: black;
+    text-decoration: none;
+    font-weight: bold; }
+
+  div.form-wiki-search svg {
+    position: relative;
+    left: 93%;
+    top: 25px; }
+
+  #block-wikivisually-theme-views-block-headers-menu-links-block-1 {
+    margin-bottom: 5px; }
+
+  #block-views-block-top-lists-top-lists {
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2); }
+    #block-views-block-top-lists-top-lists h2.block-title {
+      border-bottom: 1px solid #aaaaa9;
+      padding-bottom: 20px;
+      padding-left: 20px; }
+    #block-views-block-top-lists-top-lists div.views-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      padding: 5px; }
+
+  #block-views-block-home-block-home-block div.views-row a.view-home-block, a.view-home-page-fetured {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px; }
+
+  #block-views-block-home-block-home-block div.title_wiki {
+    margin-left: 10px; }
+
+  #block-views-block-top-lists-top-lists h3.field-content a, a.view-home-page-fetured div.title_wiki {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px; }
+
+  #block-views-block-home-block-home-block h2.block-title, #block-views-block-home-block-home-block h2.views-block-how-more {
+    text-align: center;
+    font-weight: bold; }
+
+  #block-wikivisually-theme-youtubechannelblock h2.block-title, #block-views-block-featured-block-featured-block h2.block-title, #block-youtubesearchblock h2.block-title, #block-wikichannelblock h2.block-title {
+    text-align: center;
+    font-weight: bold; }
+
+  #block-views-block-home-block-home-block h2.block-title a {
+    color: black; }
+  #block-views-block-home-block-home-block div.views-row a.view-home-block div.img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round; }
+
+  a.view-home-page-fetured div.img_wiki img, img.img-search, div.url_img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round; }
+
+  #youtube-block ul {
+    list-style-type: none; }
+
+  #block-wikivisually-theme-youtubechannelblock #youtube-block li {
+    height: 140px; }
+
+  #youtube-block img {
+    width: 50%; }
+
+  #block-wikivisually-theme-youtubechannelblock #youtube-block div.right-stat {
+    position: relative;
+    left: 55%;
+    top: -130px;
+    width: 40%;
+    font-size: small; }
+
+  div.taxonomy-block-none {
+    display: none; } }
+@media (max-width: 320px) {
+  #block-mainnavigation-2 li.first a, #block-wikivisually-theme-main-menu li.first a {
+    margin-left: 0px; }
+
+  #block-wikivisually-theme-youtubechannelblock #youtube-block li {
+    height: 110px; }
+  #block-wikivisually-theme-youtubechannelblock #youtube-block div.right-stat {
+    top: -110px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,743 +1,1091 @@
-/* line 1, ../sass/style.scss */
-section.row-controller {
-  width: 75%;
-}
+/* Large desktops */
+@media (min-width: 1400px) {
+  /* line 3, ../sass/style.scss */
+  #block-wikisearchblock {
+    position: relative !important;
+    bottom: 10px !important;
+    left: 10% !important;
+  }
 
-/* line 6, ../sass/style.scss */
-div.row {
-  max-width: 92%;
-}
-/* line 10, ../sass/style.scss */
-div.region.region-header {
-  background: #1565c0;
-  height: 50px;
-  width: 110.6%;
-}
-/* line 15, ../sass/style.scss */
-div.region.region-content {
-  padding-left: 30px;
-}
-/* line 19, ../sass/style.scss */
-div.page_search_wiki h2, div.region.region-content div.page_search_wiki h2 {
-  color: #9ea03d;
-}
+  /* line 8, ../sass/style.scss */
+  div.form-wiki-search svg {
+    position: relative !important;
+    left: 237% !important;
+    top: 23px !important;
+  }
 
-/* line 24, ../sass/style.scss */
-#block-wikivisuallyhomeblock-2 {
-  display: inline-block;
-  margin-top: 14px;
-  font-size: 0.8vw;
-  color: #F90;
-}
+  /* line 13, ../sass/style.scss */
+  #wiki-search-article input {
+    width: 250% !important;
+  }
 
-/* line 32, ../sass/style.scss */
-li.first a, li.last a {
-  font-size: 0.8vw;
-  color: white;
-}
-/* line 36, ../sass/style.scss */
-li.first a:hover, li.last a:hover {
-  color: #F90;
-}
+  /* line 17, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists div.form-group, #block-views-block-top-lists-top-lists div.views-field.views-field-name {
+    padding-left: 5% !important;
+  }
 
-/* line 41, ../sass/style.scss */
-#block-sharethis {
-  display: inline-block;
-}
+  /* line 21, ../sass/style.scss */
+  #block-wikivisuallyhomeblock-2, #block-sharethis {
+    margin-top: 0.6% !important;
+  }
 
-/* line 45, ../sass/style.scss */
-#block-wikisearchblock {
-  display: inline-block;
-  margin-right: 15%;
-  float: right;
-}
+  /* line 24, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists h3.field-content a, a.view-home-page-fetured div.title_wiki {
+    margin-left: 10px !important;
+  }
 
-/* line 51, ../sass/style.scss */
-h2.views-block-how-more {
-  text-align: center;
+  /* line 28, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock #youtube-block li {
+    height: 140px !important;
+  }
+  /* line 31, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock #youtube-block div.right-stat {
+    top: -130px !important;
+    font-size: large !important;
+  }
 }
+/* Large laptops */
+@media (min-width: 1200px) {
+  /* line 40, ../sass/style.scss */
+  div.region.region-header {
+    background: #1565c0;
+  }
 
-/* line 55, ../sass/style.scss */
-#block-mainnavigation-2 .nav > li > a:hover, #block-wikivisually-theme-main-menu .nav > li > a:hover {
-  background-color: #eeeeee00;
-}
+  /* line 43, ../sass/style.scss */
+  #block-wikivisuallyhomeblock-3 {
+    display: none;
+  }
 
-/* line 59, ../sass/style.scss */
-#wiki-search-article {
-  margin-top: -9px;
-}
-/* line 61, ../sass/style.scss */
-#wiki-search-article input {
-  width: 200%;
-  background: #fff;
-}
+  /* line 46, ../sass/style.scss */
+  #block-mainnavigation-2, #block-wikivisually-theme-main-menu, #block-wikivisuallyhomeblock-2, #block-sharethis, #block-wikisearchblock {
+    display: inline-block;
+  }
 
-/* line 67, ../sass/style.scss */
-div.form-wiki-search svg {
-  position: relative;
-  left: 188%;
-  top: 13px;
-}
+  /* line 49, ../sass/style.scss */
+  #block-mainnavigation-2 ul, #block-wikivisually-theme-main-menu ul {
+    width: auto;
+  }
 
-/* line 73, ../sass/style.scss */
-#block-wikivisuallyhomeblock {
-  margin-bottom: 10px;
-}
+  /* line 52, ../sass/style.scss */
+  #block-mainnavigation-2 li, #block-wikivisually-theme-main-menu li {
+    display: inline-block;
+  }
 
-/* line 77, ../sass/style.scss */
-div.view-display-id-block_1 {
-  margin-bottom: 10px;
-}
-/* line 80, ../sass/style.scss */
-div.view-display-id-block_1 div.col-2 img.img-responsive {
-  margin-left: 2px;
-}
-/* line 83, ../sass/style.scss */
-div.view-display-id-block_1 div.col-3 img.img-responsive {
-  margin-left: 4px;
-}
-/* line 86, ../sass/style.scss */
-div.view-display-id-block_1 div.col-4 img.img-responsive {
-  margin-left: 6px;
-}
-/* line 89, ../sass/style.scss */
-div.view-display-id-block_1 div.col-5 img.img-responsive {
-  margin-left: 8px;
-}
+  /* line 55, ../sass/style.scss */
+  #block-mainnavigation-2 a:hover, #block-wikivisually-theme-main-menu a:hover {
+    text-decoration: none;
+    background-color: #00000000;
+    color: #F90;
+  }
 
-/* line 95, ../sass/style.scss */
-#block-wikivisuallyhomeblock-2 {
-  margin-left: 5%;
-}
+  /* line 60, ../sass/style.scss */
+  #block-mainnavigation-2 a, #block-wikivisually-theme-main-menu a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+  }
 
-/* line 99, ../sass/style.scss */
-#block-sharethis {
-  margin-left: 12%;
-}
+  /* line 65, ../sass/style.scss */
+  #block-wikivisually-theme-views-block-headers-menu-links-block-1 {
+    margin-bottom: 5px;
+  }
 
-/* line 104, ../sass/style.scss */
-#block-wikivisuallyhomeblock div.wikivisually_home {
-  width: 120%;
-}
-/* line 107, ../sass/style.scss */
-#block-wikivisuallyhomeblock div.title_wikivisually_home {
-  display: inline-block;
-  float: left;
-  margin: 4px 13px 8px 5px;
-  font-size: 21px;
-}
-/* line 112, ../sass/style.scss */
-#block-wikivisuallyhomeblock div.title_wikivisually_home a {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-}
-/* line 118, ../sass/style.scss */
-#block-wikivisuallyhomeblock div.wikivisually_home div.description_wikivisually_home {
-  display: inline-block;
-  width: 290px;
-}
+  /* line 68, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists {
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2);
+  }
+  /* line 69, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists h2.block-title {
+    border-bottom: 1px solid #aaaaa9;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
 
-/* line 124, ../sass/style.scss */
-#block-views-block-top-lists-top-lists {
-  box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2);
-  padding-left: 20px;
-  width: 70%;
-}
-/* line 128, ../sass/style.scss */
-#block-views-block-top-lists-top-lists h2.block-title {
-  border-bottom: 1px solid #aaaaa9;
-  padding-bottom: 20px;
-  margin-left: -20px;
-  padding-left: 20px;
-}
-/* line 134, ../sass/style.scss */
-#block-views-block-top-lists-top-lists div.views-row {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  padding: 5px;
-}
-/* line 139, ../sass/style.scss */
-#block-views-block-top-lists-top-lists div.views-row:hover {
-  background: #d9d9d9;
-}
-/* line 143, ../sass/style.scss */
-#block-views-block-top-lists-top-lists h3.field-content a {
-  font-size: 70%;
-  color: black;
-  text-decoration: none;
-}
+  /* line 76, ../sass/style.scss */
+  div.taxonomy-block-none {
+    display: none;
+  }
 
-/* line 150, ../sass/style.scss */
-#block-views-block-home-block-home-block div.views-row a.view-home-block {
-  font-size: 70%;
-  color: black;
-  text-decoration: none;
-}
-/* line 154, ../sass/style.scss */
-#block-views-block-home-block-home-block div.views-row a.view-home-block div.title_wiki {
-  font-size: 200%;
-}
-
-/* line 159, ../sass/style.scss */
-#block-views-block-top-lists-top-lists img.img-responsive {
-  padding-right: 20px;
-}
-
-/* line 164, ../sass/style.scss */
-#block-views-block-home-block-home-block h2.block-title a {
-  color: black;
-  font-weight: bold;
-}
-/* line 168, ../sass/style.scss */
-#block-views-block-home-block-home-block div.views-row a.view-home-block {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  padding: 5px;
-}
-/* line 173, ../sass/style.scss */
-#block-views-block-home-block-home-block div.views-row a.view-home-block div.img_wiki {
-  padding-right: 20px;
-}
-/* line 175, ../sass/style.scss */
-#block-views-block-home-block-home-block div.views-row a.view-home-block div.img_wiki img {
-  border: solid white 8px;
-  border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
-  border-image-repeat: round;
-}
-
-/* line 184, ../sass/style.scss */
-#block-wikivisuallyhomeblock-3 {
-  display: none;
-}
-
-@media only screen and (max-width: 1366px) {
-  /* line 189, ../sass/style.scss */
-  section.row-controller {
+  /* line 80, ../sass/style.scss */
+  #block-wikivisuallyhomeblock div.wikivisually_home {
+    width: 130%;
+  }
+  /* line 83, ../sass/style.scss */
+  #block-wikivisuallyhomeblock div.title_wikivisually_home {
+    display: inline-block;
+    margin-right: 1%;
+  }
+  /* line 87, ../sass/style.scss */
+  #block-wikivisuallyhomeblock div.wikivisually_home a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  /* line 93, ../sass/style.scss */
+  #block-wikivisuallyhomeblock div.description_wikivisually_home {
+    display: inline-block;
     width: 70%;
   }
 
-  /* line 192, ../sass/style.scss */
-  #block-views-block-top-lists-top-lists {
-    width: 100%;
-  }
-
-  /* line 195, ../sass/style.scss */
-  #block-wikisearchblock {
-    margin-right: 17%;
-  }
-
-  /* line 198, ../sass/style.scss */
-  div.row {
-    max-width: 93%;
-  }
-
-  /* line 201, ../sass/style.scss */
+  /* line 98, ../sass/style.scss */
   #block-wikivisuallyhomeblock-2 {
-    margin-top: 18px;
+    color: #F90;
+    vertical-align: top;
+    margin-left: 5%;
+    margin-top: 0.9%;
   }
 
-  /* line 204, ../sass/style.scss */
-  div.region.region-header {
-    background: #1565c0;
-    height: 50px;
-    width: 110%;
+  /* line 104, ../sass/style.scss */
+  #block-sharethis {
+    vertical-align: top;
+    margin-left: 15%;
+    margin-top: 0.9%;
   }
 
-  /* line 209, ../sass/style.scss */
-  #block-wikivisuallyhomeblock-3 {
-    display: none;
-  }
-}
-@media only screen and (max-width: 1199px) {
-  /* line 215, ../sass/style.scss */
-  html {
-    width: 85%;
-  }
-
-  /* line 218, ../sass/style.scss */
-  section.row-controller {
-    width: 50%;
-  }
-
-  /* line 222, ../sass/style.scss */
-  div.height-row {
-    height: 90px;
-    width: 100%;
-  }
-  /* line 226, ../sass/style.scss */
-  div.region-content {
-    width: 170%;
-  }
-
-  /* line 230, ../sass/style.scss */
-  aside.trending {
-    margin-left: 15px;
-  }
-
-  /* line 233, ../sass/style.scss */
-  #block-views-block-top-lists-top-lists h3.field-content a {
-    font-size: 70%;
-  }
-
-  /* line 236, ../sass/style.scss */
-  #block-mainnavigation-2, #block-wikivisually-theme-main-menu {
-    display: grid;
-  }
-
-  /* line 239, ../sass/style.scss */
+  /* line 109, ../sass/style.scss */
   #block-wikisearchblock {
-    margin-right: 25%;
     position: relative;
-    bottom: 90px;
+    bottom: 10px;
+    left: 5%;
   }
 
-  /* line 244, ../sass/style.scss */
-  #block-wikivisually-theme-youtubechannelblock {
-    width: 160%;
+  /* line 114, ../sass/style.scss */
+  div.form-wiki-search svg {
+    position: relative;
+    left: 117%;
+    top: 23px;
   }
 
-  /* line 248, ../sass/style.scss */
-  div.row {
-    max-width: 94%;
-  }
-  /* line 251, ../sass/style.scss */
-  div.region.region-header {
-    background: #1565c0;
-    height: 50px;
+  /* line 119, ../sass/style.scss */
+  #wiki-search-article input {
     width: 130%;
   }
 
-  /* line 258, ../sass/style.scss */
-  li.first a, li.last a {
-    font-size: 2vw;
+  /* line 123, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists div.form-group, #block-views-block-top-lists-top-lists div.views-field.views-field-name {
+    padding-left: 1%;
+  }
+  /* line 126, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists div.views-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+
+  /* line 133, ../sass/style.scss */
+  #block-views-block-home-block-home-block div.views-row a.view-home-block, a.view-home-page-fetured {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+
+  /* line 139, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists h3.field-content a, a.view-home-page-fetured div.title_wiki {
+    color: black;
+    text-decoration: none;
+  }
+
+  /* line 143, ../sass/style.scss */
+  #block-views-block-home-block-home-block div.views-row a.view-home-block div.img_wiki img, a.view-home-page-fetured div.img_wiki img, img.img-search, div.url_img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round;
+  }
+
+  /* line 149, ../sass/style.scss */
+  #block-views-block-home-block-home-block h2.block-title, #block-views-block-home-block-home-block h2.views-block-how-more {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* line 154, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock h2.block-title, #block-views-block-featured-block-featured-block h2.block-title, #block-youtubesearchblock h2.block-title, #block-wikichannelblock h2.block-title {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* line 159, ../sass/style.scss */
+  #block-views-block-home-block-home-block h2.block-title a {
+    color: black;
+  }
+  /* line 163, ../sass/style.scss */
+  #block-views-block-home-block-home-block div.views-row a.view-home-block {
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+  }
+  /* line 168, ../sass/style.scss */
+  #block-views-block-home-block-home-block div.title_wiki {
+    margin-left: 10px;
+  }
+
+  /* line 173, ../sass/style.scss */
+  #youtube-block ul {
+    list-style-type: none;
+  }
+
+  /* line 176, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock #youtube-block li {
+    height: 90px;
+  }
+
+  /* line 179, ../sass/style.scss */
+  #youtube-block img {
+    width: 30%;
+    margin-left: 2%;
+  }
+
+  /* line 183, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock #youtube-block div.right-stat {
+    position: relative;
+    left: 35%;
+    top: -90px;
+    width: 40%;
+    font-size: small;
+  }
+}
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 194, ../sass/style.scss */
+  div.region.region-header {
+    background: #1565c0;
+  }
+
+  /* line 197, ../sass/style.scss */
+  #block-wikivisuallyhomeblock-3 {
+    display: none;
+  }
+
+  /* line 200, ../sass/style.scss */
+  #block-mainnavigation-2, #block-wikivisually-theme-main-menu, #block-wikivisuallyhomeblock-2, #block-sharethis, #block-wikisearchblock {
+    display: inline-block;
+  }
+
+  /* line 203, ../sass/style.scss */
+  #block-mainnavigation-2 ul, #block-wikivisually-theme-main-menu ul {
+    width: auto;
+  }
+
+  /* line 206, ../sass/style.scss */
+  #block-mainnavigation-2 li, #block-wikivisually-theme-main-menu li {
+    display: inline-block;
+  }
+
+  /* line 209, ../sass/style.scss */
+  #block-mainnavigation-2 a:hover, #block-wikivisually-theme-main-menu a:hover {
+    text-decoration: none;
+    background-color: #00000000;
+    color: #F90;
+  }
+
+  /* line 214, ../sass/style.scss */
+  #block-mainnavigation-2 a, #block-wikivisually-theme-main-menu a {
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: white;
   }
 
-  /* line 263, ../sass/style.scss */
+  /* line 219, ../sass/style.scss */
+  #block-wikivisually-theme-views-block-headers-menu-links-block-1 {
+    margin-bottom: 5px;
+  }
+
+  /* line 222, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists {
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2);
+  }
+  /* line 223, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists h2.block-title {
+    border-bottom: 1px solid #aaaaa9;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+
+  /* line 230, ../sass/style.scss */
+  div.taxonomy-block-none {
+    display: none;
+  }
+
+  /* line 234, ../sass/style.scss */
+  #block-wikivisuallyhomeblock div.wikivisually_home {
+    width: 130%;
+  }
+  /* line 235, ../sass/style.scss */
+  #block-wikivisuallyhomeblock div.wikivisually_home a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  /* line 243, ../sass/style.scss */
+  #block-wikivisuallyhomeblock div.title_wikivisually_home {
+    display: inline-block;
+    margin-right: 1%;
+  }
+  /* line 247, ../sass/style.scss */
+  #block-wikivisuallyhomeblock div.description_wikivisually_home {
+    display: inline-block;
+    width: 70%;
+  }
+
+  /* line 252, ../sass/style.scss */
+  #block-wikivisuallyhomeblock-2 {
+    color: #F90;
+    vertical-align: top;
+    margin-top: 1.3%;
+  }
+
+  /* line 257, ../sass/style.scss */
+  #block-sharethis {
+    vertical-align: top;
+    margin-top: 1%;
+  }
+
+  /* line 261, ../sass/style.scss */
+  div.form-wiki-search svg {
+    position: relative;
+    left: 117%;
+    top: 23px;
+  }
+
+  /* line 266, ../sass/style.scss */
+  #wiki-search-article input {
+    width: 130%;
+  }
+
+  /* line 270, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists div.form-group, #block-views-block-top-lists-top-lists div.views-field.views-field-name {
+    padding-left: 1%;
+  }
+
+  /* line 274, ../sass/style.scss */
+  #block-wikisearchblock {
+    position: relative;
+    bottom: 10px;
+    left: 2%;
+  }
+
+  /* line 279, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists div.views-row, #block-views-block-home-block-home-block div.views-row a.view-home-block, a.view-home-page-fetured {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+
+  /* line 285, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists h3.field-content a, a.view-home-page-fetured div.title_wiki {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  /* line 291, ../sass/style.scss */
+  #block-views-block-home-block-home-block h2.block-title, #block-views-block-home-block-home-block h2.views-block-how-more {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* line 296, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock h2.block-title, #block-views-block-featured-block-featured-block h2.block-title, #block-youtubesearchblock h2.block-title, #block-wikichannelblock h2.block-title {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* line 301, ../sass/style.scss */
+  #block-views-block-home-block-home-block h2.block-title a {
+    color: black;
+  }
+  /* line 304, ../sass/style.scss */
+  #block-views-block-home-block-home-block div.views-row a.view-home-block div.img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round;
+  }
+
+  /* line 310, ../sass/style.scss */
+  a.view-home-page-fetured div.img_wiki img, img.img-search, div.url_img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round;
+  }
+
+  /* line 316, ../sass/style.scss */
+  #block-views-block-home-block-home-block div.title_wiki {
+    margin-left: 10px;
+  }
+  /* line 319, ../sass/style.scss */
+  #block-views-block-home-block-home-block div.views-row a.view-home-block {
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+  }
+
+  /* line 325, ../sass/style.scss */
+  #youtube-block ul {
+    list-style-type: none;
+  }
+
+  /* line 328, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock #youtube-block li {
+    height: 290px;
+  }
+
+  /* line 331, ../sass/style.scss */
+  #youtube-block img {
+    width: 30%;
+    margin-left: 2%;
+  }
+
+  /* line 335, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock #youtube-block div.right-stat {
+    position: relative;
+    left: 35%;
+    top: -190px;
+    width: 40%;
+    font-size: x-large;
+  }
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 346, ../sass/style.scss */
+  div.region.region-header {
+    background: #1565c0;
+  }
+
+  /* line 349, ../sass/style.scss */
   #block-wikivisuallyhomeblock-2 {
     display: none;
   }
 
-  /* line 266, ../sass/style.scss */
-  #block-wikivisuallyhomeblock-3 {
-    padding-left: 1.5%;
-    display: grid;
-    background: #f3801b;
-    color: white;
-    font-size: 30px;
+  /* line 352, ../sass/style.scss */
+  #block-mainnavigation-2, #block-wikivisually-theme-main-menu, #block-wikivisuallyhomeblock-3, #block-sharethis #block-mainnavigation-2 ul, #block-wikivisually-theme-main-menu ul {
+    width: auto;
   }
 
-  /* line 273, ../sass/style.scss */
-  #block-sharethis {
-    position: relative;
+  /* line 355, ../sass/style.scss */
+  #block-mainnavigation-2 li, #block-wikivisually-theme-main-menu li, #block-wikisearchblock, #block-sharethis {
     display: inline-block;
-    left: 55%;
-    bottom: 33px;
   }
 
-  /* line 280, ../sass/style.scss */
-  div.view-display-id-block_1 div.col-2 img.img-responsive {
-    margin-left: -7%;
-  }
-  /* line 283, ../sass/style.scss */
-  div.view-display-id-block_1 div.col-3 img.img-responsive {
-    margin-left: -14%;
-  }
-  /* line 286, ../sass/style.scss */
-  div.view-display-id-block_1 div.col-4 img.img-responsive {
-    margin-left: -21%;
-  }
-  /* line 289, ../sass/style.scss */
-  div.view-display-id-block_1 div.col-5 img.img-responsive {
-    margin-left: -28%;
-  }
-
-  /* line 293, ../sass/style.scss */
-  aside.top_list {
-    width: 50%;
-    margin-bottom: 300%;
-  }
-}
-@media only screen and (max-width: 768px) {
-  /* line 299, ../sass/style.scss */
+  /* line 358, ../sass/style.scss */
   #block-wikisearchblock {
-    margin-right: 26%;
+    margin-left: 5%;
   }
 
-  /* line 303, ../sass/style.scss */
-  #block-wikivisually-theme-youtubechannelblock {
-    width: 160%;
+  /* line 361, ../sass/style.scss */
+  #block-sharethis {
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
-  /* line 308, ../sass/style.scss */
-  div.view-display-id-block_1 div.col-2 img.img-responsive {
-    margin-left: -3%;
-  }
-  /* line 311, ../sass/style.scss */
-  div.view-display-id-block_1 div.col-3 img.img-responsive {
-    margin-left: -2%;
-  }
-  /* line 314, ../sass/style.scss */
-  div.view-display-id-block_1 div.col-4 img.img-responsive {
-    margin-left: -1%;
-  }
-  /* line 317, ../sass/style.scss */
-  div.view-display-id-block_1 div.col-5 img.img-responsive {
-    margin-left: 0%;
-  }
-
-  /* line 323, ../sass/style.scss */
-  section.row-controller {
-    width: 110%;
-  }
-  /* line 326, ../sass/style.scss */
-  section.row-controller-mobile {
-    margin-right: 17%;
-  }
-
-  /* line 331, ../sass/style.scss */
-  a.view-home-page-fetured div.title_wiki {
-    font-size: 250%;
-  }
-
-  /* line 336, ../sass/style.scss */
-  div.row {
-    max-width: 90%;
-  }
-  /* line 339, ../sass/style.scss */
-  div.region.region-header {
-    width: 300%;
-  }
-  /* line 342, ../sass/style.scss */
-  div.height-row {
-    width: 166%;
-    height: 100px;
-  }
-  /* line 346, ../sass/style.scss */
-  div.art-rel-list {
-    font-size: 35px;
-  }
-
-  /* line 351, ../sass/style.scss */
-  aside.top_list {
-    width: 60%;
-    margin-bottom: 0px;
-  }
-
-  /* line 356, ../sass/style.scss */
-  #block-wikivisuallyhomeblock {
-    width: 150%;
-  }
-  /* line 359, ../sass/style.scss */
-  #block-wikivisuallyhomeblock div.title_wikivisually_home {
-    font-size: 250%;
-  }
-  /* line 362, ../sass/style.scss */
-  #block-wikivisuallyhomeblock div.description_wikivisually_home {
-    font-size: 20px;
-  }
   /* line 365, ../sass/style.scss */
-  #block-wikivisuallyhomeblock div.wikivisually_home div.description_wikivisually_home {
-    width: 500px;
+  #block-mainnavigation-2 a:hover, #block-wikivisually-theme-main-menu a:hover {
+    text-decoration: none;
+    background-color: #00000000;
+    color: #F90;
   }
 
-  /* line 371, ../sass/style.scss */
-  #block-wikivisually-theme-views-block-headers-menu-links-block-1 {
-    width: 100%;
-  }
-  /* line 373, ../sass/style.scss */
-  #block-wikivisually-theme-views-block-headers-menu-links-block-1 img.img-responsive {
-    width: 100%;
+  /* line 370, ../sass/style.scss */
+  #block-mainnavigation-2 a, #block-wikivisually-theme-main-menu a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
   }
 
-  /* line 378, ../sass/style.scss */
-  #block-mainnavigation-2, #block-wikivisually-theme-main-menu {
-    height: 50px;
+  /* line 375, ../sass/style.scss */
+  #block-wikivisuallyhomeblock-3 {
+    color: #F90;
+    margin-left: 50%;
+  }
+
+  /* line 379, ../sass/style.scss */
+  #wiki-search-article input {
+    width: 200%;
   }
 
   /* line 382, ../sass/style.scss */
-  #block-wikivisuallyhomeblock-3 {
-    font-size: 35px;
+  #block-wikivisuallyhomeblock-3 div.description_wikivisually_home {
+    font-size: 150%;
+    margin-left: 10px;
   }
 
   /* line 386, ../sass/style.scss */
-  #block-wikisearchblock {
-    left: 21%;
-    margin-right: 39%;
-    width: 15%;
-    top: -100px;
+  #block-wikivisually-theme-views-block-headers-menu-links-block-1 {
+    margin-bottom: 5px;
   }
 
-  /* line 393, ../sass/style.scss */
-  #block-sharethis {
-    bottom: 35px;
+  /* line 389, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists {
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2);
+  }
+  /* line 390, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists h2.block-title {
+    border-bottom: 1px solid #aaaaa9;
+    padding-bottom: 20px;
+    padding-left: 20px;
   }
 
-  /* line 397, ../sass/style.scss */
-  #block-views-block-home-block-home-block {
-    width: 180%;
+  /* line 398, ../sass/style.scss */
+  div.taxonomy-block-none {
+    display: none;
   }
-  /* line 399, ../sass/style.scss */
-  #block-views-block-home-block-home-block h2.block-title a {
-    font-size: 30px;
-  }
-  /* line 403, ../sass/style.scss */
-  #block-views-block-home-block-home-block div.img_wiki img {
-    width: 300px;
-  }
-  /* line 406, ../sass/style.scss */
-  #block-views-block-home-block-home-block div.views-row a.view-home-block div.title_wiki {
-    font-size: 350%;
+  /* line 401, ../sass/style.scss */
+  div.form-wiki-search svg {
+    position: relative;
+    left: 186%;
+    top: 23px;
   }
 
+  /* line 408, ../sass/style.scss */
+  #block-wikivisuallyhomeblock div.title_wikivisually_home {
+    display: inline-block;
+    margin-right: 1%;
+  }
   /* line 412, ../sass/style.scss */
-  #block-wikivisually-theme-youtubechannelblock {
-    width: 300%;
-  }
-  /* line 414, ../sass/style.scss */
-  #block-wikivisually-theme-youtubechannelblock h2.block-title {
-    text-align: center;
-    font-size: 40px;
+  #block-wikivisuallyhomeblock div.wikivisually_home a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
   }
   /* line 418, ../sass/style.scss */
-  #block-wikivisually-theme-youtubechannelblock img {
-    width: 300px;
-    height: 200px !important;
+  #block-wikivisuallyhomeblock div.description_wikivisually_home {
+    display: inline-block;
+    width: 70%;
   }
+
   /* line 423, ../sass/style.scss */
-  #block-wikivisually-theme-youtubechannelblock div.right-stat, #block-wikivisually-theme-youtubechannelblock div#youtube-block div.youtube-stat {
-    font-size: 20px !important;
+  #block-views-block-top-lists-top-lists div.views-row, #block-views-block-home-block-home-block div.views-row a.view-home-block, a.view-home-page-fetured {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
   }
 
-  /* line 429, ../sass/style.scss */
-  h2.views-block-how-more a {
-    font-size: 100%;
+  /* line 431, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists div.form-group, #block-views-block-top-lists-top-lists div.views-field.views-field-name {
+    padding-left: 2%;
   }
-
-  /* line 434, ../sass/style.scss */
-  li.first {
-    margin-left: 1%;
-    display: inline-block;
-  }
-  /* line 438, ../sass/style.scss */
-  li.last {
-    display: inline-block;
-  }
-  /* line 441, ../sass/style.scss */
-  li.first a, li.last a {
-    font-size: 2vw;
-  }
-
-  /* line 446, ../sass/style.scss */
-  #block-views-block-top-lists-top-lists {
-    width: 230%;
-  }
-  /* line 448, ../sass/style.scss */
-  #block-views-block-top-lists-top-lists h2.block-title {
-    font-size: 300%;
-  }
-  /* line 451, ../sass/style.scss */
+  /* line 435, ../sass/style.scss */
   #block-views-block-top-lists-top-lists h3.field-content a {
-    font-size: 150%;
-  }
-  /* line 454, ../sass/style.scss */
-  #block-views-block-top-lists-top-lists img.img-responsive {
-    width: 250px;
-  }
-}
-@media only screen and (max-width: 667px) {
-  /* line 460, ../sass/style.scss */
-  #block-wikivisuallyhomeblock-3 {
-    font-size: 32px;
-  }
-}
-@media only screen and (max-width: 640px) {
-  /* line 465, ../sass/style.scss */
-  #block-wikivisuallyhomeblock-3 {
-    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
   }
 
-  /* line 468, ../sass/style.scss */
-  #block-wikisearchblock {
-    top: -90px;
+  /* line 441, ../sass/style.scss */
+  a.view-home-page-fetured div.title_wiki {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  /* line 447, ../sass/style.scss */
+  #block-views-block-home-block-home-block h2.block-title, #block-views-block-home-block-home-block h2.views-block-how-more {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* line 452, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock h2.block-title, #block-views-block-featured-block-featured-block h2.block-title, #block-youtubesearchblock h2.block-title, #block-wikichannelblock h2.block-title {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* line 457, ../sass/style.scss */
+  #block-views-block-home-block-home-block h2.block-title a {
+    color: black;
+  }
+  /* line 460, ../sass/style.scss */
+  #block-views-block-home-block-home-block div.views-row a.view-home-block div.img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round;
+  }
+
+  /* line 466, ../sass/style.scss */
+  a.view-home-page-fetured div.img_wiki img, img.img-search, div.url_img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round;
   }
 
   /* line 472, ../sass/style.scss */
-  #block-wikivisuallyhomeblock div.wikivisually_home div.description_wikivisually_home {
-    width: 400px;
+  #block-views-block-home-block-home-block div.views-row a.view-home-block {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
   }
-  /* line 475, ../sass/style.scss */
-  #block-wikivisuallyhomeblock div.description_wikivisually_home {
-    font-size: 19px;
+  /* line 478, ../sass/style.scss */
+  #block-views-block-home-block-home-block div.title_wiki {
+    margin-left: 10px;
   }
-}
-@media only screen and (max-width: 568px) {
-  /* line 481, ../sass/style.scss */
-  #block-wikivisuallyhomeblock-3 {
-    font-size: 25px;
+
+  /* line 483, ../sass/style.scss */
+  #youtube-block img {
+    width: 40%;
   }
-}
-@media only screen and (max-width: 425px) {
   /* line 486, ../sass/style.scss */
-  div.art-rel-list {
-    font-size: 45px;
+  #youtube-block ul {
+    list-style-type: none;
+  }
+
+  /* line 491, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock #youtube-block div.right-stat {
+    position: relative;
+    left: 45%;
+    top: -190px;
+    width: 40%;
+    font-size: x-large;
+  }
+  /* line 498, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock #youtube-block li {
+    height: 290px;
   }
 }
-@media only screen and (max-width: 414px) {
-  /* line 492, ../sass/style.scss */
-  #block-wikivisuallyhomeblock div.title_wikivisually_home {
-    font-size: 17px;
-  }
-  /* line 495, ../sass/style.scss */
-  #block-wikivisuallyhomeblock div.wikivisually_home div.description_wikivisually_home {
-    font-size: 8px;
-    margin-top: 11px;
-    width: 170px;
-  }
-
-  /* line 502, ../sass/style.scss */
-  li.first a, li.last a {
-    font-size: 8px;
-  }
-
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
   /* line 506, ../sass/style.scss */
-  .navbar-nav > li > a {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    line-height: 0px;
+  div.region.region-header {
+    background: #1565c0;
   }
 
-  /* line 511, ../sass/style.scss */
-  #block-wikivisually-theme-views-block-headers-menu-links-block-1 {
-    width: 120%;
+  /* line 509, ../sass/style.scss */
+  #block-wikivisuallyhomeblock-2 {
+    display: none;
+  }
+
+  /* line 512, ../sass/style.scss */
+  #block-mainnavigation-2, #block-wikivisually-theme-main-menu, #block-wikivisuallyhomeblock-3, #block-sharethis {
+    display: inline-block;
   }
 
   /* line 515, ../sass/style.scss */
-  li.first {
-    left: -5px;
-  }
-  /* line 518, ../sass/style.scss */
-  li.last {
-    left: -30px;
+  #block-mainnavigation-2 ul, #block-wikivisually-theme-main-menu ul {
+    width: auto;
   }
 
-  /* line 522, ../sass/style.scss */
-  #block-mainnavigation-2, #block-wikivisually-theme-main-menu {
+  /* line 518, ../sass/style.scss */
+  #block-mainnavigation-2 li, #block-wikivisually-theme-main-menu li {
+    display: inline-block;
+  }
+
+  /* line 521, ../sass/style.scss */
+  #block-mainnavigation-2 a:hover, #block-wikivisually-theme-main-menu a:hover {
+    text-decoration: none;
+    background-color: #00000000;
+    color: #F90;
+  }
+
+  /* line 526, ../sass/style.scss */
+  #block-mainnavigation-2 a, #block-wikivisually-theme-main-menu a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+  }
+
+  /* line 531, ../sass/style.scss */
+  #block-mainnavigation-2 li.first a, #block-wikivisually-theme-main-menu li.first a {
+    margin-left: 40px;
+  }
+
+  /* line 534, ../sass/style.scss */
+  #block-wikivisuallyhomeblock-3 {
+    background: #F90;
+    color: white;
+    display: -webkit-box;
     height: 30px;
   }
 
-  /* line 525, ../sass/style.scss */
-  #block-wikisearchblock {
-    left: 10%;
-    margin-right: 39%;
-    width: 19%;
-    top: -60px;
-  }
-
-  /* line 532, ../sass/style.scss */
-  div.form-wiki-search svg {
-    position: relative;
-    left: 174%;
-    top: 13px;
-  }
-  /* line 537, ../sass/style.scss */
-  div.region.region-header {
+  /* line 540, ../sass/style.scss */
+  #wiki-search-article input {
     width: 100%;
   }
 
-  /* line 541, ../sass/style.scss */
-  .navbar-nav {
-    margin: 0.5px -10px;
+  /* line 543, ../sass/style.scss */
+  #block-wikivisuallyhomeblock-3 div.description_wikivisually_home {
+    font-size: 150%;
+    margin-left: 40px;
   }
 
-  /* line 544, ../sass/style.scss */
-  #block-wikivisuallyhomeblock-3 {
-    font-size: 15px;
+  /* line 548, ../sass/style.scss */
+  #block-wikivisuallyhomeblock div.title_wikivisually_home {
+    display: inline-block;
   }
-
-  /* line 547, ../sass/style.scss */
-  #block-sharethis {
-    left: 50%;
-    bottom: 23px;
-  }
-
   /* line 551, ../sass/style.scss */
-  #block-views-block-top-lists-top-lists {
-    width: 270%;
+  #block-wikivisuallyhomeblock div.description_wikivisually_home {
+    display: inline-block;
+    width: 70%;
   }
-  /* line 552, ../sass/style.scss */
-  #block-views-block-top-lists-top-lists h2.block-title {
-    font-size: 200%;
-  }
-
-  /* line 557, ../sass/style.scss */
-  div.height-row {
-    width: 166%;
-    height: 50px;
+  /* line 555, ../sass/style.scss */
+  #block-wikivisuallyhomeblock div.wikivisually_home a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
   }
 
   /* line 562, ../sass/style.scss */
-  #block-views-block-top-lists-top-lists img.img-responsive {
-    width: 140px;
-  }
-  /* line 565, ../sass/style.scss */
-  #block-views-block-top-lists-top-lists h3.field-content a {
-    font-size: 100%;
+  #block-views-block-home-block-home-block div.views-row a.view-home-block {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
   }
 
-  /* line 569, ../sass/style.scss */
-  #block-views-block-home-block-home-block {
-    width: 100%;
+  /* line 567, ../sass/style.scss */
+  #block-wikivisually-theme-views-block-headers-menu-links-block-1 {
+    margin-bottom: 5px;
+  }
+
+  /* line 570, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists {
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2);
   }
   /* line 571, ../sass/style.scss */
-  #block-views-block-home-block-home-block div.views-row a.view-home-block div.title_wiki {
-    font-size: 250%;
+  #block-views-block-top-lists-top-lists h2.block-title {
+    border-bottom: 1px solid #aaaaa9;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  /* line 577, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists div.views-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
   }
 
-  /* line 575, ../sass/style.scss */
-  h2.views-block-how-more a {
+  /* line 584, ../sass/style.scss */
+  #block-views-block-home-block-home-block div.views-row a.view-home-block, a.view-home-page-fetured {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+
+  /* line 590, ../sass/style.scss */
+  #block-views-block-home-block-home-block div.title_wiki {
+    margin-left: 10px;
+  }
+
+  /* line 593, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists h3.field-content a, a.view-home-page-fetured div.title_wiki {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  /* line 598, ../sass/style.scss */
+  #block-views-block-home-block-home-block div.views-row a.view-home-block div.img_wiki img, a.view-home-page-fetured div.img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round;
+  }
+
+  /* line 604, ../sass/style.scss */
+  div.url_img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round;
+  }
+  /* line 609, ../sass/style.scss */
+  div.taxonomy-block-none {
+    display: none;
+  }
+
+  /* line 613, ../sass/style.scss */
+  #block-sharethis {
+    position: relative;
+    left: 65%;
+    top: -28px;
+  }
+
+  /* line 618, ../sass/style.scss */
+  #block-wikisearchblock {
+    display: block;
+    position: relative;
+    top: -20px;
+  }
+
+  /* line 623, ../sass/style.scss */
+  div.form-wiki-search svg {
+    position: relative;
+    left: 96%;
+    top: 25px;
+  }
+
+  /* line 629, ../sass/style.scss */
+  #block-views-block-home-block-home-block h2.block-title, #block-views-block-home-block-home-block h2.views-block-how-more {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* line 634, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock h2.block-title, #block-views-block-featured-block-featured-block h2.block-title, #block-youtubesearchblock h2.block-title, #block-wikichannelblock h2.block-title {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* line 639, ../sass/style.scss */
+  #block-views-block-home-block-home-block h2.block-title a {
+    color: black;
+  }
+  /* line 642, ../sass/style.scss */
+  #block-views-block-home-block-home-block div.views-row a.view-home-block div.img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round;
+  }
+
+  /* line 648, ../sass/style.scss */
+  a.view-home-page-fetured div.img_wiki img, img.img-search {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round;
+  }
+
+  /* line 653, ../sass/style.scss */
+  #youtube-block ul {
+    list-style-type: none;
+  }
+
+  /* line 656, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock #youtube-block li {
+    height: 270px;
+  }
+
+  /* line 659, ../sass/style.scss */
+  #youtube-block img {
+    width: 50%;
+  }
+
+  /* line 662, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock #youtube-block div.right-stat {
+    position: relative;
+    left: 55%;
+    top: -130px;
+    width: 40%;
+    font-size: small;
+  }
+
+  /* line 669, ../sass/style.scss */
+  div.taxonomy-block-none {
+    display: none;
+  }
+}
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  /* line 676, ../sass/style.scss */
+  div.region.region-header {
+    background: #1565c0;
+  }
+
+  /* line 679, ../sass/style.scss */
+  #block-wikivisuallyhomeblock-2 {
+    display: none;
+  }
+
+  /* line 682, ../sass/style.scss */
+  #block-mainnavigation-2, #block-wikivisually-theme-main-menu, #block-wikivisuallyhomeblock-3 {
+    display: inline-block;
+  }
+
+  /* line 685, ../sass/style.scss */
+  #block-sharethis {
+    display: inline-block;
+    position: relative;
+    left: 65%;
+    top: -28px;
+  }
+
+  /* line 691, ../sass/style.scss */
+  #block-wikisearchblock {
+    display: block;
+    position: relative;
+    top: -20px;
+  }
+
+  /* line 696, ../sass/style.scss */
+  #block-mainnavigation-2 ul, #block-wikivisually-theme-main-menu ul {
+    width: auto;
+  }
+
+  /* line 699, ../sass/style.scss */
+  #block-mainnavigation-2 li, #block-wikivisually-theme-main-menu li {
+    display: inline-block;
+  }
+
+  /* line 702, ../sass/style.scss */
+  #block-mainnavigation-2 a:hover, #block-wikivisually-theme-main-menu a:hover {
+    text-decoration: none;
+    background-color: #00000000;
+    color: #F90;
+  }
+
+  /* line 707, ../sass/style.scss */
+  #block-mainnavigation-2 a, #block-wikivisually-theme-main-menu a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+  }
+
+  /* line 712, ../sass/style.scss */
+  #block-mainnavigation-2 li.first a, #block-wikivisually-theme-main-menu li.first a {
+    margin-left: 20px;
+  }
+
+  /* line 715, ../sass/style.scss */
+  #block-wikivisuallyhomeblock-3 {
+    background: #F90;
+    color: white;
+    display: -webkit-box;
+    height: 30px;
+  }
+  /* line 720, ../sass/style.scss */
+  #block-wikivisuallyhomeblock-3 div.description_wikivisually_home {
     font-size: 100%;
+    margin-left: 10px;
+    margin-top: 3%;
   }
 
-  /* line 578, ../sass/style.scss */
-  #block-wikivisually-theme-youtubechannelblock {
+  /* line 726, ../sass/style.scss */
+  #wiki-search-article input {
     width: 100%;
   }
-  /* line 580, ../sass/style.scss */
-  #block-wikivisually-theme-youtubechannelblock h2.block-title {
-    font-size: 150%;
-  }
-  /* line 583, ../sass/style.scss */
-  #block-wikivisually-theme-youtubechannelblock img {
-    width: 100px;
-    height: 110px !important;
-  }
-  /* line 588, ../sass/style.scss */
-  #block-wikivisually-theme-youtubechannelblock div.right-stat {
-    font-size: 70%;
-  }
-  /* line 591, ../sass/style.scss */
-  #block-wikivisually-theme-youtubechannelblock div#youtube-block div.youtube-stat {
-    font-size: 70%;
-    font-size: 65%;
+
+  /* line 729, ../sass/style.scss */
+  #block-wikivisuallyhomeblock div.title_wikivisually_home a, #block-views-block-home-block-home-block div.views-row a.view-home-block {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
   }
 
-  /* line 597, ../sass/style.scss */
-  aside.trending {
-    padding-left: 30px;
-    padding-right: 0px;
+  /* line 734, ../sass/style.scss */
+  div.form-wiki-search svg {
+    position: relative;
+    left: 93%;
+    top: 25px;
   }
 
-  /* line 602, ../sass/style.scss */
-  #block-wikivisually-theme-youtubechannelblock div.right-stat, #block-wikivisually-theme-youtubechannelblock div#youtube-block div.youtube-stat {
-    font-size: 80% !important;
+  /* line 739, ../sass/style.scss */
+  #block-wikivisually-theme-views-block-headers-menu-links-block-1 {
+    margin-bottom: 5px;
   }
 
-  /* line 606, ../sass/style.scss */
+  /* line 742, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists {
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.14), 2px 1px 10px 0 rgba(0, 0, 0, 0.12), 2px 2px 4px -1px rgba(0, 0, 0, 0.2);
+  }
+  /* line 743, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists h2.block-title {
+    border-bottom: 1px solid #aaaaa9;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  /* line 749, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists div.views-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+
+  /* line 756, ../sass/style.scss */
+  #block-views-block-home-block-home-block div.views-row a.view-home-block, a.view-home-page-fetured {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+
+  /* line 762, ../sass/style.scss */
+  #block-views-block-home-block-home-block div.title_wiki {
+    margin-left: 10px;
+  }
+
+  /* line 765, ../sass/style.scss */
+  #block-views-block-top-lists-top-lists h3.field-content a, a.view-home-page-fetured div.title_wiki {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  /* line 771, ../sass/style.scss */
+  #block-views-block-home-block-home-block h2.block-title, #block-views-block-home-block-home-block h2.views-block-how-more {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* line 776, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock h2.block-title, #block-views-block-featured-block-featured-block h2.block-title, #block-youtubesearchblock h2.block-title, #block-wikichannelblock h2.block-title {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* line 781, ../sass/style.scss */
   #block-views-block-home-block-home-block h2.block-title a {
-    font-size: 70%;
+    color: black;
+  }
+  /* line 784, ../sass/style.scss */
+  #block-views-block-home-block-home-block div.views-row a.view-home-block div.img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round;
+  }
+
+  /* line 790, ../sass/style.scss */
+  a.view-home-page-fetured div.img_wiki img, img.img-search, div.url_img_wiki img {
+    border: solid white 8px;
+    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
+    border-image-repeat: round;
+  }
+
+  /* line 795, ../sass/style.scss */
+  #youtube-block ul {
+    list-style-type: none;
+  }
+
+  /* line 798, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock #youtube-block li {
+    height: 140px;
+  }
+
+  /* line 801, ../sass/style.scss */
+  #youtube-block img {
+    width: 50%;
+  }
+
+  /* line 804, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock #youtube-block div.right-stat {
+    position: relative;
+    left: 55%;
+    top: -130px;
+    width: 40%;
+    font-size: small;
+  }
+
+  /* line 811, ../sass/style.scss */
+  div.taxonomy-block-none {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  /* line 817, ../sass/style.scss */
+  #block-mainnavigation-2 li.first a, #block-wikivisually-theme-main-menu li.first a {
+    margin-left: 0px;
+  }
+
+  /* line 821, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock #youtube-block li {
+    height: 110px;
+  }
+  /* line 824, ../sass/style.scss */
+  #block-wikivisually-theme-youtubechannelblock #youtube-block div.right-stat {
+    top: -110px;
   }
 }

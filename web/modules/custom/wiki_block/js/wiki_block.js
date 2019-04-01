@@ -21,8 +21,6 @@
     $('.'+title).css({
       "position": "fixed",
       "width": "30%",
-      "right": "10%",
-      "top": "15%",
       "z-index": z_index,
       "border": "2em solid rgb(52, 46, 56)",
       "background": "#fff"

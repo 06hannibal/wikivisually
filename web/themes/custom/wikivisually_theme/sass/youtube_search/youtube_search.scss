@@ -1,118 +1,34 @@
-div#youtube-block {
-  min-width: 108%;
-}
-
-#youtube-block {
-  img {
-    border: 1px solid #c3c3c3;
-    height: 160px;
-    padding: 0px;
-  }
-  li {
-    list-style-type: none;
-  }
-  .youtube-stat {
-    color: #50b432;
-  }
-}
-
-#block-youtubesearchblock #youtube-block .right-stat {
-  position: relative;
-  left: 27%;
-  top: -100px;
-}
-
-.youtubesearch-frame {
-  display: none;
-  position: fixed;
-  width: 70%;
-  right: 17%;
-  height: 89%;
-  top: 7%;
-  box-shadow: 0px 60px 1340px 540px #c91a1a;
-  z-index: 5;
-}
-
-.youtubesearch-close {
-  display: none;
-  z-index: 9999;
-  position: fixed;
-  left: 85%;
-  color: #f4dbdb;
-  font-size: 220%;
-  top: 0%;
-}
-
-#youtube-block a.youtubesearch-close {
-  text-decoration: none;
-}
-
-aside.page_wiki {
-  padding: 0px;
-  left: 5%;
-}
-
-#block-youtubesearchblock {
-  div {
+/* Large desktops */
+@media (min-width: 1400px) {
+  #block-youtubesearchblock div {
+    &#youtube-block ul {
+      height: 100px !important;
+    }
     &.class-overflow {
-      height: 200px;
-      overflow-x: hidden;
-      overflow-y: auto;
-    }
-    ul {
-      padding: 0px;
-    }
-    &.left-stat img {
-      width: 155px;
-      height: 89px;
-    }
-  }
-  ul li div {
-    &.title {
-      position: relative;
-      top: -80px;
-      left: 32%;
-      width: 260px;
-    }
-    &.youtube-stat {
-      position: relative;
-      top: -80px;
-      left: 160px;
-      width: 200px;
-    }
-  }
-  div#youtube-block ul {
-    li {
-      width: 500px;
-      height: 100px;
-    }
-    &:nth-child(2n+1) {
-      float: right;
+      height: 200px !important;
     }
   }
 }
 
-@media only screen and (max-width: 1440px) {
-  div#youtube-block {
-    min-width: 125%;
+/* Large laptops */
+@media (min-width: 1200px) {
+  #block-youtubesearchblock {
+    .youtube-stat {
+      color: #50b432;
+    }
+    h2.block-title {
+      text-align: center;
+      font-weight: bold;
+    }
   }
-  #block-youtubesearchblock ul li div.title {
-    width: 140px;
-  }
-}
-
-@media only screen and (max-width: 1366px) {
-  div#youtube-block {
-    min-width: 103%;
-  }
-  aside.page_wiki {
-    padding: 0px;
-    left: 4%;
-  }
-  #block-youtubesearchblock div.class-overflow {
-    height: 200px;
-    overflow-x: hidden;
-    overflow-y: auto;
+  .youtubesearch-close {
+    display: none;
+    z-index: 9999;
+    position: fixed;
+    left: 85%;
+    color: #f4dbdb;
+    font-size: 220%;
+    top: 0%;
   }
   .youtubesearch-frame {
     display: none;
@@ -124,6 +40,38 @@ aside.page_wiki {
     box-shadow: 0px 60px 1340px 540px #c91a1a;
     z-index: 5;
   }
+  #block-youtubesearchblock div {
+    &#youtube-block {
+      ul {
+        float: left;
+        width: 50%;
+        height: 70px;
+        &:nth-child(2n+1) {
+          clear: both;
+        }
+      }
+      div {
+        &.title, &.youtube-stat {
+          position: relative;
+          left: 35%;
+          bottom: 70px;
+          width: 72%;
+        }
+      }
+    }
+    &.class-overflow {
+      height: 160px;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #block-youtubesearchblock .youtube-stat {
+    color: #50b432;
+  }
   .youtubesearch-close {
     display: none;
     z-index: 9999;
@@ -133,340 +81,152 @@ aside.page_wiki {
     font-size: 220%;
     top: 0%;
   }
-  #youtube-block a.youtubesearch-close {
-    text-decoration: none;
-  }
-  #block-youtubesearchblock {
-    position: unset;
-    width: 109%;
-    div.left-stat img {
-      width: 155px;
-      height: 89px;
-    }
-    ul li div {
-      &.title {
-        position: relative;
-        top: -80px;
-        left: 45%;
-        width: 160px;
-      }
-      &.youtube-stat {
-        position: relative;
-        top: -80px;
-        left: 160px;
-        width: 200px;
-      }
-    }
-    div#youtube-block ul {
-      li {
-        width: 350px;
-        height: 110px;
-      }
-      &:nth-child(2n+1) {
-        float: right;
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 1199px) {
-  aside.page_wiki {
-    left: 37%;
-  }
-  #block-youtubesearchblock div.class-overflow {
-    width: 110%;
-  }
-  div#youtube-block {
-    min-width: 100%;
-  }
-  #block-youtubesearchblock div.class-overflow {
-    width: 150%;
-  }
-  #youtube-block {
-    width: 100%;
-  }
-  #block-wikichannelblock {
-    width: 163%;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  section.wiki-controller {
-    width: 75%;
-    position: unset;
-    margin-top: 0%;
-  }
-  aside.page_wiki {
-    left: 6%;
-    width: 65%;
-  }
-  #block-youtubesearchblock {
-    width: 129%;
-    div {
-      &.class-overflow {
-        width: 140%;
-      }
-      ul {
-        padding: 20px;
-      }
-      &#youtube-block ul:nth-child(2n+1) {
-        position: relative;
-        right: 25%;
-      }
-    }
-  }
-  #block-wikichannelblock h2.block-title {
-    text-align: center;
-    width: 90%;
-    font-size: 270%;
-  }
-  #block-youtubesearchblock h2.block-title {
-    width: 105%;
-    text-align: center;
-    font-size: 200%;
-  }
-  div {
-    &.region-page-wiki {
-      width: 120%;
-    }
-    &#youtube-block div.left-stat img {
-      width: 250px;
-      height: 150px;
-    }
-    &.wiki_img_block {
-      width: 90%;
-      font-size: 140%;
-    }
-  }
-  #block-youtubesearchblock ul li div {
-    &.title {
-      top: -150px;
-      left: 75%;
-      font-size: 140%;
-      width: 60%;
-    }
-    &.youtube-stat {
-      top: -150px;
-      left: 75%;
-      font-size: 110%;
-    }
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  section.wiki-controller {
-    margin-top: 30%;
-  }
-  div#youtube-block div.left-stat img {
+  .youtubesearch-frame {
+    display: none;
+    position: fixed;
     width: 70%;
-    height: 150px;
+    right: 17%;
+    height: 89%;
+    top: 7%;
+    box-shadow: 0px 60px 1340px 540px #c91a1a;
+    z-index: 5;
   }
-  #block-youtubesearchblock ul li div {
-    &.title {
-      font-size: 110%;
-      width: 40%;
+  #block-youtubesearchblock div {
+    &#youtube-block {
+      ul {
+        float: left;
+        width: 50%;
+        height: 70px;
+      }
+      div {
+        &.title, &.youtube-stat {
+          position: relative;
+          left: 35%;
+          bottom: 55px;
+          width: 72%;
+        }
+      }
     }
-    &.youtube-stat {
-      font-size: 90%;
-    }
-  }
-}
-
-@media only screen and (max-width: 926px) {
-  section.wiki-controller {
-    margin-top: 31%;
-  }
-  div#youtube-block {
-    min-width: 115%;
-  }
-}
-
-@media only screen and (max-width: 883px) {
-  section.wiki-controller {
-    margin-top: 33%;
-  }
-}
-
-@media only screen and (max-width: 807px) {
-  section.wiki-controller {
-    margin-top: 35%;
-  }
-  div#youtube-block div.left-stat img {
-    width: 60%;
-    height: 130px;
-  }
-  #block-youtubesearchblock ul li div {
-    &.title {
-      top: -120px;
-      left: 65%;
-      font-size: 100%;
-      width: 40%;
-    }
-    &.youtube-stat {
-      top: -120px;
-      left: 65%;
+    &.class-overflow {
+      height: 200px;
+      overflow-x: hidden;
+      overflow-y: auto;
     }
   }
 }
 
-@media only screen and (max-width: 768px) {
-  section.wiki-controller {
-    width: 80%;
-    margin-top: 46%;
-    font-size: 100%;
-  }
-  aside.page_wiki {
-    width: 110%;
-  }
-  #block-wikichannelblock {
-    width: 50%!important;
-  }
-  div.region-page-wiki {
-    width: 270%;
-  }
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
   #block-youtubesearchblock {
-    position: unset;
-    width: 36%;
-    div.class-overflow {
-      height: 280px;
+    h2.block-title {
+      text-align: center;
+      font-weight: bold;
+    }
+    div {
+      &.title, &.youtube-stat {
+        position: relative;
+        left: 45%;
+        top: -380px;
+        width: 40%;
+        font-size: x-large;
+      }
+      &.class-overflow {
+        height: 200px;
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+    }
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  #block-youtubesearchblock {
+    .youtube-stat {
+      color: #50b432;
     }
     h2.block-title {
-      width: 115%;
+      text-align: center;
+      font-weight: bold;
     }
-  }
-  div#youtube-block div.left-stat img {
-    width: 50%;
-    height: 120px;
-  }
-  #block-youtubesearchblock ul li div {
-    &.title {
-      top: -120px;
-      left: 55%;
-      font-size: 100%;
-      width: 50%;
-    }
-    &.youtube-stat {
-      top: -120px;
-      left: 55%;
-      font-size: 90%;
-      width: 60%;
-    }
-  }
-  div {
-    &.height-row {
-      width: 49%;
-    }
-    &.art-rel-list {
-      font-size: 30px;
-    }
-  }
-  .related_research_topics {
-    text-align: center;
-    font-size: 130%;
-  }
-  div {
-    &.art-rel-list {
-      font-size: 90%;
-    }
-    &.wiki_img_block {
-      font-size: 100%;
-      line-height: 2em;
-    }
-  }
-}
-@media only screen and (max-width: 767px) {
-  section.wiki-controller {
-    margin-top: 0%;
-  }
-  div.art-rel-list {
-    font-size: 90%;
-  }
-}
-@media only screen and (max-width: 667px) {
-  #block-youtubesearchblock {
-    div.class-overflow {
-      width: 150%;
-    }
-    ul li div.title {
-      top: -120px;
-      left: 55%;
-      font-size: 100%;
-      width: 30%;
-    }
-  }
-}
-@media only screen and (max-width: 654px) {
-  div#youtube-block div.left-stat img {
-    width: 100%;
-    height: 170px;
-  }
-  #block-youtubesearchblock {
-    ul li div {
+    div {
       &.title, &.youtube-stat {
-        left: 105%;
+        position: relative;
+        left: 55%;
+        top: -230px;
+        width: 40%;
+        font-size: x-large;
+      }
+      &.class-overflow {
+        height: 200px;
+        overflow-x: hidden;
+        overflow-y: auto;
       }
     }
-    div.class-overflow {
-      width: 120%;
-    }
   }
-  div.art-rel-list {
-    font-size: 30px;
+  .youtubesearch-close {
+    display: none;
+    z-index: 9999;
+    position: fixed;
+    left: 85%;
+    color: #f4dbdb;
+    font-size: 220%;
+    top: 0%;
   }
-}
-@media only screen and (max-width: 640px) {
-  div#youtube-block {
-    min-width: 145%;
-    div.left-stat img {
-      width: 50%;
-      height: 130px;
-    }
-  }
-  #block-youtubesearchblock ul li div {
-    &.title, &.youtube-stat {
-      left: 50%;
-    }
-    &.title {
-      width: 30%;
-    }
-  }
-}
-@media only screen and (max-width: 574px) {
-  #block-youtubesearchblock div#youtube-block ul:nth-child(2n+1) {
-    float: none;
-    position: relative;
-    right: 0%;
-  }
-}
-@media only screen and (max-width: 425px) {
-  div {
-    &.height-row {
-      width: 156%;
-    }
-    &.art-rel-list {
-      font-size: 24px !important;
-    }
-  }
-  aside.page_wiki {
-    left: 6%;
-  }
-}
-@media only screen and (max-width: 375px) {
-  div {
-    &.height-row {
-      width: 156%;
-    }
-    &.art-rel-list {
-      font-size: 24px !important;
-    }
-  }
-  aside.page_wiki {
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 320px) {
-  aside.page_wiki {
-    width: 120%;
+  .youtubesearch-frame {
+    display: none;
+    position: fixed;
+    width: 70%;
+    right: 17%;
+    height: 89%;
+    top: 7%;
+    box-shadow: 0px 60px 1340px 540px #c91a1a;
+    z-index: 5;
   }
 }
 
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  #block-youtubesearchblock {
+    .youtube-stat {
+      color: #50b432;
+    }
+    h2.block-title {
+      text-align: center;
+      font-weight: bold;
+    }
+    div {
+      &.title, &.youtube-stat {
+        position: relative;
+        left: 55%;
+        top: -110px;
+        width: 40%;
+        font-size: small;
+      }
+    }
+  }
+  .youtubesearch-close {
+    display: none;
+    z-index: 9999;
+    position: fixed;
+    left: 85%;
+    color: #f4dbdb;
+    font-size: 220%;
+    top: 0%;
+  }
+  .youtubesearch-frame {
+    display: none;
+    position: fixed;
+    width: 70%;
+    right: 17%;
+    height: 89%;
+    top: 7%;
+    box-shadow: 0px 60px 1340px 540px #c91a1a;
+    z-index: 5;
+  }
+  #block-youtubesearchblock div.class-overflow {
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}

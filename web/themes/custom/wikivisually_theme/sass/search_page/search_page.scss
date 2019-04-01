@@ -1,14 +1,15 @@
-div {
-  &.page_search_wiki {
-    a.title-search {
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  div {
+    &.page_search_wiki a.title-search {
       color: #9ea03d;
       text-decoration: none;
-      &:hover {
-        color: #a0564e;
-        text-decoration: none;
-      }
     }
-    hr {
+    &.one_block_search_inf {
+      display: flex;
+      align-items: center;
+    }
+    &.page_search_wiki hr {
       &.one_percent, &.two_percent {
         margin-top: 5%;
         height: 2px;
@@ -17,102 +18,92 @@ div {
       }
     }
   }
-  &.one_block_search_inf {
-    display: flex;
-    align-items: center;
-  }
-  &.two_block_search_inf {
-    display: flex;
-    align-items: center;
-    p.text-search {
-      display: inline-block;
-    }
-  }
 }
 
-img {
-  &.not_found {
-    position: absolute;
-    z-index: 999;
-    left: 35%;
-  }
-  &.img-search {
-    border: solid white 8px;
-    border-image: url(/sites/default/files/2019-02/stamp_border-8f88b7335a523ea2a3d9df840d39a22617cae5a93b24f67ae9e149992ab6a64a.jpg) 28;
-    border-image-repeat: round;
-  }
-}
-
-@media only screen and (max-width: 1366px) {
-  img.not_found {
-    position: absolute;
-    z-index: 999;
-    left: 30%;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  div#youtube-block div.left-stat img {
-    width: 200px;
-    height: 120px;
-  }
-  #block-youtubesearchblock ul li div {
-    &.title {
-      left: 60%;
-    }
-    &.youtube-stat {
-      left: 210px;
-    }
-  }
-}
-@media only screen and (max-width: 414px) {
-  section.wiki-controller {
-    width: 80% !important;
-    font-size: 80% !important;
-  }
-
-  img.img-search {
-    width: 50% !important;
-  }
-
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
   div {
     &.page_search_wiki a.title-search {
-      font-size: 40% !important;
+      color: #9ea03d;
+      text-decoration: none;
     }
-    &#youtube-block div.left-stat img {
-      width: 50% !important;
-      height: 130px !important;
+    &.one_block_search_inf {
+      display: flex;
+      align-items: center;
     }
-  }
-
-  #block-youtubesearchblock {
-    position: unset;
-    width: 43% !important;
-    ul li div {
-      &.title {
-        top: -120px !important;
-        left: 55% !important;
-        font-size: 90% !important;
-        width: 30% !important;
-      }
-      &.youtube-stat {
-        top: -120px !important;
-        left: 55% !important;
-        font-size: 100% !important;
-        width: 80% !important;
+    &.page_search_wiki hr {
+      &.one_percent, &.two_percent {
+        margin-top: 5%;
+        height: 2px;
+        color: #9ea03d;
+        background-color: #9ea03d;
       }
     }
   }
+}
 
-  div.wiki_img_block {
-    font-size: 80% !important;
-    line-height: 2em !important;
-    width: 80% !important;
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  div {
+    &.page_search_wiki a.title-search {
+      color: #9ea03d;
+      text-decoration: none;
+    }
+    &.one_block_search_inf {
+      display: flex;
+      align-items: center;
+    }
+    &.page_search_wiki hr {
+      &.one_percent, &.two_percent {
+        margin-top: 5%;
+        height: 2px;
+        color: #9ea03d;
+        background-color: #9ea03d;
+      }
+    }
   }
-  #block-wikichannelblock h2.block-title {
-    width: 90%;
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  div {
+    &.page_search_wiki a.title-search {
+      color: #9ea03d;
+      text-decoration: none;
+    }
+    &.one_block_search_inf {
+      display: flex;
+      align-items: center;
+    }
+    &.page_search_wiki hr {
+      &.one_percent, &.two_percent {
+        margin-top: 5%;
+        height: 2px;
+        color: #9ea03d;
+        background-color: #9ea03d;
+      }
+    }
   }
-  #block-wikichannelblock {
-    width: 60%!important;
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  div {
+    &.page_search_wiki a.title-search {
+      color: #9ea03d;
+      text-decoration: none;
+    }
+    &.one_block_search_inf {
+      display: flex;
+      align-items: center;
+    }
+    &.page_search_wiki hr {
+      &.one_percent, &.two_percent {
+        margin-top: 5%;
+        height: 2px;
+        color: #9ea03d;
+        background-color: #9ea03d;
+      }
+    }
   }
 }
