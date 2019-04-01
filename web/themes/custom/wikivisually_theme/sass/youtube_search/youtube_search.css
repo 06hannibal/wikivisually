@@ -21,6 +21,9 @@
     font-size: 220%;
     top: 0%; }
 
+  .youtubesearch-close:hover {
+    text-decoration: none; }
+
   .youtubesearch-frame {
     display: none;
     position: fixed;
@@ -60,6 +63,9 @@
     font-size: 220%;
     top: 0%; }
 
+  .youtubesearch-close:hover {
+    text-decoration: none; }
+
   .youtubesearch-frame {
     display: none;
     position: fixed;
@@ -97,7 +103,10 @@
   #block-youtubesearchblock div.class-overflow {
     height: 200px;
     overflow-x: hidden;
-    overflow-y: auto; } }
+    overflow-y: auto; }
+
+  .youtubesearch-close:hover {
+    text-decoration: none; } }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
   #block-youtubesearchblock .youtube-stat {
@@ -124,6 +133,9 @@
     color: #f4dbdb;
     font-size: 220%;
     top: 0%; }
+
+  .youtubesearch-close:hover {
+    text-decoration: none; }
 
   .youtubesearch-frame {
     display: none;
@@ -156,6 +168,9 @@
     color: #f4dbdb;
     font-size: 220%;
     top: 0%; }
+
+  .youtubesearch-close:hover {
+    text-decoration: none; }
 
   .youtubesearch-frame {
     display: none;
