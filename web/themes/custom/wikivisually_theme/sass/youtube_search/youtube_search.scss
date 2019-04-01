@@ -29,9 +29,9 @@
     color: #f4dbdb;
     font-size: 220%;
     top: 0%;
-  }
-  .youtubesearch-close:hover {
-    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
   }
   .youtubesearch-frame {
     display: none;
@@ -83,9 +83,9 @@
     color: #f4dbdb;
     font-size: 220%;
     top: 0%;
-  }
-  .youtubesearch-close:hover {
-    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
   }
   .youtubesearch-frame {
     display: none;
@@ -143,6 +143,25 @@
       }
     }
   }
+  .youtubesearch-close {
+    display: none;
+    z-index: 9999;
+    position: fixed;
+    left: 85%;
+    color: #f4dbdb;
+    font-size: 220%;
+    top: 0%;
+  }
+  .youtubesearch-frame {
+    display: none;
+    position: fixed;
+    width: 70%;
+    right: 17%;
+    height: 89%;
+    top: 7%;
+    box-shadow: 0px 60px 1340px 540px #c91a1a;
+    z-index: 5;
+  }
   .youtubesearch-close:hover {
     text-decoration: none;
   }
@@ -181,9 +200,9 @@
     color: #f4dbdb;
     font-size: 220%;
     top: 0%;
-  }
-  .youtubesearch-close:hover {
-    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
   }
   .youtubesearch-frame {
     display: none;
@@ -225,9 +244,9 @@
     color: #f4dbdb;
     font-size: 220%;
     top: 0%;
-  }
-  .youtubesearch-close:hover {
-    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
   }
   .youtubesearch-frame {
     display: none;
