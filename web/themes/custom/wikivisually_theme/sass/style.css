@@ -1,3 +1,6 @@
+html, body {
+  overflow-x: hidden; }
+
 /* Large desktops */
 @media (min-width: 1400px) {
   #block-wikisearchblock {
