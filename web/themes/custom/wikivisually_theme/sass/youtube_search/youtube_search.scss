@@ -124,6 +124,9 @@
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
   #block-youtubesearchblock {
+    .youtube-stat {
+      color: #50b432;
+    }
     h2.block-title {
       text-align: center;
       font-weight: bold;
@@ -132,7 +135,7 @@
       &.title, &.youtube-stat {
         position: relative;
         left: 45%;
-        top: -380px;
+        top: -240px;
         width: 40%;
         font-size: x-large;
       }

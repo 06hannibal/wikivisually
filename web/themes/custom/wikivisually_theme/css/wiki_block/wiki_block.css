@@ -527,8 +527,8 @@
   }
 
   /* line 468, ../../sass/wiki_block/wiki_block.scss */
-  div.mw-parser-output div.wiki_class_popap img {
-    width: 300px !important;
+  div.wiki_class_popap img {
+    width: 70% !important;
     right: 17%;
     top: 5%;
   }

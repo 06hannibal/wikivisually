@@ -129,26 +129,30 @@
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 127, ../../sass/youtube_search/youtube_search.scss */
+  #block-youtubesearchblock .youtube-stat {
+    color: #50b432;
+  }
+  /* line 130, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock h2.block-title {
     text-align: center;
     font-weight: bold;
   }
-  /* line 132, ../../sass/youtube_search/youtube_search.scss */
+  /* line 135, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock div.title, #block-youtubesearchblock div.youtube-stat {
     position: relative;
     left: 45%;
-    top: -380px;
+    top: -240px;
     width: 40%;
     font-size: x-large;
   }
-  /* line 139, ../../sass/youtube_search/youtube_search.scss */
+  /* line 142, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock div.class-overflow {
     height: 200px;
     overflow-x: hidden;
     overflow-y: auto;
   }
 
-  /* line 146, ../../sass/youtube_search/youtube_search.scss */
+  /* line 149, ../../sass/youtube_search/youtube_search.scss */
   .youtubesearch-close {
     display: none;
     z-index: 9999;
@@ -159,7 +163,7 @@
     top: 0%;
   }
 
-  /* line 155, ../../sass/youtube_search/youtube_search.scss */
+  /* line 158, ../../sass/youtube_search/youtube_search.scss */
   .youtubesearch-frame {
     display: none;
     position: fixed;
@@ -171,23 +175,23 @@
     z-index: 5;
   }
 
-  /* line 165, ../../sass/youtube_search/youtube_search.scss */
+  /* line 168, ../../sass/youtube_search/youtube_search.scss */
   .youtubesearch-close:hover {
     text-decoration: none;
   }
 }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-  /* line 173, ../../sass/youtube_search/youtube_search.scss */
+  /* line 176, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock .youtube-stat {
     color: #50b432;
   }
-  /* line 176, ../../sass/youtube_search/youtube_search.scss */
+  /* line 179, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock h2.block-title {
     text-align: center;
     font-weight: bold;
   }
-  /* line 181, ../../sass/youtube_search/youtube_search.scss */
+  /* line 184, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock div.title, #block-youtubesearchblock div.youtube-stat {
     position: relative;
     left: 55%;
@@ -195,14 +199,14 @@
     width: 40%;
     font-size: x-large;
   }
-  /* line 188, ../../sass/youtube_search/youtube_search.scss */
+  /* line 191, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock div.class-overflow {
     height: 200px;
     overflow-x: hidden;
     overflow-y: auto;
   }
 
-  /* line 195, ../../sass/youtube_search/youtube_search.scss */
+  /* line 198, ../../sass/youtube_search/youtube_search.scss */
   .youtubesearch-close {
     display: none;
     z-index: 9999;
@@ -212,12 +216,12 @@
     font-size: 220%;
     top: 0%;
   }
-  /* line 203, ../../sass/youtube_search/youtube_search.scss */
+  /* line 206, ../../sass/youtube_search/youtube_search.scss */
   .youtubesearch-close:hover {
     text-decoration: none;
   }
 
-  /* line 207, ../../sass/youtube_search/youtube_search.scss */
+  /* line 210, ../../sass/youtube_search/youtube_search.scss */
   .youtubesearch-frame {
     display: none;
     position: fixed;
@@ -231,16 +235,16 @@
 }
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-  /* line 222, ../../sass/youtube_search/youtube_search.scss */
+  /* line 225, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock .youtube-stat {
     color: #50b432;
   }
-  /* line 225, ../../sass/youtube_search/youtube_search.scss */
+  /* line 228, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock h2.block-title {
     text-align: center;
     font-weight: bold;
   }
-  /* line 230, ../../sass/youtube_search/youtube_search.scss */
+  /* line 233, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock div.title, #block-youtubesearchblock div.youtube-stat {
     position: relative;
     left: 55%;
@@ -249,7 +253,7 @@
     font-size: small;
   }
 
-  /* line 239, ../../sass/youtube_search/youtube_search.scss */
+  /* line 242, ../../sass/youtube_search/youtube_search.scss */
   .youtubesearch-close {
     display: none;
     z-index: 9999;
@@ -259,12 +263,12 @@
     font-size: 220%;
     top: 0%;
   }
-  /* line 247, ../../sass/youtube_search/youtube_search.scss */
+  /* line 250, ../../sass/youtube_search/youtube_search.scss */
   .youtubesearch-close:hover {
     text-decoration: none;
   }
 
-  /* line 251, ../../sass/youtube_search/youtube_search.scss */
+  /* line 254, ../../sass/youtube_search/youtube_search.scss */
   .youtubesearch-frame {
     display: none;
     position: fixed;
@@ -276,7 +280,7 @@
     z-index: 5;
   }
 
-  /* line 261, ../../sass/youtube_search/youtube_search.scss */
+  /* line 264, ../../sass/youtube_search/youtube_search.scss */
   #block-youtubesearchblock div.class-overflow {
     height: 200px;
     overflow-x: hidden;
