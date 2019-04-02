@@ -1122,18 +1122,24 @@ html, body {
     display: grid;
     width: 150% !important;
   }
+
+  /* line 853, ../sass/style.scss */
+  section.block-views-blockfeatured-block-featured-block div.views-row {
+    display: grid;
+    width: 150% !important;
+  }
 }
 @media (max-width: 320px) {
-  /* line 856, ../sass/style.scss */
+  /* line 860, ../sass/style.scss */
   #block-mainnavigation-2 li.first a, #block-wikivisually-theme-main-menu li.first a {
     margin-left: 0px;
   }
 
-  /* line 860, ../sass/style.scss */
+  /* line 864, ../sass/style.scss */
   #block-wikivisually-theme-youtubechannelblock #youtube-block li {
     height: 110px;
   }
-  /* line 863, ../sass/style.scss */
+  /* line 867, ../sass/style.scss */
   #block-wikivisually-theme-youtubechannelblock #youtube-block div.right-stat {
     top: -110px;
   }

@@ -850,6 +850,10 @@ html, body {
     display: grid;
     width: 150%!important;
   }
+  section.block-views-blockfeatured-block-featured-block div.views-row {
+    display: grid;
+    width: 150%!important;
+  }
 }
 
 @media (max-width: 320px) {

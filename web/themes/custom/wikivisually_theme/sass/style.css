@@ -744,6 +744,10 @@ html, body {
 
   div.view-featured-page div.views-row {
     display: grid;
+    width: 150% !important; }
+
+  section.block-views-blockfeatured-block-featured-block div.views-row {
+    display: grid;
     width: 150% !important; } }
 @media (max-width: 320px) {
   #block-mainnavigation-2 li.first a, #block-wikivisually-theme-main-menu li.first a {
