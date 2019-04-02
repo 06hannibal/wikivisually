@@ -461,6 +461,11 @@ box-abovebelow, th.navbox-group {
 }
 
 .wikitable {
+  background-color: #f8f9fa;
+  color: #222;
+  margin: 1em 0;
+  border: 1px solid #a2a9b1;
+  border-collapse: collapse;
   &.plainrowheaders th[scope=row] {
     font-weight: normal;
     text-align: left;
@@ -1346,4 +1351,29 @@ div.mw-parser-output {
 
 .class_popap {
   max-height: 650px;
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .navbox {
+    font-size: 65%;
+  }
+}
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .wikitable {
+    font-size: 55%!important;
+    background-color: #f8f9fa;
+    color: #222;
+    margin: 1em 0;
+    border: 1px solid #a2a9b1;
+    border-collapse: collapse;
+  }
+  .navbox {
+    font-size: 36%;
+  }
+}
+@media (max-width: 320px) {
+  .navbox {
+    font-size: 33%;
+  }
 }

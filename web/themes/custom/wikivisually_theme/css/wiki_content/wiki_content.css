@@ -492,68 +492,76 @@ box-abovebelow, th.navbox-group {
   padding: 0;
 }
 
-/* line 464, ../../sass/wiki_content/wiki_content.scss */
+/* line 463, ../../sass/wiki_content/wiki_content.scss */
+.wikitable {
+  background-color: #f8f9fa;
+  color: #222;
+  margin: 1em 0;
+  border: 1px solid #a2a9b1;
+  border-collapse: collapse;
+}
+/* line 469, ../../sass/wiki_content/wiki_content.scss */
 .wikitable.plainrowheaders th[scope=row] {
   font-weight: normal;
   text-align: left;
 }
-/* line 469, ../../sass/wiki_content/wiki_content.scss */
+/* line 474, ../../sass/wiki_content/wiki_content.scss */
 .wikitable td ul, .wikitable td ol, .wikitable td dl {
   text-align: left;
 }
 
-/* line 475, ../../sass/wiki_content/wiki_content.scss */
+/* line 480, ../../sass/wiki_content/wiki_content.scss */
 .toc.hlist ul, #toc.hlist ul {
   text-align: inherit;
 }
 
-/* line 480, ../../sass/wiki_content/wiki_content.scss */
+/* line 485, ../../sass/wiki_content/wiki_content.scss */
 .wikitable.hlist td ul, .wikitable.hlist td ol, .wikitable.hlist td dl {
   text-align: inherit;
 }
 
-/* line 485, ../../sass/wiki_content/wiki_content.scss */
+/* line 490, ../../sass/wiki_content/wiki_content.scss */
 div.listenlist {
   background: url("//upload.wikimedia.org/wikipedia/commons/4/47/Sound-icon.svg") no-repeat scroll 0 0 transparent;
   background-size: 30px;
   padding-left: 40px;
 }
 
-/* line 491, ../../sass/wiki_content/wiki_content.scss */
+/* line 496, ../../sass/wiki_content/wiki_content.scss */
 table.mw-hiero-table td {
   vertical-align: middle;
 }
 
-/* line 495, ../../sass/wiki_content/wiki_content.scss */
+/* line 500, ../../sass/wiki_content/wiki_content.scss */
 div.medialist {
   min-height: 50px;
   margin: 1em;
   background-position: top left;
   background-repeat: no-repeat;
 }
-/* line 500, ../../sass/wiki_content/wiki_content.scss */
+/* line 505, ../../sass/wiki_content/wiki_content.scss */
 div.medialist ul {
   list-style-type: none;
   list-style-image: none;
   margin: 0;
 }
-/* line 504, ../../sass/wiki_content/wiki_content.scss */
+/* line 509, ../../sass/wiki_content/wiki_content.scss */
 div.medialist ul li {
   padding-bottom: 0.5em;
 }
-/* line 506, ../../sass/wiki_content/wiki_content.scss */
+/* line 511, ../../sass/wiki_content/wiki_content.scss */
 div.medialist ul li li {
   font-size: 91%;
   padding-bottom: 0;
 }
 
-/* line 515, ../../sass/wiki_content/wiki_content.scss */
+/* line 520, ../../sass/wiki_content/wiki_content.scss */
 .mw-parser-output a[href$=".pdf"].external, .mw-parser-output a[href*=".pdf?"].external, .mw-parser-output a[href*=".pdf#"].external, .mw-parser-output a[href$=".PDF"].external, .mw-parser-output a[href*=".PDF?"].external, .mw-parser-output a[href*=".PDF#"].external {
   background: url("//upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif") no-repeat right;
   padding-right: 18px;
 }
 
-/* line 521, ../../sass/wiki_content/wiki_content.scss */
+/* line 526, ../../sass/wiki_content/wiki_content.scss */
 .messagebox {
   border: 1px solid #a2a9b1;
   background-color: #f8f9fa;
@@ -561,26 +569,26 @@ div.medialist ul li li {
   margin: 0 auto 1em auto;
   padding: .2em;
 }
-/* line 527, ../../sass/wiki_content/wiki_content.scss */
+/* line 532, ../../sass/wiki_content/wiki_content.scss */
 .messagebox.merge {
   border: 1px solid #c0b8cc;
   background-color: #f0e5ff;
   text-align: center;
 }
-/* line 532, ../../sass/wiki_content/wiki_content.scss */
+/* line 537, ../../sass/wiki_content/wiki_content.scss */
 .messagebox.cleanup {
   border: 1px solid #9f9fff;
   background-color: #efefff;
   text-align: center;
 }
-/* line 537, ../../sass/wiki_content/wiki_content.scss */
+/* line 542, ../../sass/wiki_content/wiki_content.scss */
 .messagebox.standard-talk {
   border: 1px solid #c0c090;
   background-color: #f8eaba;
   margin: 4px auto;
 }
 
-/* line 544, ../../sass/wiki_content/wiki_content.scss */
+/* line 549, ../../sass/wiki_content/wiki_content.scss */
 .mbox-inside .standard-talk {
   border: 1px solid #c0c090;
   background-color: #f8eaba;
@@ -589,7 +597,7 @@ div.medialist ul li li {
   padding: 2px;
 }
 
-/* line 553, ../../sass/wiki_content/wiki_content.scss */
+/* line 558, ../../sass/wiki_content/wiki_content.scss */
 .messagebox.nested-talk {
   border: 1px solid #c0c090;
   background-color: #f8eaba;
@@ -597,7 +605,7 @@ div.medialist ul li li {
   margin: 2px 0;
   padding: 2px;
 }
-/* line 560, ../../sass/wiki_content/wiki_content.scss */
+/* line 565, ../../sass/wiki_content/wiki_content.scss */
 .messagebox.small {
   width: 238px;
   font-size: 85%;
@@ -606,7 +614,7 @@ div.medialist ul li li {
   margin: 0 0 1em 1em;
   line-height: 1.25em;
 }
-/* line 568, ../../sass/wiki_content/wiki_content.scss */
+/* line 573, ../../sass/wiki_content/wiki_content.scss */
 .messagebox.small-talk {
   width: 238px;
   font-size: 85%;
@@ -617,39 +625,39 @@ div.medialist ul li li {
   background-color: #f8eaba;
 }
 
-/* line 579, ../../sass/wiki_content/wiki_content.scss */
+/* line 584, ../../sass/wiki_content/wiki_content.scss */
 th.mbox-text {
   border: none;
   padding: 0.25em 0.9em;
   width: 100%;
 }
 
-/* line 586, ../../sass/wiki_content/wiki_content.scss */
+/* line 591, ../../sass/wiki_content/wiki_content.scss */
 td.mbox-text {
   border: none;
   padding: 0.25em 0.9em;
   width: 100%;
 }
-/* line 591, ../../sass/wiki_content/wiki_content.scss */
+/* line 596, ../../sass/wiki_content/wiki_content.scss */
 td.mbox-image {
   border: none;
   padding: 2px 0 2px 0.9em;
   text-align: center;
 }
-/* line 596, ../../sass/wiki_content/wiki_content.scss */
+/* line 601, ../../sass/wiki_content/wiki_content.scss */
 td.mbox-imageright {
   border: none;
   padding: 2px 0.9em 2px 0;
   text-align: center;
 }
-/* line 601, ../../sass/wiki_content/wiki_content.scss */
+/* line 606, ../../sass/wiki_content/wiki_content.scss */
 td.mbox-empty-cell {
   border: none;
   padding: 0;
   width: 1px;
 }
 
-/* line 608, ../../sass/wiki_content/wiki_content.scss */
+/* line 613, ../../sass/wiki_content/wiki_content.scss */
 table.ambox {
   margin: 0 10%;
   border: 1px solid #a2a9b1;
@@ -657,58 +665,58 @@ table.ambox {
   background-color: #fbfbfb;
   box-sizing: border-box;
 }
-/* line 614, ../../sass/wiki_content/wiki_content.scss */
+/* line 619, ../../sass/wiki_content/wiki_content.scss */
 table.ambox + table.ambox {
   margin-top: -1px;
 }
 
-/* line 620, ../../sass/wiki_content/wiki_content.scss */
+/* line 625, ../../sass/wiki_content/wiki_content.scss */
 .ambox th.mbox-text {
   padding: 0.25em 0.5em;
 }
-/* line 624, ../../sass/wiki_content/wiki_content.scss */
+/* line 629, ../../sass/wiki_content/wiki_content.scss */
 .ambox td.mbox-text {
   padding: 0.25em 0.5em;
 }
-/* line 627, ../../sass/wiki_content/wiki_content.scss */
+/* line 632, ../../sass/wiki_content/wiki_content.scss */
 .ambox td.mbox-image {
   padding: 2px 0 2px 0.5em;
 }
-/* line 630, ../../sass/wiki_content/wiki_content.scss */
+/* line 635, ../../sass/wiki_content/wiki_content.scss */
 .ambox td.mbox-imageright {
   padding: 2px 0.5em 2px 0;
 }
 
-/* line 637, ../../sass/wiki_content/wiki_content.scss */
+/* line 642, ../../sass/wiki_content/wiki_content.scss */
 table.ambox-notice {
   border-left: 10px solid #36c;
 }
-/* line 640, ../../sass/wiki_content/wiki_content.scss */
+/* line 645, ../../sass/wiki_content/wiki_content.scss */
 table.ambox-speedy {
   border-left: 10px solid #b32424;
   background-color: #fee7e6;
 }
-/* line 644, ../../sass/wiki_content/wiki_content.scss */
+/* line 649, ../../sass/wiki_content/wiki_content.scss */
 table.ambox-delete {
   border-left: 10px solid #b32424;
 }
-/* line 647, ../../sass/wiki_content/wiki_content.scss */
+/* line 652, ../../sass/wiki_content/wiki_content.scss */
 table.ambox-content {
   border-left: 10px solid #f28500;
 }
-/* line 650, ../../sass/wiki_content/wiki_content.scss */
+/* line 655, ../../sass/wiki_content/wiki_content.scss */
 table.ambox-style {
   border-left: 10px solid #fc3;
 }
-/* line 653, ../../sass/wiki_content/wiki_content.scss */
+/* line 658, ../../sass/wiki_content/wiki_content.scss */
 table.ambox-move {
   border-left: 10px solid #9932cc;
 }
-/* line 656, ../../sass/wiki_content/wiki_content.scss */
+/* line 661, ../../sass/wiki_content/wiki_content.scss */
 table.ambox-protection {
   border-left: 10px solid #a2a9b1;
 }
-/* line 659, ../../sass/wiki_content/wiki_content.scss */
+/* line 664, ../../sass/wiki_content/wiki_content.scss */
 table.imbox {
   margin: 4px 10%;
   border-collapse: collapse;
@@ -717,56 +725,56 @@ table.imbox {
   box-sizing: border-box;
 }
 
-/* line 668, ../../sass/wiki_content/wiki_content.scss */
+/* line 673, ../../sass/wiki_content/wiki_content.scss */
 .imbox .mbox-text .imbox {
   margin: 0 -0.5em;
   display: block;
 }
 
-/* line 673, ../../sass/wiki_content/wiki_content.scss */
+/* line 678, ../../sass/wiki_content/wiki_content.scss */
 .mbox-inside .imbox {
   margin: 4px;
 }
 
-/* line 678, ../../sass/wiki_content/wiki_content.scss */
+/* line 683, ../../sass/wiki_content/wiki_content.scss */
 table.imbox-notice {
   border: 3px solid #36c;
 }
-/* line 681, ../../sass/wiki_content/wiki_content.scss */
+/* line 686, ../../sass/wiki_content/wiki_content.scss */
 table.imbox-speedy {
   border: 3px solid #b32424;
   background-color: #fee7e6;
 }
-/* line 685, ../../sass/wiki_content/wiki_content.scss */
+/* line 690, ../../sass/wiki_content/wiki_content.scss */
 table.imbox-delete {
   border: 3px solid #b32424;
 }
-/* line 688, ../../sass/wiki_content/wiki_content.scss */
+/* line 693, ../../sass/wiki_content/wiki_content.scss */
 table.imbox-content {
   border: 3px solid #f28500;
 }
-/* line 691, ../../sass/wiki_content/wiki_content.scss */
+/* line 696, ../../sass/wiki_content/wiki_content.scss */
 table.imbox-style {
   border: 3px solid #fc3;
 }
-/* line 694, ../../sass/wiki_content/wiki_content.scss */
+/* line 699, ../../sass/wiki_content/wiki_content.scss */
 table.imbox-move {
   border: 3px solid #9932cc;
 }
-/* line 697, ../../sass/wiki_content/wiki_content.scss */
+/* line 702, ../../sass/wiki_content/wiki_content.scss */
 table.imbox-protection {
   border: 3px solid #a2a9b1;
 }
-/* line 700, ../../sass/wiki_content/wiki_content.scss */
+/* line 705, ../../sass/wiki_content/wiki_content.scss */
 table.imbox-license {
   border: 3px solid #88a;
   background-color: #f7f8ff;
 }
-/* line 704, ../../sass/wiki_content/wiki_content.scss */
+/* line 709, ../../sass/wiki_content/wiki_content.scss */
 table.imbox-featured {
   border: 3px solid #cba135;
 }
-/* line 707, ../../sass/wiki_content/wiki_content.scss */
+/* line 712, ../../sass/wiki_content/wiki_content.scss */
 table.cmbox {
   margin: 3px 10%;
   border-collapse: collapse;
@@ -774,38 +782,38 @@ table.cmbox {
   background-color: #dfe8ff;
   box-sizing: border-box;
 }
-/* line 714, ../../sass/wiki_content/wiki_content.scss */
+/* line 719, ../../sass/wiki_content/wiki_content.scss */
 table.cmbox-notice {
   background-color: #d8e8ff;
 }
-/* line 717, ../../sass/wiki_content/wiki_content.scss */
+/* line 722, ../../sass/wiki_content/wiki_content.scss */
 table.cmbox-speedy {
   margin-top: 4px;
   margin-bottom: 4px;
   border: 4px solid #b32424;
   background-color: #ffdbdb;
 }
-/* line 723, ../../sass/wiki_content/wiki_content.scss */
+/* line 728, ../../sass/wiki_content/wiki_content.scss */
 table.cmbox-delete {
   background-color: #ffdbdb;
 }
-/* line 726, ../../sass/wiki_content/wiki_content.scss */
+/* line 731, ../../sass/wiki_content/wiki_content.scss */
 table.cmbox-content {
   background-color: #ffe7ce;
 }
-/* line 729, ../../sass/wiki_content/wiki_content.scss */
+/* line 734, ../../sass/wiki_content/wiki_content.scss */
 table.cmbox-style {
   background-color: #fff9db;
 }
-/* line 732, ../../sass/wiki_content/wiki_content.scss */
+/* line 737, ../../sass/wiki_content/wiki_content.scss */
 table.cmbox-move {
   background-color: #e4d8ff;
 }
-/* line 735, ../../sass/wiki_content/wiki_content.scss */
+/* line 740, ../../sass/wiki_content/wiki_content.scss */
 table.cmbox-protection {
   background-color: #efefe1;
 }
-/* line 738, ../../sass/wiki_content/wiki_content.scss */
+/* line 743, ../../sass/wiki_content/wiki_content.scss */
 table.ombox {
   margin: 4px 10%;
   border-collapse: collapse;
@@ -813,36 +821,36 @@ table.ombox {
   background-color: #f8f9fa;
   box-sizing: border-box;
 }
-/* line 745, ../../sass/wiki_content/wiki_content.scss */
+/* line 750, ../../sass/wiki_content/wiki_content.scss */
 table.ombox-notice {
   border: 1px solid #a2a9b1;
 }
-/* line 748, ../../sass/wiki_content/wiki_content.scss */
+/* line 753, ../../sass/wiki_content/wiki_content.scss */
 table.ombox-speedy {
   border: 2px solid #b32424;
   background-color: #fee7e6;
 }
-/* line 752, ../../sass/wiki_content/wiki_content.scss */
+/* line 757, ../../sass/wiki_content/wiki_content.scss */
 table.ombox-delete {
   border: 2px solid #b32424;
 }
-/* line 755, ../../sass/wiki_content/wiki_content.scss */
+/* line 760, ../../sass/wiki_content/wiki_content.scss */
 table.ombox-content {
   border: 1px solid #f28500;
 }
-/* line 758, ../../sass/wiki_content/wiki_content.scss */
+/* line 763, ../../sass/wiki_content/wiki_content.scss */
 table.ombox-style {
   border: 1px solid #fc3;
 }
-/* line 761, ../../sass/wiki_content/wiki_content.scss */
+/* line 766, ../../sass/wiki_content/wiki_content.scss */
 table.ombox-move {
   border: 1px solid #9932cc;
 }
-/* line 764, ../../sass/wiki_content/wiki_content.scss */
+/* line 769, ../../sass/wiki_content/wiki_content.scss */
 table.ombox-protection {
   border: 2px solid #a2a9b1;
 }
-/* line 767, ../../sass/wiki_content/wiki_content.scss */
+/* line 772, ../../sass/wiki_content/wiki_content.scss */
 table.tmbox {
   margin: 4px 10%;
   border-collapse: collapse;
@@ -852,49 +860,49 @@ table.tmbox {
   box-sizing: border-box;
 }
 
-/* line 777, ../../sass/wiki_content/wiki_content.scss */
+/* line 782, ../../sass/wiki_content/wiki_content.scss */
 .tmbox.mbox-small {
   min-width: 0;
 }
 
-/* line 781, ../../sass/wiki_content/wiki_content.scss */
+/* line 786, ../../sass/wiki_content/wiki_content.scss */
 .mediawiki .mbox-inside .tmbox {
   margin: 2px 0;
   width: 100%;
 }
 
-/* line 786, ../../sass/wiki_content/wiki_content.scss */
+/* line 791, ../../sass/wiki_content/wiki_content.scss */
 .mbox-inside .tmbox.mbox-small {
   line-height: 1.5em;
   font-size: 100%;
 }
 
-/* line 792, ../../sass/wiki_content/wiki_content.scss */
+/* line 797, ../../sass/wiki_content/wiki_content.scss */
 table.tmbox-speedy {
   border: 2px solid #b32424;
   background-color: #fee7e6;
 }
-/* line 796, ../../sass/wiki_content/wiki_content.scss */
+/* line 801, ../../sass/wiki_content/wiki_content.scss */
 table.tmbox-delete {
   border: 2px solid #b32424;
 }
-/* line 799, ../../sass/wiki_content/wiki_content.scss */
+/* line 804, ../../sass/wiki_content/wiki_content.scss */
 table.tmbox-content {
   border: 2px solid #f28500;
 }
-/* line 802, ../../sass/wiki_content/wiki_content.scss */
+/* line 807, ../../sass/wiki_content/wiki_content.scss */
 table.tmbox-style {
   border: 2px solid #fc3;
 }
-/* line 805, ../../sass/wiki_content/wiki_content.scss */
+/* line 810, ../../sass/wiki_content/wiki_content.scss */
 table.tmbox-move {
   border: 2px solid #9932cc;
 }
-/* line 808, ../../sass/wiki_content/wiki_content.scss */
+/* line 813, ../../sass/wiki_content/wiki_content.scss */
 table.tmbox-protection, table.tmbox-notice {
   border: 1px solid #c0c090;
 }
-/* line 811, ../../sass/wiki_content/wiki_content.scss */
+/* line 816, ../../sass/wiki_content/wiki_content.scss */
 table.dmbox {
   clear: both;
   margin: 0.9em 1em;
@@ -902,7 +910,7 @@ table.dmbox {
   border-bottom: 1px solid #ccc;
   background-color: transparent;
 }
-/* line 818, ../../sass/wiki_content/wiki_content.scss */
+/* line 823, ../../sass/wiki_content/wiki_content.scss */
 table.fmbox {
   clear: both;
   margin: 0.2em 0;
@@ -911,21 +919,21 @@ table.fmbox {
   background-color: #f8f9fa;
   box-sizing: border-box;
 }
-/* line 826, ../../sass/wiki_content/wiki_content.scss */
+/* line 831, ../../sass/wiki_content/wiki_content.scss */
 table.fmbox-system {
   background-color: #f8f9fa;
 }
-/* line 829, ../../sass/wiki_content/wiki_content.scss */
+/* line 834, ../../sass/wiki_content/wiki_content.scss */
 table.fmbox-warning {
   border: 1px solid #bb7070;
   background-color: #ffdbdb;
 }
-/* line 833, ../../sass/wiki_content/wiki_content.scss */
+/* line 838, ../../sass/wiki_content/wiki_content.scss */
 table.fmbox-editnotice {
   background-color: transparent;
 }
 
-/* line 839, ../../sass/wiki_content/wiki_content.scss */
+/* line 844, ../../sass/wiki_content/wiki_content.scss */
 div.mw-warning-with-logexcerpt, div.mw-lag-warn-high, div.mw-cascadeprotectedwarning, div#mw-protect-cascadeon, div.titleblacklist-warning, div.locked-warning {
   clear: both;
   margin: 0.2em 0;
@@ -935,7 +943,7 @@ div.mw-warning-with-logexcerpt, div.mw-lag-warn-high, div.mw-cascadeprotectedwar
   box-sizing: border-box;
 }
 
-/* line 850, ../../sass/wiki_content/wiki_content.scss */
+/* line 855, ../../sass/wiki_content/wiki_content.scss */
 html body.mediawiki .mbox-small {
   clear: right;
   float: right;
@@ -945,7 +953,7 @@ html body.mediawiki .mbox-small {
   font-size: 88%;
   line-height: 1.25em;
 }
-/* line 859, ../../sass/wiki_content/wiki_content.scss */
+/* line 864, ../../sass/wiki_content/wiki_content.scss */
 html body.mediawiki .mbox-small-left {
   margin: 4px 1em 4px 0;
   box-sizing: border-box;
@@ -956,11 +964,11 @@ html body.mediawiki .mbox-small-left {
   line-height: 1.25em;
 }
 
-/* line 871, ../../sass/wiki_content/wiki_content.scss */
+/* line 876, ../../sass/wiki_content/wiki_content.scss */
 .compact-ambox table .mbox-image, .compact-ambox table .mbox-imageright, .compact-ambox table .mbox-empty-cell {
   display: none;
 }
-/* line 874, ../../sass/wiki_content/wiki_content.scss */
+/* line 879, ../../sass/wiki_content/wiki_content.scss */
 .compact-ambox table.ambox {
   border: none;
   border-collapse: collapse;
@@ -971,19 +979,19 @@ html body.mediawiki .mbox-small-left {
   display: block;
 }
 
-/* line 885, ../../sass/wiki_content/wiki_content.scss */
+/* line 890, ../../sass/wiki_content/wiki_content.scss */
 body.mediawiki .compact-ambox table.mbox-small-left {
   font-size: 100%;
   width: auto;
   margin: 0;
 }
 
-/* line 892, ../../sass/wiki_content/wiki_content.scss */
+/* line 897, ../../sass/wiki_content/wiki_content.scss */
 .compact-ambox table .mbox-text {
   padding: 0 !important;
   margin: 0 !important;
 }
-/* line 896, ../../sass/wiki_content/wiki_content.scss */
+/* line 901, ../../sass/wiki_content/wiki_content.scss */
 .compact-ambox table .mbox-text-span {
   display: list-item;
   line-height: 1.5em;
@@ -991,19 +999,19 @@ body.mediawiki .compact-ambox table.mbox-small-left {
   list-style-image: url(/w/skins/MonoBook/resources/images/bullet.gif);
 }
 
-/* line 904, ../../sass/wiki_content/wiki_content.scss */
+/* line 909, ../../sass/wiki_content/wiki_content.scss */
 .skin-vector .compact-ambox table .mbox-text-span {
   list-style-type: disc;
   list-style-image: url(/w/skins/Vector/images/bullet-icon.svg);
   list-style-image: url(/w/skins/Vector/images/bullet-icon.png) \9;
 }
 
-/* line 910, ../../sass/wiki_content/wiki_content.scss */
+/* line 915, ../../sass/wiki_content/wiki_content.scss */
 .compact-ambox .hide-when-compact {
   display: none;
 }
 
-/* line 914, ../../sass/wiki_content/wiki_content.scss */
+/* line 919, ../../sass/wiki_content/wiki_content.scss */
 .visualhide {
   position: absolute;
   left: -10000px;
@@ -1013,23 +1021,23 @@ body.mediawiki .compact-ambox table.mbox-small-left {
   overflow: hidden;
 }
 
-/* line 923, ../../sass/wiki_content/wiki_content.scss */
+/* line 928, ../../sass/wiki_content/wiki_content.scss */
 .check-icon a.new {
   display: none;
   speak: none;
 }
 
-/* line 928, ../../sass/wiki_content/wiki_content.scss */
+/* line 933, ../../sass/wiki_content/wiki_content.scss */
 .nounderlines a {
   text-decoration: none !important;
 }
 
-/* line 933, ../../sass/wiki_content/wiki_content.scss */
+/* line 938, ../../sass/wiki_content/wiki_content.scss */
 .IPA a:link, .IPA a:visited {
   text-decoration: none !important;
 }
 
-/* line 939, ../../sass/wiki_content/wiki_content.scss */
+/* line 944, ../../sass/wiki_content/wiki_content.scss */
 div.NavFrame {
   margin: 0;
   padding: 4px;
@@ -1038,38 +1046,38 @@ div.NavFrame {
   border-collapse: collapse;
   font-size: 95%;
 }
-/* line 946, ../../sass/wiki_content/wiki_content.scss */
+/* line 951, ../../sass/wiki_content/wiki_content.scss */
 div.NavFrame + div.NavFrame {
   border-top-style: none;
   border-top-style: hidden;
 }
-/* line 951, ../../sass/wiki_content/wiki_content.scss */
+/* line 956, ../../sass/wiki_content/wiki_content.scss */
 div.NavPic {
   background-color: #fff;
   margin: 0;
   padding: 2px;
   float: left;
 }
-/* line 958, ../../sass/wiki_content/wiki_content.scss */
+/* line 963, ../../sass/wiki_content/wiki_content.scss */
 div.NavFrame div.NavHead {
   line-height: 1.6em;
   font-weight: bold;
   background-color: #ccf;
   position: relative;
 }
-/* line 964, ../../sass/wiki_content/wiki_content.scss */
+/* line 969, ../../sass/wiki_content/wiki_content.scss */
 div.NavFrame p {
   font-size: 100%;
 }
-/* line 967, ../../sass/wiki_content/wiki_content.scss */
+/* line 972, ../../sass/wiki_content/wiki_content.scss */
 div.NavFrame div.NavContent {
   font-size: 100%;
 }
-/* line 969, ../../sass/wiki_content/wiki_content.scss */
+/* line 974, ../../sass/wiki_content/wiki_content.scss */
 div.NavFrame div.NavContent p {
   font-size: 100%;
 }
-/* line 974, ../../sass/wiki_content/wiki_content.scss */
+/* line 979, ../../sass/wiki_content/wiki_content.scss */
 div.NavEnd {
   margin: 0;
   padding: 0;
@@ -1077,7 +1085,7 @@ div.NavEnd {
   clear: both;
 }
 
-/* line 982, ../../sass/wiki_content/wiki_content.scss */
+/* line 987, ../../sass/wiki_content/wiki_content.scss */
 a.NavToggle {
   position: absolute;
   top: 0;
@@ -1086,30 +1094,30 @@ a.NavToggle {
   font-size: 90%;
 }
 
-/* line 990, ../../sass/wiki_content/wiki_content.scss */
+/* line 995, ../../sass/wiki_content/wiki_content.scss */
 .hatnote {
   font-style: italic;
 }
-/* line 992, ../../sass/wiki_content/wiki_content.scss */
+/* line 997, ../../sass/wiki_content/wiki_content.scss */
 .hatnote i {
   font-style: normal;
 }
 
-/* line 998, ../../sass/wiki_content/wiki_content.scss */
+/* line 1003, ../../sass/wiki_content/wiki_content.scss */
 div.hatnote {
   padding-left: 1.6em;
   margin-bottom: 0.5em;
 }
-/* line 1001, ../../sass/wiki_content/wiki_content.scss */
+/* line 1006, ../../sass/wiki_content/wiki_content.scss */
 div.hatnote + div.hatnote {
   margin-top: -0.5em;
 }
-/* line 1005, ../../sass/wiki_content/wiki_content.scss */
+/* line 1010, ../../sass/wiki_content/wiki_content.scss */
 div.thumb.tleft {
   float: left;
   clear: left;
 }
-/* line 1009, ../../sass/wiki_content/wiki_content.scss */
+/* line 1014, ../../sass/wiki_content/wiki_content.scss */
 div.thumbinner {
   width: 222px;
   border: 1px solid #ccc;
@@ -1120,31 +1128,31 @@ div.thumbinner {
   overflow: hidden;
 }
 
-/* line 1021, ../../sass/wiki_content/wiki_content.scss */
+/* line 1026, ../../sass/wiki_content/wiki_content.scss */
 .listify td {
   display: list-item;
 }
-/* line 1024, ../../sass/wiki_content/wiki_content.scss */
+/* line 1029, ../../sass/wiki_content/wiki_content.scss */
 .listify tr, .listify table {
   display: block;
 }
 
-/* line 1029, ../../sass/wiki_content/wiki_content.scss */
+/* line 1034, ../../sass/wiki_content/wiki_content.scss */
 .geo-default, .geo-dms, .geo-dec {
   display: inline;
 }
 
-/* line 1033, ../../sass/wiki_content/wiki_content.scss */
+/* line 1038, ../../sass/wiki_content/wiki_content.scss */
 .geo-nondefault, .geo-multi-punct {
   display: none;
 }
 
-/* line 1037, ../../sass/wiki_content/wiki_content.scss */
+/* line 1042, ../../sass/wiki_content/wiki_content.scss */
 .longitude, .latitude {
   white-space: nowrap;
 }
 
-/* line 1041, ../../sass/wiki_content/wiki_content.scss */
+/* line 1046, ../../sass/wiki_content/wiki_content.scss */
 div.user-block {
   padding: 5px;
   margin-bottom: 0.5em;
@@ -1152,27 +1160,27 @@ div.user-block {
   background-color: #ffefd5;
 }
 
-/* line 1048, ../../sass/wiki_content/wiki_content.scss */
+/* line 1053, ../../sass/wiki_content/wiki_content.scss */
 .nowrap {
   white-space: nowrap;
 }
 
-/* line 1053, ../../sass/wiki_content/wiki_content.scss */
+/* line 1058, ../../sass/wiki_content/wiki_content.scss */
 .nowraplinks a, .nowraplinks .selflink {
   white-space: nowrap;
 }
 
-/* line 1058, ../../sass/wiki_content/wiki_content.scss */
+/* line 1063, ../../sass/wiki_content/wiki_content.scss */
 .nowrap pre {
   white-space: pre;
 }
 
-/* line 1062, ../../sass/wiki_content/wiki_content.scss */
+/* line 1067, ../../sass/wiki_content/wiki_content.scss */
 .wrap, .wraplinks a {
   white-space: normal;
 }
 
-/* line 1066, ../../sass/wiki_content/wiki_content.scss */
+/* line 1071, ../../sass/wiki_content/wiki_content.scss */
 .template-documentation {
   clear: both;
   margin: 1em 0 0 0;
@@ -1181,85 +1189,85 @@ div.user-block {
   padding: 1em;
 }
 
-/* line 1074, ../../sass/wiki_content/wiki_content.scss */
+/* line 1079, ../../sass/wiki_content/wiki_content.scss */
 #wpUploadDescription {
   height: 13em;
 }
 
-/* line 1078, ../../sass/wiki_content/wiki_content.scss */
+/* line 1083, ../../sass/wiki_content/wiki_content.scss */
 .thumbinner {
   min-width: 100px;
 }
 
-/* line 1082, ../../sass/wiki_content/wiki_content.scss */
+/* line 1087, ../../sass/wiki_content/wiki_content.scss */
 #mw-subcategories, #mw-pages, #mw-category-media, #filehistory, #wikiPreview, #wikiDiff {
   clear: both;
 }
 
-/* line 1086, ../../sass/wiki_content/wiki_content.scss */
+/* line 1091, ../../sass/wiki_content/wiki_content.scss */
 .wpb .wpb-header {
   display: none;
 }
 
-/* line 1091, ../../sass/wiki_content/wiki_content.scss */
+/* line 1096, ../../sass/wiki_content/wiki_content.scss */
 .wpbs-inner .wpb .wpb-header {
   display: block;
   display: table-row;
 }
-/* line 1095, ../../sass/wiki_content/wiki_content.scss */
+/* line 1100, ../../sass/wiki_content/wiki_content.scss */
 .wpbs-inner .wpb-outside {
   display: none;
 }
 
-/* line 1100, ../../sass/wiki_content/wiki_content.scss */
+/* line 1105, ../../sass/wiki_content/wiki_content.scss */
 .mw-tag-markers {
   font-style: italic;
   font-size: 90%;
 }
 
-/* line 1105, ../../sass/wiki_content/wiki_content.scss */
+/* line 1110, ../../sass/wiki_content/wiki_content.scss */
 .sysop-show, .templateeditor-show, .extendedmover-show, .patroller-show, .extendedconfirmed-show, .autoconfirmed-show, .user-show {
   display: none;
 }
 
-/* line 1110, ../../sass/wiki_content/wiki_content.scss */
+/* line 1115, ../../sass/wiki_content/wiki_content.scss */
 .ve-ui-mwNoticesPopupTool-item .editnotice-redlink, .ve-ui-mwNoticesPopupTool-item .mbox-image, .ve-ui-mwNoticesPopupTool-item .mbox-imageright {
   display: none !important;
 }
 
-/* line 1115, ../../sass/wiki_content/wiki_content.scss */
+/* line 1120, ../../sass/wiki_content/wiki_content.scss */
 ul.permissions-errors {
   margin: 0;
 }
-/* line 1117, ../../sass/wiki_content/wiki_content.scss */
+/* line 1122, ../../sass/wiki_content/wiki_content.scss */
 ul.permissions-errors > li {
   list-style: none none;
 }
 
-/* line 1122, ../../sass/wiki_content/wiki_content.scss */
+/* line 1127, ../../sass/wiki_content/wiki_content.scss */
 .times-serif {
   font-family: "Nimbus Roman No9 L", "Times New Roman", Times, serif;
   font-size: 118%;
   line-height: 1;
 }
 
-/* line 1129, ../../sass/wiki_content/wiki_content.scss */
+/* line 1134, ../../sass/wiki_content/wiki_content.scss */
 span.texhtml {
   font-family: "Nimbus Roman No9 L", "Times New Roman", Times, serif;
   font-size: 118%;
   line-height: 1;
   white-space: nowrap;
 }
-/* line 1134, ../../sass/wiki_content/wiki_content.scss */
+/* line 1139, ../../sass/wiki_content/wiki_content.scss */
 span.texhtml span.texhtml {
   font-size: 100%;
 }
-/* line 1138, ../../sass/wiki_content/wiki_content.scss */
+/* line 1143, ../../sass/wiki_content/wiki_content.scss */
 span.mwe-math-mathml-inline {
   font-size: 118%;
 }
 
-/* line 1143, ../../sass/wiki_content/wiki_content.scss */
+/* line 1148, ../../sass/wiki_content/wiki_content.scss */
 .text-scrollable div.thumbinner {
   width: 222px;
   border: 1px solid #ccc;
@@ -1270,7 +1278,7 @@ span.mwe-math-mathml-inline {
   overflow: hidden;
 }
 
-/* line 1153, ../../sass/wiki_content/wiki_content.scss */
+/* line 1158, ../../sass/wiki_content/wiki_content.scss */
 .digits, .texhtml {
   -moz-font-feature-settings: "lnum", "tnum", "kern" 0;
   -webkit-font-feature-settings: "lnum", "tnum", "kern" 0;
@@ -1279,60 +1287,60 @@ span.mwe-math-mathml-inline {
   font-kerning: none;
 }
 
-/* line 1161, ../../sass/wiki_content/wiki_content.scss */
+/* line 1166, ../../sass/wiki_content/wiki_content.scss */
 .mwe-math-fallback-image-display {
   margin-left: 1.6em !important;
   margin-top: 0.6em;
   margin-bottom: 0.6em;
 }
 
-/* line 1167, ../../sass/wiki_content/wiki_content.scss */
+/* line 1172, ../../sass/wiki_content/wiki_content.scss */
 .mwe-math-mathml-display {
   margin-left: 1.6em !important;
   margin-top: 0.6em;
   margin-bottom: 0.6em;
 }
-/* line 1171, ../../sass/wiki_content/wiki_content.scss */
+/* line 1176, ../../sass/wiki_content/wiki_content.scss */
 .mwe-math-mathml-display math {
   display: inline;
 }
 
-/* line 1177, ../../sass/wiki_content/wiki_content.scss */
+/* line 1182, ../../sass/wiki_content/wiki_content.scss */
 table#mw-prefixindex-list-table, table#mw-prefixindex-nav-table {
   width: 98%;
 }
 
-/* line 1182, ../../sass/wiki_content/wiki_content.scss */
+/* line 1187, ../../sass/wiki_content/wiki_content.scss */
 .portal-column-left {
   float: left;
   width: 50%;
 }
 
-/* line 1187, ../../sass/wiki_content/wiki_content.scss */
+/* line 1192, ../../sass/wiki_content/wiki_content.scss */
 .portal-column-right {
   float: right;
   width: 49%;
 }
 
-/* line 1192, ../../sass/wiki_content/wiki_content.scss */
+/* line 1197, ../../sass/wiki_content/wiki_content.scss */
 .portal-column-left-wide {
   float: left;
   width: 60%;
 }
 
-/* line 1197, ../../sass/wiki_content/wiki_content.scss */
+/* line 1202, ../../sass/wiki_content/wiki_content.scss */
 .portal-column-right-narrow {
   float: right;
   width: 39%;
 }
 
-/* line 1202, ../../sass/wiki_content/wiki_content.scss */
+/* line 1207, ../../sass/wiki_content/wiki_content.scss */
 .portal-column-left-extra-wide {
   float: left;
   width: 70%;
 }
 
-/* line 1207, ../../sass/wiki_content/wiki_content.scss */
+/* line 1212, ../../sass/wiki_content/wiki_content.scss */
 .portal-column-right-extra-narrow {
   float: right;
   width: 29%;
@@ -1340,13 +1348,13 @@ table#mw-prefixindex-list-table, table#mw-prefixindex-nav-table {
 
 @media only screen and (max-width: 800px) {
   /* line 1213, ../../sass/wiki_content/wiki_content.scss */
-  /* line 1214, ../../sass/wiki_content/wiki_content.scss */
+  /* line 1219, ../../sass/wiki_content/wiki_content.scss */
   .portal-column-left, .portal-column-right, .portal-column-left-wide, .portal-column-right-narrow, .portal-column-left-extra-wide, .portal-column-right-extra-narrow {
     float: inherit;
     width: inherit;
   }
 }
-/* line 1220, ../../sass/wiki_content/wiki_content.scss */
+/* line 1225, ../../sass/wiki_content/wiki_content.scss */
 #bodyContent .letterhead {
   background-image: url("//upload.wikimedia.org/wikipedia/commons/e/e0/Tan-page-corner.png");
   background-repeat: no-repeat;
@@ -1354,23 +1362,23 @@ table#mw-prefixindex-list-table, table#mw-prefixindex-nav-table {
   background-color: #faf9f2;
 }
 
-/* line 1227, ../../sass/wiki_content/wiki_content.scss */
+/* line 1232, ../../sass/wiki_content/wiki_content.scss */
 td .sortkey, th .sortkey {
   display: none;
   speak: none;
 }
 
-/* line 1233, ../../sass/wiki_content/wiki_content.scss */
+/* line 1238, ../../sass/wiki_content/wiki_content.scss */
 .inputbox-hidecheckboxes form .inputbox-element, .inputbox-hidecheckboxes .mw-ui-checkbox {
   display: none !important;
 }
 
-/* line 1238, ../../sass/wiki_content/wiki_content.scss */
+/* line 1243, ../../sass/wiki_content/wiki_content.scss */
 .k-player .k-attribution {
   visibility: hidden;
 }
 
-/* line 1242, ../../sass/wiki_content/wiki_content.scss */
+/* line 1247, ../../sass/wiki_content/wiki_content.scss */
 .PopUpMediaTransform a .play-btn-large {
   margin: 0;
   top: auto;
@@ -1379,36 +1387,36 @@ td .sortkey, th .sortkey {
   left: 0;
 }
 
-/* line 1250, ../../sass/wiki_content/wiki_content.scss */
+/* line 1255, ../../sass/wiki_content/wiki_content.scss */
 .flaggedrevs_draft_synced, .flaggedrevs_stable_synced {
   display: none;
 }
 
-/* line 1254, ../../sass/wiki_content/wiki_content.scss */
+/* line 1259, ../../sass/wiki_content/wiki_content.scss */
 .bordered-images img {
   border: solid #ddd 1px;
 }
 
 @media screen {
   /* line 1258, ../../sass/wiki_content/wiki_content.scss */
-  /* line 1260, ../../sass/wiki_content/wiki_content.scss */
+  /* line 1265, ../../sass/wiki_content/wiki_content.scss */
   #content .gallerybox div.thumb {
     background-color: #f8f9fa;
   }
 
   /* line 1261, ../../sass/wiki_content/wiki_content.scss */
-  /* line 1264, ../../sass/wiki_content/wiki_content.scss */
+  /* line 1269, ../../sass/wiki_content/wiki_content.scss */
   .gallerybox .thumb img {
     background: #fff url(//upload.wikimedia.org/wikipedia/commons/5/5d/Checker-16x16.png) repeat;
   }
 
   /* line 1264, ../../sass/wiki_content/wiki_content.scss */
-  /* line 1268, ../../sass/wiki_content/wiki_content.scss */
+  /* line 1273, ../../sass/wiki_content/wiki_content.scss */
   .ns-0 .gallerybox .thumb img, .ns-2 .gallerybox .thumb img, .ns-100 .gallerybox .thumb img, .nochecker .gallerybox .thumb img {
     background-image: none;
   }
 }
-/* line 1273, ../../sass/wiki_content/wiki_content.scss */
+/* line 1278, ../../sass/wiki_content/wiki_content.scss */
 div.thumb.tright {
   clear: right;
   float: right;
@@ -1416,17 +1424,17 @@ div.thumb.tright {
 
 @media screen {
   /* line 1275, ../../sass/wiki_content/wiki_content.scss */
-  /* line 1280, ../../sass/wiki_content/wiki_content.scss */
+  /* line 1285, ../../sass/wiki_content/wiki_content.scss */
   #siteSub {
     display: block;
   }
 }
-/* line 1285, ../../sass/wiki_content/wiki_content.scss */
+/* line 1290, ../../sass/wiki_content/wiki_content.scss */
 span.mw-editsection {
   display: none;
 }
 
-/* line 1289, ../../sass/wiki_content/wiki_content.scss */
+/* line 1294, ../../sass/wiki_content/wiki_content.scss */
 div.popap-wiki {
   display: block;
   overflow: auto;
@@ -1439,12 +1447,12 @@ div.popap-wiki {
   border: 4px double black;
 }
 
-/* line 1301, ../../sass/wiki_content/wiki_content.scss */
+/* line 1306, ../../sass/wiki_content/wiki_content.scss */
 .related_research_topics {
   text-align: center;
 }
 
-/* line 1307, ../../sass/wiki_content/wiki_content.scss */
+/* line 1312, ../../sass/wiki_content/wiki_content.scss */
 .text-scrollable div.thumbinner {
   border: 1px solid #ccc;
   padding: 3px;
@@ -1453,29 +1461,29 @@ div.popap-wiki {
   text-align: center;
   overflow: hidden;
 }
-/* line 1315, ../../sass/wiki_content/wiki_content.scss */
+/* line 1320, ../../sass/wiki_content/wiki_content.scss */
 .text-scrollable div.tright {
   margin: 0.5em 0 1.3em 1.4em;
   clear: right;
   float: right;
 }
-/* line 1320, ../../sass/wiki_content/wiki_content.scss */
+/* line 1325, ../../sass/wiki_content/wiki_content.scss */
 .text-scrollable div.floatright {
   clear: right;
   float: right;
 }
-/* line 1325, ../../sass/wiki_content/wiki_content.scss */
+/* line 1330, ../../sass/wiki_content/wiki_content.scss */
 .text-scrollable table.floatright {
   clear: right;
   float: right;
 }
 
-/* line 1332, ../../sass/wiki_content/wiki_content.scss */
+/* line 1337, ../../sass/wiki_content/wiki_content.scss */
 div.mw-parser-output a.image:hover div.popap-wiki, div.mw-parser-output sup.reference:hover div.popap-wiki, div.mw-parser-output div.toc:hover div.popap-wiki {
   display: none;
 }
 
-/* line 1337, ../../sass/wiki_content/wiki_content.scss */
+/* line 1342, ../../sass/wiki_content/wiki_content.scss */
 .wiki-img-frame {
   display: none;
   position: absolute;
@@ -1486,7 +1494,38 @@ div.mw-parser-output a.image:hover div.popap-wiki, div.mw-parser-output sup.refe
   border: 22px solid #dbc4c4;
 }
 
-/* line 1347, ../../sass/wiki_content/wiki_content.scss */
+/* line 1352, ../../sass/wiki_content/wiki_content.scss */
 .class_popap {
   max-height: 650px;
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  /* line 1357, ../../sass/wiki_content/wiki_content.scss */
+  .navbox {
+    font-size: 65%;
+  }
+}
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  /* line 1363, ../../sass/wiki_content/wiki_content.scss */
+  .wikitable {
+    font-size: 55% !important;
+    background-color: #f8f9fa;
+    color: #222;
+    margin: 1em 0;
+    border: 1px solid #a2a9b1;
+    border-collapse: collapse;
+  }
+
+  /* line 1371, ../../sass/wiki_content/wiki_content.scss */
+  .navbox {
+    font-size: 36%;
+  }
+}
+@media (max-width: 320px) {
+  /* line 1376, ../../sass/wiki_content/wiki_content.scss */
+  .navbox {
+    font-size: 33%;
+  }
 }

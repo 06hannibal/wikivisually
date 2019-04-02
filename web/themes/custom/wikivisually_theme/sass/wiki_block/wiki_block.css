@@ -278,8 +278,8 @@
 
   a.class_all {
     width: 15%;
-    left: 12%;
-    top: 45%;
+    left: 60%;
+    top: 15%;
     color: red;
     font-size: 150%;
     position: fixed; }
@@ -287,8 +287,8 @@
     font-size: 150%;
     position: fixed;
     width: 3%;
-    left: 27.6%;
-    top: 45%;
+    left: 76.6%;
+    top: 15%;
     color: red; }
 
   .url_img_wiki a.class_link {
@@ -297,15 +297,16 @@
     color: red;
     width: 4%;
     left: 27%;
-    top: 45%; }
+    top: 15%; }
   .url_img_wiki a.class_all {
     width: 14%;
     left: 9.2%;
-    top: 45%; }
+    top: 15%; }
 
   div.wiki_class_popap img {
-    right: 70%;
-    top: 45%; }
+    width: 60% !important;
+    right: 20%;
+    top: 15%; }
 
   a.title-wiki-block-popap div.popap-wiki {
     color: black;
@@ -348,15 +349,15 @@
     width: 90%;
     margin-left: 5%; }
   div.url_img_wiki {
-    width: 50%;
+    width: 100%;
     display: inline-block;
     margin: auto;
     vertical-align: middle; }
 
   a.class_all {
-    width: 15%;
-    left: 12%;
-    top: 45%;
+    width: 25%;
+    left: 48%;
+    top: 5%;
     color: red;
     font-size: 150%;
     position: fixed; }
@@ -364,8 +365,8 @@
     font-size: 150%;
     position: fixed;
     width: 3%;
-    left: 27.6%;
-    top: 45%;
+    left: 77.6%;
+    top: 5%;
     color: red; }
 
   .url_img_wiki a.class_link {
@@ -373,16 +374,17 @@
     position: fixed;
     color: red;
     width: 4%;
-    left: 27%;
+    left: 77%;
     top: 45%; }
   .url_img_wiki a.class_all {
-    width: 14%;
-    left: 9.2%;
+    width: 27%;
+    left: 48%;
     top: 45%; }
 
-  div.wiki_class_popap img {
-    right: 70%;
-    top: 45%; }
+  div.mw-parser-output div.wiki_class_popap img {
+    width: 300px !important;
+    right: 17%;
+    top: 5%; }
 
   a.title-wiki-block-popap div.popap-wiki {
     color: black;

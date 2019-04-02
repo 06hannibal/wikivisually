@@ -846,11 +846,9 @@ html, body {
   div.taxonomy-block-none {
     display: none;
   }
-  div.views-row {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    padding: 5px;
+  div.view-featured-page div.views-row {
+    display: grid;
+    width: 150%!important;
   }
 }
 

@@ -1118,24 +1118,22 @@ html, body {
   }
 
   /* line 849, ../sass/style.scss */
-  div.views-row {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    padding: 5px;
+  div.view-featured-page div.views-row {
+    display: grid;
+    width: 150% !important;
   }
 }
 @media (max-width: 320px) {
-  /* line 858, ../sass/style.scss */
+  /* line 856, ../sass/style.scss */
   #block-mainnavigation-2 li.first a, #block-wikivisually-theme-main-menu li.first a {
     margin-left: 0px;
   }
 
-  /* line 862, ../sass/style.scss */
+  /* line 860, ../sass/style.scss */
   #block-wikivisually-theme-youtubechannelblock #youtube-block li {
     height: 110px;
   }
-  /* line 865, ../sass/style.scss */
+  /* line 863, ../sass/style.scss */
   #block-wikivisually-theme-youtubechannelblock #youtube-block div.right-stat {
     top: -110px;
   }
