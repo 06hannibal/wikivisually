@@ -957,6 +957,9 @@ div.popap-wiki {
 div.mw-parser-output a.image:hover div.popap-wiki, div.mw-parser-output sup.reference:hover div.popap-wiki, div.mw-parser-output div.toc:hover div.popap-wiki {
   display: none; }
 
+div.mw-parser-output a img div.style-popap-wiki {
+  display: none; }
+
 .wiki-img-frame {
   display: none;
   position: absolute;
@@ -972,7 +975,10 @@ div.mw-parser-output a.image:hover div.popap-wiki, div.mw-parser-output sup.refe
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
   .navbox {
-    font-size: 65%; } }
+    font-size: 65%; }
+
+  div.mw-parser-output a img div.style-popap-wiki {
+    display: none; } }
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
   .wikitable {
@@ -984,9 +990,15 @@ div.mw-parser-output a.image:hover div.popap-wiki, div.mw-parser-output sup.refe
     border-collapse: collapse; }
 
   .navbox {
-    font-size: 36%; } }
+    font-size: 36%; }
+
+  div.mw-parser-output a img div.style-popap-wiki {
+    display: none; } }
 @media (max-width: 320px) {
   .navbox {
-    font-size: 33%; } }
+    font-size: 33%; }
+
+  div.mw-parser-output a img div.style-popap-wiki {
+    display: none; } }
 
 /*# sourceMappingURL=wiki_content.css.map */

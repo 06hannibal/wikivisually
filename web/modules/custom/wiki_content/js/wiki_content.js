@@ -90,6 +90,7 @@
                 $("a.image img").once().click(function(e){
                     $('div.url_img_wiki img.img_close').remove();
                     $('div.url_img_wiki a.img_close').remove();
+                    $('div.style-popap-wiki').remove();
                     string = $( this ).attr('src').split("/");
                     e.preventDefault();
                     if (string[5] == "thumb") {

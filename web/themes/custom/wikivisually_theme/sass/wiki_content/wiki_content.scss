@@ -1338,7 +1338,11 @@ div.mw-parser-output {
     display: none;
   }
 }
-
+div.mw-parser-output {
+  a img div.style-popap-wiki {
+    display: none;
+  }
+}
 .wiki-img-frame {
   display: none;
   position: absolute;
@@ -1357,6 +1361,11 @@ div.mw-parser-output {
   .navbox {
     font-size: 65%;
   }
+  div.mw-parser-output {
+    a img div.style-popap-wiki {
+      display: none;
+    }
+  }
 }
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
@@ -1371,9 +1380,19 @@ div.mw-parser-output {
   .navbox {
     font-size: 36%;
   }
+  div.mw-parser-output {
+    a img div.style-popap-wiki {
+      display: none;
+    }
+  }
 }
 @media (max-width: 320px) {
   .navbox {
     font-size: 33%;
+  }
+  div.mw-parser-output {
+    a img div.style-popap-wiki {
+      display: none;
+    }
   }
 }

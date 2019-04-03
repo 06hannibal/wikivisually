@@ -1,11 +1,14 @@
 /* line 1, ../sass/style.scss */
 
 html, body {
-  overflow-x: hidden;
+  overflow-x: hidden!important;
 }
 
 /* Large desktops */
 @media (min-width: 1400px) {
+  html, body {
+    overflow-x: hidden!important;
+  }
   #block-wikisearchblock {
     position: relative !important;
     bottom: 10px !important;
@@ -43,6 +46,9 @@ html, body {
 
 /* Large laptops */
 @media (min-width: 1200px) {
+  html, body {
+    overflow-x: hidden!important;
+  }
   div.region.region-header {
     background: #1565c0;
   }
@@ -204,6 +210,9 @@ html, body {
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+  html, body {
+    overflow-x: hidden!important;
+  }
   div.region.region-header {
     background: #1565c0;
   }
@@ -363,6 +372,9 @@ html, body {
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
+  html, body {
+    overflow-x: hidden!important;
+  }
   div.region.region-header {
     background: #1565c0;
   }
@@ -530,6 +542,9 @@ html, body {
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+  html, body {
+    overflow-x: hidden!important;
+  }
   div.region.region-header {
     background: #1565c0;
   }
@@ -707,6 +722,9 @@ html, body {
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+  html, body {
+    overflow-x: hidden!important;
+  }
   div.region.region-header {
     background: #1565c0;
   }
@@ -857,6 +875,9 @@ html, body {
 }
 
 @media (max-width: 320px) {
+  html, body {
+    overflow-x: hidden!important;
+  }
   #block-mainnavigation-2 li.first a, #block-wikivisually-theme-main-menu li.first a {
     margin-left: 0px;
   }

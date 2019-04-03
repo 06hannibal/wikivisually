@@ -1484,6 +1484,11 @@ div.mw-parser-output a.image:hover div.popap-wiki, div.mw-parser-output sup.refe
 }
 
 /* line 1342, ../../sass/wiki_content/wiki_content.scss */
+div.mw-parser-output a img div.style-popap-wiki {
+  display: none;
+}
+
+/* line 1346, ../../sass/wiki_content/wiki_content.scss */
 .wiki-img-frame {
   display: none;
   position: absolute;
@@ -1494,21 +1499,26 @@ div.mw-parser-output a.image:hover div.popap-wiki, div.mw-parser-output sup.refe
   border: 22px solid #dbc4c4;
 }
 
-/* line 1352, ../../sass/wiki_content/wiki_content.scss */
+/* line 1356, ../../sass/wiki_content/wiki_content.scss */
 .class_popap {
   max-height: 650px;
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-  /* line 1357, ../../sass/wiki_content/wiki_content.scss */
+  /* line 1361, ../../sass/wiki_content/wiki_content.scss */
   .navbox {
     font-size: 65%;
+  }
+
+  /* line 1365, ../../sass/wiki_content/wiki_content.scss */
+  div.mw-parser-output a img div.style-popap-wiki {
+    display: none;
   }
 }
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-  /* line 1363, ../../sass/wiki_content/wiki_content.scss */
+  /* line 1372, ../../sass/wiki_content/wiki_content.scss */
   .wikitable {
     font-size: 55% !important;
     background-color: #f8f9fa;
@@ -1518,14 +1528,24 @@ div.mw-parser-output a.image:hover div.popap-wiki, div.mw-parser-output sup.refe
     border-collapse: collapse;
   }
 
-  /* line 1371, ../../sass/wiki_content/wiki_content.scss */
+  /* line 1380, ../../sass/wiki_content/wiki_content.scss */
   .navbox {
     font-size: 36%;
   }
+
+  /* line 1384, ../../sass/wiki_content/wiki_content.scss */
+  div.mw-parser-output a img div.style-popap-wiki {
+    display: none;
+  }
 }
 @media (max-width: 320px) {
-  /* line 1376, ../../sass/wiki_content/wiki_content.scss */
+  /* line 1390, ../../sass/wiki_content/wiki_content.scss */
   .navbox {
     font-size: 33%;
+  }
+
+  /* line 1394, ../../sass/wiki_content/wiki_content.scss */
+  div.mw-parser-output a img div.style-popap-wiki {
+    display: none;
   }
 }
