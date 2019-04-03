@@ -21,16 +21,8 @@
             return false;
           });
         });
-        $(document).once().click(function(e) {
-          if (!$(e.target).closest(".class-overflow").length) {
-            $('.youtubesearch-frame').hide();
-            $('.youtubesearch-close').hide();
-            document.body.style.overflow = "visible";
-            document.body.style.position = "unset";
-          }
-          e.stopPropagation();
-        });
-        $(".youtubesearch-close").once().click(function() {
+        $("a.youtubesearch-close").once().click(function() {
+          $('.youtubesearch-frame').attr('src','');
           $(this).next().hide();
           $(this).hide();
           document.body.style.overflow = "visible";
