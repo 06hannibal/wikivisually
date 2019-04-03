@@ -248,8 +248,8 @@
   a {
     &.class_all {
       width: 15%;
-      left: 12%;
-      top: 45%;
+      left: 70.2%;
+      top: 10%;
       color: red;
       font-size: 150%;
       position: fixed;
@@ -258,8 +258,8 @@
       font-size: 150%;
       position: fixed;
       width: 3%;
-      left: 27.6%;
-      top: 45%;
+      left: 87%;
+      top: 10%;
       color: red;
     }
   }
@@ -269,18 +269,19 @@
       position: fixed;
       color: red;
       width: 4%;
-      left: 27%;
-      top: 45%;
+      left: 87%;
+      top: 10%;
     }
     &.class_all {
       width: 14%;
-      left: 9.2%;
-      top: 45%;
+      left: 70.2%;
+      top: 10%;
     }
   }
   div.wiki_class_popap img {
-    right: 70%;
-    top: 45%;
+    width: 50%!important;
+    right: 10%;
+    top: 10%;
   }
   a.title-wiki-block-popap div.popap-wiki {
     color: black;
