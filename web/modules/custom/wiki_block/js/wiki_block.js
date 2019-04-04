@@ -22,7 +22,7 @@
       "position": "fixed",
       "width": "30%",
       "z-index": z_index,
-      "border": "2em solid rgb(52, 46, 56)",
+      "border": "2em solid #1565c0",
       "background": "#fff"
     });
     $('.link'+title).css({
@@ -47,6 +47,7 @@
     $('.all'+title).once().click(function() {
       $('.img_close').remove();
       $('div.wiki_class_popap').remove();
+      $('div.popap-wiki').remove();
     });
   }
   Drupal.behaviors.wiki_block = {
@@ -137,7 +138,9 @@
               wiki_link = $( this );
               url_title_wiki = wiki_link.attr('href');
               title_wiki = url_title_wiki.substr(6);
-              $( this ).append( $("<div class='popap-wiki style-popap-wiki'></div>"));
+              if (screen.width > 1199) {
+                $( this ).append( $("<div class='popap-wiki style-popap-wiki'></div>"));
+              }
               jQuery.ajax({
                 url: "https://en.wikipedia.org/w/api.php?format=json&action=parse&page="+ title_wiki,
                 dataType: "jsonp",

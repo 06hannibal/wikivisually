@@ -21,7 +21,7 @@
         "position": "fixed",
         "width": "30%",
         "z-index": z_index,
-        "border": "2em solid rgb(52, 46, 56)",
+        "border": "2em solid #1565c0",
         "background": "#fff"
     });
     $('.link'+title).css({
@@ -54,35 +54,40 @@
                     wiki_link = $( this );
                     url_title_wiki = wiki_link.attr('href');
                     title_wiki = url_title_wiki.substr(6);
-                    $( this ).append( $("<div class='popap-wiki style-popap-wiki'></div>"));
+                    if (screen.width > 1199) {
+                        $( this ).append( $("<div class='popap-wiki style-popap-wiki'></div>"));
+                    }
                     jQuery.ajax({
                         url: "https://en.wikipedia.org/w/api.php?format=json&action=parse&page="+ title_wiki,
                         dataType: "jsonp",
                         success: function (rows) {
                             page_wiki = rows;
-                            $(page_wiki).each(function() {
-                                $('div.popap-wiki').append().html(page_wiki.parse.text['*']);
-                            });
+
+                                $(page_wiki).each(function() {
+                                    $('div.popap-wiki').append().html(page_wiki.parse.text['*']);
+                                });
                         }
                     });
                     },function() {
                     $( this ).find("div.popap-wiki").remove();
                 });
-                $("p.related-research-topics a").once().hover(function(){
-                    wiki_link = $( this );
+                $("p.related-research-topics a").once().hover(function() {
+                    if (screen.width > 1199) {
+                    wiki_link = $(this);
                     url_title_wiki = wiki_link.attr('href');
                     title_wiki = url_title_wiki.substr(6);
                     jQuery.ajax({
-                        url: "https://en.wikipedia.org/w/api.php?format=json&action=parse&page="+ title_wiki,
+                        url: "https://en.wikipedia.org/w/api.php?format=json&action=parse&page=" + title_wiki,
                         dataType: "jsonp",
                         success: function (rows) {
                             page_wiki = rows;
-                            $(page_wiki).each(function() {
+                            $(page_wiki).each(function () {
                                 $('div.popap-wiki').append().html(page_wiki.parse.text['*']);
                             });
                         }
                     });
-                    $( this ).append( $("<div class='popap-wiki'></div>"));
+                    $(this).append($("<div class='popap-wiki'></div>"));
+                }
                 },function() {
                     $( this ).find("div.popap-wiki").remove();
                 });
